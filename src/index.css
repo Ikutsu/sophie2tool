@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Atelier";
+  src: url("/fonts/Atelier.woff2") format("woff2");
+  font-display: swap;
+}
+
+@theme inline {
+  --color-bg: #f0e8da;
+  --color-surface: #faf5ec;
+  --color-surface-dim: #ede4d2;
+  --color-border: #c8b898;
+  --color-border-lt: #ddd4c0;
+  --color-ink: #2c1e14;
+  --color-ink-2: #5e4a38;
+  --color-ink-3: #988570;
+  --color-copper: #b07030;
+  --color-copper-hi: #d49050;
+  --color-gold: #c8a84e;
+  --color-ice: #48b8e8;
+  --color-wind: #38d858;
+  --color-ltng: #e8c840;
+  --color-fire: #e87040;
+  --color-light-el: #c8a0d8;
+  --color-panel-deep: #080604;
+  --color-panel-cell: #18140e;
+  --font-heading: "Cinzel", serif;
+  --font-body: "Alegreya", Georgia, serif;
+  --font-element: "Atelier";
+}
+
+.el {
+  font-family: "Atelier";
+  -webkit-font-smoothing: antialiased;
+}
+.el-fire::before {
+  content: "\ea60";
+}
+.el-ice::before {
+  content: "\ea5f";
+}
+.el-lightning::before {
+  content: "\ea5d";
+}
+.el-wind::before {
+  content: "\ea57";
+}
+.el-light::before {
+  content: "\ea5e";
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  background-image: url("/textures/ricepaper2.webp");
+  color: var(--color-ink);
+  margin: 0;
+}

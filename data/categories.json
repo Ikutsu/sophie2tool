@@ -1,0 +1,542 @@
+[
+  {
+    "pk": 41,
+    "slug": "accessories",
+    "name": {
+      "en": "(Accessories)",
+      "ja": "（装飾品）",
+      "ko": "(장식품)",
+      "sc": "（装饰品）",
+      "tc": "（裝飾品）"
+    },
+    "icon": "ryza2-category-accessories"
+  },
+  {
+    "pk": 25,
+    "slug": "animal-mat",
+    "name": {
+      "en": "(Animal Mat.)",
+      "ja": "（動物素材）",
+      "ko": "(동물소재)",
+      "sc": "（动物素材）",
+      "tc": "（動物素材）"
+    },
+    "icon": "ryza2-category-animal-products"
+  },
+  {
+    "pk": 40,
+    "slug": "armor",
+    "name": {
+      "en": "(Armor)",
+      "ja": "（防具）",
+      "ko": "(방어구)",
+      "sc": "（防具）",
+      "tc": "（防具）"
+    },
+    "icon": "ryza2-category-armor"
+  },
+  {
+    "pk": 16,
+    "slug": "beehives",
+    "name": {
+      "en": "(Beehives)",
+      "ja": "（ハチの巣）",
+      "ko": "(벌집)",
+      "sc": "（蜂巢）",
+      "tc": "（蜂巢）"
+    },
+    "icon": "ryza2-category-beehives"
+  },
+  {
+    "pk": 35,
+    "slug": "bombs",
+    "name": {
+      "en": "(Bombs)",
+      "ja": "（爆弾）",
+      "ko": "(폭탄)",
+      "sc": "（炸弹）",
+      "tc": "（炸彈）"
+    },
+    "icon": "ryza2-category-bombs"
+  },
+  {
+    "pk": 19,
+    "slug": "bugs",
+    "name": {
+      "en": "(Bugs)",
+      "ja": "（虫）",
+      "ko": "(곤충)",
+      "sc": "（虫）",
+      "tc": "（蟲）"
+    },
+    "icon": "ryza2-category-bugs"
+  },
+  {
+    "pk": 44,
+    "slug": "catalysts",
+    "name": {
+      "en": "(Catalysts)",
+      "ja": "（触媒）",
+      "ko": "(촉매)",
+      "sc": "（触媒）",
+      "tc": "（觸媒）"
+    },
+    "icon": "sophie2-category-catalysts"
+  },
+  {
+    "pk": 31,
+    "slug": "cloth",
+    "name": {
+      "en": "(Cloth)",
+      "ja": "（クロース）",
+      "ko": "(클로스)",
+      "sc": "（布料）",
+      "tc": "（布料）"
+    },
+    "icon": "ryza2-category-cloth"
+  },
+  {
+    "pk": 26,
+    "slug": "dragon-mat",
+    "name": {
+      "en": "(Dragon Mat.)",
+      "ja": "（竜素材）",
+      "ko": "(용소재)",
+      "sc": "（龙素材）",
+      "tc": "（龍素材）"
+    },
+    "icon": "ryza2-category-dragon-mat"
+  },
+  {
+    "pk": 14,
+    "slug": "edibles",
+    "name": {
+      "en": "(Edibles)",
+      "ja": "（食材）",
+      "ko": "(식재)",
+      "sc": "（食材）",
+      "tc": "（食材）"
+    },
+    "icon": "ryza2-category-edibles"
+  },
+  {
+    "pk": 7,
+    "slug": "elixirs",
+    "name": {
+      "en": "(Elixirs)",
+      "ja": "（エリキシル）",
+      "ko": "(엘릭시르)",
+      "sc": "（万灵药）",
+      "tc": "（萬靈藥）"
+    },
+    "icon": "ryza2-category-elixirs"
+  },
+  {
+    "pk": 4,
+    "slug": "flowers",
+    "name": {
+      "en": "(Flowers)",
+      "ja": "（花）",
+      "ko": "(꽃)",
+      "sc": "（花）",
+      "tc": "（花）"
+    },
+    "icon": "ryza2-category-flowers"
+  },
+  {
+    "pk": 37,
+    "slug": "food",
+    "name": {
+      "en": "(Food)",
+      "ja": "（食品）",
+      "ko": "(식품)",
+      "sc": "（食品）",
+      "tc": "（食品）"
+    },
+    "icon": "ryza2-category-food"
+  },
+  {
+    "pk": 15,
+    "slug": "fruit",
+    "name": {
+      "en": "(Fruit)",
+      "ja": "（木の実）",
+      "ko": "(나무열매)",
+      "sc": "（树木果实）",
+      "tc": "（樹木果實）"
+    },
+    "icon": "ryza2-category-fruit"
+  },
+  {
+    "pk": 13,
+    "slug": "fuel",
+    "name": {
+      "en": "(Fuel)",
+      "ja": "（燃料）",
+      "ko": "(연료)",
+      "sc": "（燃料）",
+      "tc": "（燃料）"
+    },
+    "icon": "ryza2-category-fuel"
+  },
+  {
+    "pk": 22,
+    "slug": "gases",
+    "name": {
+      "en": "(Gases)",
+      "ja": "（気体）",
+      "ko": "(기체)",
+      "sc": "（气体）",
+      "tc": "（氣體）"
+    },
+    "icon": "ryza2-category-gases"
+  },
+  {
+    "pk": 11,
+    "slug": "gemstones",
+    "name": {
+      "en": "(Gemstones)",
+      "ja": "（原石）",
+      "ko": "(원석)",
+      "sc": "（原石）",
+      "tc": "（原石）"
+    },
+    "icon": "ryza2-category-gemstones"
+  },
+  {
+    "pk": 12,
+    "slug": "gunpowder",
+    "name": {
+      "en": "(Gunpowder)",
+      "ja": "（火薬）",
+      "ko": "(화약)",
+      "sc": "（火药）",
+      "tc": "（火藥）"
+    },
+    "icon": "ryza2-category-gunpowder"
+  },
+  {
+    "pk": 30,
+    "slug": "ingots",
+    "name": {
+      "en": "(Ingots)",
+      "ja": "（インゴット）",
+      "ko": "(잉곳)",
+      "sc": "（金属块）",
+      "tc": "（金屬塊）"
+    },
+    "icon": "ryza2-category-ingots"
+  },
+  {
+    "pk": 33,
+    "slug": "jewels",
+    "name": {
+      "en": "(Jewels)",
+      "ja": "（宝石）",
+      "ko": "(보석)",
+      "sc": "（宝石）",
+      "tc": "（寶石）"
+    },
+    "icon": "ryza2-category-jewels"
+  },
+  {
+    "pk": 45,
+    "slug": "key-items",
+    "name": {
+      "en": "(Key Items)",
+      "ja": "（重要）",
+      "ko": "(중요)",
+      "sc": "（重要）",
+      "tc": "（重要）"
+    },
+    "icon": "ryza2-category-key-items"
+  },
+  {
+    "pk": 21,
+    "slug": "lumber",
+    "name": {
+      "en": "(Lumber)",
+      "ja": "（木材）",
+      "ko": "(목재)",
+      "sc": "（木材）",
+      "tc": "（木材）"
+    },
+    "icon": "ryza2-category-lumber"
+  },
+  {
+    "pk": 38,
+    "slug": "magic-tools",
+    "name": {
+      "en": "(Magic Tools)",
+      "ja": "（魔法の道具）",
+      "ko": "(마법의도구)",
+      "sc": "（魔法道具）",
+      "tc": "（魔法道具）"
+    },
+    "icon": "ryza2-category-magic-tools"
+  },
+  {
+    "pk": 23,
+    "slug": "magical",
+    "name": {
+      "en": "(Magical)",
+      "ja": "（神秘の力）",
+      "ko": "(신비의힘)",
+      "sc": "（神秘之力）",
+      "tc": "（神祕之力）"
+    },
+    "icon": "ryza2-category-magical"
+  },
+  {
+    "pk": 5,
+    "slug": "medicinal",
+    "name": {
+      "en": "(Medicinal)",
+      "ja": "（薬の材料）",
+      "ko": "(약재료)",
+      "sc": "（药材）",
+      "tc": "（藥材）"
+    },
+    "icon": "ryza2-category-medicinal"
+  },
+  {
+    "pk": 36,
+    "slug": "medicine",
+    "name": {
+      "en": "(Medicine)",
+      "ja": "（薬品）",
+      "ko": "(약품)",
+      "sc": "（药品）",
+      "tc": "（藥品）"
+    },
+    "icon": "ryza2-category-medicine"
+  },
+  {
+    "pk": 32,
+    "slug": "metal",
+    "name": {
+      "en": "(Metal)",
+      "ja": "（金属）",
+      "ko": "(금속)",
+      "sc": "（金属）",
+      "tc": "（金屬）"
+    },
+    "icon": "ryza2-category-metal"
+  },
+  {
+    "pk": 28,
+    "slug": "misc",
+    "name": {
+      "en": "(Misc.)",
+      "ja": "（雑貨）",
+      "ko": "(잡화)",
+      "sc": "（杂货）",
+      "tc": "（雜貨）"
+    },
+    "icon": "ryza2-category-general-goods"
+  },
+  {
+    "pk": 17,
+    "slug": "mushrooms",
+    "name": {
+      "en": "(Mushrooms)",
+      "ja": "（きのこ）",
+      "ko": "(버섯)",
+      "sc": "（菌菇）",
+      "tc": "（菌菇）"
+    },
+    "icon": "ryza2-category-mushrooms"
+  },
+  {
+    "pk": 27,
+    "slug": "neutralizers",
+    "name": {
+      "en": "(Neutralizers)",
+      "ja": "（中和剤）",
+      "ko": "(중화제)",
+      "sc": "（中和剂）",
+      "tc": "（中和劑）"
+    },
+    "icon": "ryza2-category-neutralizers"
+  },
+  {
+    "pk": 10,
+    "slug": "ore",
+    "name": {
+      "en": "(Ore)",
+      "ja": "（鉱石）",
+      "ko": "(광석)",
+      "sc": "（矿石）",
+      "tc": "（礦石）"
+    },
+    "icon": "ryza2-category-ore"
+  },
+  {
+    "pk": 2,
+    "slug": "plants",
+    "name": {
+      "en": "(Plants)",
+      "ja": "（植物）",
+      "ko": "(식물)",
+      "sc": "（植物）",
+      "tc": "（植物）"
+    },
+    "icon": "ryza2-category-plants"
+  },
+  {
+    "pk": 6,
+    "slug": "poisons",
+    "name": {
+      "en": "(Poisons)",
+      "ja": "（毒の材料）",
+      "ko": "(독재료)",
+      "sc": "（有毒材料）",
+      "tc": "（有毒材料）"
+    },
+    "icon": "ryza2-category-poisons"
+  },
+  {
+    "pk": 24,
+    "slug": "puni",
+    "name": {
+      "en": "(Puni)",
+      "ja": "（プニプニ）",
+      "ko": "(푸니푸니)",
+      "sc": "（噗尼噗尼）",
+      "tc": "（噗尼噗尼）"
+    },
+    "icon": "ryza2-category-puniballs"
+  },
+  {
+    "pk": 8,
+    "slug": "sand",
+    "name": {
+      "en": "(Sand)",
+      "ja": "（砂）",
+      "ko": "(모래)",
+      "sc": "（砂）",
+      "tc": "（砂）"
+    },
+    "icon": "ryza2-category-sand"
+  },
+  {
+    "pk": 18,
+    "slug": "seafood",
+    "name": {
+      "en": "(Seafood)",
+      "ja": "（魚介類）",
+      "ko": "(어패류)",
+      "sc": "（鱼贝类）",
+      "tc": "（魚貝類）"
+    },
+    "icon": "sophie2-category-seafood"
+  },
+  {
+    "pk": 34,
+    "slug": "seeds",
+    "name": {
+      "en": "(Seeds)",
+      "ja": "（種）",
+      "ko": "(씨앗)",
+      "sc": "（种子）",
+      "tc": "（種子）"
+    },
+    "icon": "ryza2-category-seeds"
+  },
+  {
+    "pk": 29,
+    "slug": "spices",
+    "name": {
+      "en": "(Spices)",
+      "ja": "（調味料）",
+      "ko": "(조미료)",
+      "sc": "（调味料）",
+      "tc": "（調味料）"
+    },
+    "icon": "sophie2-category-spices"
+  },
+  {
+    "pk": 9,
+    "slug": "stone",
+    "name": {
+      "en": "(Stone)",
+      "ja": "（石材）",
+      "ko": "(석재)",
+      "sc": "（石材）",
+      "tc": "（石材）"
+    },
+    "icon": "ryza2-category-stone"
+  },
+  {
+    "pk": 42,
+    "slug": "talismans",
+    "name": {
+      "en": "(Talismans)",
+      "ja": "（護符）",
+      "ko": "(부적)",
+      "sc": "（护符）",
+      "tc": "（護符）"
+    },
+    "icon": "sophie2-category-talismans"
+  },
+  {
+    "pk": 20,
+    "slug": "threads",
+    "name": {
+      "en": "(Threads)",
+      "ja": "（糸素材）",
+      "ko": "(실소재)",
+      "sc": "（线材）",
+      "tc": "（線材）"
+    },
+    "icon": "ryza2-category-threads"
+  },
+  {
+    "pk": 43,
+    "slug": "tools",
+    "name": {
+      "en": "(Tools)",
+      "ja": "（採取）",
+      "ko": "(채집)",
+      "sc": "（采集）",
+      "tc": "（採集）"
+    },
+    "icon": "ryza2-category-tools"
+  },
+  {
+    "pk": 3,
+    "slug": "uni",
+    "name": {
+      "en": "(Uni)",
+      "ja": "（うに）",
+      "ko": "(성게)",
+      "sc": "（海胆）",
+      "tc": "（海膽）"
+    },
+    "icon": "ryza2-category-uni"
+  },
+  {
+    "pk": 1,
+    "slug": "water",
+    "name": {
+      "en": "(Water)",
+      "ja": "（水）",
+      "ko": "(물)",
+      "sc": "（水）",
+      "tc": "（水）"
+    },
+    "icon": "ryza2-category-water"
+  },
+  {
+    "pk": 39,
+    "slug": "weapons",
+    "name": {
+      "en": "(Weapons)",
+      "ja": "（武器）",
+      "ko": "(무기)",
+      "sc": "（武器）",
+      "tc": "（武器）"
+    },
+    "icon": "ryza2-category-weapons"
+  }
+]
