@@ -1,6 +1,6 @@
 /**
  * Golden tests: every expected value here was read from the running game (Steam v1.8.0.0)
- * through game-bridge. See docs/rules-verification.md for how each was collected.
+ * through bridge/ (the game reader). See docs/rules-verification.md for how each was collected.
  */
 import { describe, expect, test } from "vite-plus/test";
 import type { ElementColor, PanelGrid } from "../../types/index.ts";

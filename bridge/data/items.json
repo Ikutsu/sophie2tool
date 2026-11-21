@@ -1,0 +1,9677 @@
+[
+{
+"idx": 0,
+"tag": "ITEM_MAT_LIQUID_001",
+"sort": 0,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "饮用水",
+"en": "Drinking Water",
+"factors": [
+"ITEM_FACTOR_NO_000_01",
+"ITEM_FACTOR_NO_000_02",
+"ITEM_FACTOR_NO_000_03",
+"ITEM_FACTOR_NO_000_04",
+"ITEM_FACTOR_NO_000_05",
+"ITEM_FACTOR_NO_000_06",
+"ITEM_FACTOR_NO_000_07",
+"ITEM_FACTOR_NO_000_08"
+]
+},
+{
+"idx": 1,
+"tag": "ITEM_MAT_LIQUID_002",
+"sort": 1,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "啪汽啪汽水",
+"en": "Crackling Water",
+"factors": [
+"ITEM_FACTOR_NO_001_01",
+"ITEM_FACTOR_NO_001_02",
+"ITEM_FACTOR_NO_001_03",
+"ITEM_FACTOR_NO_001_04",
+"ITEM_FACTOR_NO_001_05",
+"ITEM_FACTOR_NO_001_06",
+"ITEM_FACTOR_NO_001_07",
+"ITEM_FACTOR_NO_001_08"
+]
+},
+{
+"idx": 2,
+"tag": "ITEM_MAT_LIQUID_003",
+"sort": 2,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "恩惠树液",
+"en": "Blessed Sap",
+"factors": [
+"ITEM_FACTOR_NO_002_01",
+"ITEM_FACTOR_NO_002_02",
+"ITEM_FACTOR_NO_002_03",
+"ITEM_FACTOR_NO_002_04",
+"ITEM_FACTOR_NO_002_05",
+"ITEM_FACTOR_NO_002_06",
+"ITEM_FACTOR_NO_002_07",
+"ITEM_FACTOR_NO_002_08"
+]
+},
+{
+"idx": 3,
+"tag": "ITEM_MAT_LIQUID_004",
+"sort": 3,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "霹麻霹麻水",
+"en": "Zapping Water",
+"factors": [
+"ITEM_FACTOR_NO_003_01",
+"ITEM_FACTOR_NO_003_02",
+"ITEM_FACTOR_NO_003_03",
+"ITEM_FACTOR_NO_003_04",
+"ITEM_FACTOR_NO_003_05",
+"ITEM_FACTOR_NO_003_06",
+"ITEM_FACTOR_NO_003_07",
+"ITEM_FACTOR_NO_003_08"
+]
+},
+{
+"idx": 4,
+"tag": "ITEM_MAT_LIQUID_005",
+"sort": 4,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "浮盐水",
+"en": "Salt Water",
+"factors": [
+"ITEM_FACTOR_NO_004_01",
+"ITEM_FACTOR_NO_004_02",
+"ITEM_FACTOR_NO_004_03",
+"ITEM_FACTOR_NO_004_04",
+"ITEM_FACTOR_NO_004_05",
+"ITEM_FACTOR_NO_004_06",
+"ITEM_FACTOR_NO_004_07",
+"ITEM_FACTOR_NO_004_08"
+]
+},
+{
+"idx": 5,
+"tag": "ITEM_MAT_LIQUID_006",
+"sort": 5,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "可疑液体",
+"en": "Suspicious Liquid",
+"factors": [
+"ITEM_FACTOR_NO_005_01",
+"ITEM_FACTOR_NO_005_02",
+"ITEM_FACTOR_NO_005_03",
+"ITEM_FACTOR_NO_005_04",
+"ITEM_FACTOR_NO_005_05",
+"ITEM_FACTOR_NO_005_06",
+"ITEM_FACTOR_NO_005_07",
+"ITEM_FACTOR_NO_005_08"
+]
+},
+{
+"idx": 6,
+"tag": "ITEM_MAT_LIQUID_007",
+"sort": 6,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "不冻妙水",
+"en": "Anti-freeze Water",
+"factors": [
+"ITEM_FACTOR_NO_006_01",
+"ITEM_FACTOR_NO_006_02",
+"ITEM_FACTOR_NO_006_03",
+"ITEM_FACTOR_NO_006_04",
+"ITEM_FACTOR_NO_006_05",
+"ITEM_FACTOR_NO_006_06",
+"ITEM_FACTOR_NO_006_07",
+"ITEM_FACTOR_NO_006_08"
+]
+},
+{
+"idx": 7,
+"tag": "ITEM_MAT_LIQUID_008",
+"sort": 7,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "炙热喷水",
+"en": "Heatwave Water",
+"factors": [
+"ITEM_FACTOR_NO_007_01",
+"ITEM_FACTOR_NO_007_02",
+"ITEM_FACTOR_NO_007_03",
+"ITEM_FACTOR_NO_007_04",
+"ITEM_FACTOR_NO_007_05",
+"ITEM_FACTOR_NO_007_06",
+"ITEM_FACTOR_NO_007_07",
+"ITEM_FACTOR_NO_007_08"
+]
+},
+{
+"idx": 8,
+"tag": "ITEM_MAT_LIQUID_009",
+"sort": 8,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "根源之水",
+"en": "Wurzel Aqua",
+"factors": [
+"ITEM_FACTOR_NO_008_01",
+"ITEM_FACTOR_NO_008_02",
+"ITEM_FACTOR_NO_008_03",
+"ITEM_FACTOR_NO_008_04",
+"ITEM_FACTOR_NO_008_05",
+"ITEM_FACTOR_NO_008_06",
+"ITEM_FACTOR_NO_008_07",
+"ITEM_FACTOR_NO_008_08"
+]
+},
+{
+"idx": 9,
+"tag": "ITEM_MAT_PLANT_001",
+"sort": 9,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "寻常草",
+"en": "Koinós Grass",
+"factors": [
+"ITEM_FACTOR_NO_009_01",
+"ITEM_FACTOR_NO_009_02",
+"ITEM_FACTOR_NO_009_03",
+"ITEM_FACTOR_NO_009_04",
+"ITEM_FACTOR_NO_009_05",
+"ITEM_FACTOR_NO_009_06",
+"ITEM_FACTOR_NO_009_07",
+"ITEM_FACTOR_NO_009_08"
+]
+},
+{
+"idx": 10,
+"tag": "ITEM_MAT_PLANT_002",
+"sort": 10,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "维格麦",
+"en": "Wiege Wheat",
+"factors": [
+"ITEM_FACTOR_NO_010_01",
+"ITEM_FACTOR_NO_010_02",
+"ITEM_FACTOR_NO_010_03",
+"ITEM_FACTOR_NO_010_04",
+"ITEM_FACTOR_NO_010_05",
+"ITEM_FACTOR_NO_010_06",
+"ITEM_FACTOR_NO_010_07",
+"ITEM_FACTOR_NO_010_08"
+]
+},
+{
+"idx": 11,
+"tag": "ITEM_MAT_PLANT_003",
+"sort": 11,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "白姬草",
+"en": "Princess Grass",
+"factors": [
+"ITEM_FACTOR_NO_011_01",
+"ITEM_FACTOR_NO_011_02",
+"ITEM_FACTOR_NO_011_03",
+"ITEM_FACTOR_NO_011_04",
+"ITEM_FACTOR_NO_011_05",
+"ITEM_FACTOR_NO_011_06",
+"ITEM_FACTOR_NO_011_07",
+"ITEM_FACTOR_NO_011_08"
+]
+},
+{
+"idx": 12,
+"tag": "ITEM_MAT_PLANT_004",
+"sort": 12,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "咸草",
+"en": "Salty Grass",
+"factors": [
+"ITEM_FACTOR_NO_012_01",
+"ITEM_FACTOR_NO_012_02",
+"ITEM_FACTOR_NO_012_03",
+"ITEM_FACTOR_NO_012_04",
+"ITEM_FACTOR_NO_012_05",
+"ITEM_FACTOR_NO_012_06",
+"ITEM_FACTOR_NO_012_07",
+"ITEM_FACTOR_NO_012_08"
+]
+},
+{
+"idx": 13,
+"tag": "ITEM_MAT_PLANT_005",
+"sort": 13,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "夕阳草",
+"en": "Sunset Grass",
+"factors": [
+"ITEM_FACTOR_NO_013_01",
+"ITEM_FACTOR_NO_013_02",
+"ITEM_FACTOR_NO_013_03",
+"ITEM_FACTOR_NO_013_04",
+"ITEM_FACTOR_NO_013_05",
+"ITEM_FACTOR_NO_013_06",
+"ITEM_FACTOR_NO_013_07",
+"ITEM_FACTOR_NO_013_08"
+]
+},
+{
+"idx": 14,
+"tag": "ITEM_MAT_PLANT_006",
+"sort": 14,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "尾蕨",
+"en": "Tail Fern",
+"factors": [
+"ITEM_FACTOR_NO_014_01",
+"ITEM_FACTOR_NO_014_02",
+"ITEM_FACTOR_NO_014_03",
+"ITEM_FACTOR_NO_014_04",
+"ITEM_FACTOR_NO_014_05",
+"ITEM_FACTOR_NO_014_06",
+"ITEM_FACTOR_NO_014_07",
+"ITEM_FACTOR_NO_014_08"
+]
+},
+{
+"idx": 15,
+"tag": "ITEM_MAT_PLANT_007",
+"sort": 15,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "隐士莲",
+"en": "Hermit Lotus",
+"factors": [
+"ITEM_FACTOR_NO_015_01",
+"ITEM_FACTOR_NO_015_02",
+"ITEM_FACTOR_NO_015_03",
+"ITEM_FACTOR_NO_015_04",
+"ITEM_FACTOR_NO_015_05",
+"ITEM_FACTOR_NO_015_06",
+"ITEM_FACTOR_NO_015_07",
+"ITEM_FACTOR_NO_015_08"
+]
+},
+{
+"idx": 16,
+"tag": "ITEM_MAT_PLANT_008",
+"sort": 16,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "蚀岩藤",
+"en": "Boulder-Eater",
+"factors": [
+"ITEM_FACTOR_NO_016_01",
+"ITEM_FACTOR_NO_016_02",
+"ITEM_FACTOR_NO_016_03",
+"ITEM_FACTOR_NO_016_04",
+"ITEM_FACTOR_NO_016_05",
+"ITEM_FACTOR_NO_016_06",
+"ITEM_FACTOR_NO_016_07",
+"ITEM_FACTOR_NO_016_08"
+]
+},
+{
+"idx": 17,
+"tag": "ITEM_MAT_PLANT_009",
+"sort": 17,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "冬花",
+"en": "Avus Weg",
+"factors": [
+"ITEM_FACTOR_NO_017_01",
+"ITEM_FACTOR_NO_017_02",
+"ITEM_FACTOR_NO_017_03",
+"ITEM_FACTOR_NO_017_04",
+"ITEM_FACTOR_NO_017_05",
+"ITEM_FACTOR_NO_017_06",
+"ITEM_FACTOR_NO_017_07",
+"ITEM_FACTOR_NO_017_08"
+]
+},
+{
+"idx": 18,
+"tag": "ITEM_MAT_PLANT_010",
+"sort": 18,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "喷水草",
+"en": "Fontana Grass",
+"factors": [
+"ITEM_FACTOR_NO_018_01",
+"ITEM_FACTOR_NO_018_02",
+"ITEM_FACTOR_NO_018_03",
+"ITEM_FACTOR_NO_018_04",
+"ITEM_FACTOR_NO_018_05",
+"ITEM_FACTOR_NO_018_06",
+"ITEM_FACTOR_NO_018_07",
+"ITEM_FACTOR_NO_018_08"
+]
+},
+{
+"idx": 19,
+"tag": "ITEM_MAT_PLANT_011",
+"sort": 19,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "剪刀叶",
+"en": "Scissor Leaf",
+"factors": [
+"ITEM_FACTOR_NO_019_01",
+"ITEM_FACTOR_NO_019_02",
+"ITEM_FACTOR_NO_019_03",
+"ITEM_FACTOR_NO_019_04",
+"ITEM_FACTOR_NO_019_05",
+"ITEM_FACTOR_NO_019_06",
+"ITEM_FACTOR_NO_019_07",
+"ITEM_FACTOR_NO_019_08"
+]
+},
+{
+"idx": 20,
+"tag": "ITEM_MAT_PLANT_012",
+"sort": 20,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "土仙人掌",
+"en": "Earth Cactus",
+"factors": [
+"ITEM_FACTOR_NO_020_01",
+"ITEM_FACTOR_NO_020_02",
+"ITEM_FACTOR_NO_020_03",
+"ITEM_FACTOR_NO_020_04",
+"ITEM_FACTOR_NO_020_05",
+"ITEM_FACTOR_NO_020_06",
+"ITEM_FACTOR_NO_020_07",
+"ITEM_FACTOR_NO_020_08"
+]
+},
+{
+"idx": 21,
+"tag": "ITEM_MAT_UNI_001",
+"sort": 21,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "海胆",
+"en": "Uni",
+"factors": [
+"ITEM_FACTOR_NO_021_01",
+"ITEM_FACTOR_NO_021_02",
+"ITEM_FACTOR_NO_021_03",
+"ITEM_FACTOR_NO_021_04",
+"ITEM_FACTOR_NO_021_05",
+"ITEM_FACTOR_NO_021_06",
+"ITEM_FACTOR_NO_021_07",
+"ITEM_FACTOR_NO_021_08"
+]
+},
+{
+"idx": 22,
+"tag": "ITEM_MAT_UNI_002",
+"sort": 22,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "草海胆",
+"en": "Grass Uni",
+"factors": [
+"ITEM_FACTOR_NO_022_01",
+"ITEM_FACTOR_NO_022_02",
+"ITEM_FACTOR_NO_022_03",
+"ITEM_FACTOR_NO_022_04",
+"ITEM_FACTOR_NO_022_05",
+"ITEM_FACTOR_NO_022_06",
+"ITEM_FACTOR_NO_022_07",
+"ITEM_FACTOR_NO_022_08"
+]
+},
+{
+"idx": 23,
+"tag": "ITEM_MAT_UNI_003",
+"sort": 23,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "霜海胆",
+"en": "Frost Uni",
+"factors": [
+"ITEM_FACTOR_NO_023_01",
+"ITEM_FACTOR_NO_023_02",
+"ITEM_FACTOR_NO_023_03",
+"ITEM_FACTOR_NO_023_04",
+"ITEM_FACTOR_NO_023_05",
+"ITEM_FACTOR_NO_023_06",
+"ITEM_FACTOR_NO_023_07",
+"ITEM_FACTOR_NO_023_08"
+]
+},
+{
+"idx": 24,
+"tag": "ITEM_MAT_UNI_004",
+"sort": 24,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "蒸气海胆",
+"en": "Steam Uni",
+"factors": [
+"ITEM_FACTOR_NO_024_01",
+"ITEM_FACTOR_NO_024_02",
+"ITEM_FACTOR_NO_024_03",
+"ITEM_FACTOR_NO_024_04",
+"ITEM_FACTOR_NO_024_05",
+"ITEM_FACTOR_NO_024_06",
+"ITEM_FACTOR_NO_024_07",
+"ITEM_FACTOR_NO_024_08"
+]
+},
+{
+"idx": 25,
+"tag": "ITEM_MAT_UNI_005",
+"sort": 25,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "黄金海胆",
+"en": "Gold Uni",
+"factors": [
+"ITEM_FACTOR_NO_025_01",
+"ITEM_FACTOR_NO_025_02",
+"ITEM_FACTOR_NO_025_03",
+"ITEM_FACTOR_NO_025_04",
+"ITEM_FACTOR_NO_025_05",
+"ITEM_FACTOR_NO_025_06",
+"ITEM_FACTOR_NO_025_07",
+"ITEM_FACTOR_NO_025_08"
+]
+},
+{
+"idx": 26,
+"tag": "ITEM_MAT_FLOWER_001",
+"sort": 26,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "红色的花",
+"en": "Red Flower",
+"factors": [
+"ITEM_FACTOR_NO_026_01",
+"ITEM_FACTOR_NO_026_02",
+"ITEM_FACTOR_NO_026_03",
+"ITEM_FACTOR_NO_026_04",
+"ITEM_FACTOR_NO_026_05",
+"ITEM_FACTOR_NO_026_06",
+"ITEM_FACTOR_NO_026_07",
+"ITEM_FACTOR_NO_026_08"
+]
+},
+{
+"idx": 27,
+"tag": "ITEM_MAT_FLOWER_002",
+"sort": 27,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "蓝色的花",
+"en": "Blue Flower",
+"factors": [
+"ITEM_FACTOR_NO_027_01",
+"ITEM_FACTOR_NO_027_02",
+"ITEM_FACTOR_NO_027_03",
+"ITEM_FACTOR_NO_027_04",
+"ITEM_FACTOR_NO_027_05",
+"ITEM_FACTOR_NO_027_06",
+"ITEM_FACTOR_NO_027_07",
+"ITEM_FACTOR_NO_027_08"
+]
+},
+{
+"idx": 28,
+"tag": "ITEM_MAT_FLOWER_003",
+"sort": 28,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "绿色的花",
+"en": "Green Flower",
+"factors": [
+"ITEM_FACTOR_NO_028_01",
+"ITEM_FACTOR_NO_028_02",
+"ITEM_FACTOR_NO_028_03",
+"ITEM_FACTOR_NO_028_04",
+"ITEM_FACTOR_NO_028_05",
+"ITEM_FACTOR_NO_028_06",
+"ITEM_FACTOR_NO_028_07",
+"ITEM_FACTOR_NO_028_08"
+]
+},
+{
+"idx": 29,
+"tag": "ITEM_MAT_FLOWER_004",
+"sort": 29,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "黄色的花",
+"en": "Yellow Flower",
+"factors": [
+"ITEM_FACTOR_NO_029_01",
+"ITEM_FACTOR_NO_029_02",
+"ITEM_FACTOR_NO_029_03",
+"ITEM_FACTOR_NO_029_04",
+"ITEM_FACTOR_NO_029_05",
+"ITEM_FACTOR_NO_029_06",
+"ITEM_FACTOR_NO_029_07",
+"ITEM_FACTOR_NO_029_08"
+]
+},
+{
+"idx": 30,
+"tag": "ITEM_MAT_FLOWER_005",
+"sort": 30,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "白色的花",
+"en": "White Flower",
+"factors": [
+"ITEM_FACTOR_NO_030_01",
+"ITEM_FACTOR_NO_030_02",
+"ITEM_FACTOR_NO_030_03",
+"ITEM_FACTOR_NO_030_04",
+"ITEM_FACTOR_NO_030_05",
+"ITEM_FACTOR_NO_030_06",
+"ITEM_FACTOR_NO_030_07",
+"ITEM_FACTOR_NO_030_08"
+]
+},
+{
+"idx": 31,
+"tag": "ITEM_MAT_FLOWER_006",
+"sort": 31,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "嫉妒毒花",
+"en": "Envious Flower",
+"factors": [
+"ITEM_FACTOR_NO_031_01",
+"ITEM_FACTOR_NO_031_02",
+"ITEM_FACTOR_NO_031_03",
+"ITEM_FACTOR_NO_031_04",
+"ITEM_FACTOR_NO_031_05",
+"ITEM_FACTOR_NO_031_06",
+"ITEM_FACTOR_NO_031_07",
+"ITEM_FACTOR_NO_031_08"
+]
+},
+{
+"idx": 32,
+"tag": "ITEM_MAT_FLOWER_007",
+"sort": 32,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "日颜花",
+"en": "Solar Face",
+"factors": [
+"ITEM_FACTOR_NO_032_01",
+"ITEM_FACTOR_NO_032_02",
+"ITEM_FACTOR_NO_032_03",
+"ITEM_FACTOR_NO_032_04",
+"ITEM_FACTOR_NO_032_05",
+"ITEM_FACTOR_NO_032_06",
+"ITEM_FACTOR_NO_032_07",
+"ITEM_FACTOR_NO_032_08"
+]
+},
+{
+"idx": 33,
+"tag": "ITEM_MAT_FLOWER_008",
+"sort": 33,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "月颜花",
+"en": "Lunar Face",
+"factors": [
+"ITEM_FACTOR_NO_033_01",
+"ITEM_FACTOR_NO_033_02",
+"ITEM_FACTOR_NO_033_03",
+"ITEM_FACTOR_NO_033_04",
+"ITEM_FACTOR_NO_033_05",
+"ITEM_FACTOR_NO_033_06",
+"ITEM_FACTOR_NO_033_07",
+"ITEM_FACTOR_NO_033_08"
+]
+},
+{
+"idx": 34,
+"tag": "ITEM_MAT_FLOWER_009",
+"sort": 34,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "大地梨花",
+"en": "Ard Pirum",
+"factors": [
+"ITEM_FACTOR_NO_034_01",
+"ITEM_FACTOR_NO_034_02",
+"ITEM_FACTOR_NO_034_03",
+"ITEM_FACTOR_NO_034_04",
+"ITEM_FACTOR_NO_034_05",
+"ITEM_FACTOR_NO_034_06",
+"ITEM_FACTOR_NO_034_07",
+"ITEM_FACTOR_NO_034_08"
+]
+},
+{
+"idx": 35,
+"tag": "ITEM_MAT_FLOWER_010",
+"sort": 35,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "沙漠之星",
+"en": "Desert Stella",
+"factors": [
+"ITEM_FACTOR_NO_035_01",
+"ITEM_FACTOR_NO_035_02",
+"ITEM_FACTOR_NO_035_03",
+"ITEM_FACTOR_NO_035_04",
+"ITEM_FACTOR_NO_035_05",
+"ITEM_FACTOR_NO_035_06",
+"ITEM_FACTOR_NO_035_07",
+"ITEM_FACTOR_NO_035_08"
+]
+},
+{
+"idx": 36,
+"tag": "ITEM_MAT_MEDICAL_001",
+"sort": 36,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "唐木叶",
+"en": "Taun",
+"factors": [
+"ITEM_FACTOR_NO_036_01",
+"ITEM_FACTOR_NO_036_02",
+"ITEM_FACTOR_NO_036_03",
+"ITEM_FACTOR_NO_036_04",
+"ITEM_FACTOR_NO_036_05",
+"ITEM_FACTOR_NO_036_06",
+"ITEM_FACTOR_NO_036_07",
+"ITEM_FACTOR_NO_036_08"
+]
+},
+{
+"idx": 37,
+"tag": "ITEM_MAT_MEDICAL_002",
+"sort": 37,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "长颈通草",
+"en": "Tall Taun",
+"factors": [
+"ITEM_FACTOR_NO_037_01",
+"ITEM_FACTOR_NO_037_02",
+"ITEM_FACTOR_NO_037_03",
+"ITEM_FACTOR_NO_037_04",
+"ITEM_FACTOR_NO_037_05",
+"ITEM_FACTOR_NO_037_06",
+"ITEM_FACTOR_NO_037_07",
+"ITEM_FACTOR_NO_037_08"
+]
+},
+{
+"idx": 38,
+"tag": "ITEM_MAT_MEDICAL_003",
+"sort": 38,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "红草",
+"en": "Crimson Grass",
+"factors": [
+"ITEM_FACTOR_NO_038_01",
+"ITEM_FACTOR_NO_038_02",
+"ITEM_FACTOR_NO_038_03",
+"ITEM_FACTOR_NO_038_04",
+"ITEM_FACTOR_NO_038_05",
+"ITEM_FACTOR_NO_038_06",
+"ITEM_FACTOR_NO_038_07",
+"ITEM_FACTOR_NO_038_08"
+]
+},
+{
+"idx": 39,
+"tag": "ITEM_MAT_MEDICAL_004",
+"sort": 39,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "祭坛苔藓",
+"en": "Altare",
+"factors": [
+"ITEM_FACTOR_NO_039_01",
+"ITEM_FACTOR_NO_039_02",
+"ITEM_FACTOR_NO_039_03",
+"ITEM_FACTOR_NO_039_04",
+"ITEM_FACTOR_NO_039_05",
+"ITEM_FACTOR_NO_039_06",
+"ITEM_FACTOR_NO_039_07",
+"ITEM_FACTOR_NO_039_08"
+]
+},
+{
+"idx": 40,
+"tag": "ITEM_MAT_MEDICAL_005",
+"sort": 40,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "长老蒜",
+"en": "Elder Garlic",
+"factors": [
+"ITEM_FACTOR_NO_040_01",
+"ITEM_FACTOR_NO_040_02",
+"ITEM_FACTOR_NO_040_03",
+"ITEM_FACTOR_NO_040_04",
+"ITEM_FACTOR_NO_040_05",
+"ITEM_FACTOR_NO_040_06",
+"ITEM_FACTOR_NO_040_07",
+"ITEM_FACTOR_NO_040_08"
+]
+},
+{
+"idx": 41,
+"tag": "ITEM_MAT_MEDICAL_006",
+"sort": 41,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "蓝霉树桩",
+"en": "Gorgonbaum",
+"factors": [
+"ITEM_FACTOR_NO_041_01",
+"ITEM_FACTOR_NO_041_02",
+"ITEM_FACTOR_NO_041_03",
+"ITEM_FACTOR_NO_041_04",
+"ITEM_FACTOR_NO_041_05",
+"ITEM_FACTOR_NO_041_06",
+"ITEM_FACTOR_NO_041_07",
+"ITEM_FACTOR_NO_041_08"
+]
+},
+{
+"idx": 42,
+"tag": "ITEM_MAT_MEDICAL_007",
+"sort": 42,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "澄净之橙",
+"en": "Nareinja",
+"factors": [
+"ITEM_FACTOR_NO_042_01",
+"ITEM_FACTOR_NO_042_02",
+"ITEM_FACTOR_NO_042_03",
+"ITEM_FACTOR_NO_042_04",
+"ITEM_FACTOR_NO_042_05",
+"ITEM_FACTOR_NO_042_06",
+"ITEM_FACTOR_NO_042_07",
+"ITEM_FACTOR_NO_042_08"
+]
+},
+{
+"idx": 43,
+"tag": "ITEM_MAT_MEDICAL_008",
+"sort": 43,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "治愈骨粉",
+"en": "Heilen Bone Dust",
+"factors": [
+"ITEM_FACTOR_NO_043_01",
+"ITEM_FACTOR_NO_043_02",
+"ITEM_FACTOR_NO_043_03",
+"ITEM_FACTOR_NO_043_04",
+"ITEM_FACTOR_NO_043_05",
+"ITEM_FACTOR_NO_043_06",
+"ITEM_FACTOR_NO_043_07",
+"ITEM_FACTOR_NO_043_08"
+]
+},
+{
+"idx": 44,
+"tag": "ITEM_MAT_MEDICAL_009",
+"sort": 44,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "天空药祖",
+"en": "Herbal Sky Medicine",
+"factors": [
+"ITEM_FACTOR_NO_044_01",
+"ITEM_FACTOR_NO_044_02",
+"ITEM_FACTOR_NO_044_03",
+"ITEM_FACTOR_NO_044_04",
+"ITEM_FACTOR_NO_044_05",
+"ITEM_FACTOR_NO_044_06",
+"ITEM_FACTOR_NO_044_07",
+"ITEM_FACTOR_NO_044_08"
+]
+},
+{
+"idx": 45,
+"tag": "ITEM_MAT_POISON_001",
+"sort": 45,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "灌木莓",
+"en": "Blackberry",
+"factors": [
+"ITEM_FACTOR_NO_045_01",
+"ITEM_FACTOR_NO_045_02",
+"ITEM_FACTOR_NO_045_03",
+"ITEM_FACTOR_NO_045_04",
+"ITEM_FACTOR_NO_045_05",
+"ITEM_FACTOR_NO_045_06",
+"ITEM_FACTOR_NO_045_07",
+"ITEM_FACTOR_NO_045_08"
+]
+},
+{
+"idx": 46,
+"tag": "ITEM_MAT_POISON_002",
+"sort": 46,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "假糖液",
+"en": "False Treat",
+"factors": [
+"ITEM_FACTOR_NO_046_01",
+"ITEM_FACTOR_NO_046_02",
+"ITEM_FACTOR_NO_046_03",
+"ITEM_FACTOR_NO_046_04",
+"ITEM_FACTOR_NO_046_05",
+"ITEM_FACTOR_NO_046_06",
+"ITEM_FACTOR_NO_046_07",
+"ITEM_FACTOR_NO_046_08"
+]
+},
+{
+"idx": 47,
+"tag": "ITEM_MAT_POISON_003",
+"sort": 47,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "魔性接吻",
+"en": "Devil's Kiss",
+"factors": [
+"ITEM_FACTOR_NO_047_01",
+"ITEM_FACTOR_NO_047_02",
+"ITEM_FACTOR_NO_047_03",
+"ITEM_FACTOR_NO_047_04",
+"ITEM_FACTOR_NO_047_05",
+"ITEM_FACTOR_NO_047_06",
+"ITEM_FACTOR_NO_047_07",
+"ITEM_FACTOR_NO_047_08"
+]
+},
+{
+"idx": 48,
+"tag": "ITEM_MAT_POISON_004",
+"sort": 48,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "毒杀蛙",
+"en": "Yuqtul Frog",
+"factors": [
+"ITEM_FACTOR_NO_048_01",
+"ITEM_FACTOR_NO_048_02",
+"ITEM_FACTOR_NO_048_03",
+"ITEM_FACTOR_NO_048_04",
+"ITEM_FACTOR_NO_048_05",
+"ITEM_FACTOR_NO_048_06",
+"ITEM_FACTOR_NO_048_07",
+"ITEM_FACTOR_NO_048_08"
+]
+},
+{
+"idx": 49,
+"tag": "ITEM_MAT_POISON_005",
+"sort": 49,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "致命雾",
+"en": "Fatal Nebula",
+"factors": [
+"ITEM_FACTOR_NO_049_01",
+"ITEM_FACTOR_NO_049_02",
+"ITEM_FACTOR_NO_049_03",
+"ITEM_FACTOR_NO_049_04",
+"ITEM_FACTOR_NO_049_05",
+"ITEM_FACTOR_NO_049_06",
+"ITEM_FACTOR_NO_049_07",
+"ITEM_FACTOR_NO_049_08"
+]
+},
+{
+"idx": 50,
+"tag": "ITEM_MAT_ELIXIL_001",
+"sort": 50,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "星之粉",
+"en": "Star Powder",
+"factors": [
+"ITEM_FACTOR_NO_050_01",
+"ITEM_FACTOR_NO_050_02",
+"ITEM_FACTOR_NO_050_03",
+"ITEM_FACTOR_NO_050_04",
+"ITEM_FACTOR_NO_050_05",
+"ITEM_FACTOR_NO_050_06",
+"ITEM_FACTOR_NO_050_07",
+"ITEM_FACTOR_NO_050_08"
+]
+},
+{
+"idx": 51,
+"tag": "ITEM_MAT_ELIXIL_002",
+"sort": 51,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "太阳之粉",
+"en": "Sun Powder",
+"factors": [
+"ITEM_FACTOR_NO_051_01",
+"ITEM_FACTOR_NO_051_02",
+"ITEM_FACTOR_NO_051_03",
+"ITEM_FACTOR_NO_051_04",
+"ITEM_FACTOR_NO_051_05",
+"ITEM_FACTOR_NO_051_06",
+"ITEM_FACTOR_NO_051_07",
+"ITEM_FACTOR_NO_051_08"
+]
+},
+{
+"idx": 52,
+"tag": "ITEM_MAT_ELIXIL_003",
+"sort": 52,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "不锈之心",
+"en": "Rustproof Heart",
+"factors": [
+"ITEM_FACTOR_NO_052_01",
+"ITEM_FACTOR_NO_052_02",
+"ITEM_FACTOR_NO_052_03",
+"ITEM_FACTOR_NO_052_04",
+"ITEM_FACTOR_NO_052_05",
+"ITEM_FACTOR_NO_052_06",
+"ITEM_FACTOR_NO_052_07",
+"ITEM_FACTOR_NO_052_08"
+]
+},
+{
+"idx": 53,
+"tag": "ITEM_MAT_SAND_001",
+"sort": 53,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "红砂",
+"en": "Red Sand",
+"factors": [
+"ITEM_FACTOR_NO_053_01",
+"ITEM_FACTOR_NO_053_02",
+"ITEM_FACTOR_NO_053_03",
+"ITEM_FACTOR_NO_053_04",
+"ITEM_FACTOR_NO_053_05",
+"ITEM_FACTOR_NO_053_06",
+"ITEM_FACTOR_NO_053_07",
+"ITEM_FACTOR_NO_053_08"
+]
+},
+{
+"idx": 54,
+"tag": "ITEM_MAT_SAND_002",
+"sort": 54,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "黑砂",
+"en": "Black Sand",
+"factors": [
+"ITEM_FACTOR_NO_054_01",
+"ITEM_FACTOR_NO_054_02",
+"ITEM_FACTOR_NO_054_03",
+"ITEM_FACTOR_NO_054_04",
+"ITEM_FACTOR_NO_054_05",
+"ITEM_FACTOR_NO_054_06",
+"ITEM_FACTOR_NO_054_07",
+"ITEM_FACTOR_NO_054_08"
+]
+},
+{
+"idx": 55,
+"tag": "ITEM_MAT_SAND_003",
+"sort": 55,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "白砂",
+"en": "White Sand",
+"factors": [
+"ITEM_FACTOR_NO_055_01",
+"ITEM_FACTOR_NO_055_02",
+"ITEM_FACTOR_NO_055_03",
+"ITEM_FACTOR_NO_055_04",
+"ITEM_FACTOR_NO_055_05",
+"ITEM_FACTOR_NO_055_06",
+"ITEM_FACTOR_NO_055_07",
+"ITEM_FACTOR_NO_055_08"
+]
+},
+{
+"idx": 56,
+"tag": "ITEM_MAT_SAND_004",
+"sort": 56,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "水底柔土",
+"en": "Sedimentary Soil",
+"factors": [
+"ITEM_FACTOR_NO_056_01",
+"ITEM_FACTOR_NO_056_02",
+"ITEM_FACTOR_NO_056_03",
+"ITEM_FACTOR_NO_056_04",
+"ITEM_FACTOR_NO_056_05",
+"ITEM_FACTOR_NO_056_06",
+"ITEM_FACTOR_NO_056_07",
+"ITEM_FACTOR_NO_056_08"
+]
+},
+{
+"idx": 57,
+"tag": "ITEM_MAT_SAND_005",
+"sort": 57,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "黏黏泥",
+"en": "Sticky Mud",
+"factors": [
+"ITEM_FACTOR_NO_057_01",
+"ITEM_FACTOR_NO_057_02",
+"ITEM_FACTOR_NO_057_03",
+"ITEM_FACTOR_NO_057_04",
+"ITEM_FACTOR_NO_057_05",
+"ITEM_FACTOR_NO_057_06",
+"ITEM_FACTOR_NO_057_07",
+"ITEM_FACTOR_NO_057_08"
+]
+},
+{
+"idx": 58,
+"tag": "ITEM_MAT_SAND_006",
+"sort": 80,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "闪亮原色砂",
+"en": "Sparkling Sand",
+"factors": [
+"ITEM_FACTOR_NO_058_01",
+"ITEM_FACTOR_NO_058_02",
+"ITEM_FACTOR_NO_058_03",
+"ITEM_FACTOR_NO_058_04",
+"ITEM_FACTOR_NO_058_05",
+"ITEM_FACTOR_NO_058_06",
+"ITEM_FACTOR_NO_058_07",
+"ITEM_FACTOR_NO_058_08"
+]
+},
+{
+"idx": 59,
+"tag": "ITEM_MAT_STONE_001",
+"sort": 58,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "碎裂的石材",
+"en": "Broken Rock",
+"factors": [
+"ITEM_FACTOR_NO_059_01",
+"ITEM_FACTOR_NO_059_02",
+"ITEM_FACTOR_NO_059_03",
+"ITEM_FACTOR_NO_059_04",
+"ITEM_FACTOR_NO_059_05",
+"ITEM_FACTOR_NO_059_06",
+"ITEM_FACTOR_NO_059_07",
+"ITEM_FACTOR_NO_059_08"
+]
+},
+{
+"idx": 60,
+"tag": "ITEM_MAT_STONE_002",
+"sort": 59,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "石灰岩",
+"en": "White Ash Stone",
+"factors": [
+"ITEM_FACTOR_NO_060_01",
+"ITEM_FACTOR_NO_060_02",
+"ITEM_FACTOR_NO_060_03",
+"ITEM_FACTOR_NO_060_04",
+"ITEM_FACTOR_NO_060_05",
+"ITEM_FACTOR_NO_060_06",
+"ITEM_FACTOR_NO_060_07",
+"ITEM_FACTOR_NO_060_08"
+]
+},
+{
+"idx": 61,
+"tag": "ITEM_MAT_STONE_003",
+"sort": 60,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "橡胶石",
+"en": "Gumstone",
+"factors": [
+"ITEM_FACTOR_NO_061_01",
+"ITEM_FACTOR_NO_061_02",
+"ITEM_FACTOR_NO_061_03",
+"ITEM_FACTOR_NO_061_04",
+"ITEM_FACTOR_NO_061_05",
+"ITEM_FACTOR_NO_061_06",
+"ITEM_FACTOR_NO_061_07",
+"ITEM_FACTOR_NO_061_08"
+]
+},
+{
+"idx": 62,
+"tag": "ITEM_MAT_STONE_004",
+"sort": 61,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "古代石柱",
+"en": "Ancient Pillar",
+"factors": [
+"ITEM_FACTOR_NO_062_01",
+"ITEM_FACTOR_NO_062_02",
+"ITEM_FACTOR_NO_062_03",
+"ITEM_FACTOR_NO_062_04",
+"ITEM_FACTOR_NO_062_05",
+"ITEM_FACTOR_NO_062_06",
+"ITEM_FACTOR_NO_062_07",
+"ITEM_FACTOR_NO_062_08"
+]
+},
+{
+"idx": 63,
+"tag": "ITEM_MAT_STONE_005",
+"sort": 62,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "重力石",
+"en": "Gravistone",
+"factors": [
+"ITEM_FACTOR_NO_063_01",
+"ITEM_FACTOR_NO_063_02",
+"ITEM_FACTOR_NO_063_03",
+"ITEM_FACTOR_NO_063_04",
+"ITEM_FACTOR_NO_063_05",
+"ITEM_FACTOR_NO_063_06",
+"ITEM_FACTOR_NO_063_07",
+"ITEM_FACTOR_NO_063_08"
+]
+},
+{
+"idx": 64,
+"tag": "ITEM_MAT_STONE_006",
+"sort": 63,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "斑石",
+"en": "Dapplestone",
+"factors": [
+"ITEM_FACTOR_NO_064_01",
+"ITEM_FACTOR_NO_064_02",
+"ITEM_FACTOR_NO_064_03",
+"ITEM_FACTOR_NO_064_04",
+"ITEM_FACTOR_NO_064_05",
+"ITEM_FACTOR_NO_064_06",
+"ITEM_FACTOR_NO_064_07",
+"ITEM_FACTOR_NO_064_08"
+]
+},
+{
+"idx": 65,
+"tag": "ITEM_MAT_STONE_007",
+"sort": 64,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "山石",
+"en": "Bergstone",
+"factors": [
+"ITEM_FACTOR_NO_065_01",
+"ITEM_FACTOR_NO_065_02",
+"ITEM_FACTOR_NO_065_03",
+"ITEM_FACTOR_NO_065_04",
+"ITEM_FACTOR_NO_065_05",
+"ITEM_FACTOR_NO_065_06",
+"ITEM_FACTOR_NO_065_07",
+"ITEM_FACTOR_NO_065_08"
+]
+},
+{
+"idx": 66,
+"tag": "ITEM_MAT_STONE_008",
+"sort": 65,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "黄金色之岩",
+"en": "Golden Rock",
+"factors": [
+"ITEM_FACTOR_NO_066_01",
+"ITEM_FACTOR_NO_066_02",
+"ITEM_FACTOR_NO_066_03",
+"ITEM_FACTOR_NO_066_04",
+"ITEM_FACTOR_NO_066_05",
+"ITEM_FACTOR_NO_066_06",
+"ITEM_FACTOR_NO_066_07",
+"ITEM_FACTOR_NO_066_08"
+]
+},
+{
+"idx": 67,
+"tag": "ITEM_MAT_STONE_009",
+"sort": 66,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "电浆石",
+"en": "Plasmein",
+"factors": [
+"ITEM_FACTOR_NO_067_01",
+"ITEM_FACTOR_NO_067_02",
+"ITEM_FACTOR_NO_067_03",
+"ITEM_FACTOR_NO_067_04",
+"ITEM_FACTOR_NO_067_05",
+"ITEM_FACTOR_NO_067_06",
+"ITEM_FACTOR_NO_067_07",
+"ITEM_FACTOR_NO_067_08"
+]
+},
+{
+"idx": 68,
+"tag": "ITEM_MAT_STONE_010",
+"sort": 67,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "玉钢石",
+"en": "Steel Balls",
+"factors": [
+"ITEM_FACTOR_NO_068_01",
+"ITEM_FACTOR_NO_068_02",
+"ITEM_FACTOR_NO_068_03",
+"ITEM_FACTOR_NO_068_04",
+"ITEM_FACTOR_NO_068_05",
+"ITEM_FACTOR_NO_068_06",
+"ITEM_FACTOR_NO_068_07",
+"ITEM_FACTOR_NO_068_08"
+]
+},
+{
+"idx": 69,
+"tag": "ITEM_MAT_ORE_001",
+"sort": 68,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "艾森矿",
+"en": "Eisen Ore",
+"factors": [
+"ITEM_FACTOR_NO_069_01",
+"ITEM_FACTOR_NO_069_02",
+"ITEM_FACTOR_NO_069_03",
+"ITEM_FACTOR_NO_069_04",
+"ITEM_FACTOR_NO_069_05",
+"ITEM_FACTOR_NO_069_06",
+"ITEM_FACTOR_NO_069_07",
+"ITEM_FACTOR_NO_069_08"
+]
+},
+{
+"idx": 70,
+"tag": "ITEM_MAT_ORE_002",
+"sort": 69,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "雷电矿",
+"en": "Leiden Ore",
+"factors": [
+"ITEM_FACTOR_NO_070_01",
+"ITEM_FACTOR_NO_070_02",
+"ITEM_FACTOR_NO_070_03",
+"ITEM_FACTOR_NO_070_04",
+"ITEM_FACTOR_NO_070_05",
+"ITEM_FACTOR_NO_070_06",
+"ITEM_FACTOR_NO_070_07",
+"ITEM_FACTOR_NO_070_08"
+]
+},
+{
+"idx": 71,
+"tag": "ITEM_MAT_ORE_003",
+"sort": 70,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "克普鲁矿",
+"en": "Kupfer Ore",
+"factors": [
+"ITEM_FACTOR_NO_071_01",
+"ITEM_FACTOR_NO_071_02",
+"ITEM_FACTOR_NO_071_03",
+"ITEM_FACTOR_NO_071_04",
+"ITEM_FACTOR_NO_071_05",
+"ITEM_FACTOR_NO_071_06",
+"ITEM_FACTOR_NO_071_07",
+"ITEM_FACTOR_NO_071_08"
+]
+},
+{
+"idx": 72,
+"tag": "ITEM_MAT_ORE_004",
+"sort": 71,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "火岩石",
+"en": "Kaen Stone",
+"factors": [
+"ITEM_FACTOR_NO_072_01",
+"ITEM_FACTOR_NO_072_02",
+"ITEM_FACTOR_NO_072_03",
+"ITEM_FACTOR_NO_072_04",
+"ITEM_FACTOR_NO_072_05",
+"ITEM_FACTOR_NO_072_06",
+"ITEM_FACTOR_NO_072_07",
+"ITEM_FACTOR_NO_072_08"
+]
+},
+{
+"idx": 73,
+"tag": "ITEM_MAT_ORE_005",
+"sort": 72,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "白冷石",
+"en": "Hakurei Stone",
+"factors": [
+"ITEM_FACTOR_NO_073_01",
+"ITEM_FACTOR_NO_073_02",
+"ITEM_FACTOR_NO_073_03",
+"ITEM_FACTOR_NO_073_04",
+"ITEM_FACTOR_NO_073_05",
+"ITEM_FACTOR_NO_073_06",
+"ITEM_FACTOR_NO_073_07",
+"ITEM_FACTOR_NO_073_08"
+]
+},
+{
+"idx": 74,
+"tag": "ITEM_MAT_ORE_006",
+"sort": 73,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "灵魂之石",
+"en": "Spirit Stone",
+"factors": [
+"ITEM_FACTOR_NO_074_01",
+"ITEM_FACTOR_NO_074_02",
+"ITEM_FACTOR_NO_074_03",
+"ITEM_FACTOR_NO_074_04",
+"ITEM_FACTOR_NO_074_05",
+"ITEM_FACTOR_NO_074_06",
+"ITEM_FACTOR_NO_074_07",
+"ITEM_FACTOR_NO_074_08"
+]
+},
+{
+"idx": 75,
+"tag": "ITEM_MAT_ORE_007",
+"sort": 74,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "磁铁岩",
+"en": "Magnet Stone",
+"factors": [
+"ITEM_FACTOR_NO_075_01",
+"ITEM_FACTOR_NO_075_02",
+"ITEM_FACTOR_NO_075_03",
+"ITEM_FACTOR_NO_075_04",
+"ITEM_FACTOR_NO_075_05",
+"ITEM_FACTOR_NO_075_06",
+"ITEM_FACTOR_NO_075_07",
+"ITEM_FACTOR_NO_075_08"
+]
+},
+{
+"idx": 76,
+"tag": "ITEM_MAT_ORE_008",
+"sort": 75,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "庆伯矿石",
+"en": "Kimberlite",
+"factors": [
+"ITEM_FACTOR_NO_076_01",
+"ITEM_FACTOR_NO_076_02",
+"ITEM_FACTOR_NO_076_03",
+"ITEM_FACTOR_NO_076_04",
+"ITEM_FACTOR_NO_076_05",
+"ITEM_FACTOR_NO_076_06",
+"ITEM_FACTOR_NO_076_07",
+"ITEM_FACTOR_NO_076_08"
+]
+},
+{
+"idx": 77,
+"tag": "ITEM_MAT_ORE_009",
+"sort": 76,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "绿棘矿",
+"en": "Green-Spike Ore",
+"factors": [
+"ITEM_FACTOR_NO_077_01",
+"ITEM_FACTOR_NO_077_02",
+"ITEM_FACTOR_NO_077_03",
+"ITEM_FACTOR_NO_077_04",
+"ITEM_FACTOR_NO_077_05",
+"ITEM_FACTOR_NO_077_06",
+"ITEM_FACTOR_NO_077_07",
+"ITEM_FACTOR_NO_077_08"
+]
+},
+{
+"idx": 78,
+"tag": "ITEM_MAT_ORE_010",
+"sort": 77,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "残破矿石",
+"en": "Atelís Ore",
+"factors": [
+"ITEM_FACTOR_NO_078_01",
+"ITEM_FACTOR_NO_078_02",
+"ITEM_FACTOR_NO_078_03",
+"ITEM_FACTOR_NO_078_04",
+"ITEM_FACTOR_NO_078_05",
+"ITEM_FACTOR_NO_078_06",
+"ITEM_FACTOR_NO_078_07",
+"ITEM_FACTOR_NO_078_08"
+]
+},
+{
+"idx": 79,
+"tag": "ITEM_MAT_ORE_011",
+"sort": 78,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "硫磺矿石",
+"en": "Sulphur Ore",
+"factors": [
+"ITEM_FACTOR_NO_079_01",
+"ITEM_FACTOR_NO_079_02",
+"ITEM_FACTOR_NO_079_03",
+"ITEM_FACTOR_NO_079_04",
+"ITEM_FACTOR_NO_079_05",
+"ITEM_FACTOR_NO_079_06",
+"ITEM_FACTOR_NO_079_07",
+"ITEM_FACTOR_NO_079_08"
+]
+},
+{
+"idx": 80,
+"tag": "ITEM_MAT_ORE_012",
+"sort": 79,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "银粉矿石",
+"en": "Malgam Ore",
+"factors": [
+"ITEM_FACTOR_NO_080_01",
+"ITEM_FACTOR_NO_080_02",
+"ITEM_FACTOR_NO_080_03",
+"ITEM_FACTOR_NO_080_04",
+"ITEM_FACTOR_NO_080_05",
+"ITEM_FACTOR_NO_080_06",
+"ITEM_FACTOR_NO_080_07",
+"ITEM_FACTOR_NO_080_08"
+]
+},
+{
+"idx": 81,
+"tag": "ITEM_MAT_GEMSTONE_001",
+"sort": 81,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "银灵结晶",
+"en": "Silver Crystal",
+"factors": [
+"ITEM_FACTOR_NO_081_01",
+"ITEM_FACTOR_NO_081_02",
+"ITEM_FACTOR_NO_081_03",
+"ITEM_FACTOR_NO_081_04",
+"ITEM_FACTOR_NO_081_05",
+"ITEM_FACTOR_NO_081_06",
+"ITEM_FACTOR_NO_081_07",
+"ITEM_FACTOR_NO_081_08"
+]
+},
+{
+"idx": 82,
+"tag": "ITEM_MAT_GEMSTONE_002",
+"sort": 82,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "红宝石原石",
+"en": "Rubis Gemstone",
+"factors": [
+"ITEM_FACTOR_NO_082_01",
+"ITEM_FACTOR_NO_082_02",
+"ITEM_FACTOR_NO_082_03",
+"ITEM_FACTOR_NO_082_04",
+"ITEM_FACTOR_NO_082_05",
+"ITEM_FACTOR_NO_082_06",
+"ITEM_FACTOR_NO_082_07",
+"ITEM_FACTOR_NO_082_08"
+]
+},
+{
+"idx": 83,
+"tag": "ITEM_MAT_GEMSTONE_003",
+"sort": 83,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "蓝宝石原石",
+"en": "Saphir Gemstone",
+"factors": [
+"ITEM_FACTOR_NO_083_01",
+"ITEM_FACTOR_NO_083_02",
+"ITEM_FACTOR_NO_083_03",
+"ITEM_FACTOR_NO_083_04",
+"ITEM_FACTOR_NO_083_05",
+"ITEM_FACTOR_NO_083_06",
+"ITEM_FACTOR_NO_083_07",
+"ITEM_FACTOR_NO_083_08"
+]
+},
+{
+"idx": 84,
+"tag": "ITEM_MAT_GEMSTONE_004",
+"sort": 84,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "黄宝石原石",
+"en": "Topacio Gemstone",
+"factors": [
+"ITEM_FACTOR_NO_084_01",
+"ITEM_FACTOR_NO_084_02",
+"ITEM_FACTOR_NO_084_03",
+"ITEM_FACTOR_NO_084_04",
+"ITEM_FACTOR_NO_084_05",
+"ITEM_FACTOR_NO_084_06",
+"ITEM_FACTOR_NO_084_07",
+"ITEM_FACTOR_NO_084_08"
+]
+},
+{
+"idx": 85,
+"tag": "ITEM_MAT_GEMSTONE_005",
+"sort": 85,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "绿宝石原石",
+"en": "Emeraude Gemstone",
+"factors": [
+"ITEM_FACTOR_NO_085_01",
+"ITEM_FACTOR_NO_085_02",
+"ITEM_FACTOR_NO_085_03",
+"ITEM_FACTOR_NO_085_04",
+"ITEM_FACTOR_NO_085_05",
+"ITEM_FACTOR_NO_085_06",
+"ITEM_FACTOR_NO_085_07",
+"ITEM_FACTOR_NO_085_08"
+]
+},
+{
+"idx": 86,
+"tag": "ITEM_MAT_GEMSTONE_006",
+"sort": 86,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "钻石原石",
+"en": "Diamant Gemstone",
+"factors": [
+"ITEM_FACTOR_NO_086_01",
+"ITEM_FACTOR_NO_086_02",
+"ITEM_FACTOR_NO_086_03",
+"ITEM_FACTOR_NO_086_04",
+"ITEM_FACTOR_NO_086_05",
+"ITEM_FACTOR_NO_086_06",
+"ITEM_FACTOR_NO_086_07",
+"ITEM_FACTOR_NO_086_08"
+]
+},
+{
+"idx": 87,
+"tag": "ITEM_MAT_GEMSTONE_007",
+"sort": 87,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "一秒水晶",
+"en": "Einquartz",
+"factors": [
+"ITEM_FACTOR_NO_087_01",
+"ITEM_FACTOR_NO_087_02",
+"ITEM_FACTOR_NO_087_03",
+"ITEM_FACTOR_NO_087_04",
+"ITEM_FACTOR_NO_087_05",
+"ITEM_FACTOR_NO_087_06",
+"ITEM_FACTOR_NO_087_07",
+"ITEM_FACTOR_NO_087_08"
+]
+},
+{
+"idx": 88,
+"tag": "ITEM_MAT_GEMSTONE_008",
+"sort": 88,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "冻原石",
+"en": "Tesca Arc",
+"factors": [
+"ITEM_FACTOR_NO_088_01",
+"ITEM_FACTOR_NO_088_02",
+"ITEM_FACTOR_NO_088_03",
+"ITEM_FACTOR_NO_088_04",
+"ITEM_FACTOR_NO_088_05",
+"ITEM_FACTOR_NO_088_06",
+"ITEM_FACTOR_NO_088_07",
+"ITEM_FACTOR_NO_088_08"
+]
+},
+{
+"idx": 89,
+"tag": "ITEM_MAT_POWDER_001",
+"sort": 89,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "木屑",
+"en": "Woodchips",
+"factors": [
+"ITEM_FACTOR_NO_089_01",
+"ITEM_FACTOR_NO_089_02",
+"ITEM_FACTOR_NO_089_03",
+"ITEM_FACTOR_NO_089_04",
+"ITEM_FACTOR_NO_089_05",
+"ITEM_FACTOR_NO_089_06",
+"ITEM_FACTOR_NO_089_07",
+"ITEM_FACTOR_NO_089_08"
+]
+},
+{
+"idx": 90,
+"tag": "ITEM_MAT_POWDER_002",
+"sort": 90,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "可燃灰砂",
+"en": "Flammable Sand",
+"factors": [
+"ITEM_FACTOR_NO_090_01",
+"ITEM_FACTOR_NO_090_02",
+"ITEM_FACTOR_NO_090_03",
+"ITEM_FACTOR_NO_090_04",
+"ITEM_FACTOR_NO_090_05",
+"ITEM_FACTOR_NO_090_06",
+"ITEM_FACTOR_NO_090_07",
+"ITEM_FACTOR_NO_090_08"
+]
+},
+{
+"idx": 91,
+"tag": "ITEM_MAT_POWDER_003",
+"sort": 91,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "圈球果",
+"en": "Pomme de Kiefer",
+"factors": [
+"ITEM_FACTOR_NO_091_01",
+"ITEM_FACTOR_NO_091_02",
+"ITEM_FACTOR_NO_091_03",
+"ITEM_FACTOR_NO_091_04",
+"ITEM_FACTOR_NO_091_05",
+"ITEM_FACTOR_NO_091_06",
+"ITEM_FACTOR_NO_091_07",
+"ITEM_FACTOR_NO_091_08"
+]
+},
+{
+"idx": 92,
+"tag": "ITEM_MAT_POWDER_004",
+"sort": 92,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "硝基水",
+"en": "Nitro Water",
+"factors": [
+"ITEM_FACTOR_NO_092_01",
+"ITEM_FACTOR_NO_092_02",
+"ITEM_FACTOR_NO_092_03",
+"ITEM_FACTOR_NO_092_04",
+"ITEM_FACTOR_NO_092_05",
+"ITEM_FACTOR_NO_092_06",
+"ITEM_FACTOR_NO_092_07",
+"ITEM_FACTOR_NO_092_08"
+]
+},
+{
+"idx": 93,
+"tag": "ITEM_MAT_FUEL_001",
+"sort": 93,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "破碎的纸片",
+"en": "Paper Scraps",
+"factors": [
+"ITEM_FACTOR_NO_093_01",
+"ITEM_FACTOR_NO_093_02",
+"ITEM_FACTOR_NO_093_03",
+"ITEM_FACTOR_NO_093_04",
+"ITEM_FACTOR_NO_093_05",
+"ITEM_FACTOR_NO_093_06",
+"ITEM_FACTOR_NO_093_07",
+"ITEM_FACTOR_NO_093_08"
+]
+},
+{
+"idx": 94,
+"tag": "ITEM_MAT_FUEL_002",
+"sort": 94,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "过期的票券",
+"en": "Expired Ticket",
+"factors": [
+"ITEM_FACTOR_NO_094_01",
+"ITEM_FACTOR_NO_094_02",
+"ITEM_FACTOR_NO_094_03",
+"ITEM_FACTOR_NO_094_04",
+"ITEM_FACTOR_NO_094_05",
+"ITEM_FACTOR_NO_094_06",
+"ITEM_FACTOR_NO_094_07",
+"ITEM_FACTOR_NO_094_08"
+]
+},
+{
+"idx": 95,
+"tag": "ITEM_MAT_FUEL_003",
+"sort": 95,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "天然油",
+"en": "Natural Oil",
+"factors": [
+"ITEM_FACTOR_NO_095_01",
+"ITEM_FACTOR_NO_095_02",
+"ITEM_FACTOR_NO_095_03",
+"ITEM_FACTOR_NO_095_04",
+"ITEM_FACTOR_NO_095_05",
+"ITEM_FACTOR_NO_095_06",
+"ITEM_FACTOR_NO_095_07",
+"ITEM_FACTOR_NO_095_08"
+]
+},
+{
+"idx": 96,
+"tag": "ITEM_MAT_FUEL_004",
+"sort": 96,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "自然矿物油",
+"en": "Mineral Oil",
+"factors": [
+"ITEM_FACTOR_NO_096_01",
+"ITEM_FACTOR_NO_096_02",
+"ITEM_FACTOR_NO_096_03",
+"ITEM_FACTOR_NO_096_04",
+"ITEM_FACTOR_NO_096_05",
+"ITEM_FACTOR_NO_096_06",
+"ITEM_FACTOR_NO_096_07",
+"ITEM_FACTOR_NO_096_08"
+]
+},
+{
+"idx": 97,
+"tag": "ITEM_MAT_FUEL_005",
+"sort": 97,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "灰木炭",
+"en": "Aschenp Coal",
+"factors": [
+"ITEM_FACTOR_NO_097_01",
+"ITEM_FACTOR_NO_097_02",
+"ITEM_FACTOR_NO_097_03",
+"ITEM_FACTOR_NO_097_04",
+"ITEM_FACTOR_NO_097_05",
+"ITEM_FACTOR_NO_097_06",
+"ITEM_FACTOR_NO_097_07",
+"ITEM_FACTOR_NO_097_08"
+]
+},
+{
+"idx": 98,
+"tag": "ITEM_MAT_FUEL_006",
+"sort": 98,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "地幔粉",
+"en": "Mantle Powder",
+"factors": [
+"ITEM_FACTOR_NO_098_01",
+"ITEM_FACTOR_NO_098_02",
+"ITEM_FACTOR_NO_098_03",
+"ITEM_FACTOR_NO_098_04",
+"ITEM_FACTOR_NO_098_05",
+"ITEM_FACTOR_NO_098_06",
+"ITEM_FACTOR_NO_098_07",
+"ITEM_FACTOR_NO_098_08"
+]
+},
+{
+"idx": 99,
+"tag": "ITEM_MAT_FUEL_007",
+"sort": 99,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "炎冰",
+"en": "Uro Hielo",
+"factors": [
+"ITEM_FACTOR_NO_099_01",
+"ITEM_FACTOR_NO_099_02",
+"ITEM_FACTOR_NO_099_03",
+"ITEM_FACTOR_NO_099_04",
+"ITEM_FACTOR_NO_099_05",
+"ITEM_FACTOR_NO_099_06",
+"ITEM_FACTOR_NO_099_07",
+"ITEM_FACTOR_NO_099_08"
+]
+},
+{
+"idx": 100,
+"tag": "ITEM_MAT_FOODSTUFF_001",
+"sort": 100,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "鹰爪果",
+"en": "Adler's Claw",
+"factors": [
+"ITEM_FACTOR_NO_100_01",
+"ITEM_FACTOR_NO_100_02",
+"ITEM_FACTOR_NO_100_03",
+"ITEM_FACTOR_NO_100_04",
+"ITEM_FACTOR_NO_100_05",
+"ITEM_FACTOR_NO_100_06",
+"ITEM_FACTOR_NO_100_07",
+"ITEM_FACTOR_NO_100_08"
+]
+},
+{
+"idx": 101,
+"tag": "ITEM_MAT_FOODSTUFF_002",
+"sort": 101,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "不知名的蛋",
+"en": "Unknown Egg",
+"factors": [
+"ITEM_FACTOR_NO_101_01",
+"ITEM_FACTOR_NO_101_02",
+"ITEM_FACTOR_NO_101_03",
+"ITEM_FACTOR_NO_101_04",
+"ITEM_FACTOR_NO_101_05",
+"ITEM_FACTOR_NO_101_06",
+"ITEM_FACTOR_NO_101_07",
+"ITEM_FACTOR_NO_101_08"
+]
+},
+{
+"idx": 102,
+"tag": "ITEM_MAT_FOODSTUFF_003",
+"sort": 102,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "好喝的鲜奶",
+"en": "Delicious Milk",
+"factors": [
+"ITEM_FACTOR_NO_102_01",
+"ITEM_FACTOR_NO_102_02",
+"ITEM_FACTOR_NO_102_03",
+"ITEM_FACTOR_NO_102_04",
+"ITEM_FACTOR_NO_102_05",
+"ITEM_FACTOR_NO_102_06",
+"ITEM_FACTOR_NO_102_07",
+"ITEM_FACTOR_NO_102_08"
+]
+},
+{
+"idx": 103,
+"tag": "ITEM_MAT_FOODSTUFF_004",
+"sort": 103,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "土薯",
+"en": "Soil Potatoes",
+"factors": [
+"ITEM_FACTOR_NO_103_01",
+"ITEM_FACTOR_NO_103_02",
+"ITEM_FACTOR_NO_103_03",
+"ITEM_FACTOR_NO_103_04",
+"ITEM_FACTOR_NO_103_05",
+"ITEM_FACTOR_NO_103_06",
+"ITEM_FACTOR_NO_103_07",
+"ITEM_FACTOR_NO_103_08"
+]
+},
+{
+"idx": 104,
+"tag": "ITEM_MAT_FOODSTUFF_005",
+"sort": 104,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "鼎萝卜",
+"en": "Wish Carrot",
+"factors": [
+"ITEM_FACTOR_NO_104_01",
+"ITEM_FACTOR_NO_104_02",
+"ITEM_FACTOR_NO_104_03",
+"ITEM_FACTOR_NO_104_04",
+"ITEM_FACTOR_NO_104_05",
+"ITEM_FACTOR_NO_104_06",
+"ITEM_FACTOR_NO_104_07",
+"ITEM_FACTOR_NO_104_08"
+]
+},
+{
+"idx": 105,
+"tag": "ITEM_MAT_FOODSTUFF_006",
+"sort": 105,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "恶魔南瓜",
+"en": "Devil Pumpkin",
+"factors": [
+"ITEM_FACTOR_NO_105_01",
+"ITEM_FACTOR_NO_105_02",
+"ITEM_FACTOR_NO_105_03",
+"ITEM_FACTOR_NO_105_04",
+"ITEM_FACTOR_NO_105_05",
+"ITEM_FACTOR_NO_105_06",
+"ITEM_FACTOR_NO_105_07",
+"ITEM_FACTOR_NO_105_08"
+]
+},
+{
+"idx": 106,
+"tag": "ITEM_MAT_FOODSTUFF_007",
+"sort": 106,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "兽肉",
+"en": "Beast Meat",
+"factors": [
+"ITEM_FACTOR_NO_106_01",
+"ITEM_FACTOR_NO_106_02",
+"ITEM_FACTOR_NO_106_03",
+"ITEM_FACTOR_NO_106_04",
+"ITEM_FACTOR_NO_106_05",
+"ITEM_FACTOR_NO_106_06",
+"ITEM_FACTOR_NO_106_07",
+"ITEM_FACTOR_NO_106_08"
+]
+},
+{
+"idx": 107,
+"tag": "ITEM_MAT_FOODSTUFF_008",
+"sort": 107,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "新鲜的肉",
+"en": "Fresh Meat",
+"factors": [
+"ITEM_FACTOR_NO_107_01",
+"ITEM_FACTOR_NO_107_02",
+"ITEM_FACTOR_NO_107_03",
+"ITEM_FACTOR_NO_107_04",
+"ITEM_FACTOR_NO_107_05",
+"ITEM_FACTOR_NO_107_06",
+"ITEM_FACTOR_NO_107_07",
+"ITEM_FACTOR_NO_107_08"
+]
+},
+{
+"idx": 108,
+"tag": "ITEM_MAT_NUT_001",
+"sort": 108,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "随兴草莓",
+"en": "Whimsy Strawberries",
+"factors": [
+"ITEM_FACTOR_NO_108_01",
+"ITEM_FACTOR_NO_108_02",
+"ITEM_FACTOR_NO_108_03",
+"ITEM_FACTOR_NO_108_04",
+"ITEM_FACTOR_NO_108_05",
+"ITEM_FACTOR_NO_108_06",
+"ITEM_FACTOR_NO_108_07",
+"ITEM_FACTOR_NO_108_08"
+]
+},
+{
+"idx": 109,
+"tag": "ITEM_MAT_NUT_002",
+"sort": 109,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "甘露果实",
+"en": "Nectar Fruit",
+"factors": [
+"ITEM_FACTOR_NO_109_01",
+"ITEM_FACTOR_NO_109_02",
+"ITEM_FACTOR_NO_109_03",
+"ITEM_FACTOR_NO_109_04",
+"ITEM_FACTOR_NO_109_05",
+"ITEM_FACTOR_NO_109_06",
+"ITEM_FACTOR_NO_109_07",
+"ITEM_FACTOR_NO_109_08"
+]
+},
+{
+"idx": 110,
+"tag": "ITEM_MAT_NUT_003",
+"sort": 110,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "油木果实",
+"en": "Oil Tree Fruit",
+"factors": [
+"ITEM_FACTOR_NO_110_01",
+"ITEM_FACTOR_NO_110_02",
+"ITEM_FACTOR_NO_110_03",
+"ITEM_FACTOR_NO_110_04",
+"ITEM_FACTOR_NO_110_05",
+"ITEM_FACTOR_NO_110_06",
+"ITEM_FACTOR_NO_110_07",
+"ITEM_FACTOR_NO_110_08"
+]
+},
+{
+"idx": 111,
+"tag": "ITEM_MAT_NUT_004",
+"sort": 111,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "甜瓜果实",
+"en": "Cucumis Fruit",
+"factors": [
+"ITEM_FACTOR_NO_111_01",
+"ITEM_FACTOR_NO_111_02",
+"ITEM_FACTOR_NO_111_03",
+"ITEM_FACTOR_NO_111_04",
+"ITEM_FACTOR_NO_111_05",
+"ITEM_FACTOR_NO_111_06",
+"ITEM_FACTOR_NO_111_07",
+"ITEM_FACTOR_NO_111_08"
+]
+},
+{
+"idx": 112,
+"tag": "ITEM_MAT_NUT_005",
+"sort": 112,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "雪之女王",
+"en": "Snow Queen",
+"factors": [
+"ITEM_FACTOR_NO_112_01",
+"ITEM_FACTOR_NO_112_02",
+"ITEM_FACTOR_NO_112_03",
+"ITEM_FACTOR_NO_112_04",
+"ITEM_FACTOR_NO_112_05",
+"ITEM_FACTOR_NO_112_06",
+"ITEM_FACTOR_NO_112_07",
+"ITEM_FACTOR_NO_112_08"
+]
+},
+{
+"idx": 113,
+"tag": "ITEM_MAT_NUT_006",
+"sort": 113,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "月蕉",
+"en": "Lunana",
+"factors": [
+"ITEM_FACTOR_NO_113_01",
+"ITEM_FACTOR_NO_113_02",
+"ITEM_FACTOR_NO_113_03",
+"ITEM_FACTOR_NO_113_04",
+"ITEM_FACTOR_NO_113_05",
+"ITEM_FACTOR_NO_113_06",
+"ITEM_FACTOR_NO_113_07",
+"ITEM_FACTOR_NO_113_08"
+]
+},
+{
+"idx": 114,
+"tag": "ITEM_MAT_BEEHIVE_001",
+"sort": 114,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "蜂巢",
+"en": "Beehive",
+"factors": [
+"ITEM_FACTOR_NO_114_01",
+"ITEM_FACTOR_NO_114_02",
+"ITEM_FACTOR_NO_114_03",
+"ITEM_FACTOR_NO_114_04",
+"ITEM_FACTOR_NO_114_05",
+"ITEM_FACTOR_NO_114_06",
+"ITEM_FACTOR_NO_114_07",
+"ITEM_FACTOR_NO_114_08"
+]
+},
+{
+"idx": 115,
+"tag": "ITEM_MAT_BEEHIVE_002",
+"sort": 115,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "银色蜂巢",
+"en": "Silver Beehive",
+"factors": [
+"ITEM_FACTOR_NO_115_01",
+"ITEM_FACTOR_NO_115_02",
+"ITEM_FACTOR_NO_115_03",
+"ITEM_FACTOR_NO_115_04",
+"ITEM_FACTOR_NO_115_05",
+"ITEM_FACTOR_NO_115_06",
+"ITEM_FACTOR_NO_115_07",
+"ITEM_FACTOR_NO_115_08"
+]
+},
+{
+"idx": 116,
+"tag": "ITEM_MAT_BEEHIVE_003",
+"sort": 116,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "金色蜂巢",
+"en": "Gold Beehive",
+"factors": [
+"ITEM_FACTOR_NO_116_01",
+"ITEM_FACTOR_NO_116_02",
+"ITEM_FACTOR_NO_116_03",
+"ITEM_FACTOR_NO_116_04",
+"ITEM_FACTOR_NO_116_05",
+"ITEM_FACTOR_NO_116_06",
+"ITEM_FACTOR_NO_116_07",
+"ITEM_FACTOR_NO_116_08"
+]
+},
+{
+"idx": 117,
+"tag": "ITEM_MAT_BEEHIVE_004",
+"sort": 117,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "帝王蜂巢",
+"en": "Imperial Beehive",
+"factors": [
+"ITEM_FACTOR_NO_117_01",
+"ITEM_FACTOR_NO_117_02",
+"ITEM_FACTOR_NO_117_03",
+"ITEM_FACTOR_NO_117_04",
+"ITEM_FACTOR_NO_117_05",
+"ITEM_FACTOR_NO_117_06",
+"ITEM_FACTOR_NO_117_07",
+"ITEM_FACTOR_NO_117_08"
+]
+},
+{
+"idx": 118,
+"tag": "ITEM_MAT_MUSHROOM_001",
+"sort": 118,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "暗夜菇",
+"en": "Darkshroom",
+"factors": [
+"ITEM_FACTOR_NO_118_01",
+"ITEM_FACTOR_NO_118_02",
+"ITEM_FACTOR_NO_118_03",
+"ITEM_FACTOR_NO_118_04",
+"ITEM_FACTOR_NO_118_05",
+"ITEM_FACTOR_NO_118_06",
+"ITEM_FACTOR_NO_118_07",
+"ITEM_FACTOR_NO_118_08"
+]
+},
+{
+"idx": 119,
+"tag": "ITEM_MAT_MUSHROOM_002",
+"sort": 119,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "妖精的阳伞",
+"en": "Fairy Parasol",
+"factors": [
+"ITEM_FACTOR_NO_119_01",
+"ITEM_FACTOR_NO_119_02",
+"ITEM_FACTOR_NO_119_03",
+"ITEM_FACTOR_NO_119_04",
+"ITEM_FACTOR_NO_119_05",
+"ITEM_FACTOR_NO_119_06",
+"ITEM_FACTOR_NO_119_07",
+"ITEM_FACTOR_NO_119_08"
+]
+},
+{
+"idx": 120,
+"tag": "ITEM_MAT_MUSHROOM_003",
+"sort": 120,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "银皇冠",
+"en": "Silver Crown",
+"factors": [
+"ITEM_FACTOR_NO_120_01",
+"ITEM_FACTOR_NO_120_02",
+"ITEM_FACTOR_NO_120_03",
+"ITEM_FACTOR_NO_120_04",
+"ITEM_FACTOR_NO_120_05",
+"ITEM_FACTOR_NO_120_06",
+"ITEM_FACTOR_NO_120_07",
+"ITEM_FACTOR_NO_120_08"
+]
+},
+{
+"idx": 121,
+"tag": "ITEM_MAT_MUSHROOM_004",
+"sort": 121,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "噗尼菇",
+"en": "Pluproom",
+"factors": [
+"ITEM_FACTOR_NO_121_01",
+"ITEM_FACTOR_NO_121_02",
+"ITEM_FACTOR_NO_121_03",
+"ITEM_FACTOR_NO_121_04",
+"ITEM_FACTOR_NO_121_05",
+"ITEM_FACTOR_NO_121_06",
+"ITEM_FACTOR_NO_121_07",
+"ITEM_FACTOR_NO_121_08"
+]
+},
+{
+"idx": 122,
+"tag": "ITEM_MAT_MUSHROOM_005",
+"sort": 122,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "章鱼菇",
+"en": "Octoshroom",
+"factors": [
+"ITEM_FACTOR_NO_122_01",
+"ITEM_FACTOR_NO_122_02",
+"ITEM_FACTOR_NO_122_03",
+"ITEM_FACTOR_NO_122_04",
+"ITEM_FACTOR_NO_122_05",
+"ITEM_FACTOR_NO_122_06",
+"ITEM_FACTOR_NO_122_07",
+"ITEM_FACTOR_NO_122_08"
+]
+},
+{
+"idx": 123,
+"tag": "ITEM_MAT_MUSHROOM_006",
+"sort": 123,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "白雪菇",
+"en": "Schneekleid",
+"factors": [
+"ITEM_FACTOR_NO_123_01",
+"ITEM_FACTOR_NO_123_02",
+"ITEM_FACTOR_NO_123_03",
+"ITEM_FACTOR_NO_123_04",
+"ITEM_FACTOR_NO_123_05",
+"ITEM_FACTOR_NO_123_06",
+"ITEM_FACTOR_NO_123_07",
+"ITEM_FACTOR_NO_123_08"
+]
+},
+{
+"idx": 124,
+"tag": "ITEM_MAT_FISH_001",
+"sort": 124,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "美丽贝壳",
+"en": "Pretty Shells",
+"factors": [
+"ITEM_FACTOR_NO_124_01",
+"ITEM_FACTOR_NO_124_02",
+"ITEM_FACTOR_NO_124_03",
+"ITEM_FACTOR_NO_124_04",
+"ITEM_FACTOR_NO_124_05",
+"ITEM_FACTOR_NO_124_06",
+"ITEM_FACTOR_NO_124_07",
+"ITEM_FACTOR_NO_124_08"
+]
+},
+{
+"idx": 125,
+"tag": "ITEM_MAT_FISH_002",
+"sort": 125,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "哇沙鱼",
+"en": "Wascher",
+"factors": [
+"ITEM_FACTOR_NO_125_01",
+"ITEM_FACTOR_NO_125_02",
+"ITEM_FACTOR_NO_125_03",
+"ITEM_FACTOR_NO_125_04",
+"ITEM_FACTOR_NO_125_05",
+"ITEM_FACTOR_NO_125_06",
+"ITEM_FACTOR_NO_125_07",
+"ITEM_FACTOR_NO_125_08"
+]
+},
+{
+"idx": 126,
+"tag": "ITEM_MAT_FISH_003",
+"sort": 126,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "寒波鱼",
+"en": "Camber",
+"factors": [
+"ITEM_FACTOR_NO_126_01",
+"ITEM_FACTOR_NO_126_02",
+"ITEM_FACTOR_NO_126_03",
+"ITEM_FACTOR_NO_126_04",
+"ITEM_FACTOR_NO_126_05",
+"ITEM_FACTOR_NO_126_06",
+"ITEM_FACTOR_NO_126_07",
+"ITEM_FACTOR_NO_126_08"
+]
+},
+{
+"idx": 127,
+"tag": "ITEM_MAT_FISH_004",
+"sort": 127,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "螺贝",
+"en": "Sea Snail",
+"factors": [
+"ITEM_FACTOR_NO_127_01",
+"ITEM_FACTOR_NO_127_02",
+"ITEM_FACTOR_NO_127_03",
+"ITEM_FACTOR_NO_127_04",
+"ITEM_FACTOR_NO_127_05",
+"ITEM_FACTOR_NO_127_06",
+"ITEM_FACTOR_NO_127_07",
+"ITEM_FACTOR_NO_127_08"
+]
+},
+{
+"idx": 128,
+"tag": "ITEM_MAT_FISH_005",
+"sort": 128,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "巨箝",
+"en": "Crab",
+"factors": [
+"ITEM_FACTOR_NO_128_01",
+"ITEM_FACTOR_NO_128_02",
+"ITEM_FACTOR_NO_128_03",
+"ITEM_FACTOR_NO_128_04",
+"ITEM_FACTOR_NO_128_05",
+"ITEM_FACTOR_NO_128_06",
+"ITEM_FACTOR_NO_128_07",
+"ITEM_FACTOR_NO_128_08"
+]
+},
+{
+"idx": 129,
+"tag": "ITEM_MAT_FISH_006",
+"sort": 129,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "剪刀虾",
+"en": "Lobster",
+"factors": [
+"ITEM_FACTOR_NO_129_01",
+"ITEM_FACTOR_NO_129_02",
+"ITEM_FACTOR_NO_129_03",
+"ITEM_FACTOR_NO_129_04",
+"ITEM_FACTOR_NO_129_05",
+"ITEM_FACTOR_NO_129_06",
+"ITEM_FACTOR_NO_129_07",
+"ITEM_FACTOR_NO_129_08"
+]
+},
+{
+"idx": 130,
+"tag": "ITEM_MAT_FISH_007",
+"sort": 130,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "领主",
+"en": "Old Master",
+"factors": [
+"ITEM_FACTOR_NO_130_01",
+"ITEM_FACTOR_NO_130_02",
+"ITEM_FACTOR_NO_130_03",
+"ITEM_FACTOR_NO_130_04",
+"ITEM_FACTOR_NO_130_05",
+"ITEM_FACTOR_NO_130_06",
+"ITEM_FACTOR_NO_130_07",
+"ITEM_FACTOR_NO_130_08"
+]
+},
+{
+"idx": 131,
+"tag": "ITEM_MAT_FISH_008",
+"sort": 131,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "蝶鱼",
+"en": "Papilio Fish",
+"factors": [
+"ITEM_FACTOR_NO_131_01",
+"ITEM_FACTOR_NO_131_02",
+"ITEM_FACTOR_NO_131_03",
+"ITEM_FACTOR_NO_131_04",
+"ITEM_FACTOR_NO_131_05",
+"ITEM_FACTOR_NO_131_06",
+"ITEM_FACTOR_NO_131_07",
+"ITEM_FACTOR_NO_131_08"
+]
+},
+{
+"idx": 132,
+"tag": "ITEM_MAT_FISH_009",
+"sort": 132,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "雷神鱼",
+"en": "Indracom",
+"factors": [
+"ITEM_FACTOR_NO_132_01",
+"ITEM_FACTOR_NO_132_02",
+"ITEM_FACTOR_NO_132_03",
+"ITEM_FACTOR_NO_132_04",
+"ITEM_FACTOR_NO_132_05",
+"ITEM_FACTOR_NO_132_06",
+"ITEM_FACTOR_NO_132_07",
+"ITEM_FACTOR_NO_132_08"
+]
+},
+{
+"idx": 133,
+"tag": "ITEM_MAT_FISH_010",
+"sort": 133,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "赤裸女神",
+"en": "Nu Ilahat",
+"factors": [
+"ITEM_FACTOR_NO_133_01",
+"ITEM_FACTOR_NO_133_02",
+"ITEM_FACTOR_NO_133_03",
+"ITEM_FACTOR_NO_133_04",
+"ITEM_FACTOR_NO_133_05",
+"ITEM_FACTOR_NO_133_06",
+"ITEM_FACTOR_NO_133_07",
+"ITEM_FACTOR_NO_133_08"
+]
+},
+{
+"idx": 134,
+"tag": "ITEM_MAT_INSECT_001",
+"sort": 134,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "星之瓢虫",
+"en": "Lady Bug",
+"factors": [
+"ITEM_FACTOR_NO_134_01",
+"ITEM_FACTOR_NO_134_02",
+"ITEM_FACTOR_NO_134_03",
+"ITEM_FACTOR_NO_134_04",
+"ITEM_FACTOR_NO_134_05",
+"ITEM_FACTOR_NO_134_06",
+"ITEM_FACTOR_NO_134_07",
+"ITEM_FACTOR_NO_134_08"
+]
+},
+{
+"idx": 135,
+"tag": "ITEM_MAT_INSECT_002",
+"sort": 135,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "幼亚龙毛虫",
+"en": "Baby Wyrm",
+"factors": [
+"ITEM_FACTOR_NO_135_01",
+"ITEM_FACTOR_NO_135_02",
+"ITEM_FACTOR_NO_135_03",
+"ITEM_FACTOR_NO_135_04",
+"ITEM_FACTOR_NO_135_05",
+"ITEM_FACTOR_NO_135_06",
+"ITEM_FACTOR_NO_135_07",
+"ITEM_FACTOR_NO_135_08"
+]
+},
+{
+"idx": 136,
+"tag": "ITEM_MAT_INSECT_003",
+"sort": 136,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "彗星蝶",
+"en": "Comet Butterfly",
+"factors": [
+"ITEM_FACTOR_NO_136_01",
+"ITEM_FACTOR_NO_136_02",
+"ITEM_FACTOR_NO_136_03",
+"ITEM_FACTOR_NO_136_04",
+"ITEM_FACTOR_NO_136_05",
+"ITEM_FACTOR_NO_136_06",
+"ITEM_FACTOR_NO_136_07",
+"ITEM_FACTOR_NO_136_08"
+]
+},
+{
+"idx": 137,
+"tag": "ITEM_MAT_INSECT_004",
+"sort": 137,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "金属块虫",
+"en": "Ingot Bug",
+"factors": [
+"ITEM_FACTOR_NO_137_01",
+"ITEM_FACTOR_NO_137_02",
+"ITEM_FACTOR_NO_137_03",
+"ITEM_FACTOR_NO_137_04",
+"ITEM_FACTOR_NO_137_05",
+"ITEM_FACTOR_NO_137_06",
+"ITEM_FACTOR_NO_137_07",
+"ITEM_FACTOR_NO_137_08"
+]
+},
+{
+"idx": 138,
+"tag": "ITEM_MAT_INSECT_005",
+"sort": 138,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "杀人蜂",
+"en": "Killer Bee",
+"factors": [
+"ITEM_FACTOR_NO_138_01",
+"ITEM_FACTOR_NO_138_02",
+"ITEM_FACTOR_NO_138_03",
+"ITEM_FACTOR_NO_138_04",
+"ITEM_FACTOR_NO_138_05",
+"ITEM_FACTOR_NO_138_06",
+"ITEM_FACTOR_NO_138_07",
+"ITEM_FACTOR_NO_138_08"
+]
+},
+{
+"idx": 139,
+"tag": "ITEM_MAT_INSECT_006",
+"sort": 139,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "光辉蜗牛",
+"en": "Glowshell",
+"factors": [
+"ITEM_FACTOR_NO_139_01",
+"ITEM_FACTOR_NO_139_02",
+"ITEM_FACTOR_NO_139_03",
+"ITEM_FACTOR_NO_139_04",
+"ITEM_FACTOR_NO_139_05",
+"ITEM_FACTOR_NO_139_06",
+"ITEM_FACTOR_NO_139_07",
+"ITEM_FACTOR_NO_139_08"
+]
+},
+{
+"idx": 140,
+"tag": "ITEM_MAT_INSECT_007",
+"sort": 140,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "风车茧",
+"en": "Molino Cocoon",
+"factors": [
+"ITEM_FACTOR_NO_140_01",
+"ITEM_FACTOR_NO_140_02",
+"ITEM_FACTOR_NO_140_03",
+"ITEM_FACTOR_NO_140_04",
+"ITEM_FACTOR_NO_140_05",
+"ITEM_FACTOR_NO_140_06",
+"ITEM_FACTOR_NO_140_07",
+"ITEM_FACTOR_NO_140_08"
+]
+},
+{
+"idx": 141,
+"tag": "ITEM_MAT_INSECT_008",
+"sort": 141,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "大鬼兜独角仙",
+"en": "Big Horned Beetle",
+"factors": [
+"ITEM_FACTOR_NO_141_01",
+"ITEM_FACTOR_NO_141_02",
+"ITEM_FACTOR_NO_141_03",
+"ITEM_FACTOR_NO_141_04",
+"ITEM_FACTOR_NO_141_05",
+"ITEM_FACTOR_NO_141_06",
+"ITEM_FACTOR_NO_141_07",
+"ITEM_FACTOR_NO_141_08"
+]
+},
+{
+"idx": 142,
+"tag": "ITEM_MAT_INSECT_009",
+"sort": 142,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "雷电蜻蜓",
+"en": "Leiden Dragonfly",
+"factors": [
+"ITEM_FACTOR_NO_142_01",
+"ITEM_FACTOR_NO_142_02",
+"ITEM_FACTOR_NO_142_03",
+"ITEM_FACTOR_NO_142_04",
+"ITEM_FACTOR_NO_142_05",
+"ITEM_FACTOR_NO_142_06",
+"ITEM_FACTOR_NO_142_07",
+"ITEM_FACTOR_NO_142_08"
+]
+},
+{
+"idx": 143,
+"tag": "ITEM_MAT_INSECT_010",
+"sort": 143,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "凶残斧虫",
+"en": "Grim Axe",
+"factors": [
+"ITEM_FACTOR_NO_143_01",
+"ITEM_FACTOR_NO_143_02",
+"ITEM_FACTOR_NO_143_03",
+"ITEM_FACTOR_NO_143_04",
+"ITEM_FACTOR_NO_143_05",
+"ITEM_FACTOR_NO_143_06",
+"ITEM_FACTOR_NO_143_07",
+"ITEM_FACTOR_NO_143_08"
+]
+},
+{
+"idx": 144,
+"tag": "ITEM_MAT_THREAD_001",
+"sort": 144,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "棉花",
+"en": "Cotton Wool",
+"factors": [
+"ITEM_FACTOR_NO_144_01",
+"ITEM_FACTOR_NO_144_02",
+"ITEM_FACTOR_NO_144_03",
+"ITEM_FACTOR_NO_144_04",
+"ITEM_FACTOR_NO_144_05",
+"ITEM_FACTOR_NO_144_06",
+"ITEM_FACTOR_NO_144_07",
+"ITEM_FACTOR_NO_144_08"
+]
+},
+{
+"idx": 145,
+"tag": "ITEM_MAT_THREAD_002",
+"sort": 145,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "黏银丝",
+"en": "Silver Web",
+"factors": [
+"ITEM_FACTOR_NO_145_01",
+"ITEM_FACTOR_NO_145_02",
+"ITEM_FACTOR_NO_145_03",
+"ITEM_FACTOR_NO_145_04",
+"ITEM_FACTOR_NO_145_05",
+"ITEM_FACTOR_NO_145_06",
+"ITEM_FACTOR_NO_145_07",
+"ITEM_FACTOR_NO_145_08"
+]
+},
+{
+"idx": 146,
+"tag": "ITEM_MAT_THREAD_003",
+"sort": 146,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "网状锁链",
+"en": "Waffle Chain",
+"factors": [
+"ITEM_FACTOR_NO_146_01",
+"ITEM_FACTOR_NO_146_02",
+"ITEM_FACTOR_NO_146_03",
+"ITEM_FACTOR_NO_146_04",
+"ITEM_FACTOR_NO_146_05",
+"ITEM_FACTOR_NO_146_06",
+"ITEM_FACTOR_NO_146_07",
+"ITEM_FACTOR_NO_146_08"
+]
+},
+{
+"idx": 147,
+"tag": "ITEM_MAT_THREAD_004",
+"sort": 147,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "皮球花蕾",
+"en": "Ball Bud",
+"factors": [
+"ITEM_FACTOR_NO_147_01",
+"ITEM_FACTOR_NO_147_02",
+"ITEM_FACTOR_NO_147_03",
+"ITEM_FACTOR_NO_147_04",
+"ITEM_FACTOR_NO_147_05",
+"ITEM_FACTOR_NO_147_06",
+"ITEM_FACTOR_NO_147_07",
+"ITEM_FACTOR_NO_147_08"
+]
+},
+{
+"idx": 148,
+"tag": "ITEM_MAT_THREAD_005",
+"sort": 148,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "土兽胡须",
+"en": "Wild Beast's Beard",
+"factors": [
+"ITEM_FACTOR_NO_148_01",
+"ITEM_FACTOR_NO_148_02",
+"ITEM_FACTOR_NO_148_03",
+"ITEM_FACTOR_NO_148_04",
+"ITEM_FACTOR_NO_148_05",
+"ITEM_FACTOR_NO_148_06",
+"ITEM_FACTOR_NO_148_07",
+"ITEM_FACTOR_NO_148_08"
+]
+},
+{
+"idx": 149,
+"tag": "ITEM_MAT_WOOD_001",
+"sort": 149,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "颚松",
+"en": "Kiefer",
+"factors": [
+"ITEM_FACTOR_NO_149_01",
+"ITEM_FACTOR_NO_149_02",
+"ITEM_FACTOR_NO_149_03",
+"ITEM_FACTOR_NO_149_04",
+"ITEM_FACTOR_NO_149_05",
+"ITEM_FACTOR_NO_149_06",
+"ITEM_FACTOR_NO_149_07",
+"ITEM_FACTOR_NO_149_08"
+]
+},
+{
+"idx": 150,
+"tag": "ITEM_MAT_WOOD_002",
+"sort": 150,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "长苔藓的流木",
+"en": "Mossy Driftwood",
+"factors": [
+"ITEM_FACTOR_NO_150_01",
+"ITEM_FACTOR_NO_150_02",
+"ITEM_FACTOR_NO_150_03",
+"ITEM_FACTOR_NO_150_04",
+"ITEM_FACTOR_NO_150_05",
+"ITEM_FACTOR_NO_150_06",
+"ITEM_FACTOR_NO_150_07",
+"ITEM_FACTOR_NO_150_08"
+]
+},
+{
+"idx": 151,
+"tag": "ITEM_MAT_WOOD_003",
+"sort": 151,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "香氛木",
+"en": "Aroma Holz",
+"factors": [
+"ITEM_FACTOR_NO_151_01",
+"ITEM_FACTOR_NO_151_02",
+"ITEM_FACTOR_NO_151_03",
+"ITEM_FACTOR_NO_151_04",
+"ITEM_FACTOR_NO_151_05",
+"ITEM_FACTOR_NO_151_06",
+"ITEM_FACTOR_NO_151_07",
+"ITEM_FACTOR_NO_151_08"
+]
+},
+{
+"idx": 152,
+"tag": "ITEM_MAT_WOOD_004",
+"sort": 152,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "砂竹",
+"en": "Sand Bamboo",
+"factors": [
+"ITEM_FACTOR_NO_152_01",
+"ITEM_FACTOR_NO_152_02",
+"ITEM_FACTOR_NO_152_03",
+"ITEM_FACTOR_NO_152_04",
+"ITEM_FACTOR_NO_152_05",
+"ITEM_FACTOR_NO_152_06",
+"ITEM_FACTOR_NO_152_07",
+"ITEM_FACTOR_NO_152_08"
+]
+},
+{
+"idx": 153,
+"tag": "ITEM_MAT_WOOD_005",
+"sort": 153,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "直木",
+"en": "Straight Baum",
+"factors": [
+"ITEM_FACTOR_NO_153_01",
+"ITEM_FACTOR_NO_153_02",
+"ITEM_FACTOR_NO_153_03",
+"ITEM_FACTOR_NO_153_04",
+"ITEM_FACTOR_NO_153_05",
+"ITEM_FACTOR_NO_153_06",
+"ITEM_FACTOR_NO_153_07",
+"ITEM_FACTOR_NO_153_08"
+]
+},
+{
+"idx": 154,
+"tag": "ITEM_MAT_WOOD_006",
+"sort": 154,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "玫瑰茎",
+"en": "Rosestamm",
+"factors": [
+"ITEM_FACTOR_NO_154_01",
+"ITEM_FACTOR_NO_154_02",
+"ITEM_FACTOR_NO_154_03",
+"ITEM_FACTOR_NO_154_04",
+"ITEM_FACTOR_NO_154_05",
+"ITEM_FACTOR_NO_154_06",
+"ITEM_FACTOR_NO_154_07",
+"ITEM_FACTOR_NO_154_08"
+]
+},
+{
+"idx": 155,
+"tag": "ITEM_MAT_WOOD_007",
+"sort": 155,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "蝮蛇枝",
+"en": "Viper Zweig",
+"factors": [
+"ITEM_FACTOR_NO_155_01",
+"ITEM_FACTOR_NO_155_02",
+"ITEM_FACTOR_NO_155_03",
+"ITEM_FACTOR_NO_155_04",
+"ITEM_FACTOR_NO_155_05",
+"ITEM_FACTOR_NO_155_06",
+"ITEM_FACTOR_NO_155_07",
+"ITEM_FACTOR_NO_155_08"
+]
+},
+{
+"idx": 156,
+"tag": "ITEM_MAT_WOOD_008",
+"sort": 156,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "黎树瑕枝",
+"en": "Dawn Tree Branch",
+"factors": [
+"ITEM_FACTOR_NO_156_01",
+"ITEM_FACTOR_NO_156_02",
+"ITEM_FACTOR_NO_156_03",
+"ITEM_FACTOR_NO_156_04",
+"ITEM_FACTOR_NO_156_05",
+"ITEM_FACTOR_NO_156_06",
+"ITEM_FACTOR_NO_156_07",
+"ITEM_FACTOR_NO_156_08"
+]
+},
+{
+"idx": 157,
+"tag": "ITEM_MAT_GAS_001",
+"sort": 157,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "翼叶草",
+"en": "Wing Plant",
+"factors": [
+"ITEM_FACTOR_NO_157_01",
+"ITEM_FACTOR_NO_157_02",
+"ITEM_FACTOR_NO_157_03",
+"ITEM_FACTOR_NO_157_04",
+"ITEM_FACTOR_NO_157_05",
+"ITEM_FACTOR_NO_157_06",
+"ITEM_FACTOR_NO_157_07",
+"ITEM_FACTOR_NO_157_08"
+]
+},
+{
+"idx": 158,
+"tag": "ITEM_MAT_GAS_002",
+"sort": 158,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "气球果实",
+"en": "Balloon Fruit",
+"factors": [
+"ITEM_FACTOR_NO_158_01",
+"ITEM_FACTOR_NO_158_02",
+"ITEM_FACTOR_NO_158_03",
+"ITEM_FACTOR_NO_158_04",
+"ITEM_FACTOR_NO_158_05",
+"ITEM_FACTOR_NO_158_06",
+"ITEM_FACTOR_NO_158_07",
+"ITEM_FACTOR_NO_158_08"
+]
+},
+{
+"idx": 159,
+"tag": "ITEM_MAT_GAS_003",
+"sort": 159,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "甜云",
+"en": "Sweet Cloud",
+"factors": [
+"ITEM_FACTOR_NO_159_01",
+"ITEM_FACTOR_NO_159_02",
+"ITEM_FACTOR_NO_159_03",
+"ITEM_FACTOR_NO_159_04",
+"ITEM_FACTOR_NO_159_05",
+"ITEM_FACTOR_NO_159_06",
+"ITEM_FACTOR_NO_159_07",
+"ITEM_FACTOR_NO_159_08"
+]
+},
+{
+"idx": 160,
+"tag": "ITEM_MAT_GAS_004",
+"sort": 160,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "久远的风",
+"en": "Eternal Breeze",
+"factors": [
+"ITEM_FACTOR_NO_160_01",
+"ITEM_FACTOR_NO_160_02",
+"ITEM_FACTOR_NO_160_03",
+"ITEM_FACTOR_NO_160_04",
+"ITEM_FACTOR_NO_160_05",
+"ITEM_FACTOR_NO_160_06",
+"ITEM_FACTOR_NO_160_07",
+"ITEM_FACTOR_NO_160_08"
+]
+},
+{
+"idx": 161,
+"tag": "ITEM_MAT_MYSTIC_001",
+"sort": 161,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "梨形宝石",
+"en": "Pendeloque",
+"factors": [
+"ITEM_FACTOR_NO_161_01",
+"ITEM_FACTOR_NO_161_02",
+"ITEM_FACTOR_NO_161_03",
+"ITEM_FACTOR_NO_161_04",
+"ITEM_FACTOR_NO_161_05",
+"ITEM_FACTOR_NO_161_06",
+"ITEM_FACTOR_NO_161_07",
+"ITEM_FACTOR_NO_161_08"
+]
+},
+{
+"idx": 162,
+"tag": "ITEM_MAT_MYSTIC_002",
+"sort": 162,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "梨形绿宝石",
+"en": "Pendegrün",
+"factors": [
+"ITEM_FACTOR_NO_162_01",
+"ITEM_FACTOR_NO_162_02",
+"ITEM_FACTOR_NO_162_03",
+"ITEM_FACTOR_NO_162_04",
+"ITEM_FACTOR_NO_162_05",
+"ITEM_FACTOR_NO_162_06",
+"ITEM_FACTOR_NO_162_07",
+"ITEM_FACTOR_NO_162_08"
+]
+},
+{
+"idx": 163,
+"tag": "ITEM_MAT_MYSTIC_003",
+"sort": 163,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "魔导书残页",
+"en": "Magic Tome Page",
+"factors": [
+"ITEM_FACTOR_NO_163_01",
+"ITEM_FACTOR_NO_163_02",
+"ITEM_FACTOR_NO_163_03",
+"ITEM_FACTOR_NO_163_04",
+"ITEM_FACTOR_NO_163_05",
+"ITEM_FACTOR_NO_163_06",
+"ITEM_FACTOR_NO_163_07",
+"ITEM_FACTOR_NO_163_08"
+]
+},
+{
+"idx": 164,
+"tag": "ITEM_MAT_MYSTIC_004",
+"sort": 164,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "变色的魔导书",
+"en": "Stained Grimoire",
+"factors": [
+"ITEM_FACTOR_NO_164_01",
+"ITEM_FACTOR_NO_164_02",
+"ITEM_FACTOR_NO_164_03",
+"ITEM_FACTOR_NO_164_04",
+"ITEM_FACTOR_NO_164_05",
+"ITEM_FACTOR_NO_164_06",
+"ITEM_FACTOR_NO_164_07",
+"ITEM_FACTOR_NO_164_08"
+]
+},
+{
+"idx": 165,
+"tag": "ITEM_MAT_MYSTIC_005",
+"sort": 165,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "红珊瑚",
+"en": "Crimson Coral",
+"factors": [
+"ITEM_FACTOR_NO_165_01",
+"ITEM_FACTOR_NO_165_02",
+"ITEM_FACTOR_NO_165_03",
+"ITEM_FACTOR_NO_165_04",
+"ITEM_FACTOR_NO_165_05",
+"ITEM_FACTOR_NO_165_06",
+"ITEM_FACTOR_NO_165_07",
+"ITEM_FACTOR_NO_165_08"
+]
+},
+{
+"idx": 166,
+"tag": "ITEM_MAT_MYSTIC_006",
+"sort": 166,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "海妖之泪",
+"en": "Siren's Tear",
+"factors": [
+"ITEM_FACTOR_NO_166_01",
+"ITEM_FACTOR_NO_166_02",
+"ITEM_FACTOR_NO_166_03",
+"ITEM_FACTOR_NO_166_04",
+"ITEM_FACTOR_NO_166_05",
+"ITEM_FACTOR_NO_166_06",
+"ITEM_FACTOR_NO_166_07",
+"ITEM_FACTOR_NO_166_08"
+]
+},
+{
+"idx": 167,
+"tag": "ITEM_MAT_MYSTIC_007",
+"sort": 167,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "古生物化石",
+"en": "Ancient Fossil",
+"factors": [
+"ITEM_FACTOR_NO_167_01",
+"ITEM_FACTOR_NO_167_02",
+"ITEM_FACTOR_NO_167_03",
+"ITEM_FACTOR_NO_167_04",
+"ITEM_FACTOR_NO_167_05",
+"ITEM_FACTOR_NO_167_06",
+"ITEM_FACTOR_NO_167_07",
+"ITEM_FACTOR_NO_167_08"
+]
+},
+{
+"idx": 168,
+"tag": "ITEM_MAT_MYSTIC_008",
+"sort": 168,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "光彩圆盘",
+"en": "Shining Disk",
+"factors": [
+"ITEM_FACTOR_NO_168_01",
+"ITEM_FACTOR_NO_168_02",
+"ITEM_FACTOR_NO_168_03",
+"ITEM_FACTOR_NO_168_04",
+"ITEM_FACTOR_NO_168_05",
+"ITEM_FACTOR_NO_168_06",
+"ITEM_FACTOR_NO_168_07",
+"ITEM_FACTOR_NO_168_08"
+]
+},
+{
+"idx": 169,
+"tag": "ITEM_MAT_MYSTIC_009",
+"sort": 169,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "流星的碎片",
+"en": "Fallen Star Piece",
+"factors": [
+"ITEM_FACTOR_NO_169_01",
+"ITEM_FACTOR_NO_169_02",
+"ITEM_FACTOR_NO_169_03",
+"ITEM_FACTOR_NO_169_04",
+"ITEM_FACTOR_NO_169_05",
+"ITEM_FACTOR_NO_169_06",
+"ITEM_FACTOR_NO_169_07",
+"ITEM_FACTOR_NO_169_08"
+]
+},
+{
+"idx": 170,
+"tag": "ITEM_MAT_MYSTIC_010",
+"sort": 170,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "黄金叶",
+"en": "Golden Leaf",
+"factors": [
+"ITEM_FACTOR_NO_170_01",
+"ITEM_FACTOR_NO_170_02",
+"ITEM_FACTOR_NO_170_03",
+"ITEM_FACTOR_NO_170_04",
+"ITEM_FACTOR_NO_170_05",
+"ITEM_FACTOR_NO_170_06",
+"ITEM_FACTOR_NO_170_07",
+"ITEM_FACTOR_NO_170_08"
+]
+},
+{
+"idx": 171,
+"tag": "ITEM_MAT_MYSTIC_011",
+"sort": 171,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "走马灯",
+"en": "Licht Kalpasmós",
+"factors": [
+"ITEM_FACTOR_NO_171_01",
+"ITEM_FACTOR_NO_171_02",
+"ITEM_FACTOR_NO_171_03",
+"ITEM_FACTOR_NO_171_04",
+"ITEM_FACTOR_NO_171_05",
+"ITEM_FACTOR_NO_171_06",
+"ITEM_FACTOR_NO_171_07",
+"ITEM_FACTOR_NO_171_08"
+]
+},
+{
+"idx": 172,
+"tag": "ITEM_MAT_PUNI_001",
+"sort": 172,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "噗尼的体液",
+"en": "Puni Liquid",
+"factors": [
+"ITEM_FACTOR_NO_172_01",
+"ITEM_FACTOR_NO_172_02",
+"ITEM_FACTOR_NO_172_03",
+"ITEM_FACTOR_NO_172_04",
+"ITEM_FACTOR_NO_172_05",
+"ITEM_FACTOR_NO_172_06",
+"ITEM_FACTOR_NO_172_07",
+"ITEM_FACTOR_NO_172_08"
+]
+},
+{
+"idx": 173,
+"tag": "ITEM_MAT_PUNI_002",
+"sort": 173,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "噗尼噗尼珠·蓝",
+"en": "Blue Puniballs",
+"factors": [
+"ITEM_FACTOR_NO_173_01",
+"ITEM_FACTOR_NO_173_02",
+"ITEM_FACTOR_NO_173_03",
+"ITEM_FACTOR_NO_173_04",
+"ITEM_FACTOR_NO_173_05",
+"ITEM_FACTOR_NO_173_06",
+"ITEM_FACTOR_NO_173_07",
+"ITEM_FACTOR_NO_173_08"
+]
+},
+{
+"idx": 174,
+"tag": "ITEM_MAT_PUNI_003",
+"sort": 174,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "噗尼噗尼珠·绿",
+"en": "Green Puniballs",
+"factors": [
+"ITEM_FACTOR_NO_174_01",
+"ITEM_FACTOR_NO_174_02",
+"ITEM_FACTOR_NO_174_03",
+"ITEM_FACTOR_NO_174_04",
+"ITEM_FACTOR_NO_174_05",
+"ITEM_FACTOR_NO_174_06",
+"ITEM_FACTOR_NO_174_07",
+"ITEM_FACTOR_NO_174_08"
+]
+},
+{
+"idx": 175,
+"tag": "ITEM_MAT_PUNI_004",
+"sort": 175,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "噗尼噗尼珠·红",
+"en": "Red Puniballs",
+"factors": [
+"ITEM_FACTOR_NO_175_01",
+"ITEM_FACTOR_NO_175_02",
+"ITEM_FACTOR_NO_175_03",
+"ITEM_FACTOR_NO_175_04",
+"ITEM_FACTOR_NO_175_05",
+"ITEM_FACTOR_NO_175_06",
+"ITEM_FACTOR_NO_175_07",
+"ITEM_FACTOR_NO_175_08"
+]
+},
+{
+"idx": 176,
+"tag": "ITEM_MAT_PUNI_005",
+"sort": 176,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "噗尼噗尼珠·黑",
+"en": "Black Puniballs",
+"factors": [
+"ITEM_FACTOR_NO_176_01",
+"ITEM_FACTOR_NO_176_02",
+"ITEM_FACTOR_NO_176_03",
+"ITEM_FACTOR_NO_176_04",
+"ITEM_FACTOR_NO_176_05",
+"ITEM_FACTOR_NO_176_06",
+"ITEM_FACTOR_NO_176_07",
+"ITEM_FACTOR_NO_176_08"
+]
+},
+{
+"idx": 177,
+"tag": "ITEM_MAT_PUNI_006",
+"sort": 177,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "噗尼噗尼珠·银",
+"en": "Silver Puniballs",
+"factors": [
+"ITEM_FACTOR_NO_177_01",
+"ITEM_FACTOR_NO_177_02",
+"ITEM_FACTOR_NO_177_03",
+"ITEM_FACTOR_NO_177_04",
+"ITEM_FACTOR_NO_177_05",
+"ITEM_FACTOR_NO_177_06",
+"ITEM_FACTOR_NO_177_07",
+"ITEM_FACTOR_NO_177_08"
+]
+},
+{
+"idx": 178,
+"tag": "ITEM_MAT_PUNI_007",
+"sort": 178,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "噗尼噗尼珠·金",
+"en": "Gold Puniballs",
+"factors": [
+"ITEM_FACTOR_NO_178_01",
+"ITEM_FACTOR_NO_178_02",
+"ITEM_FACTOR_NO_178_03",
+"ITEM_FACTOR_NO_178_04",
+"ITEM_FACTOR_NO_178_05",
+"ITEM_FACTOR_NO_178_06",
+"ITEM_FACTOR_NO_178_07",
+"ITEM_FACTOR_NO_178_08"
+]
+},
+{
+"idx": 179,
+"tag": "ITEM_MAT_PUNI_008",
+"sort": 179,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "噗尼噗尼珠·白",
+"en": "White Puniballs",
+"factors": [
+"ITEM_FACTOR_NO_179_01",
+"ITEM_FACTOR_NO_179_02",
+"ITEM_FACTOR_NO_179_03",
+"ITEM_FACTOR_NO_179_04",
+"ITEM_FACTOR_NO_179_05",
+"ITEM_FACTOR_NO_179_06",
+"ITEM_FACTOR_NO_179_07",
+"ITEM_FACTOR_NO_179_08"
+]
+},
+{
+"idx": 180,
+"tag": "ITEM_MAT_DROPITEM_001",
+"sort": 180,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "魔鸟的羽毛",
+"en": "Monster Bird Feathers",
+"factors": [
+"ITEM_FACTOR_NO_180_01",
+"ITEM_FACTOR_NO_180_02",
+"ITEM_FACTOR_NO_180_03",
+"ITEM_FACTOR_NO_180_04",
+"ITEM_FACTOR_NO_180_05",
+"ITEM_FACTOR_NO_180_06",
+"ITEM_FACTOR_NO_180_07",
+"ITEM_FACTOR_NO_180_08"
+]
+},
+{
+"idx": 181,
+"tag": "ITEM_MAT_DROPITEM_002",
+"sort": 181,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "坚韧骨头",
+"en": "Tough Bone",
+"factors": [
+"ITEM_FACTOR_NO_181_01",
+"ITEM_FACTOR_NO_181_02",
+"ITEM_FACTOR_NO_181_03",
+"ITEM_FACTOR_NO_181_04",
+"ITEM_FACTOR_NO_181_05",
+"ITEM_FACTOR_NO_181_06",
+"ITEM_FACTOR_NO_181_07",
+"ITEM_FACTOR_NO_181_08"
+]
+},
+{
+"idx": 182,
+"tag": "ITEM_MAT_DROPITEM_003",
+"sort": 182,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "野兽毛皮",
+"en": "Beast Pelt",
+"factors": [
+"ITEM_FACTOR_NO_182_01",
+"ITEM_FACTOR_NO_182_02",
+"ITEM_FACTOR_NO_182_03",
+"ITEM_FACTOR_NO_182_04",
+"ITEM_FACTOR_NO_182_05",
+"ITEM_FACTOR_NO_182_06",
+"ITEM_FACTOR_NO_182_07",
+"ITEM_FACTOR_NO_182_08"
+]
+},
+{
+"idx": 183,
+"tag": "ITEM_MAT_DROPITEM_004",
+"sort": 183,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "上等毛皮",
+"en": "Fine Pelt",
+"factors": [
+"ITEM_FACTOR_NO_183_01",
+"ITEM_FACTOR_NO_183_02",
+"ITEM_FACTOR_NO_183_03",
+"ITEM_FACTOR_NO_183_04",
+"ITEM_FACTOR_NO_183_05",
+"ITEM_FACTOR_NO_183_06",
+"ITEM_FACTOR_NO_183_07",
+"ITEM_FACTOR_NO_183_08"
+]
+},
+{
+"idx": 184,
+"tag": "ITEM_MAT_DROPITEM_005",
+"sort": 184,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "尖爪",
+"en": "Sharp Claws",
+"factors": [
+"ITEM_FACTOR_NO_184_01",
+"ITEM_FACTOR_NO_184_02",
+"ITEM_FACTOR_NO_184_03",
+"ITEM_FACTOR_NO_184_04",
+"ITEM_FACTOR_NO_184_05",
+"ITEM_FACTOR_NO_184_06",
+"ITEM_FACTOR_NO_184_07",
+"ITEM_FACTOR_NO_184_08"
+]
+},
+{
+"idx": 185,
+"tag": "ITEM_MAT_DROPITEM_006",
+"sort": 185,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "妖魔之魂",
+"en": "Devil's Soul",
+"factors": [
+"ITEM_FACTOR_NO_185_01",
+"ITEM_FACTOR_NO_185_02",
+"ITEM_FACTOR_NO_185_03",
+"ITEM_FACTOR_NO_185_04",
+"ITEM_FACTOR_NO_185_05",
+"ITEM_FACTOR_NO_185_06",
+"ITEM_FACTOR_NO_185_07",
+"ITEM_FACTOR_NO_185_08"
+]
+},
+{
+"idx": 186,
+"tag": "ITEM_MAT_DROPITEM_007",
+"sort": 186,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "亡灵的手套",
+"en": "Ghost Glove",
+"factors": [
+"ITEM_FACTOR_NO_186_01",
+"ITEM_FACTOR_NO_186_02",
+"ITEM_FACTOR_NO_186_03",
+"ITEM_FACTOR_NO_186_04",
+"ITEM_FACTOR_NO_186_05",
+"ITEM_FACTOR_NO_186_06",
+"ITEM_FACTOR_NO_186_07",
+"ITEM_FACTOR_NO_186_08"
+]
+},
+{
+"idx": 187,
+"tag": "ITEM_MAT_DROPITEM_008",
+"sort": 187,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "兔毛",
+"en": "Rabbit Fur",
+"factors": [
+"ITEM_FACTOR_NO_187_01",
+"ITEM_FACTOR_NO_187_02",
+"ITEM_FACTOR_NO_187_03",
+"ITEM_FACTOR_NO_187_04",
+"ITEM_FACTOR_NO_187_05",
+"ITEM_FACTOR_NO_187_06",
+"ITEM_FACTOR_NO_187_07",
+"ITEM_FACTOR_NO_187_08"
+]
+},
+{
+"idx": 188,
+"tag": "ITEM_MAT_DROPITEM_009",
+"sort": 188,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "独角",
+"en": "Horn",
+"factors": [
+"ITEM_FACTOR_NO_188_01",
+"ITEM_FACTOR_NO_188_02",
+"ITEM_FACTOR_NO_188_03",
+"ITEM_FACTOR_NO_188_04",
+"ITEM_FACTOR_NO_188_05",
+"ITEM_FACTOR_NO_188_06",
+"ITEM_FACTOR_NO_188_07",
+"ITEM_FACTOR_NO_188_08"
+]
+},
+{
+"idx": 189,
+"tag": "ITEM_MAT_DROPITEM_010",
+"sort": 189,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "蝙蝠翅膀",
+"en": "Bat Wing",
+"factors": [
+"ITEM_FACTOR_NO_189_01",
+"ITEM_FACTOR_NO_189_02",
+"ITEM_FACTOR_NO_189_03",
+"ITEM_FACTOR_NO_189_04",
+"ITEM_FACTOR_NO_189_05",
+"ITEM_FACTOR_NO_189_06",
+"ITEM_FACTOR_NO_189_07",
+"ITEM_FACTOR_NO_189_08"
+]
+},
+{
+"idx": 190,
+"tag": "ITEM_MAT_DROPITEM_011",
+"sort": 190,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "病患鸡尾酒",
+"en": "Kranke Cocktail",
+"factors": [
+"ITEM_FACTOR_NO_190_01",
+"ITEM_FACTOR_NO_190_02",
+"ITEM_FACTOR_NO_190_03",
+"ITEM_FACTOR_NO_190_04",
+"ITEM_FACTOR_NO_190_05",
+"ITEM_FACTOR_NO_190_06",
+"ITEM_FACTOR_NO_190_07",
+"ITEM_FACTOR_NO_190_08"
+]
+},
+{
+"idx": 191,
+"tag": "ITEM_MAT_DROPITEM_012",
+"sort": 191,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "蘑菇孢子",
+"en": "Mushroom Powder",
+"factors": [
+"ITEM_FACTOR_NO_191_01",
+"ITEM_FACTOR_NO_191_02",
+"ITEM_FACTOR_NO_191_03",
+"ITEM_FACTOR_NO_191_04",
+"ITEM_FACTOR_NO_191_05",
+"ITEM_FACTOR_NO_191_06",
+"ITEM_FACTOR_NO_191_07",
+"ITEM_FACTOR_NO_191_08"
+]
+},
+{
+"idx": 192,
+"tag": "ITEM_MAT_DROPITEM_013",
+"sort": 192,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "肥厚菇舌",
+"en": "Thick Tongue",
+"factors": [
+"ITEM_FACTOR_NO_192_01",
+"ITEM_FACTOR_NO_192_02",
+"ITEM_FACTOR_NO_192_03",
+"ITEM_FACTOR_NO_192_04",
+"ITEM_FACTOR_NO_192_05",
+"ITEM_FACTOR_NO_192_06",
+"ITEM_FACTOR_NO_192_07",
+"ITEM_FACTOR_NO_192_08"
+]
+},
+{
+"idx": 193,
+"tag": "ITEM_MAT_DROPITEM_014",
+"sort": 193,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "果冻宝石",
+"en": "Jelly Gems",
+"factors": [
+"ITEM_FACTOR_NO_193_01",
+"ITEM_FACTOR_NO_193_02",
+"ITEM_FACTOR_NO_193_03",
+"ITEM_FACTOR_NO_193_04",
+"ITEM_FACTOR_NO_193_05",
+"ITEM_FACTOR_NO_193_06",
+"ITEM_FACTOR_NO_193_07",
+"ITEM_FACTOR_NO_193_08"
+]
+},
+{
+"idx": 194,
+"tag": "ITEM_MAT_DROPITEM_015",
+"sort": 194,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "水母之源",
+"en": "Jellyfish Larvae",
+"factors": [
+"ITEM_FACTOR_NO_194_01",
+"ITEM_FACTOR_NO_194_02",
+"ITEM_FACTOR_NO_194_03",
+"ITEM_FACTOR_NO_194_04",
+"ITEM_FACTOR_NO_194_05",
+"ITEM_FACTOR_NO_194_06",
+"ITEM_FACTOR_NO_194_07",
+"ITEM_FACTOR_NO_194_08"
+]
+},
+{
+"idx": 195,
+"tag": "ITEM_MAT_DROPITEM_016",
+"sort": 195,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "怨嗟悲鸣",
+"en": "Resentful Scream",
+"factors": [
+"ITEM_FACTOR_NO_195_01",
+"ITEM_FACTOR_NO_195_02",
+"ITEM_FACTOR_NO_195_03",
+"ITEM_FACTOR_NO_195_04",
+"ITEM_FACTOR_NO_195_05",
+"ITEM_FACTOR_NO_195_06",
+"ITEM_FACTOR_NO_195_07",
+"ITEM_FACTOR_NO_195_08"
+]
+},
+{
+"idx": 196,
+"tag": "ITEM_MAT_DROPITEM_017",
+"sort": 196,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "芬芳花束",
+"en": "Parfum Bouquet",
+"factors": [
+"ITEM_FACTOR_NO_196_01",
+"ITEM_FACTOR_NO_196_02",
+"ITEM_FACTOR_NO_196_03",
+"ITEM_FACTOR_NO_196_04",
+"ITEM_FACTOR_NO_196_05",
+"ITEM_FACTOR_NO_196_06",
+"ITEM_FACTOR_NO_196_07",
+"ITEM_FACTOR_NO_196_08"
+]
+},
+{
+"idx": 197,
+"tag": "ITEM_MAT_DROPITEM_018",
+"sort": 197,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "狮鹰的羽毛",
+"en": "Griffon Feather",
+"factors": [
+"ITEM_FACTOR_NO_197_01",
+"ITEM_FACTOR_NO_197_02",
+"ITEM_FACTOR_NO_197_03",
+"ITEM_FACTOR_NO_197_04",
+"ITEM_FACTOR_NO_197_05",
+"ITEM_FACTOR_NO_197_06",
+"ITEM_FACTOR_NO_197_07",
+"ITEM_FACTOR_NO_197_08"
+]
+},
+{
+"idx": 198,
+"tag": "ITEM_MAT_DROPITEM_019",
+"sort": 198,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "巨兽之骨",
+"en": "Big Beast Bone",
+"factors": [
+"ITEM_FACTOR_NO_198_01",
+"ITEM_FACTOR_NO_198_02",
+"ITEM_FACTOR_NO_198_03",
+"ITEM_FACTOR_NO_198_04",
+"ITEM_FACTOR_NO_198_05",
+"ITEM_FACTOR_NO_198_06",
+"ITEM_FACTOR_NO_198_07",
+"ITEM_FACTOR_NO_198_08"
+]
+},
+{
+"idx": 199,
+"tag": "ITEM_MAT_DROPITEM_020",
+"sort": 199,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "巨鸟随身巢",
+"en": "Large Portable Nest",
+"factors": [
+"ITEM_FACTOR_NO_199_01",
+"ITEM_FACTOR_NO_199_02",
+"ITEM_FACTOR_NO_199_03",
+"ITEM_FACTOR_NO_199_04",
+"ITEM_FACTOR_NO_199_05",
+"ITEM_FACTOR_NO_199_06",
+"ITEM_FACTOR_NO_199_07",
+"ITEM_FACTOR_NO_199_08"
+]
+},
+{
+"idx": 200,
+"tag": "ITEM_MAT_DROPITEM_021",
+"sort": 200,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "邪恶之牙",
+"en": "Wicked Fang",
+"factors": [
+"ITEM_FACTOR_NO_200_01",
+"ITEM_FACTOR_NO_200_02",
+"ITEM_FACTOR_NO_200_03",
+"ITEM_FACTOR_NO_200_04",
+"ITEM_FACTOR_NO_200_05",
+"ITEM_FACTOR_NO_200_06",
+"ITEM_FACTOR_NO_200_07",
+"ITEM_FACTOR_NO_200_08"
+]
+},
+{
+"idx": 201,
+"tag": "ITEM_MAT_DROPITEM_022",
+"sort": 201,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "邪恶骨头",
+"en": "Wicked Bone",
+"factors": [
+"ITEM_FACTOR_NO_201_01",
+"ITEM_FACTOR_NO_201_02",
+"ITEM_FACTOR_NO_201_03",
+"ITEM_FACTOR_NO_201_04",
+"ITEM_FACTOR_NO_201_05",
+"ITEM_FACTOR_NO_201_06",
+"ITEM_FACTOR_NO_201_07",
+"ITEM_FACTOR_NO_201_08"
+]
+},
+{
+"idx": 202,
+"tag": "ITEM_MAT_DROPITEM_023",
+"sort": 202,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "禁忌的魔导书",
+"en": "Forbidden Grimoire",
+"factors": [
+"ITEM_FACTOR_NO_202_01",
+"ITEM_FACTOR_NO_202_02",
+"ITEM_FACTOR_NO_202_03",
+"ITEM_FACTOR_NO_202_04",
+"ITEM_FACTOR_NO_202_05",
+"ITEM_FACTOR_NO_202_06",
+"ITEM_FACTOR_NO_202_07",
+"ITEM_FACTOR_NO_202_08"
+]
+},
+{
+"idx": 203,
+"tag": "ITEM_MAT_DROPITEM_024",
+"sort": 203,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "魔巨人之核",
+"en": "Golem Core",
+"factors": [
+"ITEM_FACTOR_NO_203_01",
+"ITEM_FACTOR_NO_203_02",
+"ITEM_FACTOR_NO_203_03",
+"ITEM_FACTOR_NO_203_04",
+"ITEM_FACTOR_NO_203_05",
+"ITEM_FACTOR_NO_203_06",
+"ITEM_FACTOR_NO_203_07",
+"ITEM_FACTOR_NO_203_08"
+]
+},
+{
+"idx": 204,
+"tag": "ITEM_MAT_DROPITEM_025",
+"sort": 204,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "坚硬石片",
+"en": "Sturdy Stone",
+"factors": [
+"ITEM_FACTOR_NO_204_01",
+"ITEM_FACTOR_NO_204_02",
+"ITEM_FACTOR_NO_204_03",
+"ITEM_FACTOR_NO_204_04",
+"ITEM_FACTOR_NO_204_05",
+"ITEM_FACTOR_NO_204_06",
+"ITEM_FACTOR_NO_204_07",
+"ITEM_FACTOR_NO_204_08"
+]
+},
+{
+"idx": 205,
+"tag": "ITEM_MAT_DROPITEM_026",
+"sort": 205,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "灵魂黏土",
+"en": "Seele Pilós",
+"factors": [
+"ITEM_FACTOR_NO_205_01",
+"ITEM_FACTOR_NO_205_02",
+"ITEM_FACTOR_NO_205_03",
+"ITEM_FACTOR_NO_205_04",
+"ITEM_FACTOR_NO_205_05",
+"ITEM_FACTOR_NO_205_06",
+"ITEM_FACTOR_NO_205_07",
+"ITEM_FACTOR_NO_205_08"
+]
+},
+{
+"idx": 206,
+"tag": "ITEM_MAT_DROPITEM_027",
+"sort": 206,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "龙鳞片",
+"en": "Dragon Scale",
+"factors": [
+"ITEM_FACTOR_NO_206_01",
+"ITEM_FACTOR_NO_206_02",
+"ITEM_FACTOR_NO_206_03",
+"ITEM_FACTOR_NO_206_04",
+"ITEM_FACTOR_NO_206_05",
+"ITEM_FACTOR_NO_206_06",
+"ITEM_FACTOR_NO_206_07",
+"ITEM_FACTOR_NO_206_08"
+]
+},
+{
+"idx": 207,
+"tag": "ITEM_MAT_DROPITEM_028",
+"sort": 207,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "龙核",
+"en": "Dragon Core",
+"factors": [
+"ITEM_FACTOR_NO_207_01",
+"ITEM_FACTOR_NO_207_02",
+"ITEM_FACTOR_NO_207_03",
+"ITEM_FACTOR_NO_207_04",
+"ITEM_FACTOR_NO_207_05",
+"ITEM_FACTOR_NO_207_06",
+"ITEM_FACTOR_NO_207_07",
+"ITEM_FACTOR_NO_207_08"
+]
+},
+{
+"idx": 208,
+"tag": "ITEM_MAT_DROPITEM_029",
+"sort": 208,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "龙之血晶",
+"en": "Dragon Bloodstone",
+"factors": [
+"ITEM_FACTOR_NO_208_01",
+"ITEM_FACTOR_NO_208_02",
+"ITEM_FACTOR_NO_208_03",
+"ITEM_FACTOR_NO_208_04",
+"ITEM_FACTOR_NO_208_05",
+"ITEM_FACTOR_NO_208_06",
+"ITEM_FACTOR_NO_208_07",
+"ITEM_FACTOR_NO_208_08"
+]
+},
+{
+"idx": 209,
+"tag": "ITEM_MAT_DROPITEM_030",
+"sort": 209,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "龙眼",
+"en": "Dragon Eye",
+"factors": [
+"ITEM_FACTOR_NO_209_01",
+"ITEM_FACTOR_NO_209_02",
+"ITEM_FACTOR_NO_209_03",
+"ITEM_FACTOR_NO_209_04",
+"ITEM_FACTOR_NO_209_05",
+"ITEM_FACTOR_NO_209_06",
+"ITEM_FACTOR_NO_209_07",
+"ITEM_FACTOR_NO_209_08"
+]
+},
+{
+"idx": 210,
+"tag": "ITEM_MAT_DROPITEM_031",
+"sort": 210,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "吐息器官",
+"en": "Breath Organ",
+"factors": [
+"ITEM_FACTOR_NO_210_01",
+"ITEM_FACTOR_NO_210_02",
+"ITEM_FACTOR_NO_210_03",
+"ITEM_FACTOR_NO_210_04",
+"ITEM_FACTOR_NO_210_05",
+"ITEM_FACTOR_NO_210_06",
+"ITEM_FACTOR_NO_210_07",
+"ITEM_FACTOR_NO_210_08"
+]
+},
+{
+"idx": 211,
+"tag": "ITEM_MAT_DROPITEM_032",
+"sort": 211,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "邪恶核石",
+"en": "Evil Core",
+"factors": [
+"ITEM_FACTOR_NO_211_01",
+"ITEM_FACTOR_NO_211_02",
+"ITEM_FACTOR_NO_211_03",
+"ITEM_FACTOR_NO_211_04",
+"ITEM_FACTOR_NO_211_05",
+"ITEM_FACTOR_NO_211_06",
+"ITEM_FACTOR_NO_211_07",
+"ITEM_FACTOR_NO_211_08"
+]
+},
+{
+"idx": 212,
+"tag": "ITEM_MAT_DROPITEM_033",
+"sort": 212,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "魔兽毒囊",
+"en": "Monster Poison Organ",
+"factors": [
+"ITEM_FACTOR_NO_212_01",
+"ITEM_FACTOR_NO_212_02",
+"ITEM_FACTOR_NO_212_03",
+"ITEM_FACTOR_NO_212_04",
+"ITEM_FACTOR_NO_212_05",
+"ITEM_FACTOR_NO_212_06",
+"ITEM_FACTOR_NO_212_07",
+"ITEM_FACTOR_NO_212_08"
+]
+},
+{
+"idx": 213,
+"tag": "ITEM_MAT_DROPITEM_034",
+"sort": 213,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "虚实触手",
+"en": "Dreamer's Tentacle",
+"factors": [
+"ITEM_FACTOR_NO_213_01",
+"ITEM_FACTOR_NO_213_02",
+"ITEM_FACTOR_NO_213_03",
+"ITEM_FACTOR_NO_213_04",
+"ITEM_FACTOR_NO_213_05",
+"ITEM_FACTOR_NO_213_06",
+"ITEM_FACTOR_NO_213_07",
+"ITEM_FACTOR_NO_213_08"
+]
+},
+{
+"idx": 214,
+"tag": "ITEM_MAT_RESERVE_001",
+"sort": 214,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 215,
+"tag": "ITEM_MAT_RESERVE_002",
+"sort": 215,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 216,
+"tag": "ITEM_MAT_RESERVE_003",
+"sort": 216,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 217,
+"tag": "ITEM_MAT_RESERVE_004",
+"sort": 217,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 218,
+"tag": "ITEM_MAT_RESERVE_005",
+"sort": 218,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 219,
+"tag": "ITEM_MAT_RESERVE_006",
+"sort": 219,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 220,
+"tag": "ITEM_MAT_RESERVE_007",
+"sort": 220,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 221,
+"tag": "ITEM_MAT_RESERVE_008",
+"sort": 221,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 222,
+"tag": "ITEM_MAT_RESERVE_009",
+"sort": 222,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 223,
+"tag": "ITEM_MAT_RESERVE_010",
+"sort": 223,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 224,
+"tag": "ITEM_MAT_RESERVE_011",
+"sort": 224,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 225,
+"tag": "ITEM_MAT_RESERVE_012",
+"sort": 225,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 226,
+"tag": "ITEM_MAT_RESERVE_013",
+"sort": 226,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 227,
+"tag": "ITEM_MAT_RESERVE_014",
+"sort": 227,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 228,
+"tag": "ITEM_MAT_RESERVE_015",
+"sort": 228,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 229,
+"tag": "ITEM_MAT_RESERVE_016",
+"sort": 229,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 230,
+"tag": "ITEM_MAT_RESERVE_017",
+"sort": 230,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 231,
+"tag": "ITEM_MAT_RESERVE_018",
+"sort": 231,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 232,
+"tag": "ITEM_MAT_RESERVE_019",
+"sort": 232,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 233,
+"tag": "ITEM_MAT_RESERVE_020",
+"sort": 233,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 234,
+"tag": "ITEM_MAT_RESERVE_021",
+"sort": 234,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 235,
+"tag": "ITEM_MAT_RESERVE_022",
+"sort": 235,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 236,
+"tag": "ITEM_MAT_RESERVE_023",
+"sort": 236,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 237,
+"tag": "ITEM_MAT_RESERVE_024",
+"sort": 237,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 238,
+"tag": "ITEM_MAT_RESERVE_025",
+"sort": 238,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 239,
+"tag": "ITEM_MAT_RESERVE_026",
+"sort": 239,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 240,
+"tag": "ITEM_MAT_RESERVE_027",
+"sort": 240,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 241,
+"tag": "ITEM_MAT_RESERVE_028",
+"sort": 241,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 242,
+"tag": "ITEM_MAT_RESERVE_029",
+"sort": 242,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 243,
+"tag": "ITEM_MAT_RESERVE_030",
+"sort": 243,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 244,
+"tag": "ITEM_MAT_RESERVE_031",
+"sort": 244,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 245,
+"tag": "ITEM_MAT_RESERVE_032",
+"sort": 245,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 246,
+"tag": "ITEM_MAT_RESERVE_033",
+"sort": 246,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 247,
+"tag": "ITEM_MAT_RESERVE_034",
+"sort": 247,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 248,
+"tag": "ITEM_MAT_RESERVE_035",
+"sort": 248,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 249,
+"tag": "ITEM_MAT_RESERVE_036",
+"sort": 249,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 250,
+"tag": "ITEM_MAT_RESERVE_037",
+"sort": 250,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 251,
+"tag": "ITEM_MAT_RESERVE_038",
+"sort": 251,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 252,
+"tag": "ITEM_MAT_RESERVE_039",
+"sort": 252,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 253,
+"tag": "ITEM_MAT_RESERVE_040",
+"sort": 253,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 254,
+"tag": "ITEM_MAT_RESERVE_041",
+"sort": 254,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 255,
+"tag": "ITEM_MAT_RESERVE_042",
+"sort": 255,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 256,
+"tag": "ITEM_MAT_RESERVE_043",
+"sort": 256,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 257,
+"tag": "ITEM_MAT_RESERVE_044",
+"sort": 257,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 258,
+"tag": "ITEM_MAT_RESERVE_045",
+"sort": 258,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 259,
+"tag": "ITEM_MAT_RESERVE_046",
+"sort": 259,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 260,
+"tag": "ITEM_MAT_RESERVE_047",
+"sort": 260,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 261,
+"tag": "ITEM_MAT_RESERVE_048",
+"sort": 261,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 262,
+"tag": "ITEM_MAT_RESERVE_049",
+"sort": 262,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 263,
+"tag": "ITEM_MAT_RESERVE_050",
+"sort": 263,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 264,
+"tag": "ITEM_MAT_QUEST_001",
+"sort": 264,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "一夜花",
+"en": "Dunkelheit",
+"factors": [
+"ITEM_FACTOR_NO_264_01",
+"ITEM_FACTOR_NO_264_02",
+"ITEM_FACTOR_NO_264_03",
+"ITEM_FACTOR_NO_264_04",
+"ITEM_FACTOR_NO_264_05",
+"ITEM_FACTOR_NO_264_06",
+"ITEM_FACTOR_NO_264_07",
+"ITEM_FACTOR_NO_264_08"
+]
+},
+{
+"idx": 265,
+"tag": "ITEM_MAT_QUEST_002",
+"sort": 265,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "返魂灵木",
+"en": "Spiritcall Tree",
+"factors": [
+"ITEM_FACTOR_NO_265_01",
+"ITEM_FACTOR_NO_265_02",
+"ITEM_FACTOR_NO_265_03",
+"ITEM_FACTOR_NO_265_04",
+"ITEM_FACTOR_NO_265_05",
+"ITEM_FACTOR_NO_265_06",
+"ITEM_FACTOR_NO_265_07",
+"ITEM_FACTOR_NO_265_08"
+]
+},
+{
+"idx": 266,
+"tag": "ITEM_MAT_QUEST_003",
+"sort": 266,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "杀狼毒草",
+"en": "Zersetzend Wolf",
+"factors": [
+"ITEM_FACTOR_NO_266_01",
+"ITEM_FACTOR_NO_266_02",
+"ITEM_FACTOR_NO_266_03",
+"ITEM_FACTOR_NO_266_04",
+"ITEM_FACTOR_NO_266_05",
+"ITEM_FACTOR_NO_266_06",
+"ITEM_FACTOR_NO_266_07",
+"ITEM_FACTOR_NO_266_08"
+]
+},
+{
+"idx": 267,
+"tag": "ITEM_MAT_QUEST_004",
+"sort": 267,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "深渊之瞳",
+"en": "Abgrund Schüler",
+"factors": [
+"ITEM_FACTOR_NO_267_01",
+"ITEM_FACTOR_NO_267_02",
+"ITEM_FACTOR_NO_267_03",
+"ITEM_FACTOR_NO_267_04",
+"ITEM_FACTOR_NO_267_05",
+"ITEM_FACTOR_NO_267_06",
+"ITEM_FACTOR_NO_267_07",
+"ITEM_FACTOR_NO_267_08"
+]
+},
+{
+"idx": 268,
+"tag": "ITEM_MAT_QUEST_005",
+"sort": 268,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "悠久苏铁",
+"en": "Eternal Plate",
+"factors": [
+"ITEM_FACTOR_NO_268_01",
+"ITEM_FACTOR_NO_268_02",
+"ITEM_FACTOR_NO_268_03",
+"ITEM_FACTOR_NO_268_04",
+"ITEM_FACTOR_NO_268_05",
+"ITEM_FACTOR_NO_268_06",
+"ITEM_FACTOR_NO_268_07",
+"ITEM_FACTOR_NO_268_08"
+]
+},
+{
+"idx": 269,
+"tag": "ITEM_MAT_QUEST_006",
+"sort": 269,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "林德虫爪",
+"en": "Lindorm Kløer",
+"factors": [
+"ITEM_FACTOR_NO_269_01",
+"ITEM_FACTOR_NO_269_02",
+"ITEM_FACTOR_NO_269_03",
+"ITEM_FACTOR_NO_269_04",
+"ITEM_FACTOR_NO_269_05",
+"ITEM_FACTOR_NO_269_06",
+"ITEM_FACTOR_NO_269_07",
+"ITEM_FACTOR_NO_269_08"
+]
+},
+{
+"idx": 270,
+"tag": "ITEM_MAT_QUEST_007",
+"sort": 270,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "叛逆栀子花",
+"en": "Rebellion Gardenia",
+"factors": [
+"ITEM_FACTOR_NO_270_01",
+"ITEM_FACTOR_NO_270_02",
+"ITEM_FACTOR_NO_270_03",
+"ITEM_FACTOR_NO_270_04",
+"ITEM_FACTOR_NO_270_05",
+"ITEM_FACTOR_NO_270_06",
+"ITEM_FACTOR_NO_270_07",
+"ITEM_FACTOR_NO_270_08"
+]
+},
+{
+"idx": 271,
+"tag": "ITEM_MAT_QUEST_008",
+"sort": 271,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "星幻钥匙",
+"en": "Key to the Stars",
+"factors": [
+"ITEM_FACTOR_NO_271_01",
+"ITEM_FACTOR_NO_271_02",
+"ITEM_FACTOR_NO_271_03",
+"ITEM_FACTOR_NO_271_04",
+"ITEM_FACTOR_NO_271_05",
+"ITEM_FACTOR_NO_271_06",
+"ITEM_FACTOR_NO_271_07",
+"ITEM_FACTOR_NO_271_08"
+]
+},
+{
+"idx": 272,
+"tag": "ITEM_MAT_QUEST_009",
+"sort": 272,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "独角",
+"en": "Monoclonius",
+"factors": [
+"ITEM_FACTOR_NO_272_01",
+"ITEM_FACTOR_NO_272_02",
+"ITEM_FACTOR_NO_272_03",
+"ITEM_FACTOR_NO_272_04",
+"ITEM_FACTOR_NO_272_05",
+"ITEM_FACTOR_NO_272_06",
+"ITEM_FACTOR_NO_272_07",
+"ITEM_FACTOR_NO_272_08"
+]
+},
+{
+"idx": 273,
+"tag": "ITEM_MAT_QUEST_010",
+"sort": 273,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "银通草",
+"en": "Silver Taun",
+"factors": [
+"ITEM_FACTOR_NO_273_01",
+"ITEM_FACTOR_NO_273_02",
+"ITEM_FACTOR_NO_273_03",
+"ITEM_FACTOR_NO_273_04",
+"ITEM_FACTOR_NO_273_05",
+"ITEM_FACTOR_NO_273_06",
+"ITEM_FACTOR_NO_273_07",
+"ITEM_FACTOR_NO_273_08"
+]
+},
+{
+"idx": 274,
+"tag": "ITEM_MAT_QUEST_011",
+"sort": 274,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "烈焰羽",
+"en": "Feurige Feather",
+"factors": [
+"ITEM_FACTOR_NO_274_01",
+"ITEM_FACTOR_NO_274_02",
+"ITEM_FACTOR_NO_274_03",
+"ITEM_FACTOR_NO_274_04",
+"ITEM_FACTOR_NO_274_05",
+"ITEM_FACTOR_NO_274_06",
+"ITEM_FACTOR_NO_274_07",
+"ITEM_FACTOR_NO_274_08"
+]
+},
+{
+"idx": 275,
+"tag": "ITEM_MAT_QUEST_012",
+"sort": 275,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "骨头宝石",
+"en": "Bone Gem",
+"factors": [
+"ITEM_FACTOR_NO_275_01",
+"ITEM_FACTOR_NO_275_02",
+"ITEM_FACTOR_NO_275_03",
+"ITEM_FACTOR_NO_275_04",
+"ITEM_FACTOR_NO_275_05",
+"ITEM_FACTOR_NO_275_06",
+"ITEM_FACTOR_NO_275_07",
+"ITEM_FACTOR_NO_275_08"
+]
+},
+{
+"idx": 276,
+"tag": "ITEM_MAT_QUEST_013",
+"sort": 276,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "玄历菇",
+"en": "Antique Mushroom",
+"factors": [
+"ITEM_FACTOR_NO_276_01",
+"ITEM_FACTOR_NO_276_02",
+"ITEM_FACTOR_NO_276_03",
+"ITEM_FACTOR_NO_276_04",
+"ITEM_FACTOR_NO_276_05",
+"ITEM_FACTOR_NO_276_06",
+"ITEM_FACTOR_NO_276_07",
+"ITEM_FACTOR_NO_276_08"
+]
+},
+{
+"idx": 277,
+"tag": "ITEM_MAT_QUEST_014",
+"sort": 277,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "苍龙鳞片",
+"en": "Azure Dragon Scale",
+"factors": [
+"ITEM_FACTOR_NO_277_01",
+"ITEM_FACTOR_NO_277_02",
+"ITEM_FACTOR_NO_277_03",
+"ITEM_FACTOR_NO_277_04",
+"ITEM_FACTOR_NO_277_05",
+"ITEM_FACTOR_NO_277_06",
+"ITEM_FACTOR_NO_277_07",
+"ITEM_FACTOR_NO_277_08"
+]
+},
+{
+"idx": 278,
+"tag": "ITEM_MAT_QUEST_015",
+"sort": 278,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "黑曜岩之核",
+"en": "Obsidian Core",
+"factors": [
+"ITEM_FACTOR_NO_278_01",
+"ITEM_FACTOR_NO_278_02",
+"ITEM_FACTOR_NO_278_03",
+"ITEM_FACTOR_NO_278_04",
+"ITEM_FACTOR_NO_278_05",
+"ITEM_FACTOR_NO_278_06",
+"ITEM_FACTOR_NO_278_07",
+"ITEM_FACTOR_NO_278_08"
+]
+},
+{
+"idx": 279,
+"tag": "ITEM_MAT_QUEST_016",
+"sort": 279,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "宵星碎片",
+"en": "Evening Star Piece",
+"factors": [
+"ITEM_FACTOR_NO_279_01",
+"ITEM_FACTOR_NO_279_02",
+"ITEM_FACTOR_NO_279_03",
+"ITEM_FACTOR_NO_279_04",
+"ITEM_FACTOR_NO_279_05",
+"ITEM_FACTOR_NO_279_06",
+"ITEM_FACTOR_NO_279_07",
+"ITEM_FACTOR_NO_279_08"
+]
+},
+{
+"idx": 280,
+"tag": "ITEM_MAT_QUEST_RESERVE_001",
+"sort": 280,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 281,
+"tag": "ITEM_MAT_QUEST_RESERVE_002",
+"sort": 281,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 282,
+"tag": "ITEM_MAT_QUEST_RESERVE_003",
+"sort": 282,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 283,
+"tag": "ITEM_MAT_QUEST_RESERVE_004",
+"sort": 283,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 284,
+"tag": "ITEM_MAT_QUEST_RESERVE_005",
+"sort": 284,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 285,
+"tag": "ITEM_MAT_QUEST_RESERVE_006",
+"sort": 285,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 286,
+"tag": "ITEM_MAT_QUEST_RESERVE_007",
+"sort": 286,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 287,
+"tag": "ITEM_MAT_QUEST_RESERVE_008",
+"sort": 287,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 288,
+"tag": "ITEM_MAT_QUEST_RESERVE_009",
+"sort": 288,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 289,
+"tag": "ITEM_MAT_QUEST_RESERVE_010",
+"sort": 289,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 290,
+"tag": "ITEM_MIX_ATTACK_001",
+"sort": 290,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "诡雷",
+"en": "Craft",
+"factors": [
+"ITEM_FACTOR_NO_290_01"
+]
+},
+{
+"idx": 291,
+"tag": "ITEM_MIX_ATTACK_002",
+"sort": 291,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "炎烧",
+"en": "Bomb",
+"factors": [
+"ITEM_FACTOR_NO_291_01"
+]
+},
+{
+"idx": 292,
+"tag": "ITEM_MIX_ATTACK_003",
+"sort": 292,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "冰精",
+"en": "Ice Bomb",
+"factors": [
+"ITEM_FACTOR_NO_292_01"
+]
+},
+{
+"idx": 293,
+"tag": "ITEM_MIX_ATTACK_004",
+"sort": 293,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "电导之石",
+"en": "Lightning Bomb",
+"factors": [
+"ITEM_FACTOR_NO_293_01"
+]
+},
+{
+"idx": 294,
+"tag": "ITEM_MIX_ATTACK_005",
+"sort": 294,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "风精",
+"en": "Luft",
+"factors": [
+"ITEM_FACTOR_NO_294_01"
+]
+},
+{
+"idx": 295,
+"tag": "ITEM_MIX_ATTACK_006",
+"sort": 295,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "噗尼噗尼弹",
+"en": "Puni Missile",
+"factors": [
+"ITEM_FACTOR_NO_295_01"
+]
+},
+{
+"idx": 296,
+"tag": "ITEM_MIX_ATTACK_007",
+"sort": 296,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "排击的秤锤",
+"en": "Rejection Weight",
+"factors": [
+"ITEM_FACTOR_NO_296_01"
+]
+},
+{
+"idx": 297,
+"tag": "ITEM_MIX_ATTACK_008",
+"sort": 297,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "神奇石",
+"en": "Mysticastein",
+"factors": [
+"ITEM_FACTOR_NO_297_01",
+"ITEM_FACTOR_NO_297_02"
+]
+},
+{
+"idx": 298,
+"tag": "ITEM_MIX_ATTACK_009",
+"sort": 298,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "扩大诡雷",
+"en": "Extacraft",
+"factors": [
+"ITEM_FACTOR_NO_298_01",
+"ITEM_FACTOR_NO_298_02"
+]
+},
+{
+"idx": 299,
+"tag": "ITEM_MIX_ATTACK_010",
+"sort": 299,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "龙炎烧",
+"en": "Draco Bomb",
+"factors": [
+"ITEM_FACTOR_NO_299_01",
+"ITEM_FACTOR_NO_299_02"
+]
+},
+{
+"idx": 300,
+"tag": "ITEM_MIX_ATTACK_011",
+"sort": 300,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "漩涡冰精",
+"en": "Wirbel Ice Bomb",
+"factors": [
+"ITEM_FACTOR_NO_300_01",
+"ITEM_FACTOR_NO_300_02"
+]
+},
+{
+"idx": 301,
+"tag": "ITEM_MIX_ATTACK_012",
+"sort": 301,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "伏地电导",
+"en": "Kriech Lightning Bomb",
+"factors": [
+"ITEM_FACTOR_NO_301_01",
+"ITEM_FACTOR_NO_301_02"
+]
+},
+{
+"idx": 302,
+"tag": "ITEM_MIX_ATTACK_013",
+"sort": 302,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "典礼风精",
+"en": "Ritual Luft",
+"factors": [
+"ITEM_FACTOR_NO_302_01",
+"ITEM_FACTOR_NO_302_02"
+]
+},
+{
+"idx": 303,
+"tag": "ITEM_MIX_ATTACK_014",
+"sort": 303,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "神遗落的物品",
+"en": "God's Gift",
+"factors": [
+"ITEM_FACTOR_NO_303_01",
+"ITEM_FACTOR_NO_303_02"
+]
+},
+{
+"idx": 304,
+"tag": "ITEM_MIX_ATTACK_015",
+"sort": 304,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "原初的种火",
+"en": "Flame of Origin",
+"factors": [
+"ITEM_FACTOR_NO_304_01",
+"ITEM_FACTOR_NO_304_02"
+]
+},
+{
+"idx": 305,
+"tag": "ITEM_MIX_ATTACK_016",
+"sort": 305,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "天界的大扫除",
+"en": "Heaven's Cleanser",
+"factors": [
+"ITEM_FACTOR_NO_305_01",
+"ITEM_FACTOR_NO_305_02"
+]
+},
+{
+"idx": 306,
+"tag": "ITEM_MIX_ATTACK_017",
+"sort": 306,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "终末的种火",
+"en": "Flame of the End",
+"factors": [
+"ITEM_FACTOR_NO_306_01",
+"ITEM_FACTOR_NO_306_02"
+]
+},
+{
+"idx": 307,
+"tag": "ITEM_MIX_ATTACK_018",
+"sort": 307,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "黄昏棱晶",
+"en": "Twilight Prism",
+"factors": [
+"ITEM_FACTOR_NO_307_01",
+"ITEM_FACTOR_NO_307_02"
+]
+},
+{
+"idx": 308,
+"tag": "ITEM_MIX_ATTACK_019",
+"sort": 308,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "起源的翠岚",
+"en": "Primal Storm",
+"factors": [
+"ITEM_FACTOR_NO_308_01",
+"ITEM_FACTOR_NO_308_02"
+]
+},
+{
+"idx": 309,
+"tag": "ITEM_MIX_ATTACK_020",
+"sort": 309,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "星空彗星",
+"en": "Starry Comet",
+"factors": [
+"ITEM_FACTOR_NO_309_01",
+"ITEM_FACTOR_NO_309_02"
+]
+},
+{
+"idx": 310,
+"tag": "ITEM_MIX_ATTACK_RESERVE_001",
+"sort": 310,
+"kind": "ITEM_KIND_ATTACK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 311,
+"tag": "ITEM_MIX_ATTACK_RESERVE_002",
+"sort": 311,
+"kind": "ITEM_KIND_ATTACK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 312,
+"tag": "ITEM_MIX_ATTACK_RESERVE_003",
+"sort": 312,
+"kind": "ITEM_KIND_ATTACK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 313,
+"tag": "ITEM_MIX_ATTACK_RESERVE_004",
+"sort": 313,
+"kind": "ITEM_KIND_ATTACK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 314,
+"tag": "ITEM_MIX_ATTACK_RESERVE_005",
+"sort": 314,
+"kind": "ITEM_KIND_ATTACK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 315,
+"tag": "ITEM_MIX_ATTACK_RESERVE_006",
+"sort": 315,
+"kind": "ITEM_KIND_ATTACK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 316,
+"tag": "ITEM_MIX_ATTACK_RESERVE_007",
+"sort": 316,
+"kind": "ITEM_KIND_ATTACK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 317,
+"tag": "ITEM_MIX_ATTACK_RESERVE_008",
+"sort": 317,
+"kind": "ITEM_KIND_ATTACK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 318,
+"tag": "ITEM_MIX_ATTACK_RESERVE_009",
+"sort": 318,
+"kind": "ITEM_KIND_ATTACK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 319,
+"tag": "ITEM_MIX_ATTACK_RESERVE_010",
+"sort": 319,
+"kind": "ITEM_KIND_ATTACK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 320,
+"tag": "ITEM_MIX_HEAL_001",
+"sort": 320,
+"kind": "ITEM_KIND_HEAL",
+"sc": "安宁药膏",
+"en": "Sedative Ointment",
+"factors": [
+"ITEM_FACTOR_NO_320_01"
+]
+},
+{
+"idx": 321,
+"tag": "ITEM_MIX_HEAL_002",
+"sort": 321,
+"kind": "ITEM_KIND_HEAL",
+"sc": "苏茶",
+"en": "Sotea",
+"factors": [
+"ITEM_FACTOR_NO_321_01"
+]
+},
+{
+"idx": 322,
+"tag": "ITEM_MIX_HEAL_003",
+"sort": 322,
+"kind": "ITEM_KIND_HEAL",
+"sc": "噗尼果冻",
+"en": "Puni Jelly",
+"factors": [
+"ITEM_FACTOR_NO_322_01"
+]
+},
+{
+"idx": 323,
+"tag": "ITEM_MIX_HEAL_004",
+"sort": 323,
+"kind": "ITEM_KIND_HEAL",
+"sc": "补给瓶",
+"en": "Healing Elixir",
+"factors": [
+"ITEM_FACTOR_NO_323_01"
+]
+},
+{
+"idx": 324,
+"tag": "ITEM_MIX_HEAL_005",
+"sort": 324,
+"kind": "ITEM_KIND_HEAL",
+"sc": "格子松饼",
+"en": "Baked Waffle",
+"factors": [
+"ITEM_FACTOR_NO_324_01"
+]
+},
+{
+"idx": 325,
+"tag": "ITEM_MIX_HEAL_006",
+"sort": 325,
+"kind": "ITEM_KIND_HEAL",
+"sc": "蜂蜜糖浆",
+"en": "Honey Syrup",
+"factors": [
+"ITEM_FACTOR_NO_325_01",
+"ITEM_FACTOR_NO_325_02"
+]
+},
+{
+"idx": 326,
+"tag": "ITEM_MIX_HEAL_007",
+"sort": 326,
+"kind": "ITEM_KIND_HEAL",
+"sc": "休养泡泡",
+"en": "Rest Bubbles",
+"factors": [
+"ITEM_FACTOR_NO_326_01",
+"ITEM_FACTOR_NO_326_02"
+]
+},
+{
+"idx": 327,
+"tag": "ITEM_MIX_HEAL_008",
+"sort": 327,
+"kind": "ITEM_KIND_HEAL",
+"sc": "微风香精油",
+"en": "Breezy Aroma",
+"factors": [
+"ITEM_FACTOR_NO_327_01",
+"ITEM_FACTOR_NO_327_02"
+]
+},
+{
+"idx": 328,
+"tag": "ITEM_MIX_HEAL_009",
+"sort": 328,
+"kind": "ITEM_KIND_HEAL",
+"sc": "辣·土薯炖汤",
+"en": "Hot Soil Potato Stew",
+"factors": [
+"ITEM_FACTOR_NO_328_01",
+"ITEM_FACTOR_NO_328_02"
+]
+},
+{
+"idx": 329,
+"tag": "ITEM_MIX_HEAL_010",
+"sort": 329,
+"kind": "ITEM_KIND_HEAL",
+"sc": "生命之蜜",
+"en": "Nectar of Life",
+"factors": [
+"ITEM_FACTOR_NO_329_01",
+"ITEM_FACTOR_NO_329_02"
+]
+},
+{
+"idx": 330,
+"tag": "ITEM_MIX_HEAL_011",
+"sort": 330,
+"kind": "ITEM_KIND_HEAL",
+"sc": "拉米特制药",
+"en": "Arzneizel",
+"factors": [
+"ITEM_FACTOR_NO_330_01",
+"ITEM_FACTOR_NO_330_02"
+]
+},
+{
+"idx": 331,
+"tag": "ITEM_MIX_HEAL_012",
+"sort": 331,
+"kind": "ITEM_KIND_HEAL",
+"sc": "神秘灵药",
+"en": "Mystery Elixir",
+"factors": [
+"ITEM_FACTOR_NO_331_01",
+"ITEM_FACTOR_NO_331_02"
+]
+},
+{
+"idx": 332,
+"tag": "ITEM_MIX_HEAL_013",
+"sort": 332,
+"kind": "ITEM_KIND_HEAL",
+"sc": "生命之光",
+"en": "Lebestrahl",
+"factors": [
+"ITEM_FACTOR_NO_332_01",
+"ITEM_FACTOR_NO_332_02"
+]
+},
+{
+"idx": 333,
+"tag": "ITEM_MIX_HEAL_RESERVE_001",
+"sort": 333,
+"kind": "ITEM_KIND_HEAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 334,
+"tag": "ITEM_MIX_HEAL_RESERVE_002",
+"sort": 334,
+"kind": "ITEM_KIND_HEAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 335,
+"tag": "ITEM_MIX_HEAL_RESERVE_003",
+"sort": 335,
+"kind": "ITEM_KIND_HEAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 336,
+"tag": "ITEM_MIX_HEAL_RESERVE_004",
+"sort": 336,
+"kind": "ITEM_KIND_HEAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 337,
+"tag": "ITEM_MIX_HEAL_RESERVE_005",
+"sort": 337,
+"kind": "ITEM_KIND_HEAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 338,
+"tag": "ITEM_MIX_HEAL_RESERVE_006",
+"sort": 338,
+"kind": "ITEM_KIND_HEAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 339,
+"tag": "ITEM_MIX_HEAL_RESERVE_007",
+"sort": 339,
+"kind": "ITEM_KIND_HEAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 340,
+"tag": "ITEM_MIX_HEAL_RESERVE_008",
+"sort": 340,
+"kind": "ITEM_KIND_HEAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 341,
+"tag": "ITEM_MIX_HEAL_RESERVE_009",
+"sort": 341,
+"kind": "ITEM_KIND_HEAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 342,
+"tag": "ITEM_MIX_HEAL_RESERVE_010",
+"sort": 342,
+"kind": "ITEM_KIND_HEAL",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 343,
+"tag": "ITEM_MIX_BUFFER_001",
+"sort": 343,
+"kind": "ITEM_KIND_BUFFER",
+"sc": "噗尼软糖",
+"en": "Puni Candy",
+"factors": [
+"ITEM_FACTOR_NO_343_01"
+]
+},
+{
+"idx": 344,
+"tag": "ITEM_MIX_BUFFER_002",
+"sort": 344,
+"kind": "ITEM_KIND_BUFFER",
+"sc": "万能除厄香",
+"en": "Warding Incense",
+"factors": [
+"ITEM_FACTOR_NO_344_01",
+"ITEM_FACTOR_NO_344_02"
+]
+},
+{
+"idx": 345,
+"tag": "ITEM_MIX_BUFFER_003",
+"sort": 345,
+"kind": "ITEM_KIND_BUFFER",
+"sc": "顺风者",
+"en": "Tailwinder",
+"factors": [
+"ITEM_FACTOR_NO_345_01",
+"ITEM_FACTOR_NO_345_02"
+]
+},
+{
+"idx": 346,
+"tag": "ITEM_MIX_BUFFER_004",
+"sort": 346,
+"kind": "ITEM_KIND_BUFFER",
+"sc": "精灵编织之帐",
+"en": "Spirit Weave Cloth",
+"factors": [
+"ITEM_FACTOR_NO_346_01",
+"ITEM_FACTOR_NO_346_02"
+]
+},
+{
+"idx": 347,
+"tag": "ITEM_MIX_BUFFER_005",
+"sort": 347,
+"kind": "ITEM_KIND_BUFFER",
+"sc": "火龙王的提神药",
+"en": "Fire Dragon Salve",
+"factors": [
+"ITEM_FACTOR_NO_347_01",
+"ITEM_FACTOR_NO_347_02"
+]
+},
+{
+"idx": 348,
+"tag": "ITEM_MIX_BUFFER_006",
+"sort": 348,
+"kind": "ITEM_KIND_BUFFER",
+"sc": "梦境钥匙",
+"en": "Daydream Key",
+"factors": [
+"ITEM_FACTOR_NO_348_01",
+"ITEM_FACTOR_NO_348_02"
+]
+},
+{
+"idx": 349,
+"tag": "ITEM_MIX_BUFFER_RESERVE_001",
+"sort": 349,
+"kind": "ITEM_KIND_BUFFER",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 350,
+"tag": "ITEM_MIX_BUFFER_RESERVE_002",
+"sort": 350,
+"kind": "ITEM_KIND_BUFFER",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 351,
+"tag": "ITEM_MIX_BUFFER_RESERVE_003",
+"sort": 351,
+"kind": "ITEM_KIND_BUFFER",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 352,
+"tag": "ITEM_MIX_BUFFER_RESERVE_004",
+"sort": 352,
+"kind": "ITEM_KIND_BUFFER",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 353,
+"tag": "ITEM_MIX_BUFFER_RESERVE_005",
+"sort": 353,
+"kind": "ITEM_KIND_BUFFER",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 354,
+"tag": "ITEM_MIX_DEBUFFER_001",
+"sort": 354,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": "麻痹毒液",
+"en": "Numbing Venom",
+"factors": [
+"ITEM_FACTOR_NO_354_01",
+"ITEM_FACTOR_NO_354_02"
+]
+},
+{
+"idx": 355,
+"tag": "ITEM_MIX_DEBUFFER_002",
+"sort": 355,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": "小恶魔的恶作剧",
+"en": "Imp's Mischief",
+"factors": [
+"ITEM_FACTOR_NO_355_01",
+"ITEM_FACTOR_NO_355_02"
+]
+},
+{
+"idx": 356,
+"tag": "ITEM_MIX_DEBUFFER_003",
+"sort": 356,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": "倦怠镜子",
+"en": "Ennui Mirror",
+"factors": [
+"ITEM_FACTOR_NO_356_01",
+"ITEM_FACTOR_NO_356_02"
+]
+},
+{
+"idx": 357,
+"tag": "ITEM_MIX_DEBUFFER_004",
+"sort": 357,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": "万物手抄本",
+"en": "Codex of Creation",
+"factors": [
+"ITEM_FACTOR_NO_357_01",
+"ITEM_FACTOR_NO_357_02"
+]
+},
+{
+"idx": 358,
+"tag": "ITEM_MIX_DEBUFFER_005",
+"sort": 358,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": "朔月暗雾",
+"en": "Moonless Mist",
+"factors": [
+"ITEM_FACTOR_NO_358_01",
+"ITEM_FACTOR_NO_358_02"
+]
+},
+{
+"idx": 359,
+"tag": "ITEM_MIX_DEBUFFER_006",
+"sort": 359,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": "缝影之楔",
+"en": "Shadow Lynchpin",
+"factors": [
+"ITEM_FACTOR_NO_359_01",
+"ITEM_FACTOR_NO_359_02"
+]
+},
+{
+"idx": 360,
+"tag": "ITEM_MIX_DEBUFFER_RESERVE_001",
+"sort": 360,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 361,
+"tag": "ITEM_MIX_DEBUFFER_RESERVE_002",
+"sort": 361,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 362,
+"tag": "ITEM_MIX_DEBUFFER_RESERVE_003",
+"sort": 362,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 363,
+"tag": "ITEM_MIX_DEBUFFER_RESERVE_004",
+"sort": 363,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 364,
+"tag": "ITEM_MIX_DEBUFFER_RESERVE_005",
+"sort": 364,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 365,
+"tag": "ITEM_MIX_MOWING_SCYTHE_01",
+"sort": 365,
+"kind": "ITEM_KIND_FIELD",
+"sc": "割草镰",
+"en": "Grass Sickle​",
+"factors": [
+"ITEM_FACTOR_NO_365_01"
+]
+},
+{
+"idx": 366,
+"tag": "ITEM_MIX_MOWING_SCYTHE_02",
+"sort": 366,
+"kind": "ITEM_KIND_FIELD",
+"sc": "神铁镰刀",
+"en": "Godsteel Sickle",
+"factors": [
+"ITEM_FACTOR_NO_366_01",
+"ITEM_FACTOR_NO_366_02"
+]
+},
+{
+"idx": 367,
+"tag": "ITEM_MIX_PICKAXE_01",
+"sort": 367,
+"kind": "ITEM_KIND_FIELD",
+"sc": "十字镐",
+"en": "Pickaxe",
+"factors": [
+"ITEM_FACTOR_NO_367_01"
+]
+},
+{
+"idx": 368,
+"tag": "ITEM_MIX_PICKAXE_02",
+"sort": 368,
+"kind": "ITEM_KIND_FIELD",
+"sc": "极匠的十字镐",
+"en": "Exquisite Pickaxe",
+"factors": [
+"ITEM_FACTOR_NO_368_01",
+"ITEM_FACTOR_NO_368_02"
+]
+},
+{
+"idx": 369,
+"tag": "ITEM_MIX_SLINGSHOT_01",
+"sort": 369,
+"kind": "ITEM_KIND_FIELD",
+"sc": "弹弓",
+"en": "Slingshot",
+"factors": [
+"ITEM_FACTOR_NO_369_01"
+]
+},
+{
+"idx": 370,
+"tag": "ITEM_MIX_SLINGSHOT_02",
+"sort": 370,
+"kind": "ITEM_KIND_FIELD",
+"sc": "神技弹弓",
+"en": "Trickshot",
+"factors": [
+"ITEM_FACTOR_NO_370_01",
+"ITEM_FACTOR_NO_370_02"
+]
+},
+{
+"idx": 371,
+"tag": "ITEM_MIX_INSECT_REPELLENT_01",
+"sort": 371,
+"kind": "ITEM_KIND_FIELD",
+"sc": "捕虫网",
+"en": "Bug Net",
+"factors": [
+"ITEM_FACTOR_NO_371_01"
+]
+},
+{
+"idx": 372,
+"tag": "ITEM_MIX_INSECT_REPELLENT_02",
+"sort": 372,
+"kind": "ITEM_KIND_FIELD",
+"sc": "轻量捕虫网",
+"en": "Light Bug Net",
+"factors": [
+"ITEM_FACTOR_NO_372_01",
+"ITEM_FACTOR_NO_372_02"
+]
+},
+{
+"idx": 373,
+"tag": "ITEM_MIX_FLAME_HAMMER_01",
+"sort": 373,
+"kind": "ITEM_KIND_FIELD",
+"sc": "爆破锤子",
+"en": "Bomb Hammer",
+"factors": [
+"ITEM_FACTOR_NO_373_01",
+"ITEM_FACTOR_NO_373_02"
+]
+},
+{
+"idx": 374,
+"tag": "ITEM_MIX_FLAME_HAMMER_02",
+"sort": 374,
+"kind": "ITEM_KIND_FIELD",
+"sc": "炎神·爆破锤子",
+"en": "Inferno Bomb Hammer",
+"factors": [
+"ITEM_FACTOR_NO_374_01",
+"ITEM_FACTOR_NO_374_02"
+]
+},
+{
+"idx": 375,
+"tag": "ITEM_MIX_FISHING_ROD_01",
+"sort": 375,
+"kind": "ITEM_KIND_FIELD",
+"sc": "钓竿",
+"en": "Fishing Rod",
+"factors": [
+"ITEM_FACTOR_NO_375_01"
+]
+},
+{
+"idx": 376,
+"tag": "ITEM_MIX_FISHING_ROD_02",
+"sort": 376,
+"kind": "ITEM_KIND_FIELD",
+"sc": "高质量上级竿",
+"en": "High Grade Rod",
+"factors": [
+"ITEM_FACTOR_NO_376_01",
+"ITEM_FACTOR_NO_376_02"
+]
+},
+{
+"idx": 377,
+"tag": "ITEM_MIX_COLLECT_RESERVE_001",
+"sort": 377,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 378,
+"tag": "ITEM_MIX_COLLECT_RESERVE_002",
+"sort": 378,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 379,
+"tag": "ITEM_MIX_COLLECT_RESERVE_003",
+"sort": 379,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 380,
+"tag": "ITEM_MIX_COLLECT_RESERVE_004",
+"sort": 380,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 381,
+"tag": "ITEM_MIX_COLLECT_RESERVE_005",
+"sort": 381,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 382,
+"tag": "ITEM_MIX_COLLECT_RESERVE_006",
+"sort": 382,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 383,
+"tag": "ITEM_MIX_COLLECT_RESERVE_007",
+"sort": 383,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 384,
+"tag": "ITEM_MIX_COLLECT_RESERVE_008",
+"sort": 384,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 385,
+"tag": "ITEM_MIX_COLLECT_RESERVE_009",
+"sort": 385,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 386,
+"tag": "ITEM_MIX_COLLECT_RESERVE_010",
+"sort": 386,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 387,
+"tag": "ITEM_MIX_FIELDTOOL_DECOY",
+"sort": 387,
+"kind": "ITEM_KIND_FIELD_TOOL",
+"sc": "诱饵人偶",
+"en": "Decoy Doll",
+"factors": [
+"ITEM_FACTOR_NO_387_01"
+]
+},
+{
+"idx": 388,
+"tag": "ITEM_MIX_FIELDTOOL_TENT",
+"sort": 388,
+"kind": "ITEM_KIND_FIELD_TOOL",
+"sc": "帐篷试作1号",
+"en": "Tent Prototype 1",
+"factors": [
+"ITEM_FACTOR_NO_388_01"
+]
+},
+{
+"idx": 389,
+"tag": "ITEM_MIX_FIELDTOOL_SHOES",
+"sort": 389,
+"kind": "ITEM_KIND_FIELD_TOOL",
+"sc": "旅人之鞋",
+"en": "Traveler's Shoes",
+"factors": [
+"ITEM_FACTOR_NO_389_01"
+]
+},
+{
+"idx": 390,
+"tag": "ITEM_MIX_FIELDTOOL_BAG",
+"sort": 390,
+"kind": "ITEM_KIND_FIELD_TOOL",
+"sc": "紧急避难包",
+"en": "Emergency Bag",
+"factors": [
+"ITEM_FACTOR_NO_390_01",
+"ITEM_FACTOR_NO_390_02"
+]
+},
+{
+"idx": 391,
+"tag": "ITEM_MIX_FIELDTOOL_COLE_UP",
+"sort": 391,
+"kind": "ITEM_KIND_FIELD_TOOL",
+"sc": "胜者的护身符",
+"en": "Victor's Charm",
+"factors": [
+"ITEM_FACTOR_NO_391_01"
+]
+},
+{
+"idx": 392,
+"tag": "ITEM_MIX_FIELDTOOL_EXP_UP",
+"sort": 392,
+"kind": "ITEM_KIND_FIELD_TOOL",
+"sc": "锻炼的护身符",
+"en": "Training Charm",
+"factors": [
+"ITEM_FACTOR_NO_392_01",
+"ITEM_FACTOR_NO_392_02"
+]
+},
+{
+"idx": 393,
+"tag": "ITEM_MIX_FIELDTOOL_RESERVE_001",
+"sort": 393,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 394,
+"tag": "ITEM_MIX_FIELDTOOL_RESERVE_002",
+"sort": 394,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 395,
+"tag": "ITEM_MIX_FIELDTOOL_RESERVE_003",
+"sort": 395,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 396,
+"tag": "ITEM_MIX_FIELDTOOL_RESERVE_004",
+"sort": 396,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 397,
+"tag": "ITEM_MIX_FIELDTOOL_RESERVE_005",
+"sort": 397,
+"kind": "ITEM_KIND_FIELD",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 398,
+"tag": "ITEM_MIX_MATERIAL_NEUTRALIZE_001",
+"sort": 398,
+"kind": "ITEM_KIND_MIX",
+"sc": "中和剂·红",
+"en": "Red Neutralizer",
+"factors": [
+"ITEM_FACTOR_NO_398_01"
+]
+},
+{
+"idx": 399,
+"tag": "ITEM_MIX_MATERIAL_NEUTRALIZE_002",
+"sort": 399,
+"kind": "ITEM_KIND_MIX",
+"sc": "中和剂·蓝",
+"en": "Blue Neutralizer",
+"factors": [
+"ITEM_FACTOR_NO_399_01"
+]
+},
+{
+"idx": 400,
+"tag": "ITEM_MIX_MATERIAL_NEUTRALIZE_003",
+"sort": 400,
+"kind": "ITEM_KIND_MIX",
+"sc": "中和剂·黄",
+"en": "Yellow Neutralizer",
+"factors": [
+"ITEM_FACTOR_NO_400_01"
+]
+},
+{
+"idx": 401,
+"tag": "ITEM_MIX_MATERIAL_NEUTRALIZE_004",
+"sort": 401,
+"kind": "ITEM_KIND_MIX",
+"sc": "中和剂·绿",
+"en": "Green Neutralizer",
+"factors": [
+"ITEM_FACTOR_NO_401_01"
+]
+},
+{
+"idx": 402,
+"tag": "ITEM_MIX_MATERIAL_NEUTRALIZE_005",
+"sort": 402,
+"kind": "ITEM_KIND_MIX",
+"sc": "中和剂·白",
+"en": "White Neutralizer",
+"factors": [
+"ITEM_FACTOR_NO_402_01"
+]
+},
+{
+"idx": 403,
+"tag": "ITEM_MIX_MATERIAL_NEUTRALIZE_006",
+"sort": 403,
+"kind": "ITEM_KIND_MIX",
+"sc": "万能中和剂·虹",
+"en": "Rainbow Neutralizer",
+"factors": [
+"ITEM_FACTOR_NO_403_01",
+"ITEM_FACTOR_NO_403_02"
+]
+},
+{
+"idx": 404,
+"tag": "ITEM_MIX_MATERIAL_LIQUID_001",
+"sort": 404,
+"kind": "ITEM_KIND_MIX",
+"sc": "纯水",
+"en": "Pure Water",
+"factors": [
+"ITEM_FACTOR_NO_404_01"
+]
+},
+{
+"idx": 405,
+"tag": "ITEM_MIX_MATERIAL_LIQUID_002",
+"sort": 405,
+"kind": "ITEM_KIND_MIX",
+"sc": "精灵之泪",
+"en": "Spirit Tears",
+"factors": [
+"ITEM_FACTOR_NO_405_01",
+"ITEM_FACTOR_NO_405_02"
+]
+},
+{
+"idx": 406,
+"tag": "ITEM_MIX_MATERIAL_FOODSTUFF_001",
+"sort": 406,
+"kind": "ITEM_KIND_MIX",
+"sc": "维格麦粉",
+"en": "Wiege Wheat Flour",
+"factors": [
+"ITEM_FACTOR_NO_406_01"
+]
+},
+{
+"idx": 407,
+"tag": "ITEM_MIX_MATERIAL_FOODSTUFF_002",
+"sort": 407,
+"kind": "ITEM_KIND_MIX",
+"sc": "天然酵母",
+"en": "Natural Yeast",
+"factors": [
+"ITEM_FACTOR_NO_407_01"
+]
+},
+{
+"idx": 408,
+"tag": "ITEM_MIX_MATERIAL_FOODSTUFF_003",
+"sort": 408,
+"kind": "ITEM_KIND_MIX",
+"sc": "纯白奶油",
+"en": "Weisscream",
+"factors": [
+"ITEM_FACTOR_NO_408_01",
+"ITEM_FACTOR_NO_408_02"
+]
+},
+{
+"idx": 409,
+"tag": "ITEM_MIX_MATERIAL_SEASONING_001",
+"sort": 409,
+"kind": "ITEM_KIND_MIX",
+"sc": "蜂蜜",
+"en": "Honey",
+"factors": [
+"ITEM_FACTOR_NO_409_01"
+]
+},
+{
+"idx": 410,
+"tag": "ITEM_MIX_MATERIAL_SEASONING_002",
+"sort": 410,
+"kind": "ITEM_KIND_MIX",
+"sc": "金平糖",
+"en": "Confeito",
+"factors": [
+"ITEM_FACTOR_NO_410_01",
+"ITEM_FACTOR_NO_410_02"
+]
+},
+{
+"idx": 411,
+"tag": "ITEM_MIX_MATERIAL_INGOT_001",
+"sort": 411,
+"kind": "ITEM_KIND_MIX",
+"sc": "金属块",
+"en": "Ingot",
+"factors": [
+"ITEM_FACTOR_NO_411_01"
+]
+},
+{
+"idx": 412,
+"tag": "ITEM_MIX_MATERIAL_INGOT_002",
+"sort": 412,
+"kind": "ITEM_KIND_MIX",
+"sc": "丝薇丽银",
+"en": "Silvalia",
+"factors": [
+"ITEM_FACTOR_NO_412_01",
+"ITEM_FACTOR_NO_412_02"
+]
+},
+{
+"idx": 413,
+"tag": "ITEM_MIX_MATERIAL_INGOT_003",
+"sort": 413,
+"kind": "ITEM_KIND_MIX",
+"sc": "黄金艾森矿",
+"en": "Gold Eisen",
+"factors": [
+"ITEM_FACTOR_NO_413_01",
+"ITEM_FACTOR_NO_413_02"
+]
+},
+{
+"idx": 414,
+"tag": "ITEM_MIX_MATERIAL_INGOT_004",
+"sort": 414,
+"kind": "ITEM_KIND_MIX",
+"sc": "精灵银块",
+"en": "Harmonium",
+"factors": [
+"ITEM_FACTOR_NO_414_01",
+"ITEM_FACTOR_NO_414_02"
+]
+},
+{
+"idx": 415,
+"tag": "ITEM_MIX_MATERIAL_INGOT_005",
+"sort": 415,
+"kind": "ITEM_KIND_MIX",
+"sc": "海银",
+"en": "Ōkeagyrn",
+"factors": [
+"ITEM_FACTOR_NO_415_01",
+"ITEM_FACTOR_NO_415_02"
+]
+},
+{
+"idx": 416,
+"tag": "ITEM_MIX_MATERIAL_CLOTH_001",
+"sort": 416,
+"kind": "ITEM_KIND_MIX",
+"sc": "布料",
+"en": "Cloth",
+"factors": [
+"ITEM_FACTOR_NO_416_01"
+]
+},
+{
+"idx": 417,
+"tag": "ITEM_MIX_MATERIAL_CLOTH_002",
+"sort": 417,
+"kind": "ITEM_KIND_MIX",
+"sc": "棉绒布",
+"en": "Moffcloth",
+"factors": [
+"ITEM_FACTOR_NO_417_01",
+"ITEM_FACTOR_NO_417_02"
+]
+},
+{
+"idx": 418,
+"tag": "ITEM_MIX_MATERIAL_CLOTH_003",
+"sort": 418,
+"kind": "ITEM_KIND_MIX",
+"sc": "天使羽翼",
+"en": "Flügel",
+"factors": [
+"ITEM_FACTOR_NO_418_01",
+"ITEM_FACTOR_NO_418_02"
+]
+},
+{
+"idx": 419,
+"tag": "ITEM_MIX_MATERIAL_CLOTH_004",
+"sort": 419,
+"kind": "ITEM_KIND_MIX",
+"sc": "天鹅绒布",
+"en": "Velvetis",
+"factors": [
+"ITEM_FACTOR_NO_419_01",
+"ITEM_FACTOR_NO_419_02"
+]
+},
+{
+"idx": 420,
+"tag": "ITEM_MIX_MATERIAL_CLOTH_005",
+"sort": 420,
+"kind": "ITEM_KIND_MIX",
+"sc": "纯洁白鹤",
+"en": "Geranóvirgen",
+"factors": [
+"ITEM_FACTOR_NO_420_01",
+"ITEM_FACTOR_NO_420_02"
+]
+},
+{
+"idx": 421,
+"tag": "ITEM_MIX_MATERIAL_MEDICAL_001",
+"sort": 421,
+"kind": "ITEM_KIND_MIX",
+"sc": "万药之素",
+"en": "Cure-all Base",
+"factors": [
+"ITEM_FACTOR_NO_421_01",
+"ITEM_FACTOR_NO_421_03"
+]
+},
+{
+"idx": 422,
+"tag": "ITEM_MIX_MATERIAL_MEDICAL_002",
+"sort": 422,
+"kind": "ITEM_KIND_MIX",
+"sc": "肥皂",
+"en": "Seife",
+"factors": [
+"ITEM_FACTOR_NO_422_01"
+]
+},
+{
+"idx": 423,
+"tag": "ITEM_MIX_MATERIAL_POISON_001",
+"sort": 423,
+"kind": "ITEM_KIND_MIX",
+"sc": "鞣皮液",
+"en": "Tanning Fluid",
+"factors": [
+"ITEM_FACTOR_NO_423_01",
+"ITEM_FACTOR_NO_423_03"
+]
+},
+{
+"idx": 424,
+"tag": "ITEM_MIX_MATERIAL_POISON_002",
+"sort": 424,
+"kind": "ITEM_KIND_MIX",
+"sc": "剧毒凝胶",
+"en": "Great Gift",
+"factors": [
+"ITEM_FACTOR_NO_424_01",
+"ITEM_FACTOR_NO_424_02"
+]
+},
+{
+"idx": 425,
+"tag": "ITEM_MIX_MATERIAL_THREAD_001",
+"sort": 425,
+"kind": "ITEM_KIND_MIX",
+"sc": "捆起来的金线",
+"en": "Golden Thread",
+"factors": [
+"ITEM_FACTOR_NO_425_01"
+]
+},
+{
+"idx": 426,
+"tag": "ITEM_MIX_MATERIAL_THREAD_002",
+"sort": 426,
+"kind": "ITEM_KIND_MIX",
+"sc": "伸缩线",
+"en": "Stretchy Band",
+"factors": [
+"ITEM_FACTOR_NO_426_01"
+]
+},
+{
+"idx": 427,
+"tag": "ITEM_MIX_MATERIAL_THREAD_003",
+"sort": 427,
+"kind": "ITEM_KIND_MIX",
+"sc": "钢琴线",
+"en": "Klavier Band",
+"factors": [
+"ITEM_FACTOR_NO_427_01",
+"ITEM_FACTOR_NO_427_02"
+]
+},
+{
+"idx": 428,
+"tag": "ITEM_MIX_MATERIAL_THREAD_004",
+"sort": 428,
+"kind": "ITEM_KIND_MIX",
+"sc": "白云线",
+"en": "Langwolke",
+"factors": [
+"ITEM_FACTOR_NO_428_01",
+"ITEM_FACTOR_NO_428_02"
+]
+},
+{
+"idx": 429,
+"tag": "ITEM_MIX_MATERIAL_SUNDRIES_001",
+"sort": 429,
+"kind": "ITEM_KIND_MIX",
+"sc": "泽特尔纸",
+"en": "Zettel",
+"factors": [
+"ITEM_FACTOR_NO_429_01"
+]
+},
+{
+"idx": 430,
+"tag": "ITEM_MIX_MATERIAL_SUNDRIES_002",
+"sort": 430,
+"kind": "ITEM_KIND_MIX",
+"sc": "鞣制皮革",
+"en": "Leather",
+"factors": [
+"ITEM_FACTOR_NO_430_01"
+]
+},
+{
+"idx": 431,
+"tag": "ITEM_MIX_MATERIAL_SUNDRIES_003",
+"sort": 431,
+"kind": "ITEM_KIND_MIX",
+"sc": "多色染料",
+"en": "Multicolor Dye",
+"factors": [
+"ITEM_FACTOR_NO_431_01"
+]
+},
+{
+"idx": 432,
+"tag": "ITEM_MIX_MATERIAL_SUNDRIES_004",
+"sort": 432,
+"kind": "ITEM_KIND_MIX",
+"sc": "好像很美味的混合饵",
+"en": "Tasty-Looking Bait",
+"factors": [
+"ITEM_FACTOR_NO_432_01"
+]
+},
+{
+"idx": 433,
+"tag": "ITEM_MIX_MATERIAL_SUNDRIES_005",
+"sort": 433,
+"kind": "ITEM_KIND_MIX",
+"sc": "魅惑香料",
+"en": "Charmanduft",
+"factors": [
+"ITEM_FACTOR_NO_433_01"
+]
+},
+{
+"idx": 434,
+"tag": "ITEM_MIX_MATERIAL_SUNDRIES_006",
+"sort": 434,
+"kind": "ITEM_KIND_MIX",
+"sc": "七色棱镜",
+"en": "Priarco",
+"factors": [
+"ITEM_FACTOR_NO_434_01",
+"ITEM_FACTOR_NO_434_02"
+]
+},
+{
+"idx": 435,
+"tag": "ITEM_MIX_MATERIAL_POWDER_001",
+"sort": 435,
+"kind": "ITEM_KIND_MIX",
+"sc": "炼金炭",
+"en": "Alchemic Coal",
+"factors": [
+"ITEM_FACTOR_NO_435_01"
+]
+},
+{
+"idx": 436,
+"tag": "ITEM_MIX_MATERIAL_POWDER_002",
+"sort": 436,
+"kind": "ITEM_KIND_MIX",
+"sc": "炎帝粉",
+"en": "Flame Emperor Dust",
+"factors": [
+"ITEM_FACTOR_NO_436_01"
+]
+},
+{
+"idx": 437,
+"tag": "ITEM_MIX_MATERIAL_FUEL_001",
+"sort": 437,
+"kind": "ITEM_KIND_MIX",
+"sc": "排毒油",
+"en": "Refresh Oil",
+"factors": [
+"ITEM_FACTOR_NO_437_01"
+]
+},
+{
+"idx": 438,
+"tag": "ITEM_MIX_MATERIAL_FUEL_002",
+"sort": 438,
+"kind": "ITEM_KIND_MIX",
+"sc": "平静苍炎",
+"en": "Calm Blue Flame",
+"factors": [
+"ITEM_FACTOR_NO_438_01",
+"ITEM_FACTOR_NO_438_02"
+]
+},
+{
+"idx": 439,
+"tag": "ITEM_MIX_MATERIAL_SAND_001",
+"sort": 439,
+"kind": "ITEM_KIND_MIX",
+"sc": "抛光液",
+"en": "Polish",
+"factors": [
+"ITEM_FACTOR_NO_439_01"
+]
+},
+{
+"idx": 440,
+"tag": "ITEM_MIX_MATERIAL_SAND_002",
+"sort": 440,
+"kind": "ITEM_KIND_MIX",
+"sc": "炼金黏土",
+"en": "Alchemic Clay",
+"factors": [
+"ITEM_FACTOR_NO_440_01",
+"ITEM_FACTOR_NO_440_02"
+]
+},
+{
+"idx": 441,
+"tag": "ITEM_MIX_MATERIAL_STONE_001",
+"sort": 441,
+"kind": "ITEM_KIND_MIX",
+"sc": "波浪石",
+"en": "Undastone",
+"factors": [
+"ITEM_FACTOR_NO_441_01",
+"ITEM_FACTOR_NO_441_02"
+]
+},
+{
+"idx": 442,
+"tag": "ITEM_MIX_MATERIAL_WOOD_001",
+"sort": 442,
+"kind": "ITEM_KIND_MIX",
+"sc": "合板",
+"en": "Sperrholz Plywood",
+"factors": [
+"ITEM_FACTOR_NO_442_01",
+"ITEM_FACTOR_NO_442_02"
+]
+},
+{
+"idx": 443,
+"tag": "ITEM_MIX_MATERIAL_METAL_001",
+"sort": 443,
+"kind": "ITEM_KIND_MIX",
+"sc": "易熔金属",
+"en": "Tíkometal",
+"factors": [
+"ITEM_FACTOR_NO_443_01",
+"ITEM_FACTOR_NO_443_02"
+]
+},
+{
+"idx": 444,
+"tag": "ITEM_MIX_MATERIAL_GAS_001",
+"sort": 444,
+"kind": "ITEM_KIND_MIX",
+"sc": "水精灵的叹息",
+"en": "Undine's Sigh",
+"factors": [
+"ITEM_FACTOR_NO_444_01"
+]
+},
+{
+"idx": 445,
+"tag": "ITEM_MIX_MATERIAL_GAS_002",
+"sort": 445,
+"kind": "ITEM_KIND_MIX",
+"sc": "台风幼苗",
+"en": "Typhon Keim",
+"factors": [
+"ITEM_FACTOR_NO_445_01",
+"ITEM_FACTOR_NO_445_02"
+]
+},
+{
+"idx": 446,
+"tag": "ITEM_MIX_MATERIAL_JEWEL_001",
+"sort": 446,
+"kind": "ITEM_KIND_MIX",
+"sc": "热情红宝石",
+"en": "Passion Ruby",
+"factors": [
+"ITEM_FACTOR_NO_446_01"
+]
+},
+{
+"idx": 447,
+"tag": "ITEM_MIX_MATERIAL_JEWEL_002",
+"sort": 447,
+"kind": "ITEM_KIND_MIX",
+"sc": "高贵蓝宝石",
+"en": "Noble Sapphire",
+"factors": [
+"ITEM_FACTOR_NO_447_01"
+]
+},
+{
+"idx": 448,
+"tag": "ITEM_MIX_MATERIAL_JEWEL_003",
+"sort": 448,
+"kind": "ITEM_KIND_MIX",
+"sc": "诚实黄宝石",
+"en": "Honest Topaz",
+"factors": [
+"ITEM_FACTOR_NO_448_01"
+]
+},
+{
+"idx": 449,
+"tag": "ITEM_MIX_MATERIAL_JEWEL_004",
+"sort": 449,
+"kind": "ITEM_KIND_MIX",
+"sc": "睿智绿宝石",
+"en": "Wise Smaragd",
+"factors": [
+"ITEM_FACTOR_NO_449_01"
+]
+},
+{
+"idx": 450,
+"tag": "ITEM_MIX_MATERIAL_JEWEL_005",
+"sort": 450,
+"kind": "ITEM_KIND_MIX",
+"sc": "纯洁钻石",
+"en": "Innocent Adamas",
+"factors": [
+"ITEM_FACTOR_NO_450_01"
+]
+},
+{
+"idx": 451,
+"tag": "ITEM_MIX_MATERIAL_JEWEL_006",
+"sort": 451,
+"kind": "ITEM_KIND_MIX",
+"sc": "百万水晶",
+"en": "Millio Quartz",
+"factors": [
+"ITEM_FACTOR_NO_451_01"
+]
+},
+{
+"idx": 452,
+"tag": "ITEM_MIX_MATERIAL_MYSTIC_001",
+"sort": 452,
+"kind": "ITEM_KIND_MIX",
+"sc": "雪花水晶",
+"en": "Snowflake Crystal",
+"factors": [
+"ITEM_FACTOR_NO_452_01"
+]
+},
+{
+"idx": 453,
+"tag": "ITEM_MIX_MATERIAL_MYSTIC_002",
+"sort": 453,
+"kind": "ITEM_KIND_MIX",
+"sc": "海星徽章",
+"en": "Asterisíma",
+"factors": [
+"ITEM_FACTOR_NO_453_01",
+"ITEM_FACTOR_NO_453_02"
+]
+},
+{
+"idx": 454,
+"tag": "ITEM_MIX_MATERIAL_MYSTIC_003",
+"sort": 454,
+"kind": "ITEM_KIND_MIX",
+"sc": "黄泉之书",
+"en": "Book of Hades",
+"factors": [
+"ITEM_FACTOR_NO_454_01",
+"ITEM_FACTOR_NO_454_02"
+]
+},
+{
+"idx": 455,
+"tag": "ITEM_MIX_MATERIAL_MYSTIC_004",
+"sort": 455,
+"kind": "ITEM_KIND_MIX",
+"sc": "黑洞",
+"en": "Black Agujero",
+"factors": [
+"ITEM_FACTOR_NO_455_01",
+"ITEM_FACTOR_NO_455_02"
+]
+},
+{
+"idx": 456,
+"tag": "ITEM_MIX_MATERIAL_ELIXIL_001",
+"sort": 456,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": [
+"ITEM_FACTOR_NO_456_01",
+"ITEM_FACTOR_NO_456_02"
+]
+},
+{
+"idx": 457,
+"tag": "ITEM_MIX_MATERIAL_ELIXIL_002",
+"sort": 457,
+"kind": "ITEM_KIND_MIX",
+"sc": "贤者之石",
+"en": "Philosopher's Stones",
+"factors": [
+"ITEM_FACTOR_NO_457_01",
+"ITEM_FACTOR_NO_457_02"
+]
+},
+{
+"idx": 458,
+"tag": "ITEM_MIX_MATERIAL_ELIXIL_003",
+"sort": 458,
+"kind": "ITEM_KIND_MIX",
+"sc": "炼金球仪",
+"en": "Alles Welt",
+"factors": [
+"ITEM_FACTOR_NO_458_03",
+"ITEM_FACTOR_NO_458_04"
+]
+},
+{
+"idx": 459,
+"tag": "ITEM_MIX_MATERIAL_SEED_001",
+"sort": 459,
+"kind": "ITEM_KIND_MIX",
+"sc": "植物种子",
+"en": "Plant Seeds",
+"factors": [
+"ITEM_FACTOR_NO_459_01"
+]
+},
+{
+"idx": 460,
+"tag": "ITEM_MIX_MATERIAL_SEED_002",
+"sort": 460,
+"kind": "ITEM_KIND_MIX",
+"sc": "石之种子",
+"en": "Stone Seeds",
+"factors": [
+"ITEM_FACTOR_NO_460_01",
+"ITEM_FACTOR_NO_460_02"
+]
+},
+{
+"idx": 461,
+"tag": "ITEM_MIX_MATERIAL_SEED_003",
+"sort": 461,
+"kind": "ITEM_KIND_MIX",
+"sc": "火之种子",
+"en": "Fire Seeds",
+"factors": [
+"ITEM_FACTOR_NO_461_01",
+"ITEM_FACTOR_NO_461_02"
+]
+},
+{
+"idx": 462,
+"tag": "ITEM_MIX_MATERIAL_SEED_004",
+"sort": 462,
+"kind": "ITEM_KIND_MIX",
+"sc": "水之种子",
+"en": "Water Seeds",
+"factors": [
+"ITEM_FACTOR_NO_462_01",
+"ITEM_FACTOR_NO_462_02"
+]
+},
+{
+"idx": 463,
+"tag": "ITEM_MIX_MATERIAL_SEED_005",
+"sort": 463,
+"kind": "ITEM_KIND_MIX",
+"sc": "神秘种子",
+"en": "Mystic Seeds",
+"factors": [
+"ITEM_FACTOR_NO_463_01",
+"ITEM_FACTOR_NO_463_02"
+]
+},
+{
+"idx": 464,
+"tag": "ITEM_MIX_MATERIAL_SEED_006",
+"sort": 464,
+"kind": "ITEM_KIND_MIX",
+"sc": "毒之种子",
+"en": "Poison Seeds",
+"factors": [
+"ITEM_FACTOR_NO_464_01",
+"ITEM_FACTOR_NO_464_02"
+]
+},
+{
+"idx": 465,
+"tag": "ITEM_MIX_MATERIAL_SEED_007",
+"sort": 465,
+"kind": "ITEM_KIND_MIX",
+"sc": "金色种子",
+"en": "Golden Seeds",
+"factors": [
+"ITEM_FACTOR_NO_465_01",
+"ITEM_FACTOR_NO_465_02"
+]
+},
+{
+"idx": 466,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_001",
+"sort": 466,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 467,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_002",
+"sort": 467,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 468,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_003",
+"sort": 468,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 469,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_004",
+"sort": 469,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 470,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_005",
+"sort": 470,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 471,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_006",
+"sort": 471,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 472,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_007",
+"sort": 472,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 473,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_008",
+"sort": 473,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 474,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_009",
+"sort": 474,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 475,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_010",
+"sort": 475,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 476,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_011",
+"sort": 476,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 477,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_012",
+"sort": 477,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 478,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_013",
+"sort": 478,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 479,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_014",
+"sort": 479,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 480,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_015",
+"sort": 480,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 481,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_016",
+"sort": 481,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 482,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_017",
+"sort": 482,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 483,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_018",
+"sort": 483,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 484,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_019",
+"sort": 484,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 485,
+"tag": "ITEM_MIX_MATERIAL_RESERVE_020",
+"sort": 485,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 486,
+"tag": "ITEM_MIX_CATALYST_001",
+"sort": 486,
+"kind": "ITEM_KIND_MIX",
+"sc": "炼金触媒·成长",
+"en": "Growlia Catalyst",
+"factors": [
+"ITEM_FACTOR_NO_486_01",
+"ITEM_FACTOR_NO_486_02"
+]
+},
+{
+"idx": 487,
+"tag": "ITEM_MIX_CATALYST_002",
+"sort": 487,
+"kind": "ITEM_KIND_MIX",
+"sc": "炼金触媒·限制",
+"en": "Limitia Catalyst",
+"factors": [
+"ITEM_FACTOR_NO_487_01",
+"ITEM_FACTOR_NO_487_02"
+]
+},
+{
+"idx": 488,
+"tag": "ITEM_MIX_CATALYST_003",
+"sort": 488,
+"kind": "ITEM_KIND_MIX",
+"sc": "炼金触媒·共鸣",
+"en": "Resolia Catalyst",
+"factors": [
+"ITEM_FACTOR_NO_488_01",
+"ITEM_FACTOR_NO_488_02"
+]
+},
+{
+"idx": 489,
+"tag": "ITEM_MIX_CATALYST_004",
+"sort": 489,
+"kind": "ITEM_KIND_MIX",
+"sc": "炼金触媒·储藏",
+"en": "Storagia Catalyst",
+"factors": [
+"ITEM_FACTOR_NO_489_01",
+"ITEM_FACTOR_NO_489_02"
+]
+},
+{
+"idx": 490,
+"tag": "ITEM_MIX_CATALYST_005",
+"sort": 490,
+"kind": "ITEM_KIND_MIX",
+"sc": "炼金触媒·吸收",
+"en": "Absopta Catalyst",
+"factors": [
+"ITEM_FACTOR_NO_490_01",
+"ITEM_FACTOR_NO_490_02"
+]
+},
+{
+"idx": 491,
+"tag": "ITEM_MIX_CATALYST_RESERVE_001",
+"sort": 491,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 492,
+"tag": "ITEM_MIX_CATALYST_RESERVE_002",
+"sort": 492,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 493,
+"tag": "ITEM_MIX_CATALYST_RESERVE_003",
+"sort": 493,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 494,
+"tag": "ITEM_MIX_CATALYST_RESERVE_004",
+"sort": 494,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 495,
+"tag": "ITEM_MIX_CATALYST_RESERVE_005",
+"sort": 495,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 496,
+"tag": "ITEM_WEAPON_SOPHIE_01",
+"sort": 496,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "星导手杖",
+"en": "Starguide Staff",
+"factors": [
+"ITEM_FACTOR_NO_496_01"
+]
+},
+{
+"idx": 497,
+"tag": "ITEM_WEAPON_SOPHIE_02",
+"sort": 497,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "苍蓝星笼",
+"en": "Azure Cage",
+"factors": [
+"ITEM_FACTOR_NO_497_01"
+]
+},
+{
+"idx": 498,
+"tag": "ITEM_WEAPON_SOPHIE_03",
+"sort": 498,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "银河星座",
+"en": "Milky Sign",
+"factors": [
+"ITEM_FACTOR_NO_498_01",
+"ITEM_FACTOR_NO_498_02"
+]
+},
+{
+"idx": 499,
+"tag": "ITEM_WEAPON_SOPHIE_04",
+"sort": 499,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "大地之母",
+"en": "Tellus Mater",
+"factors": [
+"ITEM_FACTOR_NO_499_01",
+"ITEM_FACTOR_NO_499_02"
+]
+},
+{
+"idx": 500,
+"tag": "ITEM_WEAPON_SOPHIE_05",
+"sort": 500,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "天启与智慧之杖",
+"en": "Enlightenment Staff",
+"factors": [
+"ITEM_FACTOR_NO_500_01",
+"ITEM_FACTOR_NO_500_02"
+]
+},
+{
+"idx": 501,
+"tag": "ITEM_WEAPON_PLACHTA_01",
+"sort": 501,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "诡计之手",
+"en": "Trick Hand",
+"factors": [
+"ITEM_FACTOR_NO_501_01"
+]
+},
+{
+"idx": 502,
+"tag": "ITEM_WEAPON_PLACHTA_02",
+"sort": 502,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "混沌手臂",
+"en": "Chaos Arm",
+"factors": [
+"ITEM_FACTOR_NO_502_01"
+]
+},
+{
+"idx": 503,
+"tag": "ITEM_WEAPON_PLACHTA_03",
+"sort": 503,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "古代机械手臂",
+"en": "Ancient Mecha Arm",
+"factors": [
+"ITEM_FACTOR_NO_503_01",
+"ITEM_FACTOR_NO_503_02"
+]
+},
+{
+"idx": 504,
+"tag": "ITEM_WEAPON_PLACHTA_04",
+"sort": 504,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "血腥皇帝",
+"en": "Blood Kaiser",
+"factors": [
+"ITEM_FACTOR_NO_504_01",
+"ITEM_FACTOR_NO_504_02"
+]
+},
+{
+"idx": 505,
+"tag": "ITEM_WEAPON_PLACHTA_05",
+"sort": 505,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "神罚的击锤",
+"en": "Divine Punisher",
+"factors": [
+"ITEM_FACTOR_NO_505_01",
+"ITEM_FACTOR_NO_505_02"
+]
+},
+{
+"idx": 506,
+"tag": "ITEM_WEAPON_LAMISEL_01",
+"sort": 506,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "符文权杖",
+"en": "Rune Scepter",
+"factors": [
+"ITEM_FACTOR_NO_506_01"
+]
+},
+{
+"idx": 507,
+"tag": "ITEM_WEAPON_LAMISEL_02",
+"sort": 507,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "力量之戟",
+"en": "Force Halberd",
+"factors": [
+"ITEM_FACTOR_NO_507_01"
+]
+},
+{
+"idx": 508,
+"tag": "ITEM_WEAPON_LAMISEL_03",
+"sort": 508,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "雪崩薙刀",
+"en": "Avalanche Naginata",
+"factors": [
+"ITEM_FACTOR_NO_508_01",
+"ITEM_FACTOR_NO_508_02"
+]
+},
+{
+"idx": 509,
+"tag": "ITEM_WEAPON_LAMISEL_04",
+"sort": 509,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "光荣之翼",
+"en": "Gloria Wing",
+"factors": [
+"ITEM_FACTOR_NO_509_01",
+"ITEM_FACTOR_NO_509_02"
+]
+},
+{
+"idx": 510,
+"tag": "ITEM_WEAPON_LAMISEL_05",
+"sort": 510,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "至天孤寂",
+"en": "Heavenly Einsamkeit",
+"factors": [
+"ITEM_FACTOR_NO_510_01",
+"ITEM_FACTOR_NO_510_02"
+]
+},
+{
+"idx": 511,
+"tag": "ITEM_WEAPON_ALETTE_01",
+"sort": 511,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "长靴",
+"en": "Long Boots",
+"factors": [
+"ITEM_FACTOR_NO_511_01"
+]
+},
+{
+"idx": 512,
+"tag": "ITEM_WEAPON_ALETTE_02",
+"sort": 512,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "宝石跟鞋",
+"en": "Gem Heels",
+"factors": [
+"ITEM_FACTOR_NO_512_01"
+]
+},
+{
+"idx": 513,
+"tag": "ITEM_WEAPON_ALETTE_03",
+"sort": 513,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "密探的足具",
+"en": "Spy's Footfalls",
+"factors": [
+"ITEM_FACTOR_NO_513_01",
+"ITEM_FACTOR_NO_513_02"
+]
+},
+{
+"idx": 514,
+"tag": "ITEM_WEAPON_ALETTE_04",
+"sort": 514,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "破棘",
+"en": "Spike Cleaver",
+"factors": [
+"ITEM_FACTOR_NO_514_01",
+"ITEM_FACTOR_NO_514_02"
+]
+},
+{
+"idx": 515,
+"tag": "ITEM_WEAPON_ALETTE_05",
+"sort": 515,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "空中漫步",
+"en": "Hollow Walker",
+"factors": [
+"ITEM_FACTOR_NO_515_01",
+"ITEM_FACTOR_NO_515_02"
+]
+},
+{
+"idx": 516,
+"tag": "ITEM_WEAPON_OLIAS_01",
+"sort": 516,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "猎枪",
+"en": "Hunting Rifle",
+"factors": [
+"ITEM_FACTOR_NO_516_01"
+]
+},
+{
+"idx": 517,
+"tag": "ITEM_WEAPON_OLIAS_02",
+"sort": 517,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "改造枪",
+"en": "Alter Gun",
+"factors": [
+"ITEM_FACTOR_NO_517_01"
+]
+},
+{
+"idx": 518,
+"tag": "ITEM_WEAPON_OLIAS_03",
+"sort": 518,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "鹰眼侦察兵",
+"en": "Hawk Scout",
+"factors": [
+"ITEM_FACTOR_NO_518_01",
+"ITEM_FACTOR_NO_518_02"
+]
+},
+{
+"idx": 519,
+"tag": "ITEM_WEAPON_OLIAS_04",
+"sort": 519,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "轰雷重炮",
+"en": "Thunder Cannon",
+"factors": [
+"ITEM_FACTOR_NO_519_01",
+"ITEM_FACTOR_NO_519_02"
+]
+},
+{
+"idx": 520,
+"tag": "ITEM_WEAPON_OLIAS_05",
+"sort": 520,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "恶魔杀手",
+"en": "Demon Slayer",
+"factors": [
+"ITEM_FACTOR_NO_520_01",
+"ITEM_FACTOR_NO_520_02"
+]
+},
+{
+"idx": 521,
+"tag": "ITEM_WEAPON_DIEBOLD_01",
+"sort": 521,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "双剑",
+"en": "Twin Blades",
+"factors": [
+"ITEM_FACTOR_NO_521_01"
+]
+},
+{
+"idx": 522,
+"tag": "ITEM_WEAPON_DIEBOLD_02",
+"sort": 522,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "边境骑士的双剑",
+"en": "Knight's Twinblades",
+"factors": [
+"ITEM_FACTOR_NO_522_01"
+]
+},
+{
+"idx": 523,
+"tag": "ITEM_WEAPON_DIEBOLD_03",
+"sort": 523,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "王室护卫",
+"en": "Royal Guard",
+"factors": [
+"ITEM_FACTOR_NO_523_01",
+"ITEM_FACTOR_NO_523_02"
+]
+},
+{
+"idx": 524,
+"tag": "ITEM_WEAPON_DIEBOLD_04",
+"sort": 524,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "黑铁玉钢剑",
+"en": "Black Iron Swords",
+"factors": [
+"ITEM_FACTOR_NO_524_01",
+"ITEM_FACTOR_NO_524_02"
+]
+},
+{
+"idx": 525,
+"tag": "ITEM_WEAPON_DIEBOLD_05",
+"sort": 525,
+"kind": "ITEM_KIND_WEAPON",
+"sc": "红焰龙牙",
+"en": "Crimson Dragon Fangs",
+"factors": [
+"ITEM_FACTOR_NO_525_01",
+"ITEM_FACTOR_NO_525_02"
+]
+},
+{
+"idx": 526,
+"tag": "ITEM_WEAPON_RESERVE_001",
+"sort": 526,
+"kind": "ITEM_KIND_WEAPON",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 527,
+"tag": "ITEM_WEAPON_RESERVE_002",
+"sort": 527,
+"kind": "ITEM_KIND_WEAPON",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 528,
+"tag": "ITEM_WEAPON_RESERVE_003",
+"sort": 528,
+"kind": "ITEM_KIND_WEAPON",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 529,
+"tag": "ITEM_WEAPON_RESERVE_004",
+"sort": 529,
+"kind": "ITEM_KIND_WEAPON",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 530,
+"tag": "ITEM_WEAPON_RESERVE_005",
+"sort": 530,
+"kind": "ITEM_KIND_WEAPON",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 531,
+"tag": "ITEM_WEAPON_RESERVE_006",
+"sort": 531,
+"kind": "ITEM_KIND_WEAPON",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 532,
+"tag": "ITEM_WEAPON_RESERVE_007",
+"sort": 532,
+"kind": "ITEM_KIND_WEAPON",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 533,
+"tag": "ITEM_WEAPON_RESERVE_008",
+"sort": 533,
+"kind": "ITEM_KIND_WEAPON",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 534,
+"tag": "ITEM_WEAPON_RESERVE_009",
+"sort": 534,
+"kind": "ITEM_KIND_WEAPON",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 535,
+"tag": "ITEM_WEAPON_RESERVE_010",
+"sort": 535,
+"kind": "ITEM_KIND_WEAPON",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 536,
+"tag": "ITEM_ARMOR_001",
+"sort": 536,
+"kind": "ITEM_KIND_ARMOR",
+"sc": "旅人背心",
+"en": "Traveler's Vest",
+"factors": [
+"ITEM_FACTOR_NO_536_01"
+]
+},
+{
+"idx": 537,
+"tag": "ITEM_ARMOR_002",
+"sort": 537,
+"kind": "ITEM_KIND_ARMOR",
+"sc": "圆环链甲",
+"en": "Ringmail",
+"factors": [
+"ITEM_FACTOR_NO_537_01"
+]
+},
+{
+"idx": 538,
+"tag": "ITEM_ARMOR_003",
+"sort": 538,
+"kind": "ITEM_KIND_ARMOR",
+"sc": "铁屑铠甲",
+"en": "Scrap Armor",
+"factors": [
+"ITEM_FACTOR_NO_538_01"
+]
+},
+{
+"idx": 539,
+"tag": "ITEM_ARMOR_004",
+"sort": 539,
+"kind": "ITEM_KIND_ARMOR",
+"sc": "发晶外套",
+"en": "Yarn Coat",
+"factors": [
+"ITEM_FACTOR_NO_539_01"
+]
+},
+{
+"idx": 540,
+"tag": "ITEM_ARMOR_005",
+"sort": 540,
+"kind": "ITEM_KIND_ARMOR",
+"sc": "陨铁之铠",
+"en": "Meteor Iron Armor",
+"factors": [
+"ITEM_FACTOR_NO_540_01",
+"ITEM_FACTOR_NO_540_02"
+]
+},
+{
+"idx": 541,
+"tag": "ITEM_ARMOR_006",
+"sort": 541,
+"kind": "ITEM_KIND_ARMOR",
+"sc": "玻璃皮衣",
+"en": "Verre Cuir",
+"factors": [
+"ITEM_FACTOR_NO_541_01",
+"ITEM_FACTOR_NO_541_02"
+]
+},
+{
+"idx": 542,
+"tag": "ITEM_ARMOR_007",
+"sort": 542,
+"kind": "ITEM_KIND_ARMOR",
+"sc": "幻影战甲",
+"en": "Phantom Suit",
+"factors": [
+"ITEM_FACTOR_NO_542_01",
+"ITEM_FACTOR_NO_542_02"
+]
+},
+{
+"idx": 543,
+"tag": "ITEM_ARMOR_008",
+"sort": 543,
+"kind": "ITEM_KIND_ARMOR",
+"sc": "炼金外套",
+"en": "Alchemy Mantle",
+"factors": [
+"ITEM_FACTOR_NO_543_01",
+"ITEM_FACTOR_NO_543_02"
+]
+},
+{
+"idx": 544,
+"tag": "ITEM_ARMOR_009",
+"sort": 544,
+"kind": "ITEM_KIND_ARMOR",
+"sc": "复活大衣",
+"en": "Resurrection Wear",
+"factors": [
+"ITEM_FACTOR_NO_544_01",
+"ITEM_FACTOR_NO_544_02"
+]
+},
+{
+"idx": 545,
+"tag": "ITEM_ARMOR_010",
+"sort": 545,
+"kind": "ITEM_KIND_ARMOR",
+"sc": "地狱犬铁甲",
+"en": "Cerberus Plate",
+"factors": [
+"ITEM_FACTOR_NO_545_01",
+"ITEM_FACTOR_NO_545_02"
+]
+},
+{
+"idx": 546,
+"tag": "ITEM_ARMOR_RESERVE_001",
+"sort": 546,
+"kind": "ITEM_KIND_ARMOR",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 547,
+"tag": "ITEM_ARMOR_RESERVE_002",
+"sort": 547,
+"kind": "ITEM_KIND_ARMOR",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 548,
+"tag": "ITEM_ARMOR_RESERVE_003",
+"sort": 548,
+"kind": "ITEM_KIND_ARMOR",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 549,
+"tag": "ITEM_ARMOR_RESERVE_004",
+"sort": 549,
+"kind": "ITEM_KIND_ARMOR",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 550,
+"tag": "ITEM_ARMOR_RESERVE_005",
+"sort": 550,
+"kind": "ITEM_KIND_ARMOR",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 551,
+"tag": "ITEM_ARMOR_RESERVE_006",
+"sort": 551,
+"kind": "ITEM_KIND_ARMOR",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 552,
+"tag": "ITEM_ARMOR_RESERVE_007",
+"sort": 552,
+"kind": "ITEM_KIND_ARMOR",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 553,
+"tag": "ITEM_ARMOR_RESERVE_008",
+"sort": 553,
+"kind": "ITEM_KIND_ARMOR",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 554,
+"tag": "ITEM_ARMOR_RESERVE_009",
+"sort": 554,
+"kind": "ITEM_KIND_ARMOR",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 555,
+"tag": "ITEM_ARMOR_RESERVE_010",
+"sort": 555,
+"kind": "ITEM_KIND_ARMOR",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 556,
+"tag": "ITEM_ACCESSORY_001",
+"sort": 556,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": "心形耳环",
+"en": "Heart Earrings",
+"factors": [
+"ITEM_FACTOR_NO_556_01"
+]
+},
+{
+"idx": 557,
+"tag": "ITEM_ACCESSORY_002",
+"sort": 557,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": "恩典戒指",
+"en": "Gnade Ring",
+"factors": [
+"ITEM_FACTOR_NO_557_01"
+]
+},
+{
+"idx": 558,
+"tag": "ITEM_ACCESSORY_003",
+"sort": 558,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": "冰炎手环",
+"en": "Fire &amp; Ice Bracelets",
+"factors": [
+"ITEM_FACTOR_NO_558_01"
+]
+},
+{
+"idx": 559,
+"tag": "ITEM_ACCESSORY_004",
+"sort": 559,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": "风雷手环",
+"en": "Storm Bracelets",
+"factors": [
+"ITEM_FACTOR_NO_559_01"
+]
+},
+{
+"idx": 560,
+"tag": "ITEM_ACCESSORY_005",
+"sort": 560,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": "干劲腰带",
+"en": "Hustle Belt",
+"factors": [
+"ITEM_FACTOR_NO_560_01"
+]
+},
+{
+"idx": 561,
+"tag": "ITEM_ACCESSORY_006",
+"sort": 561,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": "紫宝石项链",
+"en": "Lilac Jewel Necklace",
+"factors": [
+"ITEM_FACTOR_NO_561_01",
+"ITEM_FACTOR_NO_561_02"
+]
+},
+{
+"idx": 562,
+"tag": "ITEM_ACCESSORY_007",
+"sort": 562,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": "猎鹰瞄准镜",
+"en": "Eaglescope",
+"factors": [
+"ITEM_FACTOR_NO_562_01",
+"ITEM_FACTOR_NO_562_02"
+]
+},
+{
+"idx": 563,
+"tag": "ITEM_ACCESSORY_008",
+"sort": 563,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": "仙灵花冠",
+"en": "Ambrosia Garland",
+"factors": [
+"ITEM_FACTOR_NO_563_01",
+"ITEM_FACTOR_NO_563_02"
+]
+},
+{
+"idx": 564,
+"tag": "ITEM_ACCESSORY_009",
+"sort": 564,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": "如意沙漏",
+"en": "Time Control Hourglass",
+"factors": [
+"ITEM_FACTOR_NO_564_01",
+"ITEM_FACTOR_NO_564_02"
+]
+},
+{
+"idx": 565,
+"tag": "ITEM_ACCESSORY_010",
+"sort": 565,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": "交织围巾",
+"en": "Intertwining Scarf",
+"factors": [
+"ITEM_FACTOR_NO_565_01",
+"ITEM_FACTOR_NO_565_02"
+]
+},
+{
+"idx": 566,
+"tag": "ITEM_ACCESSORY_RESERVE_001",
+"sort": 566,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 567,
+"tag": "ITEM_ACCESSORY_RESERVE_002",
+"sort": 567,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 568,
+"tag": "ITEM_ACCESSORY_RESERVE_003",
+"sort": 568,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 569,
+"tag": "ITEM_ACCESSORY_RESERVE_004",
+"sort": 569,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 570,
+"tag": "ITEM_ACCESSORY_RESERVE_005",
+"sort": 570,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 571,
+"tag": "ITEM_ACCESSORY_RESERVE_006",
+"sort": 571,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 572,
+"tag": "ITEM_ACCESSORY_RESERVE_007",
+"sort": 572,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 573,
+"tag": "ITEM_ACCESSORY_RESERVE_008",
+"sort": 573,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 574,
+"tag": "ITEM_ACCESSORY_RESERVE_009",
+"sort": 574,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 575,
+"tag": "ITEM_ACCESSORY_RESERVE_010",
+"sort": 575,
+"kind": "ITEM_KIND_ACCESSORY",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 576,
+"tag": "ITEM_AMULET_001",
+"sort": 576,
+"kind": "ITEM_KIND_AMULET",
+"sc": "反射的护符",
+"en": "Reflection Talisman",
+"factors": [
+"ITEM_FACTOR_NO_576_01"
+]
+},
+{
+"idx": 577,
+"tag": "ITEM_AMULET_002",
+"sort": 577,
+"kind": "ITEM_KIND_AMULET",
+"sc": "坚甲的护符",
+"en": "Carapace Talisman",
+"factors": [
+"ITEM_FACTOR_NO_577_01"
+]
+},
+{
+"idx": 578,
+"tag": "ITEM_AMULET_003",
+"sort": 578,
+"kind": "ITEM_KIND_AMULET",
+"sc": "痊愈的护符",
+"en": "Healing Talisman",
+"factors": [
+"ITEM_FACTOR_NO_578_01"
+]
+},
+{
+"idx": 579,
+"tag": "ITEM_AMULET_004",
+"sort": 579,
+"kind": "ITEM_KIND_AMULET",
+"sc": "光彩的护符",
+"en": "Lustrous Talisman",
+"factors": [
+"ITEM_FACTOR_NO_579_01"
+]
+},
+{
+"idx": 580,
+"tag": "ITEM_AMULET_005",
+"sort": 580,
+"kind": "ITEM_KIND_AMULET",
+"sc": "炎热的护符",
+"en": "Scorching Talisman",
+"factors": [
+"ITEM_FACTOR_NO_580_01"
+]
+},
+{
+"idx": 581,
+"tag": "ITEM_AMULET_006",
+"sort": 581,
+"kind": "ITEM_KIND_AMULET",
+"sc": "冰河的护符",
+"en": "Glacier Talisman",
+"factors": [
+"ITEM_FACTOR_NO_581_01"
+]
+},
+{
+"idx": 582,
+"tag": "ITEM_AMULET_007",
+"sort": 582,
+"kind": "ITEM_KIND_AMULET",
+"sc": "雷鸣的护符",
+"en": "Thunder Talisman",
+"factors": [
+"ITEM_FACTOR_NO_582_01"
+]
+},
+{
+"idx": 583,
+"tag": "ITEM_AMULET_008",
+"sort": 583,
+"kind": "ITEM_KIND_AMULET",
+"sc": "暴风的护符",
+"en": "Gale Talisman",
+"factors": [
+"ITEM_FACTOR_NO_583_01"
+]
+},
+{
+"idx": 584,
+"tag": "ITEM_AMULET_009",
+"sort": 584,
+"kind": "ITEM_KIND_AMULET",
+"sc": "守护的护符",
+"en": "Safeguard Talisman",
+"factors": [
+"ITEM_FACTOR_NO_584_01",
+"ITEM_FACTOR_NO_584_02"
+]
+},
+{
+"idx": 585,
+"tag": "ITEM_AMULET_010",
+"sort": 585,
+"kind": "ITEM_KIND_AMULET",
+"sc": "破坏的护符",
+"en": "Destructive Talisman",
+"factors": [
+"ITEM_FACTOR_NO_585_01",
+"ITEM_FACTOR_NO_585_02"
+]
+},
+{
+"idx": 586,
+"tag": "ITEM_AMULET_011",
+"sort": 586,
+"kind": "ITEM_KIND_AMULET",
+"sc": "转变的护符",
+"en": "Synergy Talisman",
+"factors": [
+"ITEM_FACTOR_NO_586_01",
+"ITEM_FACTOR_NO_586_02"
+]
+},
+{
+"idx": 587,
+"tag": "ITEM_AMULET_012",
+"sort": 587,
+"kind": "ITEM_KIND_AMULET",
+"sc": "循环的护符",
+"en": "Cycle Talisman",
+"factors": [
+"ITEM_FACTOR_NO_587_01",
+"ITEM_FACTOR_NO_587_02"
+]
+},
+{
+"idx": 588,
+"tag": "ITEM_AMULET_013",
+"sort": 588,
+"kind": "ITEM_KIND_AMULET",
+"sc": "连击的护符",
+"en": "Barrage Talisman",
+"factors": [
+"ITEM_FACTOR_NO_588_01",
+"ITEM_FACTOR_NO_588_02"
+]
+},
+{
+"idx": 589,
+"tag": "ITEM_AMULET_014",
+"sort": 589,
+"kind": "ITEM_KIND_AMULET",
+"sc": "炮射的护符",
+"en": "Gunfighter Talisman",
+"factors": [
+"ITEM_FACTOR_NO_589_01",
+"ITEM_FACTOR_NO_589_02"
+]
+},
+{
+"idx": 590,
+"tag": "ITEM_AMULET_015",
+"sort": 590,
+"kind": "ITEM_KIND_AMULET",
+"sc": "支援的护符",
+"en": "Support Talisman",
+"factors": [
+"ITEM_FACTOR_NO_590_01",
+"ITEM_FACTOR_NO_590_02"
+]
+},
+{
+"idx": 591,
+"tag": "ITEM_AMULET_RESERVE_001",
+"sort": 591,
+"kind": "ITEM_KIND_AMULET",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 592,
+"tag": "ITEM_AMULET_RESERVE_002",
+"sort": 592,
+"kind": "ITEM_KIND_AMULET",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 593,
+"tag": "ITEM_AMULET_RESERVE_003",
+"sort": 593,
+"kind": "ITEM_KIND_AMULET",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 594,
+"tag": "ITEM_AMULET_RESERVE_004",
+"sort": 594,
+"kind": "ITEM_KIND_AMULET",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 595,
+"tag": "ITEM_AMULET_RESERVE_005",
+"sort": 595,
+"kind": "ITEM_KIND_AMULET",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 596,
+"tag": "ITEM_AMULET_RESERVE_006",
+"sort": 596,
+"kind": "ITEM_KIND_AMULET",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 597,
+"tag": "ITEM_AMULET_RESERVE_007",
+"sort": 597,
+"kind": "ITEM_KIND_AMULET",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 598,
+"tag": "ITEM_AMULET_RESERVE_008",
+"sort": 598,
+"kind": "ITEM_KIND_AMULET",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 599,
+"tag": "ITEM_AMULET_RESERVE_009",
+"sort": 599,
+"kind": "ITEM_KIND_AMULET",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 600,
+"tag": "ITEM_AMULET_RESERVE_010",
+"sort": 600,
+"kind": "ITEM_KIND_AMULET",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 601,
+"tag": "ITEM_KEY_ITEM_001",
+"sort": 601,
+"kind": "ITEM_KIND_MIX",
+"sc": "阳光金绿柱石",
+"en": "Sunlight Heliodor",
+"factors": [
+"ITEM_FACTOR_NO_601_01",
+"ITEM_FACTOR_NO_601_02"
+]
+},
+{
+"idx": 602,
+"tag": "ITEM_KEY_ITEM_002",
+"sort": 602,
+"kind": "ITEM_KIND_MIX",
+"sc": "骤雨水石膏",
+"en": "Cloudburst Hydrite",
+"factors": [
+"ITEM_FACTOR_NO_602_01",
+"ITEM_FACTOR_NO_602_02"
+]
+},
+{
+"idx": 603,
+"tag": "ITEM_KEY_ITEM_003",
+"sort": 603,
+"kind": "ITEM_KIND_MIX",
+"sc": "冰冻的拉利玛石",
+"en": "Glacial Larimar",
+"factors": [
+"ITEM_FACTOR_NO_603_01",
+"ITEM_FACTOR_NO_603_02"
+]
+},
+{
+"idx": 604,
+"tag": "ITEM_KEY_ITEM_004",
+"sort": 604,
+"kind": "ITEM_KIND_MIX",
+"sc": "雷鸣的钠镁电气石",
+"en": "Crackling Dravite",
+"factors": [
+"ITEM_FACTOR_NO_604_01",
+"ITEM_FACTOR_NO_604_02"
+]
+},
+{
+"idx": 605,
+"tag": "ITEM_KEY_ITEM_005",
+"sort": 605,
+"kind": "ITEM_KIND_MIX",
+"sc": "浮动的天铁",
+"en": "Floating Gibeon",
+"factors": [
+"ITEM_FACTOR_NO_605_01",
+"ITEM_FACTOR_NO_605_02"
+]
+},
+{
+"idx": 606,
+"tag": "ITEM_KEY_ITEM_006",
+"sort": 606,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "祈祷之石",
+"en": "Gebet Stone",
+"factors": [
+"ITEM_FACTOR_NO_606_01",
+"ITEM_FACTOR_NO_606_02"
+]
+},
+{
+"idx": 607,
+"tag": "ITEM_KEY_ITEM_007",
+"sort": 608,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "雷鸟的羽毛",
+"en": "Thunderbird Feather",
+"factors": [
+"ITEM_FACTOR_NO_607_01",
+"ITEM_FACTOR_NO_607_02"
+]
+},
+{
+"idx": 608,
+"tag": "ITEM_KEY_ITEM_008",
+"sort": 609,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "梦之容器·空",
+"en": "Dream Vessel (Air)",
+"factors": [
+"ITEM_FACTOR_NO_608_01",
+"ITEM_FACTOR_NO_608_02"
+]
+},
+{
+"idx": 609,
+"tag": "ITEM_KEY_ITEM_009",
+"sort": 610,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "梦之容器·雷",
+"en": "Dream Vessel (Storm)",
+"factors": [
+"ITEM_FACTOR_NO_609_01",
+"ITEM_FACTOR_NO_609_02"
+]
+},
+{
+"idx": 610,
+"tag": "ITEM_KEY_ITEM_010",
+"sort": 611,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "飞鹰的羽毛",
+"en": "Adler Feathers",
+"factors": [
+"ITEM_FACTOR_NO_610_01",
+"ITEM_FACTOR_NO_610_02"
+]
+},
+{
+"idx": 611,
+"tag": "ITEM_KEY_ITEM_011",
+"sort": 612,
+"kind": "ITEM_KIND_MIX",
+"sc": "吸引魔物的诱饵",
+"en": "Monster Bait",
+"factors": [
+"ITEM_FACTOR_NO_611_01",
+"ITEM_FACTOR_NO_611_02"
+]
+},
+{
+"idx": 612,
+"tag": "ITEM_KEY_ITEM_012",
+"sort": 613,
+"kind": "ITEM_KIND_MIX",
+"sc": "次元溶解剂",
+"en": "Dimensional Solvent",
+"factors": [
+"ITEM_FACTOR_NO_612_01",
+"ITEM_FACTOR_NO_612_02"
+]
+},
+{
+"idx": 613,
+"tag": "ITEM_KEY_ITEM_013",
+"sort": 614,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "魂结之石",
+"en": "Soul Stone",
+"factors": [
+"ITEM_FACTOR_NO_613_01",
+"ITEM_FACTOR_NO_613_02"
+]
+},
+{
+"idx": 614,
+"tag": "ITEM_KEY_ITEM_014",
+"sort": 615,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "收魂之笼",
+"en": "Soul Cage",
+"factors": [
+"ITEM_FACTOR_NO_614_01",
+"ITEM_FACTOR_NO_614_02"
+]
+},
+{
+"idx": 615,
+"tag": "ITEM_KEY_ITEM_015",
+"sort": 616,
+"kind": "ITEM_KIND_MIX",
+"sc": "爆破用炎烧",
+"en": "Demolition Bomb",
+"factors": [
+"ITEM_FACTOR_NO_615_01",
+"ITEM_FACTOR_NO_615_02"
+]
+},
+{
+"idx": 616,
+"tag": "ITEM_KEY_ITEM_016",
+"sort": 617,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "梦之碎片",
+"en": "Dream Core Fragments",
+"factors": [
+"ITEM_FACTOR_NO_616_01",
+"ITEM_FACTOR_NO_616_02"
+]
+},
+{
+"idx": 617,
+"tag": "ITEM_KEY_ITEM_017",
+"sort": 618,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "梦想粉末",
+"en": "Reverie Powder",
+"factors": [
+"ITEM_FACTOR_NO_617_01",
+"ITEM_FACTOR_NO_617_02"
+]
+},
+{
+"idx": 618,
+"tag": "ITEM_KEY_ITEM_018",
+"sort": 619,
+"kind": "ITEM_KIND_MIX",
+"sc": "驱除古罗尔的魔石",
+"en": "Groll-warding Stone",
+"factors": [
+"ITEM_FACTOR_NO_618_01",
+"ITEM_FACTOR_NO_618_02"
+]
+},
+{
+"idx": 619,
+"tag": "ITEM_KEY_ITEM_019",
+"sort": 620,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "古都金币",
+"en": "Antique Gold Coin",
+"factors": [
+"ITEM_FACTOR_NO_619_01",
+"ITEM_FACTOR_NO_619_02"
+]
+},
+{
+"idx": 620,
+"tag": "ITEM_KEY_ITEM_020",
+"sort": 621,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "奥利亚斯的护身符",
+"en": "Olias's Charm",
+"factors": [
+"ITEM_FACTOR_NO_620_01",
+"ITEM_FACTOR_NO_620_02"
+]
+},
+{
+"idx": 621,
+"tag": "ITEM_KEY_ITEM_021",
+"sort": 622,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "斯拉夫龙的鳞片",
+"en": "Zmei's Scale",
+"factors": [
+"ITEM_FACTOR_NO_621_01",
+"ITEM_FACTOR_NO_621_02"
+]
+},
+{
+"idx": 622,
+"tag": "ITEM_KEY_ITEM_022",
+"sort": 623,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "维格之梦",
+"en": "Wiegentraum",
+"factors": [
+"ITEM_FACTOR_NO_622_01",
+"ITEM_FACTOR_NO_622_02"
+]
+},
+{
+"idx": 623,
+"tag": "ITEM_KEY_ITEM_023",
+"sort": 624,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "精灵坠饰",
+"en": "Spirit Pendulum",
+"factors": [
+"ITEM_FACTOR_NO_623_01",
+"ITEM_FACTOR_NO_623_02"
+]
+},
+{
+"idx": 624,
+"tag": "ITEM_KEY_ITEM_024",
+"sort": 625,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "梦幻路标",
+"en": "Vision Wayfinder",
+"factors": [
+"ITEM_FACTOR_NO_624_01",
+"ITEM_FACTOR_NO_624_02"
+]
+},
+{
+"idx": 625,
+"tag": "ITEM_KEY_ITEM_025",
+"sort": 626,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "梦幻坠饰",
+"en": "Dream Vision Pendulum",
+"factors": [
+"ITEM_FACTOR_NO_625_01",
+"ITEM_FACTOR_NO_625_02"
+]
+},
+{
+"idx": 626,
+"tag": "ITEM_KEY_ITEM_026",
+"sort": 627,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "陈年老壶",
+"en": "Antique Pot",
+"factors": [
+"ITEM_FACTOR_NO_626_01",
+"ITEM_FACTOR_NO_626_02"
+]
+},
+{
+"idx": 627,
+"tag": "ITEM_KEY_ITEM_027",
+"sort": 628,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "壶的碎片",
+"en": "Pot Shards",
+"factors": [
+"ITEM_FACTOR_NO_627_01",
+"ITEM_FACTOR_NO_627_02"
+]
+},
+{
+"idx": 628,
+"tag": "ITEM_KEY_ITEM_028",
+"sort": 629,
+"kind": "ITEM_KIND_MIX",
+"sc": "梦境水晶球",
+"en": "Daydream Crystal",
+"factors": [
+"ITEM_FACTOR_NO_628_01",
+"ITEM_FACTOR_NO_628_02"
+]
+},
+{
+"idx": 629,
+"tag": "ITEM_KEY_ITEM_029",
+"sort": 630,
+"kind": "ITEM_KIND_MIX",
+"sc": "工匠画笔",
+"en": "Artisan Brushes",
+"factors": [
+"ITEM_FACTOR_NO_629_01",
+"ITEM_FACTOR_NO_629_02"
+]
+},
+{
+"idx": 630,
+"tag": "ITEM_KEY_ITEM_030",
+"sort": 631,
+"kind": "ITEM_KIND_MIX",
+"sc": "苏醒之花",
+"en": "Wake-Up Flower",
+"factors": [
+"ITEM_FACTOR_NO_630_01",
+"ITEM_FACTOR_NO_630_02"
+]
+},
+{
+"idx": 631,
+"tag": "ITEM_KEY_ITEM_031",
+"sort": 607,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "祈祷之石",
+"en": "Gebet Stone",
+"factors": [
+"ITEM_FACTOR_NO_631_01",
+"ITEM_FACTOR_NO_631_02"
+]
+},
+{
+"idx": 632,
+"tag": "ITEM_KEY_ITEM_032",
+"sort": 632,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 633,
+"tag": "ITEM_KEY_ITEM_033",
+"sort": 633,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 634,
+"tag": "ITEM_KEY_ITEM_034",
+"sort": 634,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 635,
+"tag": "ITEM_KEY_ITEM_035",
+"sort": 635,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 636,
+"tag": "ITEM_KEY_ITEM_036",
+"sort": 636,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 637,
+"tag": "ITEM_KEY_ITEM_037",
+"sort": 637,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 638,
+"tag": "ITEM_KEY_ITEM_038",
+"sort": 638,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 639,
+"tag": "ITEM_KEY_ITEM_039",
+"sort": 639,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 640,
+"tag": "ITEM_KEY_ITEM_040",
+"sort": 640,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 641,
+"tag": "ITEM_KEY_ITEM_041",
+"sort": 641,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 642,
+"tag": "ITEM_KEY_ITEM_042",
+"sort": 642,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 643,
+"tag": "ITEM_KEY_ITEM_043",
+"sort": 643,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 644,
+"tag": "ITEM_KEY_ITEM_044",
+"sort": 644,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 645,
+"tag": "ITEM_KEY_ITEM_045",
+"sort": 645,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 646,
+"tag": "ITEM_KEY_ITEM_046",
+"sort": 646,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 647,
+"tag": "ITEM_KEY_ITEM_047",
+"sort": 647,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 648,
+"tag": "ITEM_KEY_ITEM_048",
+"sort": 648,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 649,
+"tag": "ITEM_KEY_ITEM_049",
+"sort": 649,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 650,
+"tag": "ITEM_KEY_ITEM_050",
+"sort": 650,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 651,
+"tag": "ITEM_KEY_ITEM_RESERVE_001",
+"sort": 651,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 652,
+"tag": "ITEM_KEY_ITEM_RESERVE_002",
+"sort": 652,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 653,
+"tag": "ITEM_KEY_ITEM_RESERVE_003",
+"sort": 653,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 654,
+"tag": "ITEM_KEY_ITEM_RESERVE_004",
+"sort": 654,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 655,
+"tag": "ITEM_KEY_ITEM_RESERVE_005",
+"sort": 655,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 656,
+"tag": "ITEM_KEY_ITEM_RESERVE_006",
+"sort": 656,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 657,
+"tag": "ITEM_KEY_ITEM_RESERVE_007",
+"sort": 657,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 658,
+"tag": "ITEM_KEY_ITEM_RESERVE_008",
+"sort": 658,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 659,
+"tag": "ITEM_KEY_ITEM_RESERVE_009",
+"sort": 659,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 660,
+"tag": "ITEM_KEY_ITEM_RESERVE_010",
+"sort": 660,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 661,
+"tag": "ITEM_KEY_ITEM_RESERVE_011",
+"sort": 661,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 662,
+"tag": "ITEM_KEY_ITEM_RESERVE_012",
+"sort": 662,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 663,
+"tag": "ITEM_KEY_ITEM_RESERVE_013",
+"sort": 663,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 664,
+"tag": "ITEM_KEY_ITEM_RESERVE_014",
+"sort": 664,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 665,
+"tag": "ITEM_KEY_ITEM_RESERVE_015",
+"sort": 665,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 666,
+"tag": "ITEM_KEY_ITEM_RESERVE_016",
+"sort": 666,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 667,
+"tag": "ITEM_KEY_ITEM_RESERVE_017",
+"sort": 667,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 668,
+"tag": "ITEM_KEY_ITEM_RESERVE_018",
+"sort": 668,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 669,
+"tag": "ITEM_KEY_ITEM_RESERVE_019",
+"sort": 669,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 670,
+"tag": "ITEM_KEY_ITEM_RESERVE_020",
+"sort": 670,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 671,
+"tag": "ITEM_BOOK_001",
+"sort": 671,
+"kind": "ITEM_KIND_BOOK",
+"sc": "操控天候笔记·下雪",
+"en": "Weather Control (Snow)",
+"factors": []
+},
+{
+"idx": 672,
+"tag": "ITEM_BOOK_002",
+"sort": 672,
+"kind": "ITEM_KIND_BOOK",
+"sc": "爆破用炎烧的制作方法",
+"en": "How to Make Demolition Bombs",
+"factors": []
+},
+{
+"idx": 673,
+"tag": "ITEM_BOOK_003",
+"sort": 673,
+"kind": "ITEM_KIND_BOOK",
+"sc": "温室栽培的基础",
+"en": "Greenhouse Basics",
+"factors": []
+},
+{
+"idx": 674,
+"tag": "ITEM_BOOK_004",
+"sort": 674,
+"kind": "ITEM_KIND_BOOK",
+"sc": "献给真正骑士的剑",
+"en": "True Knight's Sword",
+"factors": []
+},
+{
+"idx": 675,
+"tag": "ITEM_BOOK_005",
+"sort": 675,
+"kind": "ITEM_KIND_BOOK",
+"sc": "苏醒之花的制作方法",
+"en": "Wake-Up Flower Recipe",
+"factors": []
+},
+{
+"idx": 676,
+"tag": "ITEM_BOOK_006",
+"sort": 676,
+"kind": "ITEM_KIND_BOOK",
+"sc": "尖锐的武器",
+"en": "Spiky Weapon",
+"factors": []
+},
+{
+"idx": 677,
+"tag": "ITEM_BOOK_007",
+"sort": 677,
+"kind": "ITEM_KIND_BOOK",
+"sc": "格子松饼的烘焙火候",
+"en": "Waffle Cooking Guide",
+"factors": []
+},
+{
+"idx": 678,
+"tag": "ITEM_BOOK_008",
+"sort": 678,
+"kind": "ITEM_KIND_BOOK",
+"sc": "炼金术的奥义",
+"en": "Heart of Alchemy",
+"factors": []
+},
+{
+"idx": 679,
+"tag": "ITEM_BOOK_009",
+"sort": 679,
+"kind": "ITEM_KIND_BOOK",
+"sc": "传说中的冶炼法",
+"en": "The Secret of Smithing",
+"factors": []
+},
+{
+"idx": 680,
+"tag": "ITEM_BOOK_010",
+"sort": 680,
+"kind": "ITEM_KIND_BOOK",
+"sc": "羽衣的编织方法",
+"en": "Heavenly Weaving",
+"factors": []
+},
+{
+"idx": 681,
+"tag": "ITEM_BOOK_011",
+"sort": 681,
+"kind": "ITEM_KIND_BOOK",
+"sc": "提味的精髓",
+"en": "The Secret Ingredient",
+"factors": []
+},
+{
+"idx": 682,
+"tag": "ITEM_BOOK_012",
+"sort": 682,
+"kind": "ITEM_KIND_BOOK",
+"sc": "欢快多彩的生活",
+"en": "Happy Living",
+"factors": []
+},
+{
+"idx": 683,
+"tag": "ITEM_BOOK_013",
+"sort": 683,
+"kind": "ITEM_KIND_BOOK",
+"sc": "和噗尼学习假日木工",
+"en": "A Puni Guide to DIY",
+"factors": []
+},
+{
+"idx": 684,
+"tag": "ITEM_BOOK_014",
+"sort": 684,
+"kind": "ITEM_KIND_BOOK",
+"sc": "梦幻见闻录",
+"en": "Dream Vision Log",
+"factors": []
+},
+{
+"idx": 685,
+"tag": "ITEM_BOOK_015",
+"sort": 685,
+"kind": "ITEM_KIND_BOOK",
+"sc": "繁星洒落的武器",
+"en": "Falling Star",
+"factors": []
+},
+{
+"idx": 686,
+"tag": "ITEM_BOOK_016",
+"sort": 686,
+"kind": "ITEM_KIND_BOOK",
+"sc": "朔月之书",
+"en": "Book of the New Moon",
+"factors": []
+},
+{
+"idx": 687,
+"tag": "ITEM_BOOK_017",
+"sort": 687,
+"kind": "ITEM_KIND_BOOK",
+"sc": "神秘种子的配方",
+"en": "Mystic Seed Recipe",
+"factors": []
+},
+{
+"idx": 688,
+"tag": "ITEM_BOOK_018",
+"sort": 688,
+"kind": "ITEM_KIND_BOOK",
+"sc": "战斗的守则",
+"en": "The Art of Battle",
+"factors": []
+},
+{
+"idx": 689,
+"tag": "ITEM_BOOK_019",
+"sort": 689,
+"kind": "ITEM_KIND_BOOK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 690,
+"tag": "ITEM_BOOK_020",
+"sort": 690,
+"kind": "ITEM_KIND_BOOK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 691,
+"tag": "ITEM_BOOK_RESERVE_001",
+"sort": 691,
+"kind": "ITEM_KIND_BOOK",
+"sc": "战斗的极致·上卷",
+"en": "The Art of Battle: Volume 1",
+"factors": []
+},
+{
+"idx": 692,
+"tag": "ITEM_BOOK_RESERVE_002",
+"sort": 692,
+"kind": "ITEM_KIND_BOOK",
+"sc": "战斗的极致·中卷",
+"en": "The Art of Battle: Volume 2",
+"factors": []
+},
+{
+"idx": 693,
+"tag": "ITEM_BOOK_RESERVE_003",
+"sort": 693,
+"kind": "ITEM_KIND_BOOK",
+"sc": "战斗的极致·下卷",
+"en": "The Art of Battle: Volume 3",
+"factors": []
+},
+{
+"idx": 694,
+"tag": "ITEM_BOOK_RESERVE_004",
+"sort": 694,
+"kind": "ITEM_KIND_BOOK",
+"sc": "调合的极致·上卷",
+"en": "The Art of Synthesis: Volume 1",
+"factors": []
+},
+{
+"idx": 695,
+"tag": "ITEM_BOOK_RESERVE_005",
+"sort": 695,
+"kind": "ITEM_KIND_BOOK",
+"sc": "调合的极致·下卷",
+"en": "The Art of Synthesis: Volume 2",
+"factors": []
+},
+{
+"idx": 696,
+"tag": "ITEM_BOOK_RESERVE_006",
+"sort": 696,
+"kind": "ITEM_KIND_BOOK",
+"sc": "童年时光的梦",
+"en": "Childhood Dream",
+"factors": []
+},
+{
+"idx": 697,
+"tag": "ITEM_BOOK_RESERVE_007",
+"sort": 697,
+"kind": "ITEM_KIND_BOOK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 698,
+"tag": "ITEM_BOOK_RESERVE_008",
+"sort": 698,
+"kind": "ITEM_KIND_BOOK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 699,
+"tag": "ITEM_BOOK_RESERVE_009",
+"sort": 699,
+"kind": "ITEM_KIND_BOOK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 700,
+"tag": "ITEM_BOOK_RESERVE_010",
+"sort": 700,
+"kind": "ITEM_KIND_BOOK",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 701,
+"tag": "ITEM_EVENT_ICON_001",
+"sort": 701,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 702,
+"tag": "ITEM_EVENT_ICON_002",
+"sort": 702,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 703,
+"tag": "ITEM_EVENT_ICON_003",
+"sort": 703,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 704,
+"tag": "ITEM_EVENT_ICON_004",
+"sort": 704,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 705,
+"tag": "ITEM_EVENT_ICON_005",
+"sort": 705,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 706,
+"tag": "ITEM_EVENT_ICON_006",
+"sort": 706,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 707,
+"tag": "ITEM_EVENT_ICON_007",
+"sort": 707,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 708,
+"tag": "ITEM_EVENT_ICON_008",
+"sort": 708,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 709,
+"tag": "ITEM_EVENT_ICON_009",
+"sort": 709,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 710,
+"tag": "ITEM_EVENT_ICON_010",
+"sort": 710,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 711,
+"tag": "ITEM_EVENT_ICON_RESERVE_001",
+"sort": 711,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 712,
+"tag": "ITEM_EVENT_ICON_RESERVE_002",
+"sort": 712,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 713,
+"tag": "ITEM_EVENT_ICON_RESERVE_003",
+"sort": 713,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 714,
+"tag": "ITEM_EVENT_ICON_RESERVE_004",
+"sort": 714,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 715,
+"tag": "ITEM_EVENT_ICON_RESERVE_005",
+"sort": 715,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 716,
+"tag": "ITEM_EVENT_ICON_RESERVE_006",
+"sort": 716,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 717,
+"tag": "ITEM_EVENT_ICON_RESERVE_007",
+"sort": 717,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 718,
+"tag": "ITEM_EVENT_ICON_RESERVE_008",
+"sort": 718,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 719,
+"tag": "ITEM_EVENT_ICON_RESERVE_009",
+"sort": 719,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 720,
+"tag": "ITEM_EVENT_ICON_RESERVE_010",
+"sort": 720,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 721,
+"tag": "ITEM_DLC_001",
+"sort": 214,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "糖果果实",
+"en": "Candinuts",
+"factors": [
+"ITEM_FACTOR_NO_721_01",
+"ITEM_FACTOR_NO_721_02",
+"ITEM_FACTOR_NO_721_03",
+"ITEM_FACTOR_NO_721_04",
+"ITEM_FACTOR_NO_721_05",
+"ITEM_FACTOR_NO_721_06",
+"ITEM_FACTOR_NO_721_07",
+"ITEM_FACTOR_NO_721_08"
+]
+},
+{
+"idx": 722,
+"tag": "ITEM_DLC_002",
+"sort": 215,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "饼干木材",
+"en": "Billekeks",
+"factors": [
+"ITEM_FACTOR_NO_722_01",
+"ITEM_FACTOR_NO_722_02",
+"ITEM_FACTOR_NO_722_03",
+"ITEM_FACTOR_NO_722_04",
+"ITEM_FACTOR_NO_722_05",
+"ITEM_FACTOR_NO_722_06",
+"ITEM_FACTOR_NO_722_07",
+"ITEM_FACTOR_NO_722_08"
+]
+},
+{
+"idx": 723,
+"tag": "ITEM_DLC_003",
+"sort": 216,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "断掉的蜡笔",
+"en": "Broken Crayons",
+"factors": [
+"ITEM_FACTOR_NO_723_01",
+"ITEM_FACTOR_NO_723_02",
+"ITEM_FACTOR_NO_723_03",
+"ITEM_FACTOR_NO_723_04",
+"ITEM_FACTOR_NO_723_05",
+"ITEM_FACTOR_NO_723_06",
+"ITEM_FACTOR_NO_723_07",
+"ITEM_FACTOR_NO_723_08"
+]
+},
+{
+"idx": 724,
+"tag": "ITEM_DLC_004",
+"sort": 217,
+"kind": "ITEM_KIND_MATERIAL",
+"sc": "漂亮的弹珠",
+"en": "Beautiful Marbles",
+"factors": [
+"ITEM_FACTOR_NO_724_01",
+"ITEM_FACTOR_NO_724_02",
+"ITEM_FACTOR_NO_724_03",
+"ITEM_FACTOR_NO_724_04",
+"ITEM_FACTOR_NO_724_05",
+"ITEM_FACTOR_NO_724_06",
+"ITEM_FACTOR_NO_724_07",
+"ITEM_FACTOR_NO_724_08"
+]
+},
+{
+"idx": 725,
+"tag": "ITEM_DLC_005",
+"sort": 218,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "龙角",
+"en": "Dragon Horn",
+"factors": [
+"ITEM_FACTOR_NO_725_01",
+"ITEM_FACTOR_NO_725_02"
+]
+},
+{
+"idx": 726,
+"tag": "ITEM_DLC_006",
+"sort": 310,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "大魔法师帽子",
+"en": "Whizz Bang Hat",
+"factors": [
+"ITEM_FACTOR_NO_726_01"
+]
+},
+{
+"idx": 727,
+"tag": "ITEM_DLC_007",
+"sort": 311,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "神秘箱",
+"en": "Arcana Chest",
+"factors": [
+"ITEM_FACTOR_NO_727_01",
+"ITEM_FACTOR_NO_727_02"
+]
+},
+{
+"idx": 728,
+"tag": "ITEM_DLC_008",
+"sort": 312,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "神秘搜索者",
+"en": "Mystic Seeker",
+"factors": [
+"ITEM_FACTOR_NO_728_01",
+"ITEM_FACTOR_NO_728_02"
+]
+},
+{
+"idx": 729,
+"tag": "ITEM_DLC_009",
+"sort": 313,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "光耀涡旋",
+"en": "Luminous Vortex",
+"factors": [
+"ITEM_FACTOR_NO_729_01",
+"ITEM_FACTOR_NO_729_02"
+]
+},
+{
+"idx": 730,
+"tag": "ITEM_DLC_010",
+"sort": 314,
+"kind": "ITEM_KIND_ATTACK",
+"sc": "马赛克伞",
+"en": "Mosaic Umbrella",
+"factors": [
+"ITEM_FACTOR_NO_730_01"
+]
+},
+{
+"idx": 731,
+"tag": "ITEM_DLC_011",
+"sort": 333,
+"kind": "ITEM_KIND_HEAL",
+"sc": "糖浆果实",
+"en": "Syrup Fruit",
+"factors": [
+"ITEM_FACTOR_NO_731_01"
+]
+},
+{
+"idx": 732,
+"tag": "ITEM_DLC_012",
+"sort": 334,
+"kind": "ITEM_KIND_HEAL",
+"sc": "翠岚之滴",
+"en": "Greenwood Dew",
+"factors": [
+"ITEM_FACTOR_NO_732_01",
+"ITEM_FACTOR_NO_732_02"
+]
+},
+{
+"idx": 733,
+"tag": "ITEM_DLC_013",
+"sort": 335,
+"kind": "ITEM_KIND_HEAL",
+"sc": "糖果圣代",
+"en": "Candy Sundae",
+"factors": [
+"ITEM_FACTOR_NO_733_01"
+]
+},
+{
+"idx": 734,
+"tag": "ITEM_DLC_014",
+"sort": 349,
+"kind": "ITEM_KIND_BUFFER",
+"sc": "花神泛音",
+"en": "Harmony Globe",
+"factors": []
+},
+{
+"idx": 735,
+"tag": "ITEM_DLC_015",
+"sort": 350,
+"kind": "ITEM_KIND_BUFFER",
+"sc": "友谊连结",
+"en": "Friendship Brush",
+"factors": []
+},
+{
+"idx": 736,
+"tag": "ITEM_DLC_016",
+"sort": 360,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": "封魔锁链",
+"en": "Demon Chains",
+"factors": []
+},
+{
+"idx": 737,
+"tag": "ITEM_DLC_017",
+"sort": 361,
+"kind": "ITEM_KIND_DEBUFFER",
+"sc": "暗光之星",
+"en": "Darklight Star",
+"factors": []
+},
+{
+"idx": 738,
+"tag": "ITEM_DLC_018",
+"sort": 466,
+"kind": "ITEM_KIND_MIX",
+"sc": "萌芽菌菇",
+"en": "Glowing Fungus",
+"factors": [
+"ITEM_FACTOR_NO_738_01",
+"ITEM_FACTOR_NO_738_02"
+]
+},
+{
+"idx": 739,
+"tag": "ITEM_DLC_019",
+"sort": 467,
+"kind": "ITEM_KIND_MIX",
+"sc": "柑橘液",
+"en": "Citrus Solution",
+"factors": [
+"ITEM_FACTOR_NO_739_01",
+"ITEM_FACTOR_NO_739_02"
+]
+},
+{
+"idx": 740,
+"tag": "ITEM_DLC_020",
+"sort": 468,
+"kind": "ITEM_KIND_MIX",
+"sc": "尽灭辉石",
+"en": "Stones of Perdition",
+"factors": [
+"ITEM_FACTOR_NO_740_01",
+"ITEM_FACTOR_NO_740_02"
+]
+},
+{
+"idx": 741,
+"tag": "ITEM_DLC_021",
+"sort": 469,
+"kind": "ITEM_KIND_MIX",
+"sc": "烈焰筒",
+"en": "Blaze Cylinder",
+"factors": [
+"ITEM_FACTOR_NO_741_01",
+"ITEM_FACTOR_NO_741_02"
+]
+},
+{
+"idx": 742,
+"tag": "ITEM_DLC_022",
+"sort": 470,
+"kind": "ITEM_KIND_MIX",
+"sc": "凝缩黑夜",
+"en": "Abendfix",
+"factors": [
+"ITEM_FACTOR_NO_742_01",
+"ITEM_FACTOR_NO_742_02"
+]
+},
+{
+"idx": 743,
+"tag": "ITEM_DLC_023",
+"sort": 471,
+"kind": "ITEM_KIND_MIX",
+"sc": "翠玉指针",
+"en": "Jade Pointer",
+"factors": [
+"ITEM_FACTOR_NO_743_01",
+"ITEM_FACTOR_NO_743_02"
+]
+},
+{
+"idx": 744,
+"tag": "ITEM_DLC_024",
+"sort": 472,
+"kind": "ITEM_KIND_MIX",
+"sc": "木制套球",
+"en": "Wooden Matryoshka",
+"factors": [
+"ITEM_FACTOR_NO_744_01",
+"ITEM_FACTOR_NO_744_02"
+]
+},
+{
+"idx": 745,
+"tag": "ITEM_DLC_025",
+"sort": 473,
+"kind": "ITEM_KIND_MIX",
+"sc": "金箔",
+"en": "Aurum Foil",
+"factors": [
+"ITEM_FACTOR_NO_745_01",
+"ITEM_FACTOR_NO_745_02"
+]
+},
+{
+"idx": 746,
+"tag": "ITEM_DLC_026",
+"sort": 474,
+"kind": "ITEM_KIND_MIX",
+"sc": "诱魔苍雾",
+"en": "Charm Lamp",
+"factors": [
+"ITEM_FACTOR_NO_746_01",
+"ITEM_FACTOR_NO_746_02"
+]
+},
+{
+"idx": 747,
+"tag": "ITEM_DLC_027",
+"sort": 475,
+"kind": "ITEM_KIND_MIX",
+"sc": "克鲁兹花",
+"en": "Lulucius",
+"factors": [
+"ITEM_FACTOR_NO_747_01",
+"ITEM_FACTOR_NO_747_02"
+]
+},
+{
+"idx": 748,
+"tag": "ITEM_DLC_028",
+"sort": 476,
+"kind": "ITEM_KIND_IMPORTANT",
+"sc": "大地之药",
+"en": "Land Medicine",
+"factors": [
+"ITEM_FACTOR_NO_748_01",
+"ITEM_FACTOR_NO_748_02"
+]
+},
+{
+"idx": 749,
+"tag": "ITEM_DLC_029",
+"sort": 491,
+"kind": "ITEM_KIND_MIX",
+"sc": "炼金触媒·贯穿",
+"en": "Penetria Catalyst",
+"factors": [
+"ITEM_FACTOR_NO_749_01",
+"ITEM_FACTOR_NO_749_02"
+]
+},
+{
+"idx": 750,
+"tag": "ITEM_DLC_030",
+"sort": 492,
+"kind": "ITEM_KIND_MIX",
+"sc": "炼金触媒·转录",
+"en": "Transfia Catalyst",
+"factors": [
+"ITEM_FACTOR_NO_750_01",
+"ITEM_FACTOR_NO_750_02"
+]
+},
+{
+"idx": 751,
+"tag": "ITEM_DLC_031",
+"sort": 591,
+"kind": "ITEM_KIND_AMULET",
+"sc": "专注的护符",
+"en": "Focus Talisman",
+"factors": []
+},
+{
+"idx": 752,
+"tag": "ITEM_DLC_032",
+"sort": 592,
+"kind": "ITEM_KIND_AMULET",
+"sc": "阻碍的护符",
+"en": "Obstruct Talisman",
+"factors": []
+},
+{
+"idx": 753,
+"tag": "ITEM_DLC_033",
+"sort": 593,
+"kind": "ITEM_KIND_AMULET",
+"sc": "静止的护符",
+"en": "Stillness Talisman",
+"factors": []
+},
+{
+"idx": 754,
+"tag": "ITEM_DLC_034",
+"sort": 594,
+"kind": "ITEM_KIND_AMULET",
+"sc": "狙击的护符",
+"en": "Snipe Talisman",
+"factors": []
+},
+{
+"idx": 755,
+"tag": "ITEM_DLC_035",
+"sort": 595,
+"kind": "ITEM_KIND_AMULET",
+"sc": "抹除的护符",
+"en": "Erasure Talisman",
+"factors": []
+},
+{
+"idx": 756,
+"tag": "ITEM_DLC_036",
+"sort": 756,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 757,
+"tag": "ITEM_DLC_037",
+"sort": 757,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 758,
+"tag": "ITEM_DLC_038",
+"sort": 758,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 759,
+"tag": "ITEM_DLC_039",
+"sort": 759,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 760,
+"tag": "ITEM_DLC_040",
+"sort": 760,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 761,
+"tag": "ITEM_DLC_041",
+"sort": 761,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 762,
+"tag": "ITEM_DLC_042",
+"sort": 762,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 763,
+"tag": "ITEM_DLC_043",
+"sort": 763,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 764,
+"tag": "ITEM_DLC_044",
+"sort": 764,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+},
+{
+"idx": 765,
+"tag": "ITEM_DLC_045",
+"sort": 765,
+"kind": "ITEM_KIND_MIX",
+"sc": null,
+"en": null,
+"factors": []
+}
+]

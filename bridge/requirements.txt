@@ -1,0 +1,2 @@
+frida>=17,<18  # run.py and probe/ only (research)
+numpy>=2       # analyze/ only

@@ -1,7 +1,7 @@
 # Synthesis rules: verified against the game
 
-Ground truth comes from the live game (Steam v1.8.0.0) through `game-bridge` (`/api/synthesis`,
-`analyze/watch_synth.py`; raw logs of the runs are in `game-bridge/data/experiments/`); the simulator side is `scripts/simulate.ts`, which uses the optimizer's
+Ground truth comes from the live game (Steam v1.8.0.0) through the game reader in [`bridge/`](../bridge/) (`/api/synthesis`,
+`bridge/analyze/watch_synth.py`; raw logs of the runs are in [`bridge/data/experiments/`](../bridge/data/experiments/)); the simulator side is `scripts/simulate.ts`, which uses the optimizer's
 own scoring code. Coordinates are (row, col) on the board, 0-based from the top-left.
 
 ## Confirmed

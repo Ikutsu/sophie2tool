@@ -8,7 +8,7 @@ export interface Companion {
   hearts: number;
 }
 
-/** Local read-only bridge to the running game (game-bridge/server.py). */
+/** Local read-only bridge to the running game (bridge/server.py). */
 export const BRIDGE_URL = "http://127.0.0.1:47823";
 const CACHE_KEY = "sophie2.inventory.v2"; // v2: traits as ids + one name table
 

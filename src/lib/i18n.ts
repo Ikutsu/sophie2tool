@@ -132,11 +132,11 @@ export const translations = {
   ),
   itemsImported: t("items", "個", "개", "个道具", "個道具"),
   bridgeOffline: t(
-    "Bridge not running: start game-bridge/server.py",
-    "ブリッジ未起動：game-bridge/server.py を起動してください",
-    "브리지 미실행: game-bridge/server.py 를 실행하세요",
-    "桥接程序未运行：请先启动 game-bridge/server.py",
-    "橋接程式未執行：請先啟動 game-bridge/server.py",
+    "Bridge not running: start bridge/server.py",
+    "ブリッジ未起動：bridge/server.py を起動してください",
+    "브리지 미실행: bridge/server.py 를 실행하세요",
+    "桥接程序未运行：请先启动 bridge/server.py",
+    "橋接程式未執行：請先啟動 bridge/server.py",
   ),
   gameNotRunning: t(
     "Game is not running",

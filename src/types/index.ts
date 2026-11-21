@@ -77,7 +77,7 @@ export interface Material {
   components: Component[];
 }
 
-/** One concrete item instance read from the game's material box (via game-bridge). */
+/** One concrete item instance read from the game's material box (via bridge/). */
 export interface OwnedMaterial {
   id: number; // in-game serial, unique per instance
   item: number; // index in itemdata.xml

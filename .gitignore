@@ -27,3 +27,11 @@ dist-ssr
 .claude
 
 .tanstack
+
+# game-bridge (Python): local env, memory dumps, and the personal save backup
+bridge/.venv
+__pycache__
+*.pyc
+bridge/dumps
+bridge/save-backup
+bridge/.attach.lock
