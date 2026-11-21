@@ -1,0 +1,188 @@
+/* ===== Panel Frame ===== */
+.panel-frame {
+  padding: 8px;
+  background: linear-gradient(155deg, #584830, #3a2e1e 40%, #4a3e2a);
+  border-radius: 12px;
+  border: 2px solid #6a5840;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.4),
+    0 6px 24px rgba(0, 0, 0, 0.45),
+    0 0 0 1px #18100a;
+  display: inline-block;
+}
+
+.panel-grid {
+  display: grid;
+  gap: 6px;
+  padding: 8px;
+  background: #080604;
+  border-radius: 8px;
+  box-shadow: inset 0 2px 14px rgba(0, 0, 0, 0.7);
+}
+
+/* ===== Octagonal Cell ===== */
+.panel-cell {
+  width: var(--cell-size, 80px);
+  height: var(--cell-size, 80px);
+  clip-path: polygon(
+    29.3% 0%,
+    70.7% 0%,
+    100% 29.3%,
+    100% 70.7%,
+    70.7% 100%,
+    29.3% 100%,
+    0% 70.7%,
+    0% 29.3%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* Off cell: outside panel boundary */
+.panel-cell--off {
+  background: transparent;
+  clip-path: none;
+}
+
+/* Empty cell: active, no element */
+.panel-cell--empty {
+  background: #18140e;
+}
+
+/* Element cells: base styles + icon */
+.panel-cell--elem {
+  position: relative;
+}
+.panel-cell--elem::after {
+  font-family: "Atelier";
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  font-size: 40px;
+  opacity: 0.12;
+  color: #fff;
+}
+
+/* Native panel element cells (unfilled): dark bg + faint icon only, no color */
+.panel-cell--native-icon {
+  background: #18140e;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.panel-cell--native-icon::after {
+  font-family: "Atelier";
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  font-size: 40px;
+  opacity: 0.08;
+}
+.panel-cell--native-icon-ice::after {
+  content: "\ea5f";
+  color: #48b8e8;
+}
+.panel-cell--native-icon-wind::after {
+  content: "\ea57";
+  color: #38d858;
+}
+.panel-cell--native-icon-lightning::after {
+  content: "\ea5d";
+  color: #e8c840;
+}
+.panel-cell--native-icon-fire::after {
+  content: "\ea60";
+  color: #e87040;
+}
+.panel-cell--native-icon-light::after {
+  content: "\ea5e";
+  color: #c8a0d8;
+}
+
+/* Placed cells (filled by optimizer): full opacity, clearly visible */
+.panel-cell--placed {
+  opacity: 1;
+}
+.panel-cell--placed::after {
+  opacity: 0.2;
+}
+
+/* Per-element gradients */
+.panel-cell--ice {
+  background: radial-gradient(ellipse at 40% 35%, #285870, #1a3e58 55%, #0c2238);
+}
+.panel-cell--ice::after {
+  content: "\ea5f";
+}
+
+.panel-cell--wind {
+  background: radial-gradient(ellipse at 40% 35%, #1e5828, #0e3818 55%, #061e0c);
+}
+.panel-cell--wind::after {
+  content: "\ea57";
+}
+
+.panel-cell--lightning {
+  background: radial-gradient(ellipse at 40% 35%, #605820, #4a4418 55%, #2a280c);
+}
+.panel-cell--lightning::after {
+  content: "\ea5d";
+}
+
+.panel-cell--fire {
+  background: radial-gradient(ellipse at 40% 35%, #603018, #4a2410 55%, #2a1408);
+}
+.panel-cell--fire::after {
+  content: "\ea60";
+}
+
+.panel-cell--light {
+  background: radial-gradient(ellipse at 40% 35%, #503860, #382848 55%, #201830);
+}
+.panel-cell--light::after {
+  content: "\ea5e";
+}
+
+/* ===== Bright fills (★ link cells) ===== */
+.panel-cell--ice-bright {
+  background: radial-gradient(ellipse at 36% 26%, #80d8ff, #48b8e8 48%, #186898);
+}
+.panel-cell--ice-bright::after {
+  content: "\ea5f";
+  opacity: 0.4;
+}
+
+.panel-cell--wind-bright {
+  background: radial-gradient(ellipse at 36% 26%, #78ff48, #38d858 48%, #187808);
+}
+.panel-cell--wind-bright::after {
+  content: "\ea57";
+  opacity: 0.4;
+}
+
+.panel-cell--lightning-bright {
+  background: radial-gradient(ellipse at 36% 26%, #fff860, #e8c840 48%, #a89018);
+}
+.panel-cell--lightning-bright::after {
+  content: "\ea5d";
+  opacity: 0.4;
+}
+
+.panel-cell--fire-bright {
+  background: radial-gradient(ellipse at 36% 26%, #ffa878, #e87040 48%, #a04818);
+}
+.panel-cell--fire-bright::after {
+  content: "\ea60";
+  opacity: 0.4;
+}
+
+.panel-cell--light-bright {
+  background: radial-gradient(ellipse at 36% 26%, #e0c0f0, #c8a0d8 48%, #806898);
+}
+.panel-cell--light-bright::after {
+  content: "\ea5e";
+  opacity: 0.4;
+}

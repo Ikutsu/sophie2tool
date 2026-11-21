@@ -1,10 +1,17 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { useRecipeStore } from "../../stores/recipe.ts";
-import { useLocalized } from "../../hooks/use-localized.ts";
-import { KindBadge } from "../../components/ui/kind-badge.tsx";
-import { ElementIcon } from "../../components/ui/element-icon.tsx";
-import type { EffectLine, EffectData, Ingredient } from "../../types/index.ts";
+import { useOptimizerStore } from "../../stores/optimizer.ts";
+import { PanelGrid } from "../../components/panel/panel-grid.tsx";
+import { PlanGuide } from "../../components/panel/plan-guide.tsx";
+import { RecipeLayout } from "../../components/recipe-detail/recipe-layout.tsx";
+import { MaterialList } from "../../components/recipe-detail/material-list.tsx";
+import { ItemCard } from "../../components/recipe-detail/item-card.tsx";
+import { EffectBarList } from "../../components/recipe-detail/effect-bar.tsx";
+import { CoopSkills } from "../../components/recipe-detail/coop-skills.tsx";
+import { OptimizeControls } from "../../components/recipe-detail/optimize-controls.tsx";
+import { useT } from "../../lib/i18n.ts";
+import type { Recipe, ElementColor } from "../../types/index.ts";
 
 export const Route = createFileRoute("/recipe/$slug")({
   component: RecipeDetailPage,
@@ -13,13 +20,21 @@ export const Route = createFileRoute("/recipe/$slug")({
 function RecipeDetailPage() {
   const { slug } = Route.useParams();
   const { recipes, loading, load, getBySlug } = useRecipeStore();
+  const clear = useOptimizerStore((s) => s.clear);
 
   useEffect(() => {
     void load();
   }, [load]);
 
+  // Clear optimizer results when switching recipes
+  useEffect(() => {
+    clear();
+  }, [slug, clear]);
+
+  const t = useT();
+
   if (loading || !recipes) {
-    return <div className="max-w-3xl mx-auto px-6 py-8 text-ink-3">Loading...</div>;
+    return <div className="flex items-center justify-center h-full text-ink-3">{t("loading")}</div>;
   }
 
   const recipe = getBySlug(slug);
@@ -27,144 +42,114 @@ function RecipeDetailPage() {
     return (
       <div className="max-w-3xl mx-auto px-6 py-8">
         <Link to="/" className="text-copper hover:underline text-sm">
-          &larr; Back
+          &larr; {t("back")}
         </Link>
-        <p className="mt-4 text-ink-3">Recipe not found.</p>
+        <p className="mt-4 text-ink-3">{t("recipeNotFound")}</p>
       </div>
     );
   }
 
-  return <RecipeDetail recipe={recipe} />;
+  return <RecipeDetailView recipe={recipe} />;
 }
 
-function RecipeDetail({
-  recipe,
-}: {
-  recipe: NonNullable<ReturnType<typeof useRecipeStore.getState>["recipes"]>[number];
-}) {
-  const name = useLocalized(recipe.name);
-
+function SectionTitle({ children }: { children: React.ReactNode }) {
   return (
-    <div className="max-w-3xl mx-auto px-6 py-8">
-      <Link to="/" className="text-copper hover:underline text-sm">
-        &larr; Back to recipes
-      </Link>
-
-      <div className="mt-4 flex items-start gap-4">
-        <div>
-          <h1 className="font-heading text-2xl font-semibold">{name}</h1>
-          <div className="flex items-center gap-3 mt-1 text-sm text-ink-2">
-            <span>Lv.{recipe.level}</span>
-            <KindBadge kind={recipe.kind} />
-            {recipe.uses ? <span>Uses: {recipe.uses}</span> : null}
-            {recipe.range ? <span>Range: {recipe.range}</span> : null}
-          </div>
-        </div>
-      </div>
-
-      <section className="mt-6">
-        <h2 className="font-heading text-sm font-semibold text-ink-2 tracking-wider uppercase border-b border-border pb-1 mb-3">
-          Ingredients
-        </h2>
-        <div className="flex flex-col gap-2">
-          {recipe.ingredient.map((ing, i) => (
-            <IngredientRow key={i} ing={ing} />
-          ))}
-        </div>
-      </section>
-
-      <section className="mt-6">
-        <h2 className="font-heading text-sm font-semibold text-ink-2 tracking-wider uppercase border-b border-border pb-1 mb-3">
-          Effects
-        </h2>
-        <div className="flex flex-col gap-3">
-          {recipe.effects.map((line, i) => (
-            <EffectLineRow key={i} line={line} />
-          ))}
-        </div>
-      </section>
-
-      {recipe.panel ? (
-        <section className="mt-6">
-          <h2 className="font-heading text-sm font-semibold text-ink-2 tracking-wider uppercase border-b border-border pb-1 mb-3">
-            Panel
-          </h2>
-          <p className="text-sm text-ink-3">
-            {recipe.panel.length}&times;{recipe.panel[0]?.length} grid (visualization in Phase 2)
-          </p>
-        </section>
-      ) : null}
+    <div className="font-heading text-[10px] font-semibold text-ink-2 tracking-widest uppercase border-b border-border pb-1 mb-2">
+      {children}
     </div>
   );
 }
 
-function IngredientRow({ ing }: { ing: Ingredient }) {
-  const itemName = useLocalized(ing.item?.name);
-  const catName = useLocalized(ing.cat?.name);
-
+function Divider() {
   return (
-    <div className="flex items-center gap-2 text-sm">
-      <span className="w-5 h-5 rounded-full bg-copper text-white text-xs font-bold flex items-center justify-center shrink-0">
-        {ing.quantity}
-      </span>
-      <span className="font-medium">
-        {ing.item ? itemName : <span className="italic text-ink-3">{catName}</span>}
-      </span>
+    <div className="flex items-center gap-2 text-border">
+      <div className="flex-1 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+      <span className="text-[6px]">&#9670;</span>
+      <div className="flex-1 h-px bg-gradient-to-l from-transparent via-border to-transparent" />
     </div>
   );
 }
 
-function EffectLineRow({ line }: { line: EffectLine }) {
+function PlanTabs() {
+  const t = useT();
+  const { results, selectedIndex, setSelectedIndex } = useOptimizerStore();
+  if (!results || results.length === 0) return null;
+
   return (
-    <div className="flex items-start gap-2">
-      <ElementIcon element={line.elem} size={18} />
-      <div className="flex-1">
-        <div className="flex items-center gap-2 text-xs text-ink-3">
-          {line.maxlv != null ? <span>maxlv: {line.maxlv}</span> : null}
-          {line.restrict != null ? <span>restrict: {line.restrict}</span> : null}
-        </div>
-        <div className="flex flex-wrap gap-x-3 gap-y-0.5 mt-0.5">
-          {line.data.map((d, i) => (
-            <EffectDataItem
-              key={i}
-              data={d}
-              index={i}
-              restrict={line.restrict}
-              maxlv={line.maxlv}
+    <div className="flex gap-1 mt-3">
+      {results.map((_, i) => (
+        <button
+          key={i}
+          onClick={() => setSelectedIndex(i)}
+          className={`px-4 py-1.5 rounded font-heading text-xs font-semibold cursor-pointer transition-colors ${
+            i === selectedIndex
+              ? "bg-gold text-ink"
+              : "bg-[#38301e] text-[#908068] border border-[#584830] hover:bg-[#48402e]"
+          }`}
+        >
+          {t("plan")} {i + 1}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function RecipeDetailView({ recipe }: { recipe: Recipe }) {
+  const t = useT();
+  const currentResult = useOptimizerStore((s) => s.results?.[s.selectedIndex]);
+  const guideStep = useOptimizerStore((s) => s.guideStep);
+  const step = guideStep != null ? currentResult?.steps[guideStep] : undefined;
+  const highlight = useMemo(
+    () => (step ? new Set(step.cells.map((c) => `${c.row},${c.col}`)) : undefined),
+    [step],
+  );
+  const triggers = useMemo(() => currentResult?.steps.flatMap((s) => s.triggers), [currentResult]);
+
+  const fillValues: Partial<Record<ElementColor, number>> = currentResult?.fillValues ?? {};
+  const linkCounts: Partial<Record<ElementColor, number>> = currentResult?.linkCounts ?? {};
+
+  return (
+    <RecipeLayout
+      left={<MaterialList recipe={recipe} />}
+      center={
+        <>
+          {recipe.panel ? (
+            <PanelGrid
+              panel={recipe.panel}
+              fillState={step?.board ?? currentResult?.panelState}
+              highlight={highlight}
             />
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function EffectDataItem({
-  data,
-  index,
-  restrict,
-  maxlv,
-}: {
-  data: EffectData;
-  index: number;
-  restrict?: number;
-  maxlv?: number;
-}) {
-  const effectName = useLocalized(data.effect?.name);
-  const compName = useLocalized(data.component?.name);
-  const label = effectName || compName || "???";
-
-  const isRestricted = restrict != null && index >= restrict;
-  const isBeyondMax = maxlv != null && data.num >= maxlv;
-
-  let color = "text-ink";
-  if (isRestricted) color = "text-fire";
-  else if (isBeyondMax) color = "text-ink-3";
-
-  return (
-    <span className={`text-sm ${color}`}>
-      {label}
-      {data.num > 0 ? <span className="text-xs ml-0.5">({data.num})</span> : null}
-    </span>
+          ) : (
+            <p className="text-ink-3 text-sm">{t("noPanel")}</p>
+          )}
+          <PlanTabs />
+          {currentResult ? <PlanGuide result={currentResult} /> : null}
+        </>
+      }
+      right={
+        <>
+          <ItemCard recipe={recipe} />
+          <Divider />
+          <div>
+            <SectionTitle>{t("effects")}</SectionTitle>
+            <EffectBarList
+              effects={recipe.effects}
+              fillValues={fillValues}
+              linkCounts={linkCounts}
+            />
+          </div>
+          <Divider />
+          <div>
+            <SectionTitle>{t("coopSkills")}</SectionTitle>
+            <CoopSkills coopTriggered={triggers} />
+          </div>
+          <Divider />
+          <div>
+            <SectionTitle>{t("optimize")}</SectionTitle>
+            <OptimizeControls recipe={recipe} />
+          </div>
+        </>
+      }
+    />
   );
 }
