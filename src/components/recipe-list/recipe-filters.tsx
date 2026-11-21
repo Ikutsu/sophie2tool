@@ -1,5 +1,5 @@
-import { KIND_LABELS } from "../../types/index.ts";
 import type { RecipeKind } from "../../types/index.ts";
+import { useT } from "../../lib/i18n.ts";
 
 const ALL_KINDS: RecipeKind[] = [
   "attack",
@@ -23,11 +23,23 @@ export function RecipeFilters({
   activeKinds: Set<RecipeKind>;
   onToggleKind: (kind: RecipeKind) => void;
 }) {
+  const t = useT();
+  const kindKeys: Record<RecipeKind, Parameters<typeof t>[0]> = {
+    attack: "kindAttack",
+    heal: "kindHeal",
+    buff: "kindBuff",
+    debuff: "kindDebuff",
+    weapon: "kindWeapon",
+    armor: "kindArmor",
+    accessory: "kindAccessory",
+    mix: "kindMix",
+  };
+
   return (
     <div className="flex flex-col gap-3 mb-6">
       <input
         type="text"
-        placeholder="Search recipes..."
+        placeholder={t("searchRecipes")}
         value={search}
         onChange={(e) => onSearchChange(e.target.value)}
         className="w-full px-4 py-2.5 rounded-lg bg-surface border border-border text-ink placeholder:text-ink-3 outline-none focus:border-copper transition-colors text-sm"
@@ -43,7 +55,7 @@ export function RecipeFilters({
                 : "bg-surface-dim text-ink-3 hover:text-ink-2"
             }`}
           >
-            {KIND_LABELS[kind]}
+            {t(kindKeys[kind])}
           </button>
         ))}
       </div>
