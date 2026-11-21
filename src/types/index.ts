@@ -77,18 +77,14 @@ export interface Material {
   components: Component[];
 }
 
-export interface Category {
-  pk: number;
-  slug: string;
-  name: MultiLanguage;
-  icon?: string;
-}
-
-export interface Effect {
-  pk: number;
-  slug: string;
-  name: MultiLanguage;
-  desc?: MultiLanguage;
+/** One concrete item instance read from the game's material box (via game-bridge). */
+export interface OwnedMaterial {
+  id: number; // in-game serial, unique per instance
+  item: number; // index in itemdata.xml
+  slug: string; // materials.json slug
+  quality: number;
+  traits: number[]; // trait ids; names in the inventory store's `traitNames`
+  components: Component[];
 }
 
 export const ELEMENT_NAMES: Record<ElementColor, string> = {
