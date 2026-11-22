@@ -205,11 +205,11 @@ export const translations = {
     "雙擊 sophie2-bridge.exe，保持它的視窗開著",
   ),
   bridgeStep4: t(
-    "Click “Import from game”. If the browser asks to access devices on your local network, allow it",
-    "「ゲームから読込」を押す。ブラウザがローカルネットワークへのアクセスを尋ねたら許可する",
-    "“게임에서 가져오기”를 누릅니다. 브라우저가 로컬 네트워크 접근을 물으면 허용하세요",
-    "点「从游戏导入」。浏览器询问是否允许访问本地网络设备时，选允许",
-    "按「從遊戲匯入」。瀏覽器詢問是否允許存取本機網路裝置時，選允許",
+    "Click “Import from game”. A small window may open for a moment: that's the app handing over the data",
+    "「ゲームから読込」を押す。小さなウィンドウが一瞬開くのは、アプリがデータを渡しているためです",
+    "“게임에서 가져오기”를 누릅니다. 작은 창이 잠깐 열리는 것은 앱이 데이터를 넘겨주는 것입니다",
+    "点「从游戏导入」。会短暂弹出一个小窗口，那是小工具在把数据交给网页",
+    "按「從遊戲匯入」。會短暫跳出一個小視窗，那是小工具在把資料交給網頁",
   ),
   bridgeNote: t(
     "It only reads the game's memory and never changes the game or your saves. Windows may say it protected your PC: choose “More info” → “Run anyway”. Chrome or Edge recommended.",

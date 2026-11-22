@@ -51,6 +51,50 @@ function writeCache(c: Cached): void {
   }
 }
 
+interface BridgeReply {
+  status: number;
+  /** JSON from the bridge; the caller checks its shape. */
+  body: { error?: string; items?: unknown; traits?: unknown; companions?: unknown };
+}
+
+/**
+ * Read the material box from the local bridge. Direct fetch first; if the browser
+ * blocks a public page from calling 127.0.0.1 (Chrome's local-network-access
+ * permission), open the bridge's /handoff page in a small window: it reads the data
+ * same-origin and posts it back. Must run within the click that started the import
+ * (popups need a user gesture). Resolves null when the bridge can't be reached.
+ */
+async function readInventory(): Promise<BridgeReply | null> {
+  try {
+    const res = await fetch(`${BRIDGE_URL}/api/inventory`);
+    return { status: res.status, body: await res.json() };
+  } catch {
+    return handoff();
+  }
+}
+
+const HANDOFF_TIMEOUT_MS = 10_000;
+
+function handoff(): Promise<BridgeReply | null> {
+  const url = `${BRIDGE_URL}/handoff?origin=${encodeURIComponent(location.origin)}`;
+  const win = window.open(url, "sophie2-bridge", "width=380,height=220");
+  if (!win) return Promise.resolve(null); // popup blocked
+  return new Promise((resolve) => {
+    const done = (reply: BridgeReply | null) => {
+      window.removeEventListener("message", onMessage);
+      clearTimeout(timer);
+      if (!reply && !win.closed) win.close(); // bridge not running: close the error page
+      resolve(reply);
+    };
+    const onMessage = (e: MessageEvent) => {
+      if (e.origin !== BRIDGE_URL || e.data?.type !== "sophie2-bridge") return;
+      done({ status: e.data.status, body: e.data.body });
+    };
+    window.addEventListener("message", onMessage);
+    const timer = setTimeout(() => done(null), HANDOFF_TIMEOUT_MS);
+  });
+}
+
 const cached = readCache();
 
 export const useInventoryStore = create<InventoryState>((set, get) => ({
@@ -65,23 +109,21 @@ export const useInventoryStore = create<InventoryState>((set, get) => ({
   importFromGame: async () => {
     if (get().importing) return null;
     set({ importing: true, error: null });
-    let res: Response;
-    try {
-      res = await fetch(`${BRIDGE_URL}/api/inventory`);
-    } catch {
+    const reply = await readInventory();
+    if (!reply) {
       set({ importing: false, error: "bridgeOffline" });
       return null;
     }
+    const { status, body } = reply;
+    if (status < 200 || status >= 300) {
+      const err: InventoryError =
+        body?.error === "gameNotRunning" || body?.error === "unsupportedVersion"
+          ? body.error
+          : "unknown";
+      set({ importing: false, error: err });
+      return null;
+    }
     try {
-      const body = await res.json();
-      if (!res.ok) {
-        const err: InventoryError =
-          body.error === "gameNotRunning" || body.error === "unsupportedVersion"
-            ? body.error
-            : "unknown";
-        set({ importing: false, error: err });
-        return null;
-      }
       const items = body.items as OwnedMaterial[];
       const traitNames = body.traits as Record<number, MultiLanguage>;
       const companions = body.companions as Companion[];
