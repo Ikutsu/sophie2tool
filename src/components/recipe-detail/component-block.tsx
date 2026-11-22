@@ -1,7 +1,10 @@
 import { ELEMENT_COLORS } from "../../types/index.ts";
 import type { Component } from "../../types/index.ts";
 import { parseComponent } from "../../lib/optimizer/component.ts";
+import { ElementIcon } from "../ui/element-icon.tsx";
 
+/** A piece drawn like the game's material slots: a dark tag with the element
+ *  glyph on its rounded end and the 3×3 shape beside it. */
 export function ComponentBlock({
   component,
   selected = false,
@@ -14,38 +17,39 @@ export function ComponentBlock({
 
   return (
     <div
-      className="inline-grid gap-px p-0.5 rounded relative"
-      style={{
-        gridTemplate: "repeat(3, 16px) / repeat(3, 16px)",
-        background: "#2e2218",
-        outline: selected ? `2px solid #c8a84e` : undefined,
-        outlineOffset: selected ? "1px" : undefined,
-        boxShadow: selected ? "0 0 8px rgba(200,168,78,0.3)" : undefined,
-      }}
+      className={`relative inline-flex rounded-md p-[3px] ${
+        selected ? "bg-[#f6c640] shadow-[0_0_8px_rgba(246,198,64,0.7)]" : ""
+      }`}
     >
-      {grid.flatMap((row, r) =>
-        row.map((cell, c) => {
-          if (cell === 0) {
-            return (
-              <div key={`${r}-${c}`} className="rounded-sm" style={{ background: "#635353" }} />
-            );
-          }
-          if (cell === 2) {
-            return (
-              <div
-                key={`${r}-${c}`}
-                className="rounded-sm flex items-center justify-center"
-                style={{ background: "#2e2218" }}
-              >
-                <span style={{ color: elemColor, fontSize: 12, lineHeight: 1 }}>★</span>
-              </div>
-            );
-          }
-          return <div key={`${r}-${c}`} className="rounded-sm" style={{ background: elemColor }} />;
-        }),
-      )}
+      <div className="inline-flex items-center gap-1 rounded-l-full rounded-r-md bg-[#2c2420] py-1 pl-1.5 pr-1">
+        <ElementIcon element={color} size={15} />
+        <div
+          className="inline-grid gap-[2px]"
+          style={{ gridTemplate: "repeat(3, 12px) / repeat(3, 12px)" }}
+        >
+          {grid.flatMap((row, r) =>
+            row.map((cell, c) =>
+              cell === 2 ? (
+                <span
+                  key={`${r}-${c}`}
+                  className="flex items-center justify-center text-[12px] leading-none"
+                  style={{ color: elemColor }}
+                >
+                  ★
+                </span>
+              ) : (
+                <span
+                  key={`${r}-${c}`}
+                  className="rounded-[2px]"
+                  style={{ background: cell === 0 ? "#4a403a" : elemColor }}
+                />
+              ),
+            ),
+          )}
+        </div>
+      </div>
       {selected ? (
-        <span className="absolute -bottom-1 -right-1 w-3.5 h-3.5 rounded-full bg-gold text-white text-[7px] font-bold flex items-center justify-center border border-[#a08030]">
+        <span className="absolute -bottom-1 -right-1 flex h-3.5 w-3.5 items-center justify-center rounded-full border border-[#a08030] bg-gold text-[7px] font-bold text-white">
           ✓
         </span>
       ) : null}

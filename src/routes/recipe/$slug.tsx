@@ -3,6 +3,7 @@ import { useEffect, useMemo } from "react";
 import { useRecipeStore } from "../../stores/recipe.ts";
 import { useOptimizerStore } from "../../stores/optimizer.ts";
 import { PanelGrid } from "../../components/panel/panel-grid.tsx";
+import { SynthesisPlaque } from "../../components/panel/synthesis-plaque.tsx";
 import { PlanGuide } from "../../components/panel/plan-guide.tsx";
 import { RecipeLayout } from "../../components/recipe-detail/recipe-layout.tsx";
 import { MaterialList } from "../../components/recipe-detail/material-list.tsx";
@@ -122,6 +123,12 @@ function RecipeDetailView({ recipe }: { recipe: Recipe }) {
           ) : (
             <p className="text-ink-3 text-sm">{t("noPanel")}</p>
           )}
+          {currentResult ? (
+            <SynthesisPlaque
+              greatSuccess={currentResult.greatSuccess}
+              qualityGain={currentResult.qualityGain}
+            />
+          ) : null}
           <PlanTabs />
           {currentResult ? <PlanGuide result={currentResult} /> : null}
         </>

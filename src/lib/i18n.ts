@@ -162,7 +162,7 @@ export const translations = {
   ),
   quality: t("Quality", "品質", "품질", "品质", "品質"),
   friendship: t("Friendship", "友好度", "우호도", "友好度", "友好度"),
-  greatSuccess: t("Great success", "大成功", "대성공", "大成功", "大成功"),
+  greatSuccessRate: t("Great success rate", "大成功率", "대성공 확률", "大成功率", "大成功機率"),
   coopPick: t("pick", "選択", "선택", "选", "選"),
 
   fillBoard: t(

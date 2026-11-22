@@ -26,7 +26,7 @@ export function RecipeLayout({
       {/* Desktop: three columns */}
       <div className="hidden lg:grid h-full" style={{ gridTemplateColumns: "320px 1fr 300px" }}>
         <aside
-          className="overflow-y-auto bg-surface border-r border-border"
+          className="overflow-y-auto bg-[#ebe5da] border-r border-border"
           style={{ backgroundImage: "url(/textures/clean_textile.webp)" }}
         >
           {left}
@@ -38,7 +38,7 @@ export function RecipeLayout({
           {center}
         </main>
         <aside
-          className="overflow-y-auto bg-surface border-l border-border px-4 py-4 flex flex-col gap-3"
+          className="overflow-y-auto bg-[#ebe5da] border-l border-border px-4 py-4 flex flex-col gap-3"
           style={{ backgroundImage: "url(/textures/clean_textile.webp)" }}
         >
           {right}
@@ -51,7 +51,7 @@ export function RecipeLayout({
         style={{ gridTemplateColumns: "240px 1fr 240px" }}
       >
         <aside
-          className="overflow-y-auto bg-surface border-r border-border"
+          className="overflow-y-auto bg-[#ebe5da] border-r border-border"
           style={{ backgroundImage: "url(/textures/clean_textile.webp)" }}
         >
           {left}
@@ -63,7 +63,7 @@ export function RecipeLayout({
           {center}
         </main>
         <aside
-          className="overflow-y-auto bg-surface border-l border-border px-3 py-3 flex flex-col gap-3"
+          className="overflow-y-auto bg-[#ebe5da] border-l border-border px-3 py-3 flex flex-col gap-3"
           style={{ backgroundImage: "url(/textures/clean_textile.webp)" }}
         >
           {right}
@@ -88,7 +88,7 @@ export function RecipeLayout({
         <div className="flex-1 overflow-y-auto">
           {activeTab === "recipe" && (
             <div
-              className="bg-surface min-h-full"
+              className="bg-[#ebe5da] min-h-full"
               style={{ backgroundImage: "url(/textures/clean_textile.webp)" }}
             >
               {left}
@@ -104,7 +104,7 @@ export function RecipeLayout({
           )}
           {activeTab === "effects" && (
             <div
-              className="bg-surface px-4 py-4 flex flex-col gap-3 min-h-full"
+              className="bg-[#ebe5da] px-4 py-4 flex flex-col gap-3 min-h-full"
               style={{ backgroundImage: "url(/textures/clean_textile.webp)" }}
             >
               {right}

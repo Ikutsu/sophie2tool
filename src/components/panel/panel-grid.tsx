@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import type { PanelGrid as PanelGridType } from "../../types/index.ts";
 import type { PanelState } from "../../lib/optimizer/types.ts";
 import { useOptimizerStore } from "../../stores/optimizer.ts";
@@ -8,7 +9,13 @@ import { ConnectionLines } from "./connection-lines.tsx";
 import { ElementCounter } from "./element-counter.tsx";
 import "./panel.css";
 
-const CELL_SIZES = { mobile: 48, tablet: 60, desktop: 80 };
+// Cell, gap and padding keep the same proportions at every size so the link
+// overlay (drawn in desktop units, scaled by its viewBox) stays aligned.
+const SIZES = {
+  mobile: { cell: 46, gap: 8, pad: 6 },
+  tablet: { cell: 60, gap: 10, pad: 8 },
+  desktop: { cell: 76, gap: 12, pad: 10 },
+};
 
 export function PanelGrid({
   panel,
@@ -22,9 +29,7 @@ export function PanelGrid({
 }) {
   const gridSize = useOptimizerStore((s) => s.gridSize);
   const setGridSize = useOptimizerStore((s) => s.setGridSize);
-  const cellSize = CELL_SIZES.desktop;
-  const gap = 6;
-  const padding = 8;
+  const { cell: cellSize, gap, pad: padding } = SIZES.desktop;
 
   const visiblePanel = cropPanel(panel, gridSize);
   // fillState is already sized to gridSize by the optimizer — don't crop again
@@ -33,7 +38,7 @@ export function PanelGrid({
 
   return (
     <div className="flex flex-col items-center gap-3">
-      <ElementCounter panel={visiblePanel} />
+      <ElementCounter panelState={fillState} />
       <div className="flex gap-1 mb-1">
         {([5, 6, 7] as GridSize[]).map((s) => (
           <button
@@ -52,12 +57,15 @@ export function PanelGrid({
       <div className="panel-frame">
         <div
           className="panel-grid relative"
-          style={{
-            gridTemplateColumns: `repeat(${cols}, var(--cell-size, ${cellSize}px))`,
-            gridTemplateRows: `repeat(${rows}, var(--cell-size, ${cellSize}px))`,
-            // @ts-expect-error CSS custom properties
-            "--cell-size": `${cellSize}px`,
-          }}
+          style={
+            {
+              gridTemplateColumns: `repeat(${cols}, var(--cell-size))`,
+              gridTemplateRows: `repeat(${rows}, var(--cell-size))`,
+              "--cell-size": `${cellSize}px`,
+              "--cell-gap": `${gap}px`,
+              "--grid-pad": `${padding}px`,
+            } as CSSProperties
+          }
         >
           {fillState ? (
             <ConnectionLines
@@ -81,13 +89,11 @@ export function PanelGrid({
       </div>
       <style>{`
         @media (max-width: 767px) {
-          .panel-grid { --cell-size: ${CELL_SIZES.mobile}px !important; gap: 3px !important; padding: 4px !important; }
-          .panel-frame { padding: 4px; }
-          .panel-cell::after { font-size: 24px !important; }
+          .panel-grid { --cell-size: ${SIZES.mobile.cell}px !important; --cell-gap: ${SIZES.mobile.gap}px !important; --grid-pad: ${SIZES.mobile.pad}px !important; }
+          .panel-frame { padding: 6px; }
         }
         @media (min-width: 768px) and (max-width: 1023px) {
-          .panel-grid { --cell-size: ${CELL_SIZES.tablet}px !important; gap: 4px !important; }
-          .panel-cell::after { font-size: 30px !important; }
+          .panel-grid { --cell-size: ${SIZES.tablet.cell}px !important; --cell-gap: ${SIZES.tablet.gap}px !important; --grid-pad: ${SIZES.tablet.pad}px !important; }
         }
       `}</style>
     </div>

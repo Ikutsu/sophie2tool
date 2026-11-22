@@ -27,27 +27,33 @@
   --color-panel-cell: #18140e;
   --font-heading: "Cinzel", serif;
   --font-body: "Alegreya", Georgia, serif;
-  --font-element: "Atelier";
+  /* Rounded UI face like the game's menus; CJK falls back to the system font. */
+  --font-game: "M PLUS Rounded 1c", "Microsoft JhengHei", "PingFang TC", sans-serif;
 }
 
-.el {
-  font-family: "Atelier";
-  -webkit-font-smoothing: antialiased;
+/* Element symbols: a mask cut out of the icon font at startup
+   (src/lib/element-glyphs.ts), tinted with the text color. */
+.el-shape {
+  display: inline-block;
+  flex-shrink: 0;
+  background-color: currentColor;
+  -webkit-mask: var(--el-mask) center / contain no-repeat;
+  mask: var(--el-mask) center / contain no-repeat;
 }
-.el-fire::before {
-  content: "\ea60";
+.el-fire {
+  --el-mask: var(--el-mask-fire);
 }
-.el-ice::before {
-  content: "\ea5f";
+.el-ice {
+  --el-mask: var(--el-mask-ice);
 }
-.el-lightning::before {
-  content: "\ea5d";
+.el-lightning {
+  --el-mask: var(--el-mask-lightning);
 }
-.el-wind::before {
-  content: "\ea57";
+.el-wind {
+  --el-mask: var(--el-mask-wind);
 }
-.el-light::before {
-  content: "\ea5e";
+.el-light {
+  --el-mask: var(--el-mask-light);
 }
 
 body {

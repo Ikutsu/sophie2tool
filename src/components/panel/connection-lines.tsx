@@ -45,6 +45,24 @@ export function ConnectionLines({
       viewBox={`0 0 ${width} ${height}`}
       style={{ zIndex: 0 }}
     >
+      <defs>
+        {/* In game, linked stars are joined by short glowing white bars. User-space
+            units: a straight line has a zero-height bounding box, which would hide it. */}
+        <filter
+          id="link-glow"
+          filterUnits="userSpaceOnUse"
+          x={0}
+          y={0}
+          width={width}
+          height={height}
+        >
+          <feGaussianBlur stdDeviation={cellSize * 0.04} result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
       {/* Component shape lines: thick, muted (same piece) */}
       {componentLines.map((conn, i) => {
         const a = center(conn.r1, conn.c1);
@@ -57,13 +75,13 @@ export function ConnectionLines({
             x2={b.x}
             y2={b.y}
             stroke={ELEMENT_COLORS[conn.element]}
-            strokeWidth={cellSize * 0.2}
+            strokeWidth={cellSize * 0.22}
             strokeLinecap="round"
-            opacity={0.25}
+            opacity={0.35}
           />
         );
       })}
-      {/* Link lines: thin, bright (★↔★ same element, different components) */}
+      {/* Link lines: white bars (★↔★ same element, different components) */}
       {linkLines.map((conn, i) => {
         const a = center(conn.r1, conn.c1);
         const b = center(conn.r2, conn.c2);
@@ -74,10 +92,10 @@ export function ConnectionLines({
             y1={a.y}
             x2={b.x}
             y2={b.y}
-            stroke={ELEMENT_COLORS[conn.element]}
-            strokeWidth={cellSize * 0.06}
+            stroke="#fffbe6"
+            strokeWidth={cellSize * 0.13}
             strokeLinecap="round"
-            opacity={0.85}
+            filter="url(#link-glow)"
           />
         );
       })}

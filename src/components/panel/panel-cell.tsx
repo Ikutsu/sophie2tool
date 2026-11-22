@@ -1,6 +1,7 @@
 import { ELEMENT_NAMES } from "../../types/index.ts";
 import type { PanelCell as PanelCellType } from "../../types/index.ts";
 import type { PanelCellState } from "../../lib/optimizer/types.ts";
+import { elementVars } from "../../lib/element-style.ts";
 
 export function PanelCell({
   value,
@@ -12,32 +13,25 @@ export function PanelCell({
   /** Cell placed in the guide's current step. */
   highlight?: boolean;
 }) {
-  const ring = highlight
-    ? { outline: "3px solid #f0c040", outlineOffset: "-3px", borderRadius: "22%" }
-    : undefined;
-  // Placed component cell → clearly visible (placed)
+  const hl = highlight ? " panel-cell--hl" : "";
+
   if (fillState?.occupied && fillState.element) {
     const elem = fillState.element;
-    const className = `panel-cell--${ELEMENT_NAMES[elem]}${fillState.isLink ? "-bright" : ""}`;
+    const name = ELEMENT_NAMES[elem];
+    const shape = fillState.isLink ? "panel-cell--star" : `el-glyph-${name}`;
     return (
       <div
-        className={`panel-cell panel-cell--elem panel-cell--placed ${className}`}
-        style={ring}
-        title={`${ELEMENT_NAMES[elem]}${fillState.isLink ? " ★" : " ■"}`}
+        className={`panel-cell panel-cell--placed ${shape}${hl}`}
+        style={elementVars(elem)}
+        title={`${name}${fillState.isLink ? " ★" : " ■"}`}
       />
     );
   }
 
-  // Empty cell (no element)
   if (value === null || value === -1) {
-    return <div className="panel-cell panel-cell--empty" />;
+    return <div className={`panel-cell panel-cell--empty${hl}`} />;
   }
 
-  // Native panel element cell (unfilled) → dark bg with faint icon only
-  return (
-    <div
-      className={`panel-cell panel-cell--native-icon panel-cell--native-icon-${ELEMENT_NAMES[value]}`}
-      title={ELEMENT_NAMES[value]}
-    />
-  );
+  const name = ELEMENT_NAMES[value];
+  return <div className={`panel-cell panel-cell--native el-glyph-${name}${hl}`} title={name} />;
 }

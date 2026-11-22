@@ -18,11 +18,9 @@ export function OptimizeControls({ recipe }: { recipe: Recipe }) {
     maxComponents,
     setMaxComponents,
     inventoryShortage,
-    selectedIndex,
     fillBoard,
     setFillBoard,
   } = useOptimizerStore();
-  const selected = results?.[selectedIndex];
   const { materials, load: loadMaterials, loading: materialsLoading } = useMaterialsStore();
 
   const MODES: { value: OptMode; label: string }[] = [
@@ -101,11 +99,6 @@ export function OptimizeControls({ recipe }: { recipe: Recipe }) {
       ) : results ? (
         <div className="mt-2 text-xs text-ink-3 text-center">
           {results.length} {t("plansFound")} ({t("bestScore")}: {results[0]?.score ?? 0})
-          {selected ? (
-            <div className="mt-1 text-sm font-semibold text-copper">
-              {t("quality")} +{selected.qualityGain} · {t("greatSuccess")} {selected.greatSuccess}%
-            </div>
-          ) : null}
         </div>
       ) : null}
     </div>

@@ -44,12 +44,21 @@ export function MaterialList({ recipe }: { recipe: Recipe }) {
 
   return (
     <div>
-      <div className="flex items-center gap-2 px-4 py-3 border-b-2 border-border bg-surface-dim">
-        <Link to="/" className="text-copper font-bold text-lg leading-none hover:text-copper-hi">
+      {/* Plum title ribbon, as at the top-left of the in-game synthesis screen */}
+      <div
+        className="sticky top-0 z-10 flex items-center gap-2 border-b-2 border-[#4a0e2c] px-4 py-2.5 text-[#fbeef4] shadow-md"
+        style={{
+          background:
+            "linear-gradient(100deg, #6e1640, #9a2a5c 45%, #7c1a4a 80%, #5a1034), radial-gradient(circle at 90% 50%, rgba(255,220,235,0.18), transparent 60%)",
+        }}
+      >
+        <Link to="/" className="text-lg font-bold leading-none hover:text-white">
           &larr;
         </Link>
-        <span className="font-heading text-sm font-semibold flex-1 truncate">{name}</span>
-        <Link to="/" className="text-xs text-copper italic hover:underline">
+        <span className="flex-1 truncate text-center font-game text-base font-bold tracking-wider">
+          {name}
+        </span>
+        <Link to="/" className="text-xs text-[#f4c8dc] hover:text-white hover:underline">
           {t("switchRecipe")}
         </Link>
       </div>
@@ -113,7 +122,9 @@ function MaterialRow({
   });
 
   return (
-    <div className="px-4 py-3 border-b border-border-lt">
+    // Card row like the game's material slots: cream face, accent stripe on the left.
+    <div className="relative mx-2 my-2 overflow-hidden rounded-lg border border-[#d4c9b6] bg-[#f6f1e8]/95 py-2.5 pl-4 pr-3 shadow-[0_1px_3px_rgba(60,40,20,0.15)]">
+      <span className="absolute inset-y-0 left-0 w-1.5 bg-[#c9bfae]" />
       <div className="flex items-center gap-2 mb-2">
         <span className="w-6 h-6 rounded-full bg-copper text-white text-xs font-heading font-bold flex items-center justify-center shrink-0">
           {index}
@@ -122,7 +133,7 @@ function MaterialRow({
           <img
             src={`${CDN_BASE}${displaySlug}.webp`}
             alt={displayName}
-            className="w-9 h-9 rounded border border-border bg-white object-contain"
+            className="h-10 w-10 rounded-md border border-[#d4c9b6] bg-[#fbf8f2] object-contain shadow-inner"
           />
         ) : null}
         <span className="text-sm font-semibold">
@@ -143,7 +154,7 @@ function MaterialRow({
         ) : null}
       </div>
       {instance && instance.traits.length > 0 ? (
-        <div className="ml-8 mb-2 flex flex-wrap gap-1">
+        <div className="mb-2 flex flex-wrap gap-1">
           {instance.traits.map((id) => (
             <span
               key={id}
@@ -155,7 +166,7 @@ function MaterialRow({
         </div>
       ) : null}
       {components && components.length > 0 ? (
-        <div className="flex gap-2.5 flex-wrap ml-8">
+        <div className="flex flex-wrap gap-1.5">
           {components.map((comp, i) => (
             <ComponentBlock key={i} component={comp} selected={selected[i]} />
           ))}

@@ -5,40 +5,45 @@ import type { Recipe } from "../../types/index.ts";
 
 const CDN_BASE = "https://media.barrelwisdom.com/file/barrelwisdom/games/sophie2/items/";
 
+/** Item header styled like the game's synthesis info panel: LV badge over a
+ *  round item frame, stats in dark pills. */
 export function ItemCard({ recipe }: { recipe: Recipe }) {
   const name = useLocalized(recipe.name);
   const t = useT();
+  const stats: [string, string | number][] = [];
+  if (recipe.uses) stats.push([t("uses"), recipe.uses]);
+  if (recipe.quantity) stats.push([t("quantity"), recipe.quantity]);
+  if (recipe.range) stats.push([t("range"), recipe.range]);
 
   return (
-    <div className="text-center pb-3">
-      <img
-        src={`${CDN_BASE}${recipe.slug}.webp`}
-        alt={name}
-        className="w-16 h-16 rounded-lg mx-auto mb-2 border-2 border-border bg-white object-contain"
-      />
-      <div className="font-heading text-base font-semibold">{name}</div>
-      <div className="text-sm text-ink-2 italic mb-2">
-        Lv.{recipe.level} / <KindBadge kind={recipe.kind} />
+    <div className="flex items-center gap-3 pb-1 pt-2">
+      <div className="relative shrink-0">
+        <img
+          src={`${CDN_BASE}${recipe.slug}.webp`}
+          alt={name}
+          className="h-[72px] w-[72px] rounded-full border-4 border-[#cfc1a4] bg-[#f4eddf] object-contain p-2 shadow-[inset_0_0_0_1.5px_#ad9d7e,0_2px_6px_rgba(60,40,20,0.25)]"
+        />
+        <div className="absolute -left-2.5 -top-2.5 flex h-10 w-10 flex-col items-center justify-center rounded-full border-2 border-[#8a7e70] bg-white font-game leading-none shadow-[0_0_0_2px_#fff,0_1px_4px_rgba(0,0,0,0.25)]">
+          <span className="text-[8px] font-bold text-ink-2">LV</span>
+          <span className="text-base font-extrabold text-ink">{recipe.level}</span>
+        </div>
       </div>
-      <div className="grid grid-cols-2 gap-x-2 gap-y-0.5 text-sm max-w-48 mx-auto">
-        {recipe.uses ? (
-          <>
-            <span className="text-right text-ink-3">{t("uses")}</span>
-            <span className="font-bold">{recipe.uses}</span>
-          </>
-        ) : null}
-        {recipe.quantity ? (
-          <>
-            <span className="text-right text-ink-3">{t("quantity")}</span>
-            <span className="font-bold">{recipe.quantity}</span>
-          </>
-        ) : null}
-        {recipe.range ? (
-          <>
-            <span className="text-right text-ink-3">{t("range")}</span>
-            <span className="font-bold">{recipe.range}</span>
-          </>
-        ) : null}
+      <div className="min-w-0 flex-1">
+        <div className="mb-0.5 truncate font-game text-base font-bold">{name}</div>
+        <div className="mb-1.5">
+          <KindBadge kind={recipe.kind} />
+        </div>
+        <div className="flex flex-col gap-1">
+          {stats.map(([label, value]) => (
+            <div
+              key={label}
+              className="flex items-center justify-between rounded-full bg-[#2c2622] px-3 py-0.5 font-game text-xs text-[#f2ece2]"
+            >
+              <span>{label}</span>
+              <span className="font-bold">{value}</span>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
