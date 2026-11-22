@@ -1,0 +1,19 @@
+{
+  "name": "Sophie 2 調合優化器 · Synthesis Optimizer",
+  "short_name": "Sophie 2 調合",
+  "description": "Find the best synthesis placement for Atelier Sophie 2.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ebe5da",
+  "theme_color": "#3a2414",
+  "icons": [
+    { "src": "/icon-192.webp", "sizes": "192x192", "type": "image/webp" },
+    { "src": "/icon-512.webp", "sizes": "512x512", "type": "image/webp" },
+    {
+      "src": "/icon-maskable-512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "maskable"
+    }
+  ]
+}
