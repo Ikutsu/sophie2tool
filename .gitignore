@@ -35,3 +35,6 @@ __pycache__
 bridge/dumps
 bridge/save-backup
 bridge/.attach.lock
+
+# PyInstaller work dir (bridge/sophie2-bridge.spec)
+/build

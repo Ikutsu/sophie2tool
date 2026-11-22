@@ -1,0 +1,32 @@
+# Builds the game reader as a one-file Windows exe and attaches it to a GitHub release.
+# Release: push a tag like `bridge-v1.0.0` (git tag bridge-v1.0.0 && git push origin bridge-v1.0.0).
+# The web app links to releases/latest/download/sophie2-bridge.exe.
+name: Bridge release
+
+on:
+  push:
+    tags: ["bridge-v*"]
+  workflow_dispatch: # manual run: builds the exe as a workflow artifact only
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r bridge/requirements-build.txt
+      - run: pyinstaller bridge/sophie2-bridge.spec --noconfirm
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sophie2-bridge
+          path: dist/sophie2-bridge.exe
+      - if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/sophie2-bridge.exe
+          make_latest: true

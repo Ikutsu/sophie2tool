@@ -11,6 +11,7 @@ import html
 import json
 import os
 import struct
+import sys
 
 PROCESS_NAME = "Atelier_Sophie_2.exe"
 IMAGE_BASE = 0x140000000
@@ -31,8 +32,14 @@ EMPTY_TRAIT = 655
 # memory color -> barrelwisdom code digit (1=ice 2=wind 3=thunder 4=fire 5=light)
 MEM_COLOR_TO_CODE = {0: 4, 1: 1, 2: 3, 3: 2, 4: 5}
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-WEB_DATA = os.path.join(HERE, "..", "public", "data")
+if getattr(sys, "frozen", False):
+    # Packaged exe (PyInstaller, see sophie2-bridge.spec): data files are unpacked
+    # next to the code, with the web app's materials.json under web-data/.
+    HERE = sys._MEIPASS  # type: ignore[attr-defined]
+    WEB_DATA = os.path.join(HERE, "web-data")
+else:
+    HERE = os.path.dirname(os.path.abspath(__file__))
+    WEB_DATA = os.path.join(HERE, "..", "public", "data")
 
 # ─── Win32 plumbing ────────────────────────────────────────────────
 
