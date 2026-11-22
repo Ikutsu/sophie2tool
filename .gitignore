@@ -38,3 +38,8 @@ bridge/.attach.lock
 
 # PyInstaller work dir (bridge/sophie2-bridge.spec)
 /build
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
