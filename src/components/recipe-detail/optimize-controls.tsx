@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useOptimizerStore } from "../../stores/optimizer.ts";
 import { useMaterialsStore } from "../../stores/materials.ts";
 import { useInventoryStore } from "../../stores/inventory.ts";
@@ -7,6 +7,7 @@ import { useT } from "../../lib/i18n.ts";
 import type { EffectLine, Language, Recipe } from "../../types/index.ts";
 import { useLanguageStore } from "../../stores/language.ts";
 import { ElementIcon } from "../ui/element-icon.tsx";
+import { BridgeSetup } from "./bridge-setup.tsx";
 import type { OptMode } from "../../lib/optimizer/types.ts";
 
 export function OptimizeControls({ recipe }: { recipe: Recipe }) {
@@ -125,6 +126,8 @@ function InventoryControls() {
   const { items, importedAt, importing, error, useInventory, importFromGame, setUseInventory } =
     useInventoryStore();
   const setCoopLevels = useOptimizerStore((s) => s.setCoopLevels);
+  const [helpOpen, setHelpOpen] = useState(false);
+  const showHelp = helpOpen || error === "bridgeOffline";
 
   // Importing also reads friendship: set each companion's co-op cap from their hearts.
   const handleImport = async () => {
@@ -170,6 +173,15 @@ function InventoryControls() {
           {t(error === "unknown" ? "importFailed" : error)}
         </div>
       ) : null}
+      {error !== "bridgeOffline" ? (
+        <button
+          onClick={() => setHelpOpen((o) => !o)}
+          className="mt-1 cursor-pointer text-xs text-copper underline hover:text-copper-hi"
+        >
+          {t("bridgeHelp")}
+        </button>
+      ) : null}
+      {showHelp ? <BridgeSetup /> : null}
     </div>
   );
 }
