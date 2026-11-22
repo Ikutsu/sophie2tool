@@ -25,10 +25,25 @@
   --color-light-el: #c8a0d8;
   --color-panel-deep: #080604;
   --color-panel-cell: #18140e;
-  --font-heading: "Cinzel", serif;
-  --font-body: "Alegreya", Georgia, serif;
-  /* Rounded UI face like the game's menus; CJK falls back to the system font. */
-  --font-game: "M PLUS Rounded 1c", "Microsoft JhengHei", "PingFang TC", sans-serif;
+  /* One rounded face for all UI text, like the game's menus (per language below);
+     Cinzel only for the "Sophie 2" wordmark. */
+  --font-heading: var(--font-ui);
+  --font-body: var(--font-ui);
+  --font-game: var(--font-ui);
+  --font-logo: "Cinzel", serif;
+}
+
+/* <html lang> follows the language switcher (stores/language.ts). Huninn (jf open
+   粉圓) is drawn for Traditional Chinese and covers Simplified and Latin; Japanese
+   and Korean get rounded faces with their own glyph forms. */
+:root {
+  --font-ui: "Huninn", "M PLUS Rounded 1c", "Microsoft JhengHei", "PingFang TC", sans-serif;
+}
+:root:lang(ja) {
+  --font-ui: "M PLUS Rounded 1c", "Huninn", "Hiragino Maru Gothic ProN", sans-serif;
+}
+:root:lang(ko) {
+  --font-ui: "Gowun Dodum", "Huninn", "Malgun Gothic", sans-serif;
 }
 
 /* Element symbols: a mask cut out of the icon font at startup

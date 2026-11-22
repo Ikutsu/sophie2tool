@@ -138,7 +138,7 @@ function MaterialRow({
         ) : null}
         <span className="text-sm font-semibold">
           {isCategory ? (
-            <span className="italic text-ink-3">
+            <span className="text-ink-3">
               {catName} &times;{quantity}
             </span>
           ) : (

@@ -274,3 +274,18 @@ export function useT() {
   const lang = useLanguageStore((s) => s.lang);
   return (key: TranslationKey) => translations[key][lang] ?? translations[key].en;
 }
+
+/** Keep <html lang> (fonts, glyph forms, screen readers) and the tab title in step. */
+const HTML_LANG: Record<Language, string> = {
+  en: "en",
+  ja: "ja",
+  ko: "ko",
+  sc: "zh-Hans",
+  tc: "zh-Hant",
+};
+function syncDocument(lang: Language): void {
+  document.documentElement.lang = HTML_LANG[lang];
+  document.title = `Sophie 2 ${translations.synthesisOptimizer[lang]}`;
+}
+syncDocument(useLanguageStore.getState().lang);
+useLanguageStore.subscribe((s) => syncDocument(s.lang));
