@@ -4,20 +4,26 @@
   GET /api/status             -> {"gameRunning": bool, "supported": bool, "bridge": version, "error"?: str}
   GET /api/inventory          -> {"items": [...], "traits": {id: names}, "companions": [...]}
   GET /api/synthesis          -> live synthesis stats while on a synthesis board ({"active": false} otherwise)
+  GET /handoff?origin=<site>  -> page that reads /api/inventory and hands it to the opener via postMessage
 
 Read-only, bound to 127.0.0.1. CORS: localhost origins (development) and the
 published web app; answers the browser's local-network-access preflight so the
-public HTTPS site may call this local server.
+public HTTPS site may call this local server. Browsers that still block that
+(Chrome asks for "local network access" and fails the request until allowed) use
+/handoff instead: the site opens it in a small window, the page reads the
+inventory same-origin and posts it back to the opener, only to an allowed origin.
 """
 import json
 import re
+import socket
 import sys
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from urllib.parse import parse_qs, urlsplit
 
 import sophie2_bridge as sb
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 PORT = 47823
 LOCAL_ORIGIN = re.compile(r"^https?://(localhost|127\.0\.0\.1)(:\d+)?$")
 SITE_ORIGINS = {"https://sophie2.ikutsu.dev"}
@@ -25,6 +31,40 @@ SITE_ORIGINS = {"https://sophie2.ikutsu.dev"}
 
 def allowed_origin(origin: str) -> bool:
     return origin in SITE_ORIGINS or bool(LOCAL_ORIGIN.match(origin))
+
+
+HANDOFF_PAGE = """<!doctype html><html><head><meta charset="utf-8"><title>Sophie 2 bridge</title></head>
+<body style="margin:0;height:100vh;display:grid;place-items:center;background:#2c2420;color:#f2e8d6;
+font:15px system-ui,sans-serif;text-align:center">
+<p id="m">Reading the game&hellip;<br>讀取遊戲中&hellip;</p>
+<script>
+const target = __ORIGIN__;
+const m = document.getElementById("m");
+if (!window.opener) {
+  m.textContent = "Open this from the web app (Import from game).";
+} else {
+  fetch("/api/inventory")
+    .then(async (r) => {
+      window.opener.postMessage({ type: "sophie2-bridge", status: r.status, body: await r.json() }, target);
+      window.close();
+    })
+    .catch((e) => {
+      window.opener.postMessage({ type: "sophie2-bridge", status: 0, body: { error: "unknown" } }, target);
+      m.textContent = String(e);
+    });
+}
+</script></body></html>"""
+
+
+class Server(ThreadingHTTPServer):
+    # On Windows SO_REUSEADDR lets a second bridge bind the same port and silently
+    # share it; take the port exclusively so a second copy reports "already running".
+    allow_reuse_address = False
+
+    def server_bind(self) -> None:
+        if hasattr(socket, "SO_EXCLUSIVEADDRUSE"):
+            self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_EXCLUSIVEADDRUSE, 1)
+        super().server_bind()
 
 TABLES = sb.Tables()
 
@@ -56,9 +96,24 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header("Access-Control-Allow-Private-Network", "true")
         self.end_headers()
 
+    def _handoff(self) -> None:
+        origin = parse_qs(urlsplit(self.path).query).get("origin", [""])[0]
+        if not allowed_origin(origin):
+            self._send(403, {"error": "origin not allowed"})
+            return
+        page = HANDOFF_PAGE.replace("__ORIGIN__", json.dumps(origin)).encode("utf-8")
+        self.send_response(200)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Content-Length", str(len(page)))
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(page)
+
     def do_GET(self) -> None:
         try:
-            if self.path == "/api/status":
+            if self.path.startswith("/handoff"):
+                self._handoff()
+            elif self.path == "/api/status":
                 try:
                     with sb.GameMemory():
                         pass
@@ -110,7 +165,7 @@ def _wait_if_double_clicked() -> None:
 
 if __name__ == "__main__":
     try:
-        srv = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
+        srv = Server(("127.0.0.1", PORT), Handler)
     except OSError:
         print(f"Port {PORT} is in use: the bridge is probably already running.")
         print(f"連接埠 {PORT} 已被佔用：橋接程式可能已經在執行了。")

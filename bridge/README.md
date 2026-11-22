@@ -15,8 +15,11 @@ keep its window open, then click **Import from game** on <https://sophie2.ikutsu
 shows the same steps when it can't reach the bridge.
 
 The bridge answers the published site and localhost origins (`SITE_ORIGINS` / `LOCAL_ORIGIN` in
-`server.py`), and opts in to Chromium's local-network-access preflight so the HTTPS site may call
-`http://127.0.0.1:47823`. Chrome/Edge may also ask the player to allow local network access.
+`server.py`) and opts in to Chromium's local-network-access preflight. Chrome still fails a public
+page's request to `http://127.0.0.1:47823` until the player allows "local network access", a prompt
+that is easy to miss. So when the direct request fails, the web app opens `/handoff?origin=…` in a
+small window instead: that page reads `/api/inventory` same-origin and posts the result back to its
+opener with `postMessage`, only to an allowed origin, then closes. No permission prompt needed.
 
 ## Run from source
 
