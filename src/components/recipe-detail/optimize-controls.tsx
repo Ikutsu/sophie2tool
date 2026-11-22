@@ -4,7 +4,9 @@ import { useMaterialsStore } from "../../stores/materials.ts";
 import { useInventoryStore } from "../../stores/inventory.ts";
 import { coopLevelFromHearts } from "../../stores/optimizer.ts";
 import { useT } from "../../lib/i18n.ts";
-import type { Recipe } from "../../types/index.ts";
+import type { EffectLine, Language, Recipe } from "../../types/index.ts";
+import { useLanguageStore } from "../../stores/language.ts";
+import { ElementIcon } from "../ui/element-icon.tsx";
 import type { OptMode } from "../../lib/optimizer/types.ts";
 
 export function OptimizeControls({ recipe }: { recipe: Recipe }) {
@@ -22,6 +24,14 @@ export function OptimizeControls({ recipe }: { recipe: Recipe }) {
     setFillBoard,
   } = useOptimizerStore();
   const { materials, load: loadMaterials, loading: materialsLoading } = useMaterialsStore();
+
+  const MODE_HINT: Record<OptMode, string> = {
+    global: t("modeGlobalHint"),
+    single: t("modeSingleHint"),
+    combo: t("modeComboHint"),
+  };
+  const resetTargets = useOptimizerStore((s) => s.resetTargets);
+  useEffect(() => resetTargets(), [recipe.slug, resetTargets]);
 
   const MODES: { value: OptMode; label: string }[] = [
     { value: "global", label: t("globalOptimum") },
@@ -43,50 +53,55 @@ export function OptimizeControls({ recipe }: { recipe: Recipe }) {
   return (
     <div>
       <InventoryControls />
-      <div className="flex flex-col gap-1 mb-3">
+      {/* Mode: segmented pills, then what that mode needs */}
+      <div className="mb-2 grid grid-cols-3 gap-1 rounded-full bg-[#2c2622] p-1">
         {MODES.map((m) => (
-          <label
+          <button
             key={m.value}
-            className="flex items-center gap-2 py-1 text-sm cursor-pointer"
             onClick={() => setMode(m.value)}
+            className={`cursor-pointer rounded-full px-1.5 py-1 font-game text-[11px] font-bold leading-tight transition-colors ${
+              mode === m.value ? "bg-gold text-ink shadow" : "text-[#d8cfc0] hover:bg-[#3e3630]"
+            }`}
           >
-            <span
-              className={`w-4 h-4 rounded-full border-2 shrink-0 flex items-center justify-center ${
-                mode === m.value ? "border-copper" : "border-border"
-              }`}
-            >
-              {mode === m.value ? <span className="w-2 h-2 rounded-full bg-copper" /> : null}
-            </span>
             {m.label}
-          </label>
+          </button>
         ))}
       </div>
-      <div className="flex items-center justify-between mb-3">
-        <span className="text-sm font-medium">{t("maxComponents")}</span>
-        <select
-          value={maxComponents}
-          onChange={(e) => setMaxComponents(Number(e.target.value))}
-          className="text-xs bg-surface-dim border border-border rounded px-2 py-1 text-ink-2 cursor-pointer"
+      <p className="mb-2 text-xs text-ink-3">{MODE_HINT[mode]}</p>
+      {mode === "single" ? <SingleTarget effects={recipe.effects} /> : null}
+      {mode === "combo" ? <ComboTargets effects={recipe.effects} /> : null}
+
+      <div className="mb-3 mt-3 flex flex-col gap-2 rounded-lg border border-[#d4c9b6] bg-[#f6f1e8]/80 px-3 py-2">
+        <div className="flex items-center justify-between">
+          <span className="text-sm">{t("maxComponents")}</span>
+          <div className="flex gap-0.5">
+            {[1, 2, 3, 4].map((n) => (
+              <button
+                key={n}
+                onClick={() => setMaxComponents(n)}
+                className={`h-6 w-6 cursor-pointer rounded font-game text-xs font-bold ${
+                  maxComponents === n ? "bg-[#2c2622] text-white" : "bg-[#e4dccd] text-ink-2"
+                }`}
+              >
+                {n}
+              </button>
+            ))}
+          </div>
+        </div>
+        <label
+          className="relative flex cursor-pointer items-center justify-between text-sm"
+          title={t("fillBoardHint")}
         >
-          {[1, 2, 3, 4].map((n) => (
-            <option key={n} value={n}>
-              {n}
-            </option>
-          ))}
-        </select>
+          {t("fillBoard")}
+          <input
+            type="checkbox"
+            checked={fillBoard}
+            onChange={(e) => setFillBoard(e.target.checked)}
+            className="peer sr-only"
+          />
+          <span className="relative h-5 w-9 shrink-0 rounded-full bg-[#cfc5b4] transition-colors after:absolute after:left-0.5 after:top-0.5 after:h-4 after:w-4 after:rounded-full after:bg-white after:shadow after:transition-transform peer-checked:bg-copper peer-checked:after:translate-x-4 peer-focus-visible:ring-2 peer-focus-visible:ring-copper" />
+        </label>
       </div>
-      <label
-        className="flex items-center gap-2 mb-3 text-sm cursor-pointer"
-        title={t("fillBoardHint")}
-      >
-        <input
-          type="checkbox"
-          checked={fillBoard}
-          onChange={(e) => setFillBoard(e.target.checked)}
-          className="accent-copper"
-        />
-        {t("fillBoard")}
-      </label>
       <button
         onClick={handleOptimize}
         disabled={!isReady}
@@ -155,6 +170,80 @@ function InventoryControls() {
           {t(error === "unknown" ? "importFailed" : error)}
         </div>
       ) : null}
+    </div>
+  );
+}
+
+/** Tiers a line can actually unlock (the recipe's `restrict` hides the rest). */
+function usableTiers(line: EffectLine) {
+  return line.data.slice(0, Math.min(line.restrict ?? line.data.length, line.data.length));
+}
+
+function tierName(tier: EffectLine["data"][number], lang: Language): string {
+  const ml = tier.effect?.name ?? tier.component?.name;
+  return ml ? (ml[lang] ?? ml.en ?? "") : "";
+}
+
+/** "single" mode: one card per effect line; the chosen one gets maximized. */
+function SingleTarget({ effects }: { effects: EffectLine[] }) {
+  const lang = useLanguageStore((s) => s.lang);
+  const targetLine = useOptimizerStore((s) => s.targetLine);
+  const setTargetLine = useOptimizerStore((s) => s.setTargetLine);
+  return (
+    <div className="flex flex-col gap-1">
+      {effects.map((line, i) => {
+        const tiers = usableTiers(line);
+        const top = tiers[tiers.length - 1];
+        const on = targetLine === i;
+        return (
+          <button
+            key={i}
+            onClick={() => setTargetLine(i)}
+            className={`flex cursor-pointer items-center gap-2 rounded-lg border px-2 py-1.5 text-left transition-colors ${
+              on
+                ? "border-gold bg-[#fbefc8] shadow-[0_0_0_1px_#c8a84e]"
+                : "border-[#d4c9b6] bg-[#f6f1e8]/80 hover:bg-[#f0e8d8]"
+            }`}
+          >
+            <ElementIcon element={line.elem} size={12} badge />
+            <span className="min-w-0 flex-1 truncate font-game text-xs font-bold">
+              {top ? tierName(top, lang) : "—"}
+            </span>
+            <span className="font-game text-[11px] text-ink-3 tabular-nums">{top?.num}</span>
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+/** "combo" mode: per effect line, the tier that must be reached (or any). */
+function ComboTargets({ effects }: { effects: EffectLine[] }) {
+  const t = useT();
+  const lang = useLanguageStore((s) => s.lang);
+  const targetTiers = useOptimizerStore((s) => s.targetTiers);
+  const setTargetTier = useOptimizerStore((s) => s.setTargetTier);
+  return (
+    <div className="flex flex-col gap-1">
+      {effects.map((line, i) => (
+        <div key={i} className="flex items-center gap-2">
+          <ElementIcon element={line.elem} size={12} badge />
+          <select
+            value={targetTiers[i] ?? ""}
+            onChange={(e) =>
+              setTargetTier(i, e.target.value === "" ? null : Number(e.target.value))
+            }
+            className="min-w-0 flex-1 cursor-pointer rounded border border-[#d4c9b6] bg-[#f6f1e8] px-1.5 py-1 font-game text-xs text-ink"
+          >
+            <option value="">{t("noRequirement")}</option>
+            {usableTiers(line).map((tier, k) => (
+              <option key={k} value={k}>
+                {tier.num}+ {tierName(tier, lang)}
+              </option>
+            ))}
+          </select>
+        </div>
+      ))}
     </div>
   );
 }

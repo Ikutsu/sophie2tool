@@ -3,9 +3,42 @@ import type { Recipe, ElementColor, Material } from "../types/index.ts";
 import type { OptimizationResult, OptimizeRequest, OptMode } from "../lib/optimizer/types.ts";
 import OptimizerWorker from "../lib/optimizer/worker.ts?worker";
 import { cropPanel } from "../lib/optimizer/placement.ts";
+import { lineState } from "../lib/optimizer/scoring.ts";
 import { useInventoryStore } from "./inventory.ts";
 
 export type GridSize = 5 | 6 | 7;
+
+/** "combo" mode: a target the best plan still misses. */
+export interface MissedTarget {
+  elem: ElementColor;
+  need: number;
+  got: number;
+}
+
+/**
+ * Keep only plans that unlock every chosen tier. The search scores targets as a bonus,
+ * so it returns its best attempt even when no plan reaches them; that is not an answer.
+ * Returns the kept plans, and what the best attempt missed when none qualify.
+ */
+function meetCombo(
+  results: OptimizationResult[],
+  recipe: Recipe,
+  tiers: (number | null)[],
+): { results: OptimizationResult[]; missed: MissedTarget[] | null } {
+  const misses = (r: OptimizationResult): MissedTarget[] =>
+    recipe.effects.flatMap((line, i) => {
+      const tier = tiers[i];
+      if (tier == null) return [];
+      const { value, unlocked } = lineState(
+        line,
+        r.fillValues[line.elem] ?? 0,
+        r.linkCounts[line.elem] ?? 0,
+      );
+      return unlocked > tier ? [] : [{ elem: line.elem, need: line.data[tier].num, got: value }];
+    });
+  const ok = results.filter((r) => misses(r).length === 0);
+  return { results: ok, missed: ok.length === 0 && results[0] ? misses(results[0]) : null };
+}
 
 type CoopLevels = Partial<Record<ElementColor, number>>;
 const COOP_KEY = "sophie2.coopMaxLevel.v1";
@@ -45,12 +78,22 @@ interface OptimizerState {
   running: boolean;
   /** Inventory mode only: some ingredient slot has fewer owned items than needed. */
   inventoryShortage: boolean;
+  /** "combo" mode found no plan reaching every target: what the best attempt missed. */
+  missedTargets: MissedTarget[] | null;
   coopMaxLevel: CoopLevels; // 0=off, 3, 5, 7
   mode: OptMode;
   gridSize: GridSize;
   maxComponents: number; // max components to pick per material (1-4)
   fillBoard: boolean;
   setFillBoard: (on: boolean) => void;
+  /** "single" mode: index of the effect line to maximize. */
+  targetLine: number;
+  /** "combo" mode: per effect line, the tier index to reach (null = no requirement). */
+  targetTiers: (number | null)[];
+  setTargetLine: (line: number) => void;
+  setTargetTier: (line: number, tier: number | null) => void;
+  /** Clear the targets (they index the current recipe's effect lines). */
+  resetTargets: () => void;
 
   setMode: (mode: OptMode) => void;
   setCoopLevel: (element: ElementColor, level: number) => void;
@@ -70,12 +113,22 @@ export const useOptimizerStore = create<OptimizerState>((set, get) => ({
   guideStep: null,
   running: false,
   inventoryShortage: false,
+  missedTargets: null,
   coopMaxLevel: loadCoop(),
   mode: "global",
   gridSize: 5,
   maxComponents: 4,
   fillBoard: false,
   setFillBoard: (on) => set({ fillBoard: on }),
+  targetLine: 0,
+  targetTiers: [],
+  setTargetLine: (line) => set({ targetLine: line }),
+  setTargetTier: (line, tier) => {
+    const targetTiers = [...get().targetTiers];
+    targetTiers[line] = tier;
+    set({ targetTiers });
+  },
+  resetTargets: () => set({ targetLine: 0, targetTiers: [] }),
 
   setMode: (mode) => set({ mode }),
   setCoopLevel: (element, level) => get().setCoopLevels({ [element]: level }),
@@ -91,7 +144,7 @@ export const useOptimizerStore = create<OptimizerState>((set, get) => ({
 
   optimize: (recipe: Recipe, allMaterials: Material[]) => {
     if (!recipe.panel) return;
-    set({ running: true, results: null, selectedIndex: 0, guideStep: null });
+    set({ running: true, results: null, missedTargets: null, selectedIndex: 0, guideStep: null });
 
     const croppedPanel = cropPanel(recipe.panel, get().gridSize);
 
@@ -146,11 +199,21 @@ export const useOptimizerStore = create<OptimizerState>((set, get) => ({
     }
     set({ inventoryShortage: false });
 
+    // Targets as they were when this run started (the user may change them meanwhile).
+    const comboTiers = get().mode === "combo" ? [...get().targetTiers] : null;
     const request: OptimizeRequest = {
       recipe: { panel: croppedPanel, effects: recipe.effects },
       candidateMaterials,
       instanceMode,
       mode: get().mode,
+      targetLineIndex: get().mode === "single" ? get().targetLine : undefined,
+      targetThresholds:
+        get().mode === "combo"
+          ? recipe.effects.map((line, i) => {
+              const tier = get().targetTiers[i];
+              return tier == null ? null : (line.data[tier]?.num ?? null);
+            })
+          : undefined,
       coopMaxLevel: { ...get().coopMaxLevel },
       maxComponents: get().maxComponents,
       fillBoard: get().fillBoard,
@@ -159,7 +222,14 @@ export const useOptimizerStore = create<OptimizerState>((set, get) => ({
     const worker = new OptimizerWorker();
     worker.onmessage = (e: MessageEvent) => {
       if (e.data.type === "done") {
-        set({ results: e.data.results, running: false });
+        const raw = e.data.results as OptimizationResult[];
+        const tiers = comboTiers;
+        if (tiers?.some((t) => t != null)) {
+          const { results, missed } = meetCombo(raw, recipe, tiers);
+          set({ results, missedTargets: missed, running: false });
+        } else {
+          set({ results: raw, missedTargets: null, running: false });
+        }
         worker.terminate();
       }
     };
