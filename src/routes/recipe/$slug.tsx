@@ -9,6 +9,8 @@ import { PlanGuide } from "../../components/panel/plan-guide.tsx";
 import { RecipeLayout } from "../../components/recipe-detail/recipe-layout.tsx";
 import { MaterialList } from "../../components/recipe-detail/material-list.tsx";
 import { ItemCard } from "../../components/recipe-detail/item-card.tsx";
+import { InheritedTraits } from "../../components/recipe-detail/inherited-traits.tsx";
+import { planQuality } from "../../lib/traits.ts";
 import { EffectBarList } from "../../components/recipe-detail/effect-bar.tsx";
 import { CoopSkills } from "../../components/recipe-detail/coop-skills.tsx";
 import { OptimizeControls } from "../../components/recipe-detail/optimize-controls.tsx";
@@ -112,7 +114,12 @@ function RecipeDetailView({ recipe }: { recipe: Recipe }) {
 
   return (
     <RecipeLayout
-      left={<MaterialList recipe={recipe} />}
+      left={
+        <>
+          <MaterialList recipe={recipe} />
+          <InheritedTraits recipe={recipe} />
+        </>
+      }
       center={
         <>
           {recipe.panel ? (
@@ -137,7 +144,17 @@ function RecipeDetailView({ recipe }: { recipe: Recipe }) {
       }
       right={
         <>
-          <ItemCard recipe={recipe} />
+          <ItemCard
+            recipe={recipe}
+            quality={
+              currentResult
+                ? {
+                    base: planQuality(currentResult)?.base ?? null,
+                    gain: currentResult.qualityGain,
+                  }
+                : undefined
+            }
+          />
           <Divider />
           <div>
             <SectionTitle>{t("effects")}</SectionTitle>

@@ -1,0 +1,3149 @@
+{
+  "0": {
+    "name": {
+      "en": "Quality",
+      "ja": "品質上昇",
+      "ko": "품질상승",
+      "sc": "品质提升",
+      "tc": "品質上升"
+    }
+  },
+  "1": {
+    "name": {
+      "en": "Quality +",
+      "ja": "品質上昇＋",
+      "ko": "품질상승＋",
+      "sc": "品质提升+",
+      "tc": "品質上升+"
+    }
+  },
+  "2": {
+    "name": {
+      "en": "Quality ++",
+      "ja": "品質上昇＋＋",
+      "ko": "품질상승＋＋",
+      "sc": "品质提升++",
+      "tc": "品質上升++"
+    }
+  },
+  "3": {
+    "name": {
+      "en": "Well-Made",
+      "ja": "出来が良い",
+      "ko": "좋은 완성도",
+      "sc": "优秀成果",
+      "tc": "優秀成果"
+    },
+    "from": [0, 1]
+  },
+  "4": {
+    "name": {
+      "en": "Pro Perfection",
+      "ja": "プロの完成度",
+      "ko": "프로 완성도",
+      "sc": "专家的完成度",
+      "tc": "專家的完成度"
+    },
+    "from": [1, 2]
+  },
+  "5": {
+    "name": {
+      "en": "Superb Quality",
+      "ja": "超クオリティ",
+      "ko": "초 퀄리티",
+      "sc": "超级质量",
+      "tc": "超級品質"
+    },
+    "from": [3, 4]
+  },
+  "6": {
+    "name": {
+      "en": "Ultimate Masterpiece",
+      "ja": "究極の逸品",
+      "ko": "궁극의 일품",
+      "sc": "究极的逸品",
+      "tc": "究極的逸品"
+    },
+    "from": [5, 584]
+  },
+  "10": {
+    "name": { "en": "Cheap", "ja": "安値", "ko": "염가", "sc": "低价", "tc": "低價" },
+    "kinds": ["attack", "debuff"]
+  },
+  "11": {
+    "name": { "en": "Cheap +", "ja": "安値＋", "ko": "염가＋", "sc": "低价+", "tc": "低價+" },
+    "kinds": ["attack", "debuff"]
+  },
+  "12": {
+    "name": {
+      "en": "Cheap ++",
+      "ja": "安値＋＋",
+      "ko": "염가＋＋",
+      "sc": "低价++",
+      "tc": "低價++"
+    },
+    "kinds": ["attack", "debuff"]
+  },
+  "13": {
+    "name": {
+      "en": "Bulk-Produced",
+      "ja": "量産品",
+      "ko": "양산품",
+      "sc": "量产品",
+      "tc": "量產品"
+    },
+    "from": [10, 11],
+    "kinds": ["attack", "debuff"]
+  },
+  "14": {
+    "name": {
+      "en": "Mass-Produced",
+      "ja": "大量生産品",
+      "ko": "대량생산품",
+      "sc": "大量生产品",
+      "tc": "大量生產品"
+    },
+    "from": [11, 12],
+    "kinds": ["attack", "debuff"]
+  },
+  "15": {
+    "name": {
+      "en": "Economical",
+      "ja": "エコノミー",
+      "ko": "이코노미",
+      "sc": "经济实惠",
+      "tc": "經濟實惠"
+    },
+    "from": [13, 14],
+    "kinds": ["attack", "debuff"]
+  },
+  "16": {
+    "name": {
+      "en": "Bargain",
+      "ja": "プライスレス",
+      "ko": "프라이스리스",
+      "sc": "无价",
+      "tc": "無價"
+    },
+    "from": [15, 584],
+    "kinds": ["heal", "buff"]
+  },
+  "20": {
+    "name": { "en": "Expensive", "ja": "高値", "ko": "고가", "sc": "高价", "tc": "高價" },
+    "kinds": ["heal", "buff"]
+  },
+  "21": {
+    "name": { "en": "Expensive +", "ja": "高値＋", "ko": "고가＋", "sc": "高价+", "tc": "高價+" },
+    "kinds": ["heal", "buff"]
+  },
+  "22": {
+    "name": {
+      "en": "Expensive ++",
+      "ja": "高値＋＋",
+      "ko": "고가＋＋",
+      "sc": "高价++",
+      "tc": "高價++"
+    },
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "23": {
+    "name": { "en": "Finest", "ja": "高級品", "ko": "고급품", "sc": "高级品", "tc": "高級品" },
+    "from": [20, 21],
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "24": {
+    "name": {
+      "en": "Rare Item",
+      "ja": "希少な逸品",
+      "ko": "희귀한 일품",
+      "sc": "稀少的逸品",
+      "tc": "稀少的逸品"
+    },
+    "from": [21, 22],
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "25": {
+    "name": {
+      "en": "Overpriced",
+      "ja": "プレミア価格",
+      "ko": "프리미엄 가격",
+      "sc": "限定价格",
+      "tc": "限定價格"
+    },
+    "from": [23, 24],
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "26": {
+    "name": {
+      "en": "One of a Kind",
+      "ja": "唯一無二",
+      "ko": "유일무이",
+      "sc": "独一无二",
+      "tc": "獨一無二"
+    },
+    "from": [25, 584],
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "30": {
+    "name": {
+      "en": "Destruction Up",
+      "ja": "破壊力増加",
+      "ko": "파괴력 증가",
+      "sc": "破坏力增加",
+      "tc": "破壞力增加"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "31": {
+    "name": {
+      "en": "Destruction Up +",
+      "ja": "破壊力増加＋",
+      "ko": "파괴력 증가＋",
+      "sc": "破坏力增加+",
+      "tc": "破壞力增加+"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "32": {
+    "name": {
+      "en": "Destruction Up ++",
+      "ja": "破壊力増加＋＋",
+      "ko": "파괴력 증가＋＋",
+      "sc": "破坏力增加++",
+      "tc": "破壞力增加++"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "33": {
+    "name": {
+      "en": "Rather Devastating",
+      "ja": "大きな破壊力",
+      "ko": "큰 파괴력",
+      "sc": "强大的破坏力",
+      "tc": "強大的破壞力"
+    },
+    "from": [30, 31],
+    "kinds": ["heal", "buff"]
+  },
+  "34": {
+    "name": {
+      "en": "Very Devastating",
+      "ja": "強力な破壊力",
+      "ko": "강력한 파괴력",
+      "sc": "强烈的破坏力",
+      "tc": "強烈的破壞力"
+    },
+    "from": [31, 32],
+    "kinds": ["heal", "buff"]
+  },
+  "35": {
+    "name": {
+      "en": "Extremely Devastating",
+      "ja": "猛烈な破壊力",
+      "ko": "맹렬한 파괴력",
+      "sc": "猛烈的破坏力",
+      "tc": "猛烈的破壞力"
+    },
+    "from": [33, 34],
+    "kinds": ["heal", "buff"]
+  },
+  "36": {
+    "name": {
+      "en": "Ultimate Destruction",
+      "ja": "究極の破壊力",
+      "ko": "궁극의 파괴력",
+      "sc": "终极的破坏力",
+      "tc": "終極的破壞力"
+    },
+    "from": [35, 584],
+    "kinds": ["heal", "buff"]
+  },
+  "40": {
+    "name": {
+      "en": "Recovery Up",
+      "ja": "回復力増加",
+      "ko": "회복력 증가",
+      "sc": "恢复力增加",
+      "tc": "回復力增加"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "41": {
+    "name": {
+      "en": "Recovery Up +",
+      "ja": "回復力増加＋",
+      "ko": "회복력 증가＋",
+      "sc": "恢复力增加+",
+      "tc": "回復力增加+"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "42": {
+    "name": {
+      "en": "Recovery Up ++",
+      "ja": "回復力増加＋＋",
+      "ko": "회복력 증가＋＋",
+      "sc": "恢复力增加++",
+      "tc": "回復力增加++"
+    },
+    "kinds": ["attack", "debuff"]
+  },
+  "43": {
+    "name": {
+      "en": "Ample Healing",
+      "ja": "大きな回復量",
+      "ko": "큰 회복량",
+      "sc": "强大的恢复量",
+      "tc": "強大的回復量"
+    },
+    "from": [40, 41],
+    "kinds": ["attack", "debuff"]
+  },
+  "44": {
+    "name": {
+      "en": "Terrific Healing",
+      "ja": "強力な回復量",
+      "ko": "강력한 회복량",
+      "sc": "强烈的恢复量",
+      "tc": "強烈的回復量"
+    },
+    "from": [41, 42],
+    "kinds": ["attack", "debuff"]
+  },
+  "45": {
+    "name": {
+      "en": "Tremendous Healing",
+      "ja": "猛烈な回復量",
+      "ko": "맹렬한 회복량",
+      "sc": "猛烈的恢复量",
+      "tc": "猛烈的回復量"
+    },
+    "from": [43, 44],
+    "kinds": ["attack", "debuff"]
+  },
+  "46": {
+    "name": {
+      "en": "Ultimate Recovery",
+      "ja": "究極の回復量",
+      "ko": "궁극의 회복량",
+      "sc": "终极的恢复量",
+      "tc": "終極的回復量"
+    },
+    "from": [45, 584],
+    "kinds": ["attack", "debuff"]
+  },
+  "50": {
+    "name": {
+      "en": "Critical",
+      "ja": "クリティカル",
+      "ko": "크리티컬",
+      "sc": "暴击",
+      "tc": "重擊"
+    },
+    "kinds": ["attack", "debuff"]
+  },
+  "51": {
+    "name": {
+      "en": "Critical +",
+      "ja": "クリティカル＋",
+      "ko": "크리티컬＋",
+      "sc": "暴击+",
+      "tc": "重擊+"
+    },
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "52": {
+    "name": {
+      "en": "Critical ++",
+      "ja": "クリティカル＋＋",
+      "ko": "크리티컬＋＋",
+      "sc": "暴击++",
+      "tc": "重擊++"
+    },
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "53": {
+    "name": {
+      "en": "Critical Finish",
+      "ja": "会心の出来",
+      "ko": "회심의 완성",
+      "sc": "暴击成品",
+      "tc": "重擊成果"
+    },
+    "from": [50, 51],
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "54": {
+    "name": {
+      "en": "Half Critical",
+      "ja": "半分クリティカル",
+      "ko": "절반 크리티컬",
+      "sc": "一半暴击",
+      "tc": "一半重擊"
+    },
+    "from": [51, 52],
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "55": {
+    "name": {
+      "en": "Certain Critical",
+      "ja": "必中クリティカル",
+      "ko": "필중 크리티컬",
+      "sc": "必中暴击",
+      "tc": "必中重擊"
+    },
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "56": {
+    "name": {
+      "en": "Half-Kill",
+      "ja": "半殺し",
+      "ko": "반죽음",
+      "sc": "半死不活",
+      "tc": "半死不活"
+    },
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "57": {
+    "name": {
+      "en": "One Hit Kill",
+      "ja": "一撃必殺",
+      "ko": "일격필살",
+      "sc": "一击必杀",
+      "tc": "一擊必殺"
+    },
+    "from": [55, 587],
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "61": {
+    "name": {
+      "en": "Uses +1",
+      "ja": "使用回数＋１",
+      "ko": "사용횟수＋1",
+      "sc": "使用次数+1",
+      "tc": "使用次數+1"
+    },
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "62": {
+    "name": {
+      "en": "Uses +2",
+      "ja": "使用回数＋２",
+      "ko": "사용횟수＋2",
+      "sc": "使用次数+2",
+      "tc": "使用次數+2"
+    },
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "63": {
+    "name": { "en": "Multiply", "ja": "増殖", "ko": "증식", "sc": "增殖", "tc": "增殖" },
+    "from": [61, 62],
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "67": {
+    "name": {
+      "en": "Uses -1",
+      "ja": "使用回数－１",
+      "ko": "사용횟수－1",
+      "sc": "使用次数-1",
+      "tc": "使用次數-1"
+    },
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "68": {
+    "name": {
+      "en": "Uses -2",
+      "ja": "使用回数－２",
+      "ko": "사용횟수－2",
+      "sc": "使用次数-2",
+      "tc": "使用次數-2"
+    },
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "69": {
+    "name": { "en": "Reduction", "ja": "収縮", "ko": "수축", "sc": "缩减", "tc": "縮減" },
+    "from": [67, 68],
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "73": {
+    "name": {
+      "en": "Strong Blessing",
+      "ja": "力の祝福",
+      "ko": "힘의 축복",
+      "sc": "力量的祝福",
+      "tc": "力量的祝福"
+    },
+    "kinds": ["attack", "debuff"]
+  },
+  "74": {
+    "name": {
+      "en": "Mighty Blessing",
+      "ja": "剛力の祝福",
+      "ko": "강력의 축복",
+      "sc": "刚力的祝福",
+      "tc": "剛力的祝福"
+    },
+    "kinds": ["attack", "debuff"]
+  },
+  "75": {
+    "name": {
+      "en": "Herculean Blessing",
+      "ja": "剛力神の祝福",
+      "ko": "강력신의 축복",
+      "sc": "刚力神的祝福",
+      "tc": "剛力神的祝福"
+    },
+    "from": [74, 585],
+    "kinds": ["attack", "debuff"]
+  },
+  "78": {
+    "name": {
+      "en": "Steward's Blessing",
+      "ja": "守りの祝福",
+      "ko": "방어의 축복",
+      "sc": "守备的祝福",
+      "tc": "守備的祝福"
+    },
+    "kinds": ["armor"]
+  },
+  "79": {
+    "name": {
+      "en": "Guardian's Blessing",
+      "ja": "守護の祝福",
+      "ko": "수호의 축복",
+      "sc": "守护的祝福",
+      "tc": "守護的祝福"
+    },
+    "kinds": ["armor"]
+  },
+  "80": {
+    "name": {
+      "en": "Seraph's Blessing",
+      "ja": "守護神の祝福",
+      "ko": "수호신의 축복",
+      "sc": "守护神的祝福",
+      "tc": "守護神的祝福"
+    },
+    "from": [79, 585],
+    "kinds": ["armor"]
+  },
+  "83": {
+    "name": {
+      "en": "Quick Blessing",
+      "ja": "速さの祝福",
+      "ko": "속도의 축복",
+      "sc": "速度的祝福",
+      "tc": "速度的祝福"
+    },
+    "kinds": ["weapon"]
+  },
+  "84": {
+    "name": {
+      "en": "Light-Speed Blessing",
+      "ja": "疾風の祝福",
+      "ko": "질풍의 축복",
+      "sc": "疾风的祝福",
+      "tc": "疾風的祝福"
+    },
+    "kinds": ["weapon"]
+  },
+  "85": {
+    "name": {
+      "en": "Hermes's Blessing",
+      "ja": "韋駄天の祝福",
+      "ko": "위타천의 축복",
+      "sc": "韦驮天的祝福",
+      "tc": "韋馱天的祝福"
+    },
+    "from": [84, 585],
+    "kinds": ["weapon"]
+  },
+  "88": {
+    "name": {
+      "en": "Poison Cure",
+      "ja": "毒を治療",
+      "ko": "독 치료",
+      "sc": "治疗中毒",
+      "tc": "治療中毒"
+    },
+    "kinds": ["armor"]
+  },
+  "89": {
+    "name": {
+      "en": "Sleep Cure",
+      "ja": "眠りを治療",
+      "ko": "수면 치료",
+      "sc": "治疗睡眠",
+      "tc": "治療睡眠"
+    },
+    "kinds": ["armor"]
+  },
+  "90": {
+    "name": {
+      "en": "Curse Cure",
+      "ja": "呪いを治療",
+      "ko": "저주 치료",
+      "sc": "治疗诅咒",
+      "tc": "治療詛咒"
+    },
+    "kinds": ["armor"]
+  },
+  "91": {
+    "name": {
+      "en": "Burns Cure",
+      "ja": "火傷を治療",
+      "ko": "화상 치료",
+      "sc": "治疗火伤",
+      "tc": "治療燒傷"
+    },
+    "kinds": ["accessory"]
+  },
+  "92": {
+    "name": {
+      "en": "Frostbite Cure",
+      "ja": "凍傷を治療",
+      "ko": "동상 치료",
+      "sc": "治疗冻伤",
+      "tc": "治療凍傷"
+    },
+    "kinds": ["accessory"]
+  },
+  "93": {
+    "name": {
+      "en": "Paralysis Cure",
+      "ja": "麻痺を治療",
+      "ko": "마비 치료",
+      "sc": "治疗麻痹",
+      "tc": "治療麻痺"
+    },
+    "kinds": ["accessory"]
+  },
+  "94": {
+    "name": {
+      "en": "Restraint Cure",
+      "ja": "束縛を治療",
+      "ko": "속박 치료",
+      "sc": "治疗束缚",
+      "tc": "治療束縛"
+    },
+    "kinds": ["accessory"]
+  },
+  "95": {
+    "name": {
+      "en": "Curse Strength",
+      "ja": "力の呪い",
+      "ko": "힘의 저주",
+      "sc": "力量的诅咒",
+      "tc": "力量的詛咒"
+    },
+    "kinds": ["accessory"]
+  },
+  "96": {
+    "name": {
+      "en": "Banish Strength",
+      "ja": "無力の呪詛",
+      "ko": "무력의 저주",
+      "sc": "无力的诅咒",
+      "tc": "無力的詛咒"
+    },
+    "kinds": ["weapon", "armor"]
+  },
+  "97": {
+    "name": {
+      "en": "Banish All Strength",
+      "ja": "無力の神罰",
+      "ko": "무력의 신벌",
+      "sc": "无力的神罚",
+      "tc": "無力的神罰"
+    },
+    "from": [96, 585],
+    "kinds": ["weapon", "accessory"]
+  },
+  "100": {
+    "name": {
+      "en": "Curse Protection",
+      "ja": "守りの呪い",
+      "ko": "방어의 저주",
+      "sc": "守备的诅咒",
+      "tc": "守備的詛咒"
+    },
+    "kinds": ["weapon", "armor", "accessory"]
+  },
+  "101": {
+    "name": {
+      "en": "Banish Protection",
+      "ja": "無守の呪詛",
+      "ko": "무수의 저주",
+      "sc": "无守的诅咒",
+      "tc": "無守的詛咒"
+    },
+    "kinds": ["weapon"]
+  },
+  "102": {
+    "name": {
+      "en": "Banish All Protection",
+      "ja": "無守の神罰",
+      "ko": "무수의 신벌",
+      "sc": "无守的神罚",
+      "tc": "無守的神罰"
+    },
+    "from": [101, 585],
+    "kinds": ["weapon"]
+  },
+  "105": {
+    "name": {
+      "en": "Curse Speed",
+      "ja": "速さの呪い",
+      "ko": "속도의 저주",
+      "sc": "速度的诅咒",
+      "tc": "速度的詛咒"
+    },
+    "kinds": ["weapon"]
+  },
+  "106": {
+    "name": {
+      "en": "Banish Speed",
+      "ja": "無速の呪詛",
+      "ko": "무속의 저주",
+      "sc": "无速的诅咒",
+      "tc": "無速的詛咒"
+    },
+    "kinds": ["weapon"]
+  },
+  "107": {
+    "name": {
+      "en": "Banish All Speed",
+      "ja": "無速の神罰",
+      "ko": "무속의 신벌",
+      "sc": "无速的神罚",
+      "tc": "無速的神罰"
+    },
+    "from": [106, 585],
+    "kinds": ["weapon"]
+  },
+  "110": {
+    "name": {
+      "en": "Inflict Poison",
+      "ja": "毒を与える",
+      "ko": "독 부여",
+      "sc": "赋予毒",
+      "tc": "賦予中毒"
+    },
+    "kinds": ["weapon"]
+  },
+  "111": {
+    "name": {
+      "en": "Inflict Venom",
+      "ja": "猛毒を与える",
+      "ko": "맹독 부여",
+      "sc": "赋予剧毒",
+      "tc": "賦予劇毒"
+    },
+    "kinds": ["weapon"]
+  },
+  "112": {
+    "name": {
+      "en": "Final Venom",
+      "ja": "終末の猛毒",
+      "ko": "종말의 맹독",
+      "sc": "终极剧毒",
+      "tc": "終極劇毒"
+    },
+    "from": [111, 585],
+    "kinds": ["weapon"]
+  },
+  "113": {
+    "name": {
+      "en": "Inflict Sleep",
+      "ja": "眠りを与える",
+      "ko": "수면 부여",
+      "sc": "赋予睡眠",
+      "tc": "賦予睡眠"
+    },
+    "kinds": ["weapon"]
+  },
+  "114": {
+    "name": {
+      "en": "Inflict Torpor",
+      "ja": "昏睡を与える",
+      "ko": "혼수 부여",
+      "sc": "赋予昏睡",
+      "tc": "賦予昏睡"
+    },
+    "kinds": ["weapon"]
+  },
+  "115": {
+    "name": {
+      "en": "Final Torpor",
+      "ja": "終末の昏睡",
+      "ko": "종말의 혼수",
+      "sc": "终极昏睡",
+      "tc": "終極昏睡"
+    },
+    "from": [114, 585],
+    "kinds": ["weapon"]
+  },
+  "116": {
+    "name": {
+      "en": "Inflict Curse",
+      "ja": "呪いを与える",
+      "ko": "저주 부여",
+      "sc": "赋予诅咒",
+      "tc": "賦予詛咒"
+    },
+    "kinds": ["weapon"]
+  },
+  "117": {
+    "name": {
+      "en": "Inflict Grudge",
+      "ja": "怨呪を与える",
+      "ko": "원념 부여",
+      "sc": "赋予怨咒",
+      "tc": "賦予怨咒"
+    },
+    "kinds": ["weapon"]
+  },
+  "118": {
+    "name": {
+      "en": "Final Grudge",
+      "ja": "終末の怨呪",
+      "ko": "종말의 원념",
+      "sc": "终极怨咒",
+      "tc": "終極怨咒"
+    },
+    "from": [117, 585],
+    "kinds": ["heal", "buff"]
+  },
+  "119": {
+    "name": {
+      "en": "Inflict Burns",
+      "ja": "火傷を与える",
+      "ko": "화상 부여",
+      "sc": "赋予火伤",
+      "tc": "賦予燒傷"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "120": {
+    "name": {
+      "en": "Inflict Blaze",
+      "ja": "炎瘡を与える",
+      "ko": "염창 부여",
+      "sc": "赋予炎疮",
+      "tc": "賦予炎瘡"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "121": {
+    "name": {
+      "en": "Final Blaze",
+      "ja": "終末の炎瘡",
+      "ko": "종말의 염창",
+      "sc": "终极炎疮",
+      "tc": "終極炎瘡"
+    },
+    "from": [120, 585],
+    "kinds": ["accessory"]
+  },
+  "122": {
+    "name": {
+      "en": "Inflict Frostbite",
+      "ja": "凍傷を与える",
+      "ko": "동상 부여",
+      "sc": "赋予冻伤",
+      "tc": "賦予凍傷"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "123": {
+    "name": {
+      "en": "Inflict Glacier",
+      "ja": "氷瘡を与える",
+      "ko": "빙창 부여",
+      "sc": "赋予冰疮",
+      "tc": "賦予冰瘡"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "124": {
+    "name": {
+      "en": "Final Glacier",
+      "ja": "終末の氷瘡",
+      "ko": "종말의 빙창",
+      "sc": "终极冰疮",
+      "tc": "終極冰瘡"
+    },
+    "from": [123, 585],
+    "kinds": ["heal", "buff"]
+  },
+  "125": {
+    "name": {
+      "en": "Inflict Paralysis",
+      "ja": "麻痺を与える",
+      "ko": "마비 부여",
+      "sc": "赋予麻痹",
+      "tc": "賦予麻痺"
+    },
+    "kinds": ["accessory"]
+  },
+  "126": {
+    "name": {
+      "en": "Inflict Numbness",
+      "ja": "鈍麻を与える",
+      "ko": "둔마 부여",
+      "sc": "赋予钝麻",
+      "tc": "賦予鈍麻"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "127": {
+    "name": {
+      "en": "Final Numbness",
+      "ja": "終末の鈍麻",
+      "ko": "종말의 둔마",
+      "sc": "终极钝麻",
+      "tc": "終極鈍麻"
+    },
+    "from": [126, 585],
+    "kinds": ["heal", "buff"]
+  },
+  "128": {
+    "name": {
+      "en": "Inflict Restraints",
+      "ja": "束縛を与える",
+      "ko": "속박 부여",
+      "sc": "赋予束缚",
+      "tc": "賦予束縛"
+    },
+    "kinds": ["weapon"]
+  },
+  "129": {
+    "name": {
+      "en": "Inflict Binding",
+      "ja": "緊縛を与える",
+      "ko": "긴박 부여",
+      "sc": "赋予紧缚",
+      "tc": "賦予緊縛"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "130": {
+    "name": {
+      "en": "Final Binding",
+      "ja": "終末の緊縛",
+      "ko": "종말의 긴박",
+      "sc": "终极紧缚",
+      "tc": "終極緊縛"
+    },
+    "from": [129, 585],
+    "kinds": ["armor"]
+  },
+  "131": {
+    "name": {
+      "en": "Area Bonus",
+      "ja": "範囲ボーナス",
+      "ko": "범위 보너스",
+      "sc": "范围奖励",
+      "tc": "範圍獎勵"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "132": {
+    "name": {
+      "en": "Area Bonus +",
+      "ja": "範囲ボーナス＋",
+      "ko": "범위 보너스＋",
+      "sc": "范围奖励+",
+      "tc": "範圍獎勵+"
+    },
+    "kinds": ["weapon"]
+  },
+  "133": {
+    "name": {
+      "en": "Effective vs Many",
+      "ja": "複数に効果増大",
+      "ko": "다수 효과 증대",
+      "sc": "对多数的效果增大",
+      "tc": "對多數的效果增大"
+    },
+    "from": [131, 132],
+    "kinds": ["heal", "buff"]
+  },
+  "134": {
+    "name": {
+      "en": "Multi Bonus",
+      "ja": "マルチボーナス",
+      "ko": "멀티 보너스",
+      "sc": "团体奖励",
+      "tc": "團體獎勵"
+    },
+    "from": [132, 133],
+    "kinds": ["attack", "debuff"]
+  },
+  "135": {
+    "name": {
+      "en": "Multi Burst",
+      "ja": "マルチバースト",
+      "ko": "멀티 버스트",
+      "sc": "团体爆发",
+      "tc": "團體爆發"
+    },
+    "from": [134, 584],
+    "kinds": ["weapon"]
+  },
+  "139": {
+    "name": {
+      "en": "Few Bonus",
+      "ja": "少数ボーナス",
+      "ko": "소수 보너스",
+      "sc": "少数奖励",
+      "tc": "少數獎勵"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "140": {
+    "name": {
+      "en": "Few Bonus +",
+      "ja": "少数ボーナス＋",
+      "ko": "소수 보너스＋",
+      "sc": "少数奖励+",
+      "tc": "少數獎勵+"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "141": {
+    "name": {
+      "en": "Effective vs One",
+      "ja": "単体に効果増大",
+      "ko": "단일 효과 증대",
+      "sc": "对单体的效果增大",
+      "tc": "對單體的效果增大"
+    },
+    "from": [139, 140],
+    "kinds": ["heal", "buff"]
+  },
+  "142": {
+    "name": {
+      "en": "Single Bonus",
+      "ja": "シングルボーナス",
+      "ko": "싱글 보너스",
+      "sc": "单体奖励",
+      "tc": "單體獎勵"
+    },
+    "from": [140, 141]
+  },
+  "143": {
+    "name": {
+      "en": "Single Blast",
+      "ja": "シングルブラスト",
+      "ko": "싱글 블라스트",
+      "sc": "单体风暴",
+      "tc": "單體風暴"
+    },
+    "from": [142, 584],
+    "kinds": ["weapon"]
+  },
+  "147": {
+    "name": {
+      "en": "Few+Many Bonus",
+      "ja": "単複同時強化",
+      "ko": "단복 동시 강화",
+      "sc": "单复同时强化",
+      "tc": "單複同時強化"
+    },
+    "from": [142, 134],
+    "kinds": ["weapon"]
+  },
+  "148": {
+    "name": {
+      "en": "Close & Scattered",
+      "ja": "収束拡散強化",
+      "ko": "통합 확산 강화",
+      "sc": "收束扩散强化",
+      "tc": "收束擴散強化"
+    },
+    "from": [147, 584],
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "152": {
+    "name": {
+      "en": "Enhance Last",
+      "ja": "使い切り強化",
+      "ko": "마무리 일격 강화",
+      "sc": "一次性使用强化",
+      "tc": "一次性使用強化"
+    },
+    "kinds": ["armor"]
+  },
+  "153": {
+    "name": {
+      "en": "Enhance Last +",
+      "ja": "使い切り強化＋",
+      "ko": "마무리 일격 강화＋",
+      "sc": "一次性使用强化+",
+      "tc": "一次性使用強化+"
+    },
+    "kinds": ["heal", "buff"]
+  },
+  "154": {
+    "name": {
+      "en": "Final Blow",
+      "ja": "最後の一撃",
+      "ko": "최후의 일격",
+      "sc": "最后的一击",
+      "tc": "最後的一擊"
+    },
+    "from": [152, 153],
+    "kinds": ["weapon"]
+  },
+  "155": {
+    "name": {
+      "en": "Last Strike",
+      "ja": "ラストストライク",
+      "ko": "라스트 스트라이크",
+      "sc": "最后的强击",
+      "tc": "最後的強擊"
+    },
+    "from": [154, 584],
+    "kinds": ["armor", "accessory"]
+  },
+  "159": {
+    "name": {
+      "en": "Compress Count",
+      "ja": "回数圧縮",
+      "ko": "횟수 압축",
+      "sc": "次数压缩",
+      "tc": "次數壓縮"
+    },
+    "kinds": ["armor"]
+  },
+  "160": {
+    "name": {
+      "en": "Compress Count +",
+      "ja": "回数圧縮＋",
+      "ko": "횟수 압축＋",
+      "sc": "次数压缩+",
+      "tc": "次數壓縮+"
+    },
+    "kinds": ["accessory"]
+  },
+  "161": {
+    "name": {
+      "en": "Force Use",
+      "ja": "強制使い切り",
+      "ko": "강제 소모",
+      "sc": "强制一次性使用",
+      "tc": "強制一次性使用"
+    },
+    "from": [159, 160],
+    "kinds": ["heal", "buff"]
+  },
+  "162": {
+    "name": {
+      "en": "Final One",
+      "ja": "ワンタイムエンド",
+      "ko": "원타임 엔드",
+      "sc": "一次终结",
+      "tc": "一次終結"
+    },
+    "from": [161, 584],
+    "kinds": ["heal", "buff"]
+  },
+  "166": {
+    "name": {
+      "en": "Charge by Number",
+      "ja": "回数補正",
+      "ko": "횟수 보정",
+      "sc": "次数调整",
+      "tc": "次數調整"
+    },
+    "kinds": ["weapon", "armor", "accessory"]
+  },
+  "167": {
+    "name": {
+      "en": "Charge by Number +",
+      "ja": "回数補正＋",
+      "ko": "횟수 보정＋",
+      "sc": "次数调整+",
+      "tc": "次數調整+"
+    },
+    "kinds": ["attack", "debuff"]
+  },
+  "168": {
+    "name": {
+      "en": "Supercharge By Number",
+      "ja": "回数で超強化",
+      "ko": "횟수로 초강화",
+      "sc": "次数超强化",
+      "tc": "次數超強化"
+    },
+    "from": [166, 167],
+    "kinds": ["attack", "debuff"]
+  },
+  "169": {
+    "name": {
+      "en": "Bonus Count Boost",
+      "ja": "カウントブースト",
+      "ko": "카운트 부스트",
+      "sc": "累计加成",
+      "tc": "累計加成"
+    },
+    "from": [168, 584],
+    "kinds": ["weapon"]
+  },
+  "173": {
+    "name": {
+      "en": "Rapid Use",
+      "ja": "高速使用",
+      "ko": "고속 사용",
+      "sc": "高速使用",
+      "tc": "高速使用"
+    },
+    "kinds": ["attack", "heal", "debuff", "buff"]
+  },
+  "174": {
+    "name": {
+      "en": "Rapid Use +",
+      "ja": "高速使用＋",
+      "ko": "고속 사용＋",
+      "sc": "高速使用+",
+      "tc": "高速使用+"
+    },
+    "kinds": ["weapon", "armor"]
+  },
+  "175": {
+    "name": {
+      "en": "Sonic Throw",
+      "ja": "ソニックスロー",
+      "ko": "소닉 스로",
+      "sc": "音速投掷",
+      "tc": "音速投擲"
+    },
+    "from": [173, 174],
+    "kinds": ["weapon", "accessory"]
+  },
+  "176": {
+    "name": {
+      "en": "Lightning Throw",
+      "ja": "ライトニングスロー",
+      "ko": "라이트닝 스로",
+      "sc": "闪电投掷",
+      "tc": "閃電投擲"
+    },
+    "from": [175, 585],
+    "kinds": ["armor", "accessory"]
+  },
+  "181": {
+    "name": {
+      "en": "Power Throw",
+      "ja": "パワースロー",
+      "ko": "파워 스로",
+      "sc": "力量投掷",
+      "tc": "力量投擲"
+    },
+    "kinds": ["armor"]
+  },
+  "182": {
+    "name": {
+      "en": "Power Throw +",
+      "ja": "パワースロー＋",
+      "ko": "파워 스로＋",
+      "sc": "力量投掷+",
+      "tc": "力量投擲+"
+    },
+    "kinds": ["accessory"]
+  },
+  "183": {
+    "name": {
+      "en": "Strong Throw",
+      "ja": "ストロングスロー",
+      "ko": "스트롱 스로",
+      "sc": "强力投掷",
+      "tc": "全力投擲"
+    },
+    "from": [181, 182]
+  },
+  "184": {
+    "name": {
+      "en": "God Throw",
+      "ja": "ゴッドスロー",
+      "ko": "갓 스로",
+      "sc": "神之投掷",
+      "tc": "神之投擲"
+    },
+    "from": [183, 585]
+  },
+  "189": {
+    "name": {
+      "en": "Enhance Finisher",
+      "ja": "追い討ち強化",
+      "ko": "추격 강화",
+      "sc": "追击强化",
+      "tc": "追擊強化"
+    }
+  },
+  "190": {
+    "name": {
+      "en": "Enhance Finisher +",
+      "ja": "追い討ち強化＋",
+      "ko": "추격 강화＋",
+      "sc": "追击强化+",
+      "tc": "追擊強化+"
+    }
+  },
+  "191": {
+    "name": {
+      "en": "Enhance Finisher ++",
+      "ja": "追い討ち強化＋＋",
+      "ko": "추격 강화＋＋",
+      "sc": "追击强化++",
+      "tc": "追擊強化++"
+    }
+  },
+  "192": {
+    "name": {
+      "en": "Ruthless Strike",
+      "ja": "情け無用の一撃",
+      "ko": "인정없는 일격",
+      "sc": "无怜悯的一击",
+      "tc": "無憐憫的一擊"
+    },
+    "from": [189, 190]
+  },
+  "193": {
+    "name": {
+      "en": "Relentless Blow",
+      "ja": "手加減無しの一撃",
+      "ko": "사정없는 일격",
+      "sc": "毫不留情的一击",
+      "tc": "毫不留情的一擊"
+    },
+    "from": [190, 191]
+  },
+  "194": {
+    "name": {
+      "en": "Merciless Strike",
+      "ja": "無慈悲な一撃",
+      "ko": "무자비한 일격",
+      "sc": "冷酷无赦的一击",
+      "tc": "冷酷無赦的一擊"
+    },
+    "from": [192, 193]
+  },
+  "195": {
+    "name": {
+      "en": "Stun Burst",
+      "ja": "ブレイクバースト",
+      "ko": "브레이크 버스트",
+      "sc": "破防爆发",
+      "tc": "破防爆發"
+    },
+    "from": [194, 584]
+  },
+  "199": {
+    "name": { "en": "HP Charge", "ja": "ＨＰ強化", "ko": "HP강화", "sc": "HP强化", "tc": "HP強化" }
+  },
+  "200": {
+    "name": {
+      "en": "HP Boost",
+      "ja": "ＨＰ大増量",
+      "ko": "HP대증량",
+      "sc": "HP大增量",
+      "tc": "HP大增量"
+    }
+  },
+  "201": {
+    "name": {
+      "en": "HP Supercharge",
+      "ja": "ＨＰ超強化",
+      "ko": "HP초강화",
+      "sc": "HP超强化",
+      "tc": "HP超強化"
+    }
+  },
+  "202": {
+    "name": {
+      "en": "Swelling Power",
+      "ja": "みなぎる力",
+      "ko": "가득차는 힘",
+      "sc": "洋溢之力",
+      "tc": "洋溢之力"
+    },
+    "from": [199, 200]
+  },
+  "203": {
+    "name": {
+      "en": "Overflowing Life",
+      "ja": "あふれる力",
+      "ko": "넘쳐나는 힘",
+      "sc": "满溢之力",
+      "tc": "滿溢之力"
+    },
+    "from": [200, 201]
+  },
+  "204": {
+    "name": {
+      "en": "Life Force",
+      "ja": "生命の力",
+      "ko": "생명의 힘",
+      "sc": "生命之力",
+      "tc": "生命之力"
+    },
+    "from": [202, 203]
+  },
+  "205": {
+    "name": {
+      "en": "Awakened Vitality",
+      "ja": "生命力の覚醒",
+      "ko": "생명력 각성",
+      "sc": "生命力的觉醒",
+      "tc": "生命力的覺醒"
+    },
+    "from": [204, 586]
+  },
+  "209": {
+    "name": { "en": "MP Charge", "ja": "ＭＰ強化", "ko": "MP강화", "sc": "MP强化", "tc": "MP強化" }
+  },
+  "210": {
+    "name": {
+      "en": "MP Boost",
+      "ja": "ＭＰ大増量",
+      "ko": "MP대증량",
+      "sc": "MP大增量",
+      "tc": "MP大增量"
+    }
+  },
+  "211": {
+    "name": {
+      "en": "MP Supercharge",
+      "ja": "ＭＰ超強化",
+      "ko": "MP초강화",
+      "sc": "MP超强化",
+      "tc": "MP超強化"
+    }
+  },
+  "212": {
+    "name": {
+      "en": "Magician's Wisdom",
+      "ja": "魔法使いの知恵",
+      "ko": "마법사의 지혜",
+      "sc": "魔法师的智慧",
+      "tc": "魔法師的智慧"
+    },
+    "from": [209, 210]
+  },
+  "213": {
+    "name": {
+      "en": "Grand Magician's Wisdom",
+      "ja": "大魔法使いの知恵",
+      "ko": "대마법사의 지혜",
+      "sc": "大魔法师的智慧",
+      "tc": "大魔法師的智慧"
+    },
+    "from": [210, 211]
+  },
+  "214": {
+    "name": {
+      "en": "Sage's Wisdom",
+      "ja": "賢者の知恵",
+      "ko": "현자의 지혜",
+      "sc": "贤者的智慧",
+      "tc": "賢者的智慧"
+    },
+    "from": [212, 213]
+  },
+  "215": {
+    "name": {
+      "en": "Awakened Spirit",
+      "ja": "精神力の覚醒",
+      "ko": "정신력 각성",
+      "sc": "精神力的觉醒",
+      "tc": "精神力的覺醒"
+    },
+    "from": [214, 586]
+  },
+  "219": {
+    "name": {
+      "en": "HPMP Charge",
+      "ja": "ＨＰＭＰ強化",
+      "ko": "HPMP강화",
+      "sc": "HPMP强化",
+      "tc": "HPMP強化"
+    },
+    "from": [202, 212]
+  },
+  "220": {
+    "name": {
+      "en": "HPMP Boost",
+      "ja": "ＨＰＭＰ大増量",
+      "ko": "HPMP대증량",
+      "sc": "HPMP大增量",
+      "tc": "HPMP大增量"
+    },
+    "from": [203, 213]
+  },
+  "221": {
+    "name": {
+      "en": "HPMP Supercharge",
+      "ja": "ＨＰＭＰ超強化",
+      "ko": "HPMP초강화",
+      "sc": "HPMP超强化",
+      "tc": "HPMP超強化"
+    },
+    "from": [204, 214]
+  },
+  "222": {
+    "name": {
+      "en": "Awakened Endurance",
+      "ja": "耐久力の覚醒",
+      "ko": "내구력 각성",
+      "sc": "耐久力的觉醒",
+      "tc": "耐久力的覺醒"
+    },
+    "from": [221, 586]
+  },
+  "227": {
+    "name": {
+      "en": "ATK Charge",
+      "ja": "攻撃強化",
+      "ko": "공격 강화",
+      "sc": "攻击强化",
+      "tc": "攻擊強化"
+    }
+  },
+  "228": {
+    "name": {
+      "en": "ATK Boost",
+      "ja": "攻撃ブースト",
+      "ko": "공격 부스트",
+      "sc": "攻击加成",
+      "tc": "攻擊加成"
+    }
+  },
+  "229": {
+    "name": {
+      "en": "ATK Supercharge",
+      "ja": "攻撃力超強化",
+      "ko": "공격력 초강화",
+      "sc": "攻击超强化",
+      "tc": "攻擊超強化"
+    }
+  },
+  "230": {
+    "name": {
+      "en": "Beastly Power",
+      "ja": "猛獣の力",
+      "ko": "맹수의 힘",
+      "sc": "猛兽之力",
+      "tc": "猛獸之力"
+    },
+    "from": [227, 228]
+  },
+  "231": {
+    "name": {
+      "en": "Power of Destruction",
+      "ja": "破壊の力",
+      "ko": "파괴의 힘",
+      "sc": "破坏之力",
+      "tc": "破壞之力"
+    }
+  },
+  "232": {
+    "name": {
+      "en": "War God's Power",
+      "ja": "軍神の力",
+      "ko": "군신의 힘",
+      "sc": "军神之力",
+      "tc": "軍神之力"
+    },
+    "from": [230, 231]
+  },
+  "233": {
+    "name": {
+      "en": "Awakened Power",
+      "ja": "力の覚醒",
+      "ko": "힘의 각성",
+      "sc": "力量的觉醒",
+      "tc": "力量的覺醒"
+    },
+    "from": [232, 586]
+  },
+  "237": {
+    "name": {
+      "en": "DEF Charge",
+      "ja": "防御強化",
+      "ko": "방어 강화",
+      "sc": "防御强化",
+      "tc": "防禦強化"
+    }
+  },
+  "238": {
+    "name": {
+      "en": "DEF Boost",
+      "ja": "防御ブースト",
+      "ko": "방어 부스트",
+      "sc": "防御加成",
+      "tc": "防禦加成"
+    }
+  },
+  "239": {
+    "name": {
+      "en": "DEF Supercharge",
+      "ja": "防御力超強化",
+      "ko": "방어력 초강화",
+      "sc": "防御力超强化",
+      "tc": "防禦力超強化"
+    }
+  },
+  "240": {
+    "name": {
+      "en": "Steel Protection",
+      "ja": "鋼鉄の守り",
+      "ko": "강철의 수호",
+      "sc": "钢铁守备",
+      "tc": "鋼鐵守備"
+    },
+    "from": [237, 238]
+  },
+  "241": {
+    "name": {
+      "en": "Diamond Defense",
+      "ja": "輝石の守り",
+      "ko": "휘석의 수호",
+      "sc": "辉石守备",
+      "tc": "輝石守備"
+    },
+    "from": [238, 239]
+  },
+  "242": {
+    "name": {
+      "en": "Dragonscale Protection",
+      "ja": "竜鱗の守り",
+      "ko": "용린의 수호",
+      "sc": "龙鳞守备",
+      "tc": "龍鱗守備"
+    },
+    "from": [240, 241]
+  },
+  "243": {
+    "name": {
+      "en": "Awakened Protection",
+      "ja": "守りの覚醒",
+      "ko": "수호의 각성",
+      "sc": "守备的觉醒",
+      "tc": "守備的覺醒"
+    },
+    "from": [242, 586]
+  },
+  "247": {
+    "name": {
+      "en": "SPD Charge",
+      "ja": "素早さ強化",
+      "ko": "민첩성 강화",
+      "sc": "敏捷强化",
+      "tc": "敏捷強化"
+    }
+  },
+  "248": {
+    "name": {
+      "en": "SPD Boost",
+      "ja": "素早さブースト",
+      "ko": "민첩성 부스트",
+      "sc": "敏捷加成",
+      "tc": "敏捷加成"
+    }
+  },
+  "249": {
+    "name": {
+      "en": "SPD Supercharge",
+      "ja": "素早さ超強化",
+      "ko": "민첩성 초강화",
+      "sc": "敏捷超强化",
+      "tc": "敏捷超強化"
+    }
+  },
+  "250": {
+    "name": {
+      "en": "Speed of Skanda",
+      "ja": "韋駄天の脚力",
+      "ko": "위타천의 각력",
+      "sc": "韦驮天的脚力",
+      "tc": "韋馱天的腳力"
+    },
+    "from": [247, 248]
+  },
+  "251": {
+    "name": {
+      "en": "Speed of Gods",
+      "ja": "神速の脚力",
+      "ko": "신속의 각력",
+      "sc": "神速的脚力",
+      "tc": "神速的腳力"
+    },
+    "from": [248, 249]
+  },
+  "252": {
+    "name": {
+      "en": "Speed of Light",
+      "ja": "光速の脚力",
+      "ko": "광속의 각력",
+      "sc": "光速的脚力",
+      "tc": "光速的腳力"
+    },
+    "from": [250, 251]
+  },
+  "253": {
+    "name": {
+      "en": "Awakened Speed",
+      "ja": "速さの覚醒",
+      "ko": "속도의 각성",
+      "sc": "速度的觉醒",
+      "tc": "速度的覺醒"
+    },
+    "from": [252, 586]
+  },
+  "257": {
+    "name": {
+      "en": "ATK-DEF Charge",
+      "ja": "攻防強化",
+      "ko": "공방 강화",
+      "sc": "攻防强化",
+      "tc": "攻防強化"
+    },
+    "from": [227, 237]
+  },
+  "258": {
+    "name": {
+      "en": "ATK-SPD Charge",
+      "ja": "攻速強化",
+      "ko": "공속 강화",
+      "sc": "攻速强化",
+      "tc": "攻速強化"
+    },
+    "from": [227, 247]
+  },
+  "259": {
+    "name": {
+      "en": "DEF-SPD Charge",
+      "ja": "防速強化",
+      "ko": "방속 강화",
+      "sc": "防速强化",
+      "tc": "防速強化"
+    },
+    "from": [237, 247]
+  },
+  "263": {
+    "name": {
+      "en": "ATK-DEF Boost",
+      "ja": "攻防ブースト",
+      "ko": "공방 부스트",
+      "sc": "攻防加成",
+      "tc": "攻防加成"
+    },
+    "from": [228, 238]
+  },
+  "264": {
+    "name": {
+      "en": "ATK-SPD Boost",
+      "ja": "攻速ブースト",
+      "ko": "공속 부스트",
+      "sc": "攻速加成",
+      "tc": "攻速加成"
+    },
+    "from": [228, 248]
+  },
+  "265": {
+    "name": {
+      "en": "DEF-SPD Boost",
+      "ja": "防速ブースト",
+      "ko": "방속 부스트",
+      "sc": "防速加成",
+      "tc": "防速加成"
+    },
+    "from": [238, 248]
+  },
+  "269": {
+    "name": {
+      "en": "ATK-DEF Supercharge",
+      "ja": "攻防超強化",
+      "ko": "공방 초강화",
+      "sc": "攻防超强化",
+      "tc": "攻防超強化"
+    }
+  },
+  "270": {
+    "name": {
+      "en": "ATK-SPD Supercharge",
+      "ja": "攻速超強化",
+      "ko": "공속 초강화",
+      "sc": "攻速超强化",
+      "tc": "攻速超強化"
+    }
+  },
+  "271": {
+    "name": {
+      "en": "DEF-SPD Supercharge",
+      "ja": "防速超強化",
+      "ko": "방속 초강화",
+      "sc": "防速超强化",
+      "tc": "防速超強化"
+    },
+    "from": [239, 249]
+  },
+  "275": {
+    "name": {
+      "en": "All Stats Charge",
+      "ja": "全能力強化",
+      "ko": "전능력 강화",
+      "sc": "全能力强化",
+      "tc": "全能力強化"
+    },
+    "from": [257, 258]
+  },
+  "276": {
+    "name": {
+      "en": "All Stats Boost",
+      "ja": "全能力ブースト",
+      "ko": "전능력 부스트",
+      "sc": "全能力加成",
+      "tc": "全能力加成"
+    },
+    "from": [263, 264]
+  },
+  "277": {
+    "name": {
+      "en": "All Stats Supercharge",
+      "ja": "全能力超強化",
+      "ko": "전능력 초강화",
+      "sc": "全能力超强化",
+      "tc": "全能力超強化"
+    },
+    "from": [269, 270]
+  },
+  "278": {
+    "name": {
+      "en": "All-Stat Power",
+      "ja": "全能の力",
+      "ko": "전능의 힘",
+      "sc": "全能之力",
+      "tc": "全能之力"
+    },
+    "from": [277, 586]
+  },
+  "282": {
+    "name": {
+      "en": "Parameters +5%",
+      "ja": "パラメータ＋５％",
+      "ko": "파라미터＋5%",
+      "sc": "参数+5%",
+      "tc": "參數+5%"
+    }
+  },
+  "283": {
+    "name": {
+      "en": "Parameters +8%",
+      "ja": "パラメータ＋８％",
+      "ko": "파라미터＋8%",
+      "sc": "参数+8%",
+      "tc": "參數+8%"
+    }
+  },
+  "284": {
+    "name": {
+      "en": "Parameters +10%",
+      "ja": "パラメータ＋１０％",
+      "ko": "파라미터＋10%",
+      "sc": "参数+10%",
+      "tc": "參數+10%"
+    }
+  },
+  "285": {
+    "name": {
+      "en": "Enhance the Body",
+      "ja": "肉体を強化する",
+      "ko": "육체 강화",
+      "sc": "肉体强化",
+      "tc": "肉體強化"
+    },
+    "from": [282, 283]
+  },
+  "286": {
+    "name": {
+      "en": "Superenhanced Body",
+      "ja": "肉体を超強化する",
+      "ko": "육체 초강화",
+      "sc": "肉体超强化",
+      "tc": "肉體超強化"
+    },
+    "from": [283, 284]
+  },
+  "287": {
+    "name": {
+      "en": "Develop the Body",
+      "ja": "肉体を超進化させる",
+      "ko": "육체 초진화",
+      "sc": "肉体超进化",
+      "tc": "肉體超進化"
+    },
+    "from": [285, 286]
+  },
+  "288": {
+    "name": {
+      "en": "Evolve the Body",
+      "ja": "エボルブボディ",
+      "ko": "이볼브 보디",
+      "sc": "灵体进化",
+      "tc": "靈體進化"
+    },
+    "from": [287, 586]
+  },
+  "292": {
+    "name": {
+      "en": "MP Consumption -10%",
+      "ja": "消費ＭＰ－１０％",
+      "ko": "소비MP－10%",
+      "sc": "消耗MP-10%",
+      "tc": "消耗MP-10%"
+    }
+  },
+  "293": {
+    "name": {
+      "en": "MP Consumption -15%",
+      "ja": "消費ＭＰ－１５％",
+      "ko": "소비MP－15%",
+      "sc": "消耗MP-15%",
+      "tc": "消耗MP-15%"
+    }
+  },
+  "294": {
+    "name": {
+      "en": "MP Consumption -20%",
+      "ja": "消費ＭＰ－２０％",
+      "ko": "소비MP－20%",
+      "sc": "消耗MP-20%",
+      "tc": "消耗MP-20%"
+    }
+  },
+  "295": {
+    "name": {
+      "en": "Cut MP Consumption",
+      "ja": "消費ＭＰ削減",
+      "ko": "소비MP 삭감",
+      "sc": "消耗MP削减",
+      "tc": "消耗MP削減"
+    },
+    "from": [292, 293]
+  },
+  "296": {
+    "name": {
+      "en": "Lower MP Consumption",
+      "ja": "消費ＭＰ圧縮",
+      "ko": "소비MP 압축",
+      "sc": "消耗MP压缩",
+      "tc": "消耗MP壓縮"
+    },
+    "from": [293, 294]
+  },
+  "297": {
+    "name": {
+      "en": "Halve MP Consumption",
+      "ja": "消費ＭＰ半減",
+      "ko": "소비MP 반감",
+      "sc": "消耗MP减半",
+      "tc": "消耗MP減半"
+    },
+    "from": [295, 296]
+  },
+  "298": {
+    "name": {
+      "en": "Minimize MP Consumption",
+      "ja": "消費ＭＰ縮小",
+      "ko": "소비MP 축소",
+      "sc": "消耗MP缩小",
+      "tc": "消耗MP縮小"
+    },
+    "from": [297, 586]
+  },
+  "302": {
+    "name": {
+      "en": "Skill Power +10%",
+      "ja": "スキル威力＋１０％",
+      "ko": "스킬 위력＋10%",
+      "sc": "技能威力+10%",
+      "tc": "技能威力+10%"
+    }
+  },
+  "303": {
+    "name": {
+      "en": "Skill Power +12%",
+      "ja": "スキル威力＋１２％",
+      "ko": "스킬 위력＋12%",
+      "sc": "技能威力+12%",
+      "tc": "技能威力+12%"
+    }
+  },
+  "304": {
+    "name": {
+      "en": "Skill Power +15%",
+      "ja": "スキル威力＋１５％",
+      "ko": "스킬 위력＋15%",
+      "sc": "技能威力+15%",
+      "tc": "技能威力+15%"
+    }
+  },
+  "305": {
+    "name": {
+      "en": "Skill Charge",
+      "ja": "スキル強化",
+      "ko": "스킬 강화",
+      "sc": "技能强化",
+      "tc": "技能強化"
+    },
+    "from": [302, 303]
+  },
+  "306": {
+    "name": {
+      "en": "Skill Boost",
+      "ja": "スキルブースト",
+      "ko": "스킬 부스트",
+      "sc": "技能加成",
+      "tc": "技能加成"
+    },
+    "from": [303, 304]
+  },
+  "307": {
+    "name": {
+      "en": "Skill Supercharge",
+      "ja": "スキル超強化",
+      "ko": "스킬 초강화",
+      "sc": "技能超强化",
+      "tc": "技能超強化"
+    },
+    "from": [305, 306]
+  },
+  "308": {
+    "name": {
+      "en": "Perfect Skills",
+      "ja": "超絶スキル",
+      "ko": "초절 스킬",
+      "sc": "超绝技能",
+      "tc": "超絕技能"
+    },
+    "from": [307, 586]
+  },
+  "312": {
+    "name": {
+      "en": "Eco Skill Use",
+      "ja": "エコスキル",
+      "ko": "에코 스킬",
+      "sc": "节省技能",
+      "tc": "節省技能"
+    },
+    "from": [305, 295]
+  },
+  "313": {
+    "name": {
+      "en": "Reduce Skill Cost",
+      "ja": "コスト圧縮スキル",
+      "ko": "코스트 압축 스킬",
+      "sc": "成本压缩技能",
+      "tc": "成本壓縮技能"
+    },
+    "from": [306, 296]
+  },
+  "314": {
+    "name": {
+      "en": "Saving on Skills",
+      "ja": "セービングスキル",
+      "ko": "세이빙 스킬",
+      "sc": "储存技能",
+      "tc": "儲存技能"
+    },
+    "from": [307, 297]
+  },
+  "315": {
+    "name": {
+      "en": "Expert Skill",
+      "ja": "熟練者の技能",
+      "ko": "숙련자의 기술",
+      "sc": "熟练者的技能",
+      "tc": "熟練者的技能"
+    },
+    "from": [313, 314]
+  },
+  "316": {
+    "name": {
+      "en": "Super Skill",
+      "ja": "スーパースキル",
+      "ko": "슈퍼 스킬",
+      "sc": "超级技能",
+      "tc": "超級技能"
+    },
+    "from": [315, 586]
+  },
+  "320": {
+    "name": {
+      "en": "Increase Sharpness",
+      "ja": "鋭さが増す",
+      "ko": "날카로움 증가",
+      "sc": "增强锐利度",
+      "tc": "增強銳利度"
+    }
+  },
+  "321": {
+    "name": {
+      "en": "Sharpen the Edge",
+      "ja": "切れ味が増す",
+      "ko": "예리함 증가",
+      "sc": "增加锋利度",
+      "tc": "增加鋒利度"
+    }
+  },
+  "322": {
+    "name": {
+      "en": "Increase Aggression",
+      "ja": "攻撃性能が増す",
+      "ko": "공격 성능 증가",
+      "sc": "增强攻击性能",
+      "tc": "增強攻擊性能"
+    }
+  },
+  "323": {
+    "name": {
+      "en": "Barrage Attack",
+      "ja": "連打の追撃",
+      "ko": "연타 추격",
+      "sc": "连打的追击",
+      "tc": "連打的追擊"
+    }
+  },
+  "324": {
+    "name": {
+      "en": "Skillful Attack",
+      "ja": "快刀乱麻の追撃",
+      "ko": "쾌도난마의 추격",
+      "sc": "快刀乱麻的追击",
+      "tc": "快刀亂麻的追擊"
+    }
+  },
+  "325": {
+    "name": {
+      "en": "Persistent Attack",
+      "ja": "点滴穿石の追撃",
+      "ko": "점적천석의 추격",
+      "sc": "点滴穿石的追击",
+      "tc": "點滴穿石的追擊"
+    },
+    "from": [324, 586]
+  },
+  "329": {
+    "name": {
+      "en": "Fifth Element",
+      "ja": "第五元素",
+      "ko": "제5원소",
+      "sc": "第五元素",
+      "tc": "第五元素"
+    }
+  },
+  "330": {
+    "name": {
+      "en": "Enchanting Tail",
+      "ja": "魅惑のしっぽ",
+      "ko": "매혹적인 꼬리",
+      "sc": "魅惑的尾巴",
+      "tc": "魅惑的尾巴"
+    }
+  },
+  "331": {
+    "name": {
+      "en": "Piping Hot",
+      "ja": "アツアツ",
+      "ko": "뜨끈뜨근",
+      "sc": "热腾腾",
+      "tc": "熱騰騰"
+    }
+  },
+  "332": {
+    "name": {
+      "en": "Beaming Sun",
+      "ja": "眩い日輪",
+      "ko": "눈부신 태양",
+      "sc": "刺眼的太阳",
+      "tc": "刺眼的太陽"
+    }
+  },
+  "333": {
+    "name": {
+      "en": "Pale Moonlight",
+      "ja": "淡い月暈",
+      "ko": "어슴푸레한 달",
+      "sc": "朦胧的月晕",
+      "tc": "朦朧的月暈"
+    }
+  },
+  "334": {
+    "name": {
+      "en": "Slippery Component",
+      "ja": "ヌメリ成分",
+      "ko": "매끈거리는 성분",
+      "sc": "滑溜成分",
+      "tc": "滑溜成分"
+    }
+  },
+  "335": {
+    "name": {
+      "en": "Invigorating Flavor",
+      "ja": "刺激的な味",
+      "ko": "자극적인 맛",
+      "sc": "刺激的味道",
+      "tc": "刺激的味道"
+    }
+  },
+  "336": {
+    "name": {
+      "en": "Change of Fortune",
+      "ja": "転禍為福",
+      "ko": "전화위복",
+      "sc": "转祸为福",
+      "tc": "轉禍為福"
+    }
+  },
+  "337": {
+    "name": {
+      "en": "Everlasting Crimson",
+      "ja": "褪せざる鮮赤",
+      "ko": "영원의 붉은빛",
+      "sc": "褪色的鲜红",
+      "tc": "褪色的鮮紅"
+    }
+  },
+  "338": {
+    "name": { "en": "Silky", "ja": "さらさら", "ko": "살랑살랑", "sc": "清爽的", "tc": "清爽的" }
+  },
+  "339": {
+    "name": {
+      "en": "Controls Gravity",
+      "ja": "重力を操る",
+      "ko": "중력 조종",
+      "sc": "操弄重力",
+      "tc": "操弄重力"
+    }
+  },
+  "340": {
+    "name": {
+      "en": "Inner Storm",
+      "ja": "内なる嵐",
+      "ko": "내면의 폭풍",
+      "sc": "内藏风暴",
+      "tc": "內藏風暴"
+    }
+  },
+  "341": {
+    "name": {
+      "en": "Perfectly Round",
+      "ja": "完璧な丸み",
+      "ko": "완벽한 둥그러미",
+      "sc": "完美的圆形",
+      "tc": "完美的圓形"
+    }
+  },
+  "342": {
+    "name": {
+      "en": "Harmonious Prayer",
+      "ja": "調和への祈り",
+      "ko": "조화의 기도",
+      "sc": "为谐和祈祷",
+      "tc": "為諧和祈禱"
+    }
+  },
+  "343": {
+    "name": {
+      "en": "Ever-Changing",
+      "ja": "変幻自在",
+      "ko": "자유자재",
+      "sc": "变幻自在",
+      "tc": "變幻自在"
+    }
+  },
+  "344": {
+    "name": {
+      "en": "Mini Bombs",
+      "ja": "ミニ爆弾",
+      "ko": "미니폭탄",
+      "sc": "迷你炸弹",
+      "tc": "迷你炸彈"
+    }
+  },
+  "345": {
+    "name": {
+      "en": "Anticlimactic",
+      "ja": "出オチの脅威",
+      "ko": "찰나의 위협",
+      "sc": "下马威",
+      "tc": "下馬威"
+    }
+  },
+  "346": {
+    "name": {
+      "en": "Frozen Delicacy",
+      "ja": "凍てつく美味しさ",
+      "ko": "얼어붙은 맛",
+      "sc": "使人冻结的美味",
+      "tc": "使人凍結的美味"
+    }
+  },
+  "347": {
+    "name": {
+      "en": "Nutrient Rich",
+      "ja": "栄養の宝庫",
+      "ko": "영양의 보고",
+      "sc": "营养的宝库",
+      "tc": "營養的寶庫"
+    }
+  },
+  "348": {
+    "name": { "en": "Sticky", "ja": "粘り強い", "ko": "강한 끈기", "sc": "顽强", "tc": "頑強" }
+  },
+  "349": {
+    "name": {
+      "en": "Secluded",
+      "ja": "深窓の衣笠",
+      "ko": "규중심처의 우산",
+      "sc": "深闺的绢伞",
+      "tc": "深閨的絹傘"
+    }
+  },
+  "350": {
+    "name": {
+      "en": "Angelic Blessing",
+      "ja": "天使の加護",
+      "ko": "천사의 가호",
+      "sc": "天使的庇护",
+      "tc": "天使的庇護"
+    }
+  },
+  "351": {
+    "name": { "en": "Reaping", "ja": "命を刈る", "ko": "절명", "sc": "收割生命", "tc": "收割生命" }
+  },
+  "352": {
+    "name": {
+      "en": "Tightly Coiled",
+      "ja": "ものすごいとぐろ",
+      "ko": "엄청난 휘감김",
+      "sc": "蜷曲得非常厉害",
+      "tc": "蜷曲得非常厲害"
+    }
+  },
+  "353": {
+    "name": {
+      "en": "Golden Glow",
+      "ja": "黄金の輝き",
+      "ko": "황금빛",
+      "sc": "金色光芒",
+      "tc": "金色光芒"
+    }
+  },
+  "354": { "name": { "en": "Sturdy", "ja": "頑丈", "ko": "견고", "sc": "坚固", "tc": "堅固" } },
+  "355": {
+    "name": {
+      "en": "Spine-Chilling",
+      "ja": "背筋が凍る",
+      "ko": "오싹해지는 등골",
+      "sc": "毛骨悚然",
+      "tc": "毛骨悚然"
+    }
+  },
+  "356": {
+    "name": {
+      "en": "Awakening Heal",
+      "ja": "気付けの癒し",
+      "ko": "마음의 평화",
+      "sc": "提神的治愈",
+      "tc": "提神的治癒"
+    }
+  },
+  "357": {
+    "name": {
+      "en": "Divine Scent",
+      "ja": "とてもいい香り",
+      "ko": "향긋한 향기",
+      "sc": "非常好闻的香气",
+      "tc": "非常好聞的香氣"
+    }
+  },
+  "358": {
+    "name": { "en": "Windrider", "ja": "風に乗る", "ko": "순풍", "sc": "乘着风", "tc": "乘著風" }
+  },
+  "359": {
+    "name": {
+      "en": "Eternal Time",
+      "ja": "悠久の時",
+      "ko": "영원한 시간",
+      "sc": "悠久时光",
+      "tc": "悠久時光"
+    }
+  },
+  "360": {
+    "name": { "en": "Outlaw", "ja": "掟破り", "ko": "무법자", "sc": "打破常规", "tc": "打破常規" }
+  },
+  "361": {
+    "name": { "en": "Superhard", "ja": "超硬度", "ko": "초경도", "sc": "超硬度", "tc": "超硬度" }
+  },
+  "362": {
+    "name": {
+      "en": "Life Awakening",
+      "ja": "目覚める生命",
+      "ko": "깨어나는 생명",
+      "sc": "觉醒的生命",
+      "tc": "覺醒的生命"
+    }
+  },
+  "363": {
+    "name": {
+      "en": "Dragon's Vitality",
+      "ja": "竜の生命力",
+      "ko": "용의 생명력",
+      "sc": "龙的生命力",
+      "tc": "龍的生命力"
+    }
+  },
+  "364": {
+    "name": {
+      "en": "Breath of Ruin",
+      "ja": "破壊の息吹",
+      "ko": "파괴의 숨결",
+      "sc": "破坏的气息",
+      "tc": "破壞的氣息"
+    }
+  },
+  "365": {
+    "name": {
+      "en": "Demon Soul",
+      "ja": "デモンソウル",
+      "ko": "데몬 소울",
+      "sc": "恶魔灵魂",
+      "tc": "惡魔靈魂"
+    }
+  },
+  "366": {
+    "name": {
+      "en": "Fact & Fiction",
+      "ja": "虚実の攪拌",
+      "ko": "허실 혼합",
+      "sc": "虚实的搅拌",
+      "tc": "虛實的攪拌"
+    }
+  },
+  "429": {
+    "name": {
+      "en": "Growth Spurt",
+      "ja": "すくすく育つ",
+      "ko": "무럭무럭",
+      "sc": "茁壮成长",
+      "tc": "茁壯成長"
+    }
+  },
+  "430": {
+    "name": {
+      "en": "A Little Lucky",
+      "ja": "ちょっとラッキー？",
+      "ko": "좋은 운수?",
+      "sc": "有点幸运？",
+      "tc": "有點幸運？"
+    }
+  },
+  "477": {
+    "name": {
+      "en": "Dragon God Roar",
+      "ja": "竜神の咆哮",
+      "ko": "용신의 포효",
+      "sc": "龙神咆哮",
+      "tc": "龍神咆哮"
+    },
+    "from": [35, 589]
+  },
+  "478": {
+    "name": {
+      "en": "Dragon God Cure",
+      "ja": "竜神の治癒",
+      "ko": "용신의 치유",
+      "sc": "龙神治愈",
+      "tc": "龍神治癒"
+    },
+    "from": [45, 589]
+  },
+  "479": {
+    "name": {
+      "en": "Dragon God Spirit",
+      "ja": "竜神の命",
+      "ko": "용신의 생명",
+      "sc": "龙神之命",
+      "tc": "龍神之命"
+    },
+    "from": [204, 589]
+  },
+  "480": {
+    "name": {
+      "en": "Dragon God Soul",
+      "ja": "竜神の魂",
+      "ko": "용신의 혼",
+      "sc": "龙神之魂",
+      "tc": "龍神之魂"
+    },
+    "from": [214, 589]
+  },
+  "481": {
+    "name": {
+      "en": "Dragon God Fang",
+      "ja": "竜神の牙",
+      "ko": "용신의 이빨",
+      "sc": "龙神之牙",
+      "tc": "龍神之牙"
+    },
+    "from": [232, 589]
+  },
+  "482": {
+    "name": {
+      "en": "Dragon God Scale",
+      "ja": "竜神の鱗",
+      "ko": "용신의 비늘",
+      "sc": "龙神之鳞",
+      "tc": "龍神之鱗"
+    },
+    "from": [242, 589]
+  },
+  "483": {
+    "name": {
+      "en": "Dragon God Limb",
+      "ja": "竜神の脚",
+      "ko": "용신의 다리",
+      "sc": "龙神之脚",
+      "tc": "龍神之腳"
+    },
+    "from": [252, 589]
+  },
+  "484": {
+    "name": {
+      "en": "Dragon God Wrath",
+      "ja": "竜神の逆鱗",
+      "ko": "용신의 역린",
+      "sc": "龙神的逆鳞",
+      "tc": "龍神的逆鱗"
+    },
+    "from": [277, 589]
+  },
+  "489": {
+    "name": {
+      "en": "Demon Flare",
+      "ja": "デモンズフレア",
+      "ko": "데몬즈 플레어",
+      "sc": "恶魔闪焰",
+      "tc": "惡魔閃焰"
+    },
+    "from": [35, 590]
+  },
+  "490": {
+    "name": {
+      "en": "Demon Heal",
+      "ja": "デモンズヒール",
+      "ko": "데몬즈 힐",
+      "sc": "恶魔治癒",
+      "tc": "惡魔治癒"
+    },
+    "from": [45, 590]
+  },
+  "491": {
+    "name": {
+      "en": "Demon Sonic",
+      "ja": "デモンズソニック",
+      "ko": "데몬즈 소닉",
+      "sc": "恶魔音速",
+      "tc": "惡魔音速"
+    },
+    "from": [175, 590]
+  },
+  "492": {
+    "name": {
+      "en": "Demon Throw",
+      "ja": "デモンズスロー",
+      "ko": "데몬즈 스로",
+      "sc": "恶魔投掷",
+      "tc": "惡魔投擲"
+    },
+    "from": [183, 590]
+  },
+  "501": {
+    "name": {
+      "en": "Red Surge",
+      "ja": "赤のうねり",
+      "ko": "붉은빛 물결",
+      "sc": "红之起伏",
+      "tc": "紅之起伏"
+    }
+  },
+  "502": {
+    "name": {
+      "en": "Green Surge",
+      "ja": "緑のうねり",
+      "ko": "초록빛 물결",
+      "sc": "绿之起伏",
+      "tc": "綠之起伏"
+    }
+  },
+  "503": {
+    "name": {
+      "en": "Blue Surge",
+      "ja": "青のうねり",
+      "ko": "파란빛 물결",
+      "sc": "蓝之起伏",
+      "tc": "藍之起伏"
+    }
+  },
+  "504": {
+    "name": {
+      "en": "Yellow Rhythm",
+      "ja": "黄の律動",
+      "ko": "노란빛 리듬",
+      "sc": "黄之律动",
+      "tc": "黃之律動"
+    },
+    "from": [501, 502]
+  },
+  "505": {
+    "name": {
+      "en": "Cyan Rhythm",
+      "ja": "縹の律動",
+      "ko": "남색빛 리듬",
+      "sc": "浅蓝律动",
+      "tc": "淺藍律動"
+    },
+    "from": [502, 503]
+  },
+  "506": {
+    "name": {
+      "en": "Purple Rhythm",
+      "ja": "紫の律動",
+      "ko": "보랏빛 리듬",
+      "sc": "紫之律动",
+      "tc": "紫之律動"
+    },
+    "from": [503, 501]
+  },
+  "507": {
+    "name": {
+      "en": "Pure White Resonance",
+      "ja": "純白の共振",
+      "ko": "순백의 공진",
+      "sc": "纯白共振",
+      "tc": "純白共振"
+    },
+    "from": [504, 503]
+  },
+  "508": {
+    "name": {
+      "en": "Empty Anxiety",
+      "ja": "白紙の悩み",
+      "ko": "백지의 번뇌",
+      "sc": "白纸的烦恼",
+      "tc": "白紙的煩惱"
+    }
+  },
+  "509": {
+    "name": {
+      "en": "Invisible Illness",
+      "ja": "透明な病",
+      "ko": "보이지 않는 병",
+      "sc": "透明的病",
+      "tc": "透明的病"
+    }
+  },
+  "510": {
+    "name": {
+      "en": "Dark Decline",
+      "ja": "昏き衰弱",
+      "ko": "어둠의 쇠약",
+      "sc": "昏暗的衰弱",
+      "tc": "昏暗的衰弱"
+    },
+    "from": [508, 509]
+  },
+  "511": {
+    "name": {
+      "en": "Sharp Mind",
+      "ja": "透き通る知恵",
+      "ko": "뛰어난 지혜",
+      "sc": "清澄的智慧",
+      "tc": "清澄的智慧"
+    }
+  },
+  "512": {
+    "name": {
+      "en": "Familiar Presence",
+      "ja": "空気のように馴染む",
+      "ko": "공기와 같은 익숙함",
+      "sc": "如空气般和谐",
+      "tc": "如空氣般和諧"
+    }
+  },
+  "513": {
+    "name": {
+      "en": "Feeble Prosperity",
+      "ja": "淡い繁栄",
+      "ko": "희미한 번영",
+      "sc": "略微繁荣",
+      "tc": "略微繁榮"
+    },
+    "from": [511, 512]
+  },
+  "514": {
+    "name": {
+      "en": "Red Delusion",
+      "ja": "赤の惑い",
+      "ko": "붉은빛 현혹",
+      "sc": "红之迷惘",
+      "tc": "紅之迷惘"
+    },
+    "from": [501, 508]
+  },
+  "515": {
+    "name": {
+      "en": "Green Delusion",
+      "ja": "緑の惑い",
+      "ko": "초록빛 현혹",
+      "sc": "绿之迷惘",
+      "tc": "綠之迷惘"
+    },
+    "from": [502, 508]
+  },
+  "516": {
+    "name": {
+      "en": "Blue Delusion",
+      "ja": "青の惑い",
+      "ko": "파란빛 현혹",
+      "sc": "蓝之迷惘",
+      "tc": "藍之迷惘"
+    },
+    "from": [503, 508]
+  },
+  "517": {
+    "name": {
+      "en": "Yellow Sorrow",
+      "ja": "黄の患い",
+      "ko": "노란빛 근심",
+      "sc": "黄之忧愁",
+      "tc": "黃之憂愁"
+    },
+    "from": [504, 509]
+  },
+  "518": {
+    "name": {
+      "en": "Cyan Sorrow",
+      "ja": "縹の患い",
+      "ko": "남색빛 근심",
+      "sc": "浅蓝忧愁",
+      "tc": "淺藍憂愁"
+    },
+    "from": [505, 509]
+  },
+  "519": {
+    "name": {
+      "en": "Purple Sorrow",
+      "ja": "紫の患い",
+      "ko": "보랏빛 근심",
+      "sc": "紫之忧愁",
+      "tc": "紫之憂愁"
+    },
+    "from": [506, 509]
+  },
+  "520": {
+    "name": {
+      "en": "Pure White Corrosion",
+      "ja": "純白の蝕み",
+      "ko": "순백의 침식",
+      "sc": "纯白侵蚀",
+      "tc": "純白侵蝕"
+    },
+    "from": [507, 510]
+  },
+  "526": {
+    "name": {
+      "en": "Red Expertise",
+      "ja": "赤の妙技",
+      "ko": "붉은빛 묘기",
+      "sc": "红之妙技",
+      "tc": "紅之妙技"
+    },
+    "from": [501, 511]
+  },
+  "527": {
+    "name": {
+      "en": "Green Expertise",
+      "ja": "緑の妙技",
+      "ko": "초록빛 묘기",
+      "sc": "绿之妙技",
+      "tc": "綠之妙技"
+    },
+    "from": [502, 511]
+  },
+  "528": {
+    "name": {
+      "en": "Blue Expertise",
+      "ja": "青の妙技",
+      "ko": "파란빛 묘기",
+      "sc": "蓝之妙技",
+      "tc": "藍之妙技"
+    },
+    "from": [503, 511]
+  },
+  "529": {
+    "name": {
+      "en": "Yellow Finesse",
+      "ja": "黄の巧緻",
+      "ko": "노란빛 정밀",
+      "sc": "黄之精致",
+      "tc": "黃之精緻"
+    },
+    "from": [504, 512]
+  },
+  "530": {
+    "name": {
+      "en": "Cyan Finesse",
+      "ja": "縹の巧緻",
+      "ko": "남색빛 정밀",
+      "sc": "浅蓝精致",
+      "tc": "淺藍精緻"
+    },
+    "from": [505, 512]
+  },
+  "531": {
+    "name": {
+      "en": "Purple Finesse",
+      "ja": "紫の巧緻",
+      "ko": "보랏빛 정밀",
+      "sc": "紫之精致",
+      "tc": "紫之精緻"
+    },
+    "from": [506, 512]
+  },
+  "532": {
+    "name": {
+      "en": "Pure White Glory",
+      "ja": "純白の栄華",
+      "ko": "순백의 영화",
+      "sc": "纯白荣华",
+      "tc": "純白榮華"
+    },
+    "from": [507, 513]
+  },
+  "538": {
+    "name": {
+      "en": "Sign of Growth",
+      "ja": "成長の兆し",
+      "ko": "성장의 조짐",
+      "sc": "成长的预兆",
+      "tc": "成長的預兆"
+    }
+  },
+  "539": {
+    "name": {
+      "en": "Inner Ambition",
+      "ja": "内なる大志",
+      "ko": "마음속에 품은 뜻",
+      "sc": "心怀大志",
+      "tc": "心懷大志"
+    }
+  },
+  "540": {
+    "name": {
+      "en": "One for All",
+      "ja": "個は全てのために",
+      "ko": "원 포 올",
+      "sc": "以小我成全大我",
+      "tc": "以小我成全大我"
+    }
+  },
+  "541": {
+    "name": {
+      "en": "All for One",
+      "ja": "全ては個のために",
+      "ko": "올 포 원",
+      "sc": "以大我成全小我",
+      "tc": "以大我成全小我"
+    }
+  },
+  "542": {
+    "name": {
+      "en": "Pure-Hearted",
+      "ja": "真っすぐな心",
+      "ko": "올곧은 마음",
+      "sc": "率直的心",
+      "tc": "率直的心"
+    }
+  },
+  "543": {
+    "name": {
+      "en": "Reliable Skill",
+      "ja": "確かな技",
+      "ko": "정확한 기술",
+      "sc": "切实的技能",
+      "tc": "切實的技能"
+    }
+  },
+  "544": {
+    "name": {
+      "en": "Healthy Body",
+      "ja": "健やかな体",
+      "ko": "건강한 신체",
+      "sc": "健全的身体",
+      "tc": "健全的身體"
+    }
+  },
+  "550": {
+    "name": {
+      "en": "King of the Hill",
+      "ja": "お山の大将",
+      "ko": "산속의 대장",
+      "sc": "山中大王",
+      "tc": "山中大王"
+    }
+  },
+  "551": {
+    "name": {
+      "en": "Trusty Leader",
+      "ja": "頼れるリーダー",
+      "ko": "의지가 되는 리더",
+      "sc": "可靠的队长",
+      "tc": "可靠的隊長"
+    },
+    "from": [550, 538]
+  },
+  "552": {
+    "name": { "en": "Benevolent Ruler", "ja": "名君", "ko": "명군", "sc": "名君", "tc": "名君" },
+    "from": [551, 539]
+  },
+  "553": {
+    "name": {
+      "en": "Scholar King",
+      "ja": "稀代の賢王",
+      "ko": "희대의 현왕",
+      "sc": "稀世贤王",
+      "tc": "稀世賢王"
+    },
+    "from": [552, 540]
+  },
+  "554": {
+    "name": {
+      "en": "Scholar King: Heart",
+      "ja": "稀代の賢王・心",
+      "ko": "희대의 현왕ㆍ심",
+      "sc": "稀世贤王·心",
+      "tc": "稀世賢王‧心"
+    },
+    "from": [553, 542]
+  },
+  "555": {
+    "name": {
+      "en": "Scholar King: Skill",
+      "ja": "稀代の賢王・技",
+      "ko": "희대의 현왕ㆍ기",
+      "sc": "稀世贤王·技",
+      "tc": "稀世賢王‧技"
+    },
+    "from": [553, 543]
+  },
+  "556": {
+    "name": {
+      "en": "Scholar King: Body",
+      "ja": "稀代の賢王・体",
+      "ko": "희대의 현왕ㆍ체",
+      "sc": "稀世贤王·体",
+      "tc": "稀世賢王‧體"
+    },
+    "from": [553, 544]
+  },
+  "557": {
+    "name": {
+      "en": "Tyrant King",
+      "ja": "百魔の覇王",
+      "ko": "백마의 패왕",
+      "sc": "百魔霸王",
+      "tc": "百魔霸王"
+    },
+    "from": [552, 541]
+  },
+  "558": {
+    "name": {
+      "en": "Tyrant King: Heart",
+      "ja": "百魔の覇王・心",
+      "ko": "백마의 패왕ㆍ심",
+      "sc": "百魔霸王·心",
+      "tc": "百魔霸王‧心"
+    },
+    "from": [557, 542]
+  },
+  "559": {
+    "name": {
+      "en": "Tyrant King: Skill",
+      "ja": "百魔の覇王・技",
+      "ko": "백마의 패왕ㆍ기",
+      "sc": "百魔霸王·技",
+      "tc": "百魔霸王‧技"
+    },
+    "from": [557, 543]
+  },
+  "560": {
+    "name": {
+      "en": "Tyrant King: Body",
+      "ja": "百魔の覇王・体",
+      "ko": "백마의 패왕ㆍ체",
+      "sc": "百魔霸王·体",
+      "tc": "百魔霸王‧體"
+    },
+    "from": [557, 544]
+  },
+  "562": {
+    "name": { "en": "Follower", "ja": "取り巻き", "ko": "측근", "sc": "跟班", "tc": "跟班" }
+  },
+  "563": {
+    "name": { "en": "Partner", "ja": "相棒", "ko": "파트너", "sc": "搭档", "tc": "搭檔" },
+    "from": [562, 538]
+  },
+  "564": {
+    "name": { "en": "Sworn Ally", "ja": "盟友", "ko": "맹우", "sc": "盟友", "tc": "盟友" },
+    "from": [563, 539]
+  },
+  "565": {
+    "name": {
+      "en": "Genius Advisor",
+      "ja": "王佐の才",
+      "ko": "왕좌지재",
+      "sc": "王佐之才",
+      "tc": "王佐之才"
+    },
+    "from": [564, 540]
+  },
+  "566": {
+    "name": {
+      "en": "Genius Advisor: Heart",
+      "ja": "王佐の才・心",
+      "ko": "왕좌지재ㆍ심",
+      "sc": "王佐之才·心",
+      "tc": "王佐之才‧心"
+    },
+    "from": [565, 542]
+  },
+  "567": {
+    "name": {
+      "en": "Genius Advisor: Skill",
+      "ja": "王佐の才・技",
+      "ko": "왕좌지재ㆍ기",
+      "sc": "王佐之才·技",
+      "tc": "王佐之才‧技"
+    },
+    "from": [565, 543]
+  },
+  "568": {
+    "name": {
+      "en": "Genius Advisor: Body",
+      "ja": "王佐の才・体",
+      "ko": "왕좌지재ㆍ체",
+      "sc": "王佐之才·体",
+      "tc": "王佐之才‧體"
+    },
+    "from": [565, 544]
+  },
+  "569": {
+    "name": {
+      "en": "Stalwart Ally",
+      "ja": "無双の右腕",
+      "ko": "무쌍의 오른팔",
+      "sc": "无双副手",
+      "tc": "無雙副手"
+    },
+    "from": [564, 541]
+  },
+  "570": {
+    "name": {
+      "en": "Stalwart Ally: Heart",
+      "ja": "無双の右腕・心",
+      "ko": "무쌍의 오른팔ㆍ심",
+      "sc": "无双副手·心",
+      "tc": "無雙副手‧心"
+    },
+    "from": [569, 542]
+  },
+  "571": {
+    "name": {
+      "en": "Stalwart Ally: Skill",
+      "ja": "無双の右腕・技",
+      "ko": "무쌍의 오른팔ㆍ기",
+      "sc": "无双副手·技",
+      "tc": "無雙副手‧技"
+    },
+    "from": [569, 543]
+  },
+  "572": {
+    "name": {
+      "en": "Stalwart Ally: Body",
+      "ja": "無双の右腕・体",
+      "ko": "무쌍의 오른팔ㆍ체",
+      "sc": "无双副手·体",
+      "tc": "無雙副手‧體"
+    },
+    "from": [569, 544]
+  },
+  "584": {
+    "name": {
+      "en": "Ultimate Power",
+      "ja": "究極の力",
+      "ko": "궁극의 힘",
+      "sc": "究极之力",
+      "tc": "究極之力"
+    }
+  },
+  "585": {
+    "name": {
+      "en": "Transcendent Mastery",
+      "ja": "神域の極意",
+      "ko": "신역의 극의",
+      "sc": "神域的精髓",
+      "tc": "神域的精髓"
+    }
+  },
+  "586": {
+    "name": {
+      "en": "Awakening",
+      "ja": "覚醒の因子",
+      "ko": "각성의 인자",
+      "sc": "觉醒因子",
+      "tc": "覺醒因子"
+    }
+  },
+  "587": {
+    "name": {
+      "en": "Vorpal Strike",
+      "ja": "必殺の技能",
+      "ko": "필살의 기술",
+      "sc": "必杀技能",
+      "tc": "必殺技能"
+    }
+  },
+  "589": {
+    "name": {
+      "en": "Dragon God Blessing",
+      "ja": "竜神の加護",
+      "ko": "용신의 가호",
+      "sc": "龙神的庇护",
+      "tc": "龍神的庇護"
+    }
+  },
+  "590": {
+    "name": {
+      "en": "Devil's Brand",
+      "ja": "魔王の印",
+      "ko": "마왕의 증표",
+      "sc": "魔王之印",
+      "tc": "魔王之印"
+    }
+  }
+}
